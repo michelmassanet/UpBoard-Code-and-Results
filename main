@@ -1,0 +1,587 @@
+#!/bin/bash
+
+#Thread that checks if there is internet connection and in consequence it acts. It starts the uploading at the beginning, stops it when there is no internet and reuploads when the connections is again available.
+
+
+##################################THIS ARE THE STATES IN RELATION WITH THE INTERNET CONNECTION #########################################3
+#State 0 --> suddenly No connection, 
+#State 1 --> suddenly connection, 
+#State 2 --> still no connection,
+#state 3 --> still connected
+
+folder=$1
+sleep 5
+state=2 #We start with this state
+ 
+
+#filename of log_general purposes (this includes saving decisions of antenna and others)
+filename0=logs_general
+filename1=logs_upload
+filename3=errors_main
+
+#To initialize the error file and timeout for reboot
+#echo "" >> /home/upboard/Desktop/"$folder"/"$filename3"
+#sudo chmod 777 /home/upboard/Desktop/"$folder"/"$filename3"
+
+error_situation_python=0
+time_out_error_python=30000000000 #nano seconds
+time_error_now_python=0
+time_error_pass_python=0
+time_error_start_python=0
+
+
+error_situation_connection=0
+time_out_error_connection=60000000000 #nano seconds
+time_error_now_connection=0
+time_error_pass_connection=0
+time_error_start_connection=0
+
+reason_main=reason_main
+
+#This values will be changed during the start of the system or in Initialize
+PCI=460
+lat=40
+lon=1
+lat_past=44
+lon_past=3
+antenna=0
+speed=0
+orientation_past=70
+orientation_current=90
+SIM=$(sudo cat /home/upboard/Desktop/SIM)
+reason=NoReason
+timepass=80000
+start=0
+distance_to_BS=0
+accelerometer=0
+acc_x=0
+acc_y=0
+acc_z=0
+
+
+
+##########################################################################################################################################################
+##########################################################################################################################################################
+##########################################################################################################################################################
+##########################################################################################################################################################
+##########################################################################################################################################################
+########################################################## Start the infinite loop #######################################################################
+##########################################################################################################################################################
+##########################################################################################################################################################
+##########################################################################################################################################################
+##########################################################################################################################################################
+###########################################################################################################################################################
+
+
+while true; do
+
+###################We first check the PCI and coordinates at this moment#################################
+
+cd /home/upboard/Desktop/BS_orientation/PCI_temp/ 
+d=$(ls -c -Art -- *b* |tail -n1) #It takes the last one (bigger counter) with letter b 
+
+if [[ $d == *"b"* ]]; then 
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+	echo "Reading PCI" >> /home/upboard/Desktop/"$folder"/"$filename0"
+	mod=${d//[b]/a} #change b to a and read file
+	newPCI=$(cat /home/upboard/Desktop/BS_orientation/PCI_temp/$mod)
+	nPCIfiles=$(ls -1A | wc -l)
+
+	if [ "$nPCIfiles" -gt "3" ];then 
+		ls -t /home/upboard/Desktop/BS_orientation/PCI_temp/  | tail -n +4 | xargs rm --
+	fi
+
+	echo -e "Deleted PCI and finished read\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+fi
+
+#What it does is to check  the newest (bigger number) file with "b". Then what it does it to read the same counter file but with the "a". And then it takes the oldest file of all of them and deletes it.
+
+
+cd /home/upboard/Desktop/BS_orientation/GPS/ 
+d=$(ls -c -Art -- *b* |tail -n1)
+
+if [[ $d == *"b"* ]]; then
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+	echo "Reading GPS" >> /home/upboard/Desktop/"$folder"/"$filename0"
+	mod=${d//[b]/a} #change b to a and read file
+	newcoordinates=$(cat /home/upboard/Desktop/BS_orientation/GPS/$mod)
+	ncoordinatesfiles=$(ls -1A | wc -l)
+
+	if [ "$ncoordinatesfiles" -gt "3" ];then 
+		ls -t /home/upboard/Desktop/BS_orientation/GPS/  | tail -n +4 | xargs rm -- 
+	fi
+
+	echo -e "Deleted GPS and finished read\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+fi
+
+newlat=$(echo "$newcoordinates" | sed -n 1p)  
+newlon=$(echo "$newcoordinates" | sed -n 2p)  
+
+
+
+
+#log purposes general
+date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+echo "Readed PCI $newPCI" >> /home/upboard/Desktop/"$folder"/"$filename0"
+echo "Readed lat $newlat" >> /home/upboard/Desktop/"$folder"/"$filename0"
+echo -e "Readed lon $newlon\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+
+##########################################################################################################################################################################
+################################ ERROR BACKUP SOLUTION --> REBOOT SYSTEM IF THE ERRORS PERSISTS  ########################################################## ############################################################################################################################################################
+##########################################################################################################################################################################
+
+
+if [ "$error_situation_python" == "1" ]; then #then check how much time has passed
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+	echo "Checking time since error (in python) appeared" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+	time_error_now_python=$(date +%s%N)
+	time_error_pass_python=$(echo "$time_error_now_python - $time_error_start_python" | bc -l)
+	
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+	echo -e "This time is "$(( $time_error_pass_python / 1000000000 )) "seconds (approximated) \n" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+	if [ "$time_error_pass_python" -gt "$time_out_error_python" ];then #timeout SECONDS from the error --> We reboot and start everything again
+		
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo "Time out for solving the python error exceeded. Executing rebootInitialize " >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+		sudo /home/upboard/Desktop/rebootInitialize $folder #$reason_main
+
+	fi
+
+fi
+
+
+if [ "$error_situation_connection" == "1" ]; then #then check how much time has passed
+
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+	echo "Checking time since error (in connection) appeared" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+	time_error_now_connection=$(date +%s%N)
+	time_error_pass_connection=$(echo "$time_error_now_connection - $time_error_start_connection" | bc -l)
+	
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+	echo -e "This time is "$(( $time_error_pass_connection / 1000000000 )) "seconds (approximated) \n" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+	if [ "$time_error_pass_connection" -gt "$time_out_error_connection" ];then #timeout SECONDS from the error --> We reboot and start everything again
+		
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo "Time out for establishing connection exceeded. Executing rebootInitialize " >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+		sudo /home/upboard/Desktop/rebootInitialize $folder #$reason_main
+
+	fi
+
+
+fi
+
+
+################################################################
+################################################################
+################################################################
+################################################################
+######## Check if PCI changed and needs to be updated ##########
+################################################################
+################################################################
+################################################################
+
+if [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
+
+	now=$(date +%s%N)
+	timepass=$(echo "$now - $start" | bc -l)
+
+
+	#log purposes terminal
+	#echo $timepass
+	#echo -e "Changed PCI from $PCI to $newPCI\n"
+
+	#accelerometer=$(sudo python /home/upboard/Desktop/MPU6050.py) #We obtain the accelerometer from the GY-88
+	#acc_x=$(echo "$accelerometer" | sed -n 1p)
+	#acc_y=$(echo "$accelerometer" | sed -n 2p)
+	#acc_z=$(echo "$accelerometer" | sed -n 3p)
+
+	#orientation_current=$(sudo python /home/upboard/Desktop/HMC5883.py) #We obtain the orientation from the compass
+
+	#orientation_current=90 #debug purposes
+
+	#log purposes general
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+	echo -e "Changed PCI from $PCI to $newPCI\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+	reason=NewPCI
+	output=$(sudo python /home/upboard/Desktop/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)
+
+
+################################# Check if output was not an error message###################################
+
+	temp=$(echo "$output" | sed -n 1p)
+	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
+
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo  "Error message from PCI change:" >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo -e "Error $temp\n" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+		if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+			echo "time counter started (reason = error from python with PCI change reason). LED light on" >> /home/upboard/Desktop/"$folder"/"$filename3"
+			time_error_start_python=$(date +%s%N)
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+			error_situation_python=1
+		fi
+
+
+	else
+		
+		if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
+
+			error_situation_python=0
+			time_error_now_python=0
+			time_error_start_python=0
+			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+			
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+			echo "Error from python was solved when changing because new coordinates. LED light OFF" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+		fi
+
+		start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
+
+
+		#log purposes terminal
+		#echo -e Inputs lat $lat lon $lon lat_past $lat_past lon_past $lon_past newPCI $newPCI SIM $SIM speed $speed orien $orientation 1 reason $reason folder $folder
+		#echo -e output "$output"
+
+		orientation_past=$orientation_current #We update the values
+
+		antenna=$(echo "$output" | sed -n 1p)
+		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
+		distance_to_BS=$(echo "$output" | sed -n 6p) 
+		valid=$(echo "$output" | sed -n 7p) 
+
+		sudo /home/upboard/Desktop/switch $antenna
+
+		#log terminal purposes
+		#echo "The new orientation is $orientation"
+		#echo "The antenna selected is $antenna"
+		#echo -e "The distance to the BS is $distance_to_BS\n"
+
+		#log purposes general
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "Calculated parameters. Reason:new PCI" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "The state was $valid" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "The new orientation is $orientation" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+
+		PCI=$newPCI #We update the value
+
+	fi
+
+
+################################################################
+################################################################
+################################################################
+################################################################
+# Check if GPS changed and needs to be updated
+################################################################
+################################################################
+################################################################
+
+elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COORDINATES
+
+	now=$(date +%s%N)
+	timepass=$(echo "$now - $start" | bc -l)
+
+	#accelerometer=$(sudo python /home/upboard/Desktop/MPU6050.py) #We obtain the accelerometer from the GY-88
+	#acc_x=$(echo "$accelerometer" | sed -n 1p)
+	#acc_y=$(echo "$accelerometer" | sed -n 2p)
+	#acc_z=$(echo "$accelerometer" | sed -n 3p)
+
+	#orientation_current=$(sudo python /home/upboard/Desktop/HMC5883.py) #We obtain the orientation from the compass
+
+	reason=NewCoordinates
+	output=$(sudo python /home/upboard/Desktop/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)
+
+
+############################################ Check if output was not an error message########################################################
+	temp=$(echo "$output" | sed -n 1p)
+	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
+
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo  "Error message from GPS change:" >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo -e "Error $temp\n" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+
+		if [ "$error_situation_python" == "0" ];then #If it is the first time we get this error
+	
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+			echo "time counter started (reason = error from python when changing because new coordinates. LED light on" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+			time_error_start_python=$(date +%s%N)
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+			error_situation_python=1
+		fi
+
+
+
+
+	else
+		if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
+
+			error_situation_python=0
+			time_error_now_python=0
+			time_error_start_python=0
+			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+			echo "Error from python was solved when changing because new coordinates. LED light OFF" >> /home/upboard/Desktop/"$folder"/"$filename3"
+		fi
+
+		start=$(date +%s%N)
+
+		#echo -e output "$output"
+
+		lat_past=$lat #We update the values
+		lon_past=$lon #We update the values
+		orientation_past=$orientation_current #We update the values
+
+		antenna=$(echo "$output" | sed -n 1p)
+		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
+		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
+		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
+		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script
+		distance_to_BS=$(echo "$output" | sed -n 6p) #Distance to BS (log purposes)
+		valid=$(echo "$output" | sed -n 7p) 
+
+		#log purposes terminal
+		#echo "Changed coordinates from $lat_past, $lon_past to $lat, $lon"
+
+		#log purposes general
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo -e "Changed coordinates from $lat_past, $lon_past to $lat, $lon\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+
+		#We change the GPIOs to the new antenna
+		sudo /home/upboard/Desktop/switch $antenna
+
+		#log terminal purposes
+		#echo "The new orientation is $orientation degrees"
+		#echo "The antenna selected is $antenna"
+		#echo -e "The distance to the BS is $distance_to_BS\n"
+
+		#log purposes general
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "Calculated parameters. Reason:new Coordinates" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "The state was $valid" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "The new orientation is $orientation degrees" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/"$folder"/"$filename0"
+		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+
+	fi
+
+
+else #Both PCI and coordinates have the same values
+
+	#log purposes terminal
+	#echo "No change coordinates neither PCI\n"
+
+	#log purposes general
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename0"
+	echo -e "No change coordinates neither PCI\n" >> /home/upboard/Desktop/"$folder"/"$filename0"
+
+
+
+
+fi
+
+
+################################################################
+################################################################
+################################################################
+################################################################
+################## Random stuff  ###############################
+################################################################
+################################################################
+################################################################
+
+# Remove the trash content
+sudo rm -rf /home/upboard/.local/share/Trash/files
+
+############################It checks if there is any google drive file there is file to delete#####################################################
+
+if [ -f /home/upboard/Desktop/IDGoogleDrive ]; then
+
+	IDsentence=$(cat /home/upboard/Desktop/IDGoogleDrive | awk -F"Uploaded " '{print $2}')
+	ID=$(echo "$IDsentence" | awk -F" at" '{print $1}')
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+	echo "the readed ID to delete is:  $ID$state" >> /home/upboard/Desktop/"$folder"/"$filename1"
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+	echo -e "The list of files after deleting is: \n" >> /home/upboard/Desktop/"$folder"/"$filename1"
+	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+	sudo /home/upboard/Desktop/gdrive-linux-x64 --config /home/upboard/Desktop/gdrive-linux-64 list >> /home/upboard/Desktop/"$folder"/"$filename1"
+
+	#log purposes on the terminal
+	sudo /home/upboard/Desktop/gdrive-linux-x64 --config /home/upboard/Desktop/gdrive-linux-64 list #to check is empty again
+
+	sudo /home/upboard/Desktop/gdrive-linux-x64 --config /home/upboard/Desktop/gdrive-linux-64 delete $ID #we delete the new file
+	sudo rm /home/upboard/Desktop/IDGoogleDrive #we remove the file with the old ID
+fi
+
+####################################################################################################################################################
+####################################################################################################################################################
+############################################### State machine to establish connection/start uploading and others ###################################
+#####################################################################################################################################################
+#####################################################################################################################################################
+
+wwan=$(netstat -i | grep -o  '\bww\w*')
+modem_number_line=$(sudo mmcli -L | sed -n '2p')
+
+if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO MODEM CONNECTED TO THE UPBOARD
+
+	if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
+
+		sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
+		sudo kill -9 $(ps -ef | grep gdrive-linux | grep -v grep | awk '{print $2}')
+		
+		#log upload purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+		echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/"$folder"/"$filename1"
+
+		#log terminal purposes
+		echo "No modems were found connected to the upboard"
+
+		time_error_start_connection=$(date +%s%N)
+		error_situation_connection=1
+		state=2
+		
+		sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+		#log error purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+		echo "No modems were found connected to the upboard"  >> /home/upboard/Desktop/"$folder"/"$filename3"
+	fi 
+
+
+else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
+
+	modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
+	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
+
+	if [ "$state_modem" == "connected" ];then #IT IS CONNECTED TO THE NETWORK
+
+
+
+		if [  "$wwan" == "" ];then  #If there is no internet connection (no Interface registered)
+
+			if [ "$state" == 3 ];then
+				state=0 #No connection
+			fi
+
+		else
+			if [ "$state" == "2" ]; then
+				state=1 #suddenly connection
+			fi
+		fi
+
+
+
+
+
+		if [ "$state" == 0 ]; then
+
+			
+			#log terminal purposes
+			echo -e "Killing Uploading and gdrive"
+
+			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
+			sudo kill -9 $(ps -ef | grep gdrive-linux | grep -v grep | awk '{print $2}')
+			
+
+			state=2
+			error_situation_connection=1
+			time_error_start_connection=$(date +%s%N)
+
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+			echo "LOST connection, the upload has been stopped" >> /home/upboard/Desktop/"$folder"/"$filename1"
+
+			#log purposes terminal
+			echo "NO INTERNET CONNECTION, stop uploading"
+
+
+
+		elif [ "$state" == 1 ]; then
+
+			#Upload again
+
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+			echo "Connection activated or reactivated again (after error or disconnection)" >> /home/upboard/Desktop/"$folder"/"$filename1"
+
+
+			sudo /home/upboard/Desktop/Uploading $folder &
+			state=3
+
+			error_situation_connection=0
+			time_error_start_connection=0
+			time_error_now=0
+
+			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+
+			#log terminal purposes
+			echo "Connection reactivated"
+
+		fi
+
+
+	else
+		
+
+		if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
+
+			#log terminal purposes
+			echo -e "Killing Uploading and gdrive"
+
+			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
+			sudo kill -9 $(ps -ef | grep gdrive-linux | grep -v grep | awk '{print $2}')
+			
+			#log upload purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
+			echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/"$folder"/"$filename1"
+
+	
+			error_situation_connection=1
+			state=2
+			time_error_start_connection=$(date +%s%N)
+
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+			#log error purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+			echo -e "The state of the modem is different from connected (log message from MAIN). It is: " $state_modem ". \n" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+		fi
+	fi
+
+fi
+done

@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#This script is only called in the worse case where an error has ocurred + timeout passed
+#It prepares the system to be rebooted and Initialize the demo again.
+
+folder=$1
+#reason=$2
+
+filename3=errors_main
+
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+echo "Enabling reInitialize file and disabling autostart " >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+
+
+#As that will be in the 6th line it is easy to change
+sed -i '6s/enable=OFF/enable=ON/g' /home/upboard/Desktop/reInitialize
+#sed -i '6s/enable=OFF/enable=OFF/g' /home/upboard/Desktop/reInitialize
+
+
+#To avoid also autostart to work
+sed -i '3s/enable_autostart=ON/enable_autostart=OFF/g' /home/upboard/Desktop/autoStart
+
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+echo "Saving the name of the folder" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+
+sudo echo "$folder" > /home/upboard/Desktop/namefolder
+sudo chmod 777 /home/upboard/Desktop/namefolder
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename3"
+echo "Killing processes and reboot" >> /home/upboard/Desktop/"$folder"/"$filename3"
+
+
+#sudo /home/upboard/Desktop/killingProcesses #$reason
+
+sleep 4
+
+sudo reboot
