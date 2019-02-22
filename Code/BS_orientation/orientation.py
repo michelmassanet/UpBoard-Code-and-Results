@@ -110,9 +110,9 @@ if SIM==0: #That means that we are using Telenor
 
 	#We get the BS values
 
-	PCI_Telenor = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/BS_orientation/PCI_Telenor.txt')]
-	Telenor_lat = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/BS_orientation/Telenor_lat.txt')]
-	Telenor_lon = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/BS_orientation/Telenor_lon.txt')]
+	PCI_Telenor = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/PCI_Telenor.txt')]
+	Telenor_lat = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/Telenor_lat.txt')]
+	Telenor_lon = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/Telenor_lon.txt')]
 	for x in PCI_Telenor:
 		
 		if PCI==x:
@@ -126,9 +126,9 @@ if SIM==0: #That means that we are using Telenor
 elif SIM==1: #That means that we are using TDC
 	
 	#We get the BS values
-	PCI_TDC = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/BS_orientation/PCI_TDC.txt')]
-	TDC_lat = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/BS_orientation/TDC_lat.txt')]
-	TDC_lon = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/BS_orientation/TDC_lon.txt')]
+	PCI_TDC = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/PCI_TDC.txt')]
+	TDC_lat = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/TDC_lat.txt')]
+	TDC_lon = [float(line.rstrip('\n')) for line in open('/home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/TDC_lon.txt')]
 
 	for y in PCI_TDC:
 		
@@ -379,7 +379,7 @@ print valid
 
 #print angle_to_point
 
-file="/home/upboard/Desktop/"+folder+"/estimations_python.txt"
+file="/home/upboard/Desktop/UpBoard-Code-and-Results/Results/"+folder+"/estimations_python.txt"
 
 #We output speed and distance to a file
 

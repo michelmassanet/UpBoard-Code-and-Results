@@ -11,8 +11,8 @@ filename1=logs_general
 
 
 #log purposes
-date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
-echo "The collection of Statistics has started" >> /home/upboard/Desktop/"$folder"/"$filename1"
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "The collection of Statistics has started" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 
 #This script is in charge of extracting the packet statistics of the BS. It is saved in the file "StatisticsInfo_time" where "time" is the date when the script was executed. 
@@ -29,8 +29,8 @@ nameFile=StatisticsInfo_$x
 
 
 #To initialize the file
-echo "" >> /home/upboard/Desktop/"$folder"/"$nameFile"
-sudo chmod 777 /home/upboard/Desktop/"$folder"/"$nameFile"
+echo "" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
 
 
 
@@ -57,26 +57,26 @@ if [ "$modem_number_line" != "No modems were found" ]; then
 
 
 		#Format stuff
-		echo " " >> /home/upboard/Desktop/"$folder"/"$nameFile" #blank space
+		echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile" #blank space
 
 
 		#Other possibilities: ip-s link, netstat -s, netstat -i, nstat,
 
 		#Acquiring the packet statistics of the BS
 
-		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$nameFile"
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
 		statistics=$(sudo ifconfig "$wwan")
-		echo "$statistics" >> /home/upboard/Desktop/"$folder"/"$nameFile"
+		echo "$statistics" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
 
 
 
-		echo " " >> /home/upboard/Desktop/"$folder"/"$nameFile" #blank space
+		echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile" #blank space
 
 	else
 
 		#log purposes
-		date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
-		echo -e "MODEM WITH STATE DIFFERENT FROM .CONNECTED, or the interface is not seen. LOG MESSAGE FROM LOOPstatistics \n" >> /home/upboard/Desktop/"$folder"/"$filename1"
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo -e "MODEM WITH STATE DIFFERENT FROM .CONNECTED, or the interface is not seen. LOG MESSAGE FROM LOOPstatistics \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 	
 	fi
@@ -85,8 +85,8 @@ else
 
 
 	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/"$folder"/"$filename1"
-	echo -e "MODEM NOT FOUND IN THE UPBOARD. LOG MESSAGE FROM LOOPstatistics \n" >> /home/upboard/Desktop/"$folder"/"$filename1"
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	echo -e "MODEM NOT FOUND IN THE UPBOARD. LOG MESSAGE FROM LOOPstatistics \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 fi
 
 
