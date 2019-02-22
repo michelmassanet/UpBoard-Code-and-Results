@@ -6,7 +6,7 @@ folder=$1
 filename1=logs_general
 filename3=errors_main
 
-time_out_error=30000000000 #nanoseconds
+time_out_error=15000000000 #nanoseconds
 error_situation=0
 time_error_start=0
 time_error_now=0
@@ -46,9 +46,11 @@ echo "$coordinatesInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Result
 latitude=$(echo "$coordinatesInfo" | sed -n '1p')
 longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 
-latitude=40
-longitude=50
+latitude=$(cat /home/upboard/Desktop/lat)
+longitude=$(cat /home/upboard/Desktop/lon)
 
+#latitude=20
+#longitude=40
 
 
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
@@ -84,18 +86,28 @@ if [ "$error_situation" == "0" ] && ([ "$latitude" == "nan" ] || [ "$longitude" 
 
 	time_error_start=$(date +%s%N)
 	error_situation=1
-	#sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+	sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+	#log terminal
+	echo -e "Error started. Reason: coordinates nan"
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo -e "Coordinates lost (nan). Error started \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 elif [ "$error_situation" == "1" ] && ([ "$latitude" != "nan" ] && [ "$longitude" != "nan" ]); then #The error disappears --> WE LEAVE THE ERROR STATE
 
 	time_error_start=0
 	time_error_now=0
 	error_situation=0
-	#sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+	sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
 	
+	#log terminal purposes
+	echo -e "Error FINISHED. Reason: coordinates nan"
+
 	#log purposes
-	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-	#echo -e "Coordinates recovered again. Error finished \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo -e "Coordinates recovered again. Error finished \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 fi
 
 
@@ -108,11 +120,13 @@ if [ "$error_situation" == "1" ];then
 	time_error_now=$(date +%s%N)
 	time_error_pass=$(echo "$time_error_now - $time_error_start" | bc -l)
 	
-		
+	#log terminal purposes
+	echo -e "We are countinously having nan coordinates\n"
+
 	#log purposes
-	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-	#echo "Time passed with only nan: " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-	#echo -e $(( $time_error_pass / 1000000000 )) "seconds (approximated) \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo "Time passed with only nan: " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo -e $(( $time_error_pass / 1000000000 )) "seconds (approximated) \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 
 	if [ "$time_error_pass" -gt "$time_out_error" ];then #timeout SECONDS from the error --> We reboot and start everything again
@@ -120,6 +134,10 @@ if [ "$error_situation" == "1" ];then
 			#log purposes
 			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 			echo "Time out exceeded. Too much time with coordinates = nan" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+			#log terminal purposes
+			echo -e "time out exceeded. Reason: coordinates nan. Preparing reboot"
+
 			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/rebootInitialize $folder 
 		
 	fi

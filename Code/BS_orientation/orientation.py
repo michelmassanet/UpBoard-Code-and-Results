@@ -181,7 +181,7 @@ if (not orientationp_check) and (not orientation_check): #We dont have neither p
  	#Error, exit
 	
 	#valid=8
-	print "NO current and past GPS available"
+	print "NO current and past ORIENTATION available"
 	exit()
 
 elif not orientation_check: #We dont have the current orientation ---> use the past one

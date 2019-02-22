@@ -13,7 +13,8 @@ filename3=errors_main
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 echo "Enabling reInitialize file and disabling autostart " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
-
+#log terminal purposes
+echo -e "The system is preparing to reboot"
 
 #As that will be in the 6th line it is easy to change
 sed -i '6s/enable=OFF/enable=ON/g' /home/upboard/Desktop/UpBoard-Code-and-Results/Code/reInitialize

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+#sudo -i #To avoid permission issues with the GPIOs
 
 latitude=0
 longitude=0
@@ -102,7 +103,7 @@ echo "Set up of GPIOs done " >> /home/upboard/Desktop/UpBoard-Code-and-Results/R
 #Check that GPS is different from nan #Check that there is a wwan
 ready=true
 
-time_out_error=60000000000 #nanoseconds
+time_out_error=30000000000 #nanoseconds
 error_situation=0
 time_error_start=$(date +%s%N)
 state_modem=fail
@@ -125,6 +126,12 @@ if [ "$time_error_pass" -gt "$time_out_error" ];then #timeout SECONDS from the e
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 		echo "Time out exceeded for establishing either coordinates or internet/modem connection. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 		echo "The gathered coordinates are " $latitude $longitude "and the seen network" $wwan "and the state of the modem" $state_modem >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+		#log terminal purposes
+		
+		echo "Time out exceeded for establishing either coordinates or internet/modem connection. Executing rebootInitialize "
+		echo "The gathered coordinates are " $latitude $longitude "and the seen network" $wwan "and the state of the modem" $state_modem 
+
 		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/rebootInitialize $folder 
 		
 
@@ -137,14 +144,19 @@ wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network inte
 latitude=nan
 longitude=nan
 modem_number_line=$(sudo mmcli -L | sed -n '2p')
-echo $wwan
+
+#log terminal purposes
+echo "The seen internet interface is" $wwan
 
 
 if [ "$modem_number_line" == "No modems were found" ]; then
 
 	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-	echo "NO MODEMS WERE FOUND" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo "NO MODEMS WERE FOUND" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	
+	#log terminal purposes
+	echo -e "No MODEMS WERE FOUND"
 
 else
 
@@ -153,8 +165,8 @@ else
 	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
 
 
-	#if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ] && [ "$state_modem" == "connected" ]; then #the original for demo
-	if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the one for testing when only nans appear indoor
+	if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ] && [ "$state_modem" == "connected" ]; then #the original for demo
+	#if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the one for testing when only nans appear indoor
 
 
 	
@@ -164,8 +176,26 @@ else
 		#log purposes
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 		echo "Coordinates and connection are available. Ready to start" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+		#log terminal purposes
+		echo -e "Coordinates and connection are available. Ready to start"
 	
+	else
+
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "Waiting for modem in connected, wwan ready and coordinates available" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "The lat is" $latitude "and the lon is " $longitude >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "The modem state is" $state_modem >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo -e "Waiting for modem in connected, wwan ready and coordinates available"	>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+		#log terminal purposes
+		echo "The lat is" $latitude "and the lon is " $longitude
+		echo "The modem state is" $state_modem
+		echo -e "Waiting for modem in connected, wwan ready and coordinates available"	
 	fi
+
+	
 
 fi
 done
@@ -188,6 +218,7 @@ echo "SIM file new has been created" >> /home/upboard/Desktop/UpBoard-Code-and-R
 
 #Checks which Operator we are working with and saves it in a file to be readed by the python script
 operatorInfo=$(echo $(sudo qmicli -d /dev/cdc-wdm0 -p --device-open-mbim --nas-get-home-network | grep Description) | awk -F"'" '{print $2}')
+
 
 if [ "$operatorInfo" == "TelenoDK" ]; then #If the SIM is from Telenor
 
@@ -228,10 +259,10 @@ echo "SIM OTHER OPERATOR FOUND" $operatorInfo "LED light on" >> /home/upboard/De
 sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
 error_situation=1
 
-sleep 10
+sleep 5
 
 
-echo "Time out exceeded. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+echo -e "SIM strange found. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/rebootInitialize $folder
 
 fi
