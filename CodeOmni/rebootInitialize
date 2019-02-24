@@ -17,12 +17,12 @@ echo "Enabling reInitialize file and disabling autostart " >> /home/upboard/Desk
 echo -e "The system is preparing to reboot"
 
 #As that will be in the 6th line it is easy to change
-sed -i '6s/enable=OFF/enable=ON/g' /home/upboard/Desktop/UpBoard-Code-and-Results/Code/reInitialize
-#sed -i '6s/enable=OFF/enable=OFF/g' /home/upboard/Desktop/UpBoard-Code-and-Results/Code/reInitialize
+sed -i '6s/enable=OFF/enable=ON/g' /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/reInitialize
+#sed -i '6s/enable=OFF/enable=OFF/g' /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/reInitialize
 
 
 #To avoid also autostart to work
-sed -i '3s/enable_autostart=ON/enable_autostart=OFF/g' /home/upboard/Desktop/UpBoard-Code-and-Results/Code/autoStart
+sed -i '3s/enable_autostart=ON/enable_autostart=OFF/g' /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/autoStart
 
 
 #log purposes
@@ -30,15 +30,15 @@ date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$f
 echo "Saving the name of the folder" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 
-sudo echo "$folder" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/namefolder
-sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/namefolder
+sudo echo "$folder" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/namefolder
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/namefolder
 
 #log purposes
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 echo "Killing processes and reboot" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 
-#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/killingProcesses #$reason
+#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/killingProcesses #$reason
 
 sleep 4
 

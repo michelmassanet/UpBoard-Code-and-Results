@@ -33,15 +33,15 @@ echo -e "Uploading again (or at the start) \n"
 
 
 #We execute the upload and safe the output in the variable
-IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-64 upload /home/upboard/Desktop/r2_l_TDC1.mat)
+IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-64 upload /home/upboard/Desktop/r2_l_TDC1.mat)
 
 #log purposes
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 echo -e "Finish Uploading. The IDStatement is " $IDstatement ".\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 
 
-echo "$IDstatement" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
-sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
+echo "$IDstatement" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/IDGoogleDrive
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/IDGoogleDrive
 
 #log purposes
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
@@ -49,14 +49,14 @@ echo "Successfully uploaded file with ID $IDstatement" >> /home/upboard/Desktop/
 
 
 #log purposes in terminal
-sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-64 list #to show on the list that is has been Uploaded 
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-64 list #to show on the list that is has been Uploaded 
 
 #log purposes
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 echo "The list of files in drive after uploading is" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 #log purposes
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
-sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-64 list  >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-64 list  >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 
 
 

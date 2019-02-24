@@ -33,7 +33,7 @@ while true; do
 
 ########################################## Acquiring the coordinates info and saving them ###########################
 
-coordinatesInfo=$(python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gpsOutput.py)
+coordinatesInfo=$(python /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gpsOutput.py)
 echo $coordinatesInfo
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$namefile"
 echo "$coordinatesInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$namefile"
@@ -118,7 +118,7 @@ if [ "$error_situation" == "1" ];then
 			#log terminal purposes
 			echo -e "time out exceeded. Reason: coordinates nan. Preparing reboot"
 
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/rebootInitialize $folder 
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder 
 		
 	fi
 
