@@ -35,6 +35,7 @@ echo -e "Uploading again (or at the start) \n"
 #We execute the upload and safe the output in the variable
 IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-linux-64 upload /home/upboard/Desktop/r2_l_TDC1.mat)
 
+echo ei
 #log purposes
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 echo -e "Finish Uploading. The IDStatement is " $IDstatement ".\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"

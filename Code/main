@@ -10,7 +10,9 @@
 #state 3 --> still connected
 
 folder=$1
-sleep 5
+
+sleep 5 #WE SLEEP 5 SECONDS TO WE CAN SAVE SOME STABLE PCI AND COORDINATES INFO.
+
 state=2 #We start with this state
  
 
@@ -50,7 +52,7 @@ orientation_current=90
 SIM=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM)
 reason=NoReason
 timepass=80000
-start=0
+start=$(date +%s%N)
 distance_to_BS=0
 accelerometer=0
 acc_x=0
@@ -371,7 +373,125 @@ fi
 ################################################################
 ################################################################
 
-if [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
+
+if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]); then
+
+	now=$(date +%s%N)
+	timepass=$(echo "$now - $start" | bc -l)
+
+
+	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	#acc_x=$(echo "$accelerometer" | sed -n 1p)
+	#acc_y=$(echo "$accelerometer" | sed -n 2p)
+	#acc_z=$(echo "$accelerometer" | sed -n 3p)
+
+	#orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+
+	#orientation_current=90 #debug purposes
+
+	#log purposes general
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+	#log terminal purposes
+	echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" 
+
+	reason=NewPCI_and_NewCoordinates
+	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)
+
+
+################################# Check if output was not an error message###################################
+
+	temp=$(echo "$output" | sed -n 1p)
+	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
+
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+		echo  "Error message from PCI and Coordinates change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+		echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+		if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo "time counter started (reason = error from python with PCI and coordinates change reason). LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+			#log terminal purposes
+			echo -e "Error started!!! Reason: python message error"
+
+			time_error_start_python=$(date +%s%N)
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+			error_situation_python=1
+		fi
+
+
+	else
+		
+		if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
+
+			error_situation_python=0
+			time_error_now_python=0
+			time_error_start_python=0
+			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+
+			#log terminal purposes
+			echo -e "Error FINISHED. Reason: Python error"
+
+			
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo "Error from python was solved when changing because new PCI and coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+		fi
+
+		start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
+
+
+
+
+		orientation_past=$orientation_current #We update the values
+
+		antenna=$(echo "$output" | sed -n 1p)
+		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
+		distance_to_BS=$(echo "$output" | sed -n 6p) 
+		valid=$(echo "$output" | sed -n 7p) 
+		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script
+
+		lat_past=$lat #We update the values
+		lon_past=$lon #We update the values
+		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
+		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
+
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+
+
+
+		#log purposes general
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "Calculated parameters. Reason:new PCI and newcoordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "The new orientation is $orientation" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+		PCI=$newPCI #We update the value
+
+	fi
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
@@ -437,7 +557,7 @@ if [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 			
 			#log purposes
 			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "Error from python was solved when changing because new coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo "Error from python was solved when changing because new PCI. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 		fi
 

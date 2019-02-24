@@ -63,10 +63,12 @@ if [ "$modem_number_line" != "No modems were found" ]; then
 		infoNetwork=$(sudo qmicli -d /dev/cdc-wdm0 -p --device-open-mbim --nas-get-cell-location-info)
 		echo "$infoNetwork" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
 
-		#PCIline=$(echo "$infoNetwork" | sed -n '8p') #We get the line where the PCI is
-		#PCI=$(echo "$PCIline" | awk -F"'" '{print $2}') #We extract the PCI from that line
+		PCIline=$(echo "$infoNetwork" | sed -n '8p') #We get the line where the PCI is
+		PCI=$(echo "$PCIline" | awk -F"'" '{print $2}') #We extract the PCI from that line
 		echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile" #blank space
 
+		#log terminal purposes
+		echo -e "PCI: $PCI \n"
 
 
 

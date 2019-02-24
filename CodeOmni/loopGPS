@@ -51,6 +51,9 @@ longitude=$(cat /home/upboard/Desktop/lon) #Debug purposes
 
 echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$namefile" #Blank space
 
+#Log purposes
+#echo -e " Lat" $latitude"\n" "Lon" $longitude"\n"
+
 
 #Terminal purposes
 echo -e " Lat" $latitude"\n" "Lon" $longitude"\n"
