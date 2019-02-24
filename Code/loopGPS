@@ -46,15 +46,16 @@ echo "$coordinatesInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Result
 latitude=$(echo "$coordinatesInfo" | sed -n '1p')
 longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 
-latitude=$(cat /home/upboard/Desktop/lat)
-longitude=$(cat /home/upboard/Desktop/lon)
+latitude=$(cat /home/upboard/Desktop/lat) #Debug purposes
+longitude=$(cat /home/upboard/Desktop/lon) #Debug purposes
 
-#latitude=20
-#longitude=40
+#latitude=20 #Debug purposes
+#longitude=40 #Debug purposes
 
 
-date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-echo "Start writing Coordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+#log purposes
+#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+#echo "Start writing Coordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 
 #We initialize the file currentCoordinates
@@ -67,9 +68,10 @@ sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientatio
 echo -e "$latitude\n$longitude" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
 
 echo -e "$latitude\n$longitude\n"
+
 #log purposes
-date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-echo -e "Finish writing Coordinates\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+#echo -e "Finish writing Coordinates\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 
 

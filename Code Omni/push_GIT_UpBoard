@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+cd /home/upboard/Desktop/UpBoard-Code-and-Results
+
+git add .
+git commit -m "UpBoard update"
+git push origin master

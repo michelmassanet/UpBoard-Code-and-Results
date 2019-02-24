@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#This script is enabled and automatically called when the system starts
+
+
+enable=OFF
+
+
+
+if [ "$enable" == "ON" ]; then #It means that it was enabled (ON) by rebootInitialize
+
+
+#Disable reInitialize
+sed -i '6s/enable=ON/enable=OFF/g' /home/upboard/Desktop/UpBoard-Code-and-Results/Code/reInitialize
+
+sleep 5
+
+#Able the default autostart
+#sed -i '3s/enable=OFF/enable=ON/g' /home/upboard/Desktop/UpBoard-Code-and-Results/Code/autoStart
+
+
+folder=$(cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/namefolder)
+sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/namefolder
+
+
+new_folder=after_error_$folder
+
+sleep  40
+
+#xterm -hold -e sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Initialize $new_folder 
+
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Initialize $new_folder 
+
+
+fi

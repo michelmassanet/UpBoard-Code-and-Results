@@ -1,0 +1,106 @@
+#!/bin/bash
+
+
+#we input the name of the folder to save the files
+
+folder=$1
+
+
+filename1=logs_general
+
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "The collection of bit rate has started with the two methods" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+
+#This script gets the throughput information of the UL and saves it in the file bitrate. There is also a parallel obtainment in another file through ifstat
+
+#FIRST WAY (IFSTAT)
+
+
+#We give a name to the file
+x=$(date)
+
+nameFile1=bit_rate_1_$x
+
+
+#We initialize the file
+echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1" #Initialize the file
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1"
+
+sudo ifstat -n -t -i wwp0s20u7u1i12 >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1" &
+
+
+
+
+#SECOND WAY
+
+
+#We give a name to the file
+
+
+nameFile2=bit_rate_2_$x
+
+
+#We initialize the file
+echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile2" #Initialize the file
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile2"
+
+
+
+
+
+#Initial variables
+TX1=0
+TX2=0
+delay=$(echo "scale=2; 4/10" | bc)
+
+
+
+while true; do #Loop for getting the TXspeed for a given delay period.
+
+wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
+
+if [ "$wwan" == "" ]; then
+
+sleep $delay
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile2"
+echo "LOST CONNECTION" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile2"
+
+else
+
+TX1=$(cat /sys/class/net/$wwan/statistics/tx_bytes)
+sleep $delay
+TX2=$(cat /sys/class/net/$wwan/statistics/tx_bytes)
+m=$(( $TX2 - $TX1 ))
+
+
+if [ "$mm" == 0 ];then
+TX_speed=0
+else
+TX_speed=$(echo "scale=0; $m/$delay" | bc)
+fi
+
+
+
+#echo $TX_speed   #Uncomment this to print the througput on the terminal
+
+
+
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile2"
+echo "$TX_speed" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile2" #We save the calculated speed on the file of interest
+
+
+
+
+fi
+done
+
+
+
+
+
+#sudo ifstat -t -n >> bitrate #This is the old way that we were using.
+

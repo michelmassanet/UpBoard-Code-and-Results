@@ -116,6 +116,8 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
 	modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
 	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
+	
+	#state_modem=fail #Debug purposes 
 
 	if [ "$state_modem" == "connected" ];then #IT IS CONNECTED TO THE NETWORK
 
@@ -233,8 +235,11 @@ cd /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/PCI_temp/
 d=$(ls -c -Art -- *b* |tail -n1) #It takes the last one (bigger counter) with letter b 
 
 if [[ $d == *"b"* ]]; then 
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-	echo "Reading PCI" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	
+	#log purposes
+	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	#echo "Reading PCI" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
 	mod=${d//[b]/a} #change b to a and read file
 	newPCI=$(cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/PCI_temp/$mod)
 	nPCIfiles=$(ls -1A | wc -l)
@@ -242,8 +247,9 @@ if [[ $d == *"b"* ]]; then
 	if [ "$nPCIfiles" -gt "3" ];then 
 		ls -t /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/PCI_temp/  | tail -n +4 | xargs rm --
 	fi
-
-	echo -e "Deleted PCI and finished read\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	
+	#log purposes
+	#echo -e "Deleted PCI and finished read\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 fi
 
 #What it does is to check  the newest (bigger number) file with "b". Then what it does it to read the same counter file but with the "a". And then it takes the oldest file of all of them and deletes it.
@@ -253,8 +259,11 @@ cd /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/
 d=$(ls -c -Art -- *b* |tail -n1)
 
 if [[ $d == *"b"* ]]; then
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-	echo "Reading GPS" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	
+	#log purposes	
+	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	#echo "Reading GPS" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
 	mod=${d//[b]/a} #change b to a and read file
 	newcoordinates=$(cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/$mod)
 	ncoordinatesfiles=$(ls -1A | wc -l)
@@ -263,7 +272,8 @@ if [[ $d == *"b"* ]]; then
 		ls -t /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/  | tail -n +4 | xargs rm -- 
 	fi
 
-	echo -e "Deleted GPS and finished read\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+	#log purposes
+	#echo -e "Deleted GPS and finished read\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 fi
 
 newlat=$(echo "$newcoordinates" | sed -n 1p)  

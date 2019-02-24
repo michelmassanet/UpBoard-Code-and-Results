@@ -1,0 +1,91 @@
+#!/bin/bash
+
+#This script is in charge of extracting the network information. It is saved in the file "CellInfo_time" where "time" is the date when the script was executed. The Physical Cell ID (PCI) is saved in other variable called PCI.
+
+#We get the name of the folder to save there the files
+folder=$1
+
+
+filename1=logs_general
+
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "The collection of Cell Info has started" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+
+#To initialize the PCI file
+
+
+#We give a name to the file to save the Cell Info
+x=$(date)
+
+nameFile=CellInfo_$x
+
+
+
+#To initialize the file
+echo "" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
+
+
+
+#While loop to save network as fast as possible.
+
+while true; do
+
+
+
+######################################## IN CASE THE MODEM IS CONNECTED, OTHERWISE WE DONT READ AND WE DONT SAVE ######################################################
+
+
+
+modem_number_line=$(sudo mmcli -L | sed -n '2p')
+
+if [ "$modem_number_line" != "No modems were found" ]; then
+
+	modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
+	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
+
+	if [ "$state_modem" == "connected" ]; then
+
+
+
+		#Format stuff
+		echo "------------------------------------------------------------------------------" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
+		echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile" #blank space
+
+
+
+		#Acquiring the network info and extracting the PCI and saving it into the file of interest
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
+		infoNetwork=$(sudo qmicli -d /dev/cdc-wdm0 -p --device-open-mbim --nas-get-cell-location-info)
+		echo "$infoNetwork" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
+
+		#PCIline=$(echo "$infoNetwork" | sed -n '8p') #We get the line where the PCI is
+		#PCI=$(echo "$PCIline" | awk -F"'" '{print $2}') #We extract the PCI from that line
+		echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile" #blank space
+
+
+
+
+	else
+
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo -e "MODEM WITH STATE DIFFERENT FROM .CONNECTED,. LOG MESSAGE FROM LOOPPCI \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+	
+	fi
+
+else
+
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	echo -e "MODEM NOT FOUND IN THE UPBOARD. LOG MESSAGE FROM LOOPPCI \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+fi
+
+
+done
