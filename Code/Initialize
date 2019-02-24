@@ -165,8 +165,8 @@ else
 	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
 
 
-	if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ] && [ "$state_modem" == "connected" ]; then #the original for demo
-	#if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the one for testing when only nans appear indoor
+	#if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ] && [ "$state_modem" == "connected" ]; then #the original for demo
+	if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the one for testing when only nans appear indoor
 
 
 	
