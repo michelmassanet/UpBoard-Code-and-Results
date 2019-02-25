@@ -82,6 +82,8 @@ sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
  sudo kill -9 $(ps -ef | grep rebootInitialize | grep -v grep | awk '{print $2}')
  sudo kill -9 $(ps -ef | grep reInitialize | grep -v grep | awk '{print $2}')
  sudo kill -9 $(ps -ef | grep Initialize | grep -v grep | awk '{print $2}')
+ sudo kill -9 $(ps -ef | grep loopDeleteDrive | grep -v grep | awk '{print $2}')
+
 
 #if [ "$reason" != "main" ]; then
 

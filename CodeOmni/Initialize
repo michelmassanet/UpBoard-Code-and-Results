@@ -310,4 +310,4 @@ fi
 #bitrateread
 #main
 
-sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/bitrateread $folder &  sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopPCI $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopGPS $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopStatistics $folder # & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopSNR $folder 
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/bitrateread $folder &  sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopPCI $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopGPS $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopStatistics $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopDeleteDrive $folder # & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopSNR $folder 
