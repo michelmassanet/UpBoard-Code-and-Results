@@ -93,7 +93,7 @@ if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO
 	if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
 
 		sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
-		sudo kill -9 $(ps -ef | grep gdrive-linux | grep -v grep | awk '{print $2}')
+		sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
 		
 		#log upload purposes
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
@@ -148,7 +148,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			echo -e "Killing Uploading and gdrive"
 
 			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
-			sudo kill -9 $(ps -ef | grep gdrive-linux | grep -v grep | awk '{print $2}')
+			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
 			
 
 			state=2
@@ -202,7 +202,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			echo -e "Killing Uploading and gdrive"
 
 			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
-			sudo kill -9 $(ps -ef | grep gdrive-linux | grep -v grep | awk '{print $2}')
+			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
 			
 			#log upload purposes
 			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
@@ -732,21 +732,27 @@ sudo rm -rf /home/upboard/.local/share/Trash/files
 
 if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive ]; then
 
+
 	IDsentence=$(cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive | awk -F"Uploaded " '{print $2}')
 	ID=$(echo "$IDsentence" | awk -F" at" '{print $1}')
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 	echo "the readed ID to delete is:  $ID$state" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	echo -e "Deleting...\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1" 
+
+	#Deleting + log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master delete $ID >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1" #we delete the new file
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"	
 	echo -e "The list of files after deleting is: \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Results/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/Results/gdrive-linux-64 list >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master list >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 	#log purposes on the terminal
-	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-64 list #to check is empty again
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master list #to check is empty again
 
-	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-x64 --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-linux-64 delete $ID #we delete the new file
 	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive #we remove the file with the old ID
 fi
 
