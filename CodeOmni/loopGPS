@@ -41,8 +41,8 @@ echo "$coordinatesInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Result
 latitude=$(echo "$coordinatesInfo" | sed -n '1p')
 longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 
-latitude=$(cat /home/upboard/Desktop/lat) #Debug purposes
-longitude=$(cat /home/upboard/Desktop/lon) #Debug purposes
+#latitude=$(cat /home/upboard/Desktop/lat) #Debug purposes
+#longitude=$(cat /home/upboard/Desktop/lon) #Debug purposes
 
 #latitude=20 #Debug purposes
 #longitude=40 #Debug purposes

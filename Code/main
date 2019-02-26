@@ -380,12 +380,12 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 	timepass=$(echo "$now - $start" | bc -l)
 
 
-	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	#acc_x=$(echo "$accelerometer" | sed -n 1p)
-	#acc_y=$(echo "$accelerometer" | sed -n 2p)
-	#acc_z=$(echo "$accelerometer" | sed -n 3p)
+	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	acc_x=$(echo "$accelerometer" | sed -n 1p)
+	acc_y=$(echo "$accelerometer" | sed -n 2p)
+	acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	#orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	#orientation_current=90 #debug purposes
 
@@ -497,12 +497,12 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 	timepass=$(echo "$now - $start" | bc -l)
 
 
-	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	#acc_x=$(echo "$accelerometer" | sed -n 1p)
-	#acc_y=$(echo "$accelerometer" | sed -n 2p)
-	#acc_z=$(echo "$accelerometer" | sed -n 3p)
+	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	acc_x=$(echo "$accelerometer" | sed -n 1p)
+	acc_y=$(echo "$accelerometer" | sed -n 2p)
+	acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	#orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	#orientation_current=90 #debug purposes
 
@@ -606,12 +606,12 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
 
-	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	#acc_x=$(echo "$accelerometer" | sed -n 1p)
-	#acc_y=$(echo "$accelerometer" | sed -n 2p)
-	#acc_z=$(echo "$accelerometer" | sed -n 3p)
+	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	acc_x=$(echo "$accelerometer" | sed -n 1p)
+	acc_y=$(echo "$accelerometer" | sed -n 2p)
+	acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	#orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	reason=NewCoordinates
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)

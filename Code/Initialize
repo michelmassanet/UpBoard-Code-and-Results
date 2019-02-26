@@ -185,8 +185,8 @@ else
 
 	#state_modem=fail #debug purposes
 
-	#if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ] && [ "$state_modem" == "connected" ]; then #the original for demo
-	if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the one for testing when only nans appear indoor
+	if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ] && [ "$state_modem" == "connected" ]; then #the original for demo
+	#if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the one for testing when only nans appear indoor
 
 
 	
@@ -317,4 +317,4 @@ fi
 #bitrateread
 #main
 
-sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/bitrateread $folder &  sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopPCI $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopGPS $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopStatistics $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopDeleteDrive $folder # & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopSNR $folder 
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/bitrateread $folder &  sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopPCI $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopGPS $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopStatistics $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopDeleteDrive $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/loopSNR $folder 
