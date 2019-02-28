@@ -6,7 +6,8 @@ folder=$1
 filename1=logs_general
 filename3=errors_main
 
-time_out_error=15000000000 #nanoseconds
+#time_out_error=15000000000 #nanoseconds
+time_out_error=1500000000000 #nanoseconds
 error_situation=0
 time_error_start=0
 time_error_now=0
@@ -119,9 +120,9 @@ if [ "$error_situation" == "1" ];then
 			echo "Time out exceeded. Too much time with coordinates = nan" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 			#log terminal purposes
-			echo -e "time out exceeded. Reason: coordinates nan. Preparing reboot"
-
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder 
+			#echo -e "time out exceeded. Reason: coordinates nan. Preparing reboot"
+			echo -e "Long time out exceeded. Reason: coordinates nan."
+			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder 
 		
 	fi
 

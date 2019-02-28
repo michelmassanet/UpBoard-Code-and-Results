@@ -26,14 +26,16 @@ filename3=errors_main
 #sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 error_situation_python=0
-time_out_error_python=30000000000 #nano seconds
+#time_out_error_python=30000000000 #nano seconds
+time_out_error_python=3000000000000 #nano seconds
 time_error_now_python=0
 time_error_pass_python=0
 time_error_start_python=0
 
 
 error_situation_connection=0
-time_out_error_connection=60000000000 #nano seconds
+#time_out_error_connection=60000000000 #nano seconds
+time_out_error_connection=6000000000000 #nano seconds
 time_error_now_connection=0
 time_error_pass_connection=0
 time_error_start_connection=0
