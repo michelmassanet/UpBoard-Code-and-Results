@@ -20,7 +20,7 @@ class GpsReader(threading.Thread):
 				gps_info.next()
 				latitude = gps_info.fix.latitude
 				longitude = gps_info.fix.longitude
-				speed = gps_info.fix.speed
+				speed = gps_info.fix.speed*3.6
 				altitude = gps_info.fix.altitude
 				track = gps_info.fix.track
 				#head = gps_info.fix.head

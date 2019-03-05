@@ -380,6 +380,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
+	start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
 
 
 	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
@@ -446,7 +447,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 
 		fi
 
-		start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
+
 
 
 
@@ -472,7 +473,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "Calculated parameters. Reason:new PCI and newcoordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The new orientation is $orientation" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
@@ -497,6 +498,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
+	start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
 
 
 	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
@@ -563,7 +565,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 
 		fi
 
-		start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
+
 
 
 		#log purposes terminal
@@ -585,7 +587,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "Calculated parameters. Reason:new PCI" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The new orientation is $orientation" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
@@ -607,6 +609,8 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
+
+	start=$(date +%s%N)
 
 	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
 	acc_x=$(echo "$accelerometer" | sed -n 1p)
@@ -662,7 +666,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 			echo "Error from python was solved when changing because new coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 		fi
 
-		start=$(date +%s%N)
+		
 
 
 		lat_past=$lat #We update the values
@@ -696,7 +700,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "Calculated parameters. Reason:new Coordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The new orientation is $orientation degrees" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo "The new orientation is $orientation_current degrees" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 

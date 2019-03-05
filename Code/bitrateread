@@ -30,7 +30,11 @@ nameFile1=bit_rate_1_$x
 echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1" #Initialize the file
 sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1"
 
-sudo ifstat -n -t -i wwp0s20u7u1i12 >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1" &
+
+wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
+
+
+sudo ifstat -n -t -i $wwan >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile1" &
 
 
 

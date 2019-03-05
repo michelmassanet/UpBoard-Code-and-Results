@@ -364,6 +364,9 @@ antenna_index=int(math.floor(angle_to_point/60)); #Posible indexes= 0,1,2,3,4,5
 #print "Speed=", speed, " m/s"
 #print "Antenna index is", antenna_index
 
+#Changing units of speed
+speed=speed*3.6 #In Km/h
+
 
 #Printing the real outputs
 
