@@ -13,18 +13,18 @@ bus = smbus.SMBus(1)
 # HMC5883 address, 0x1E(30)
 # Select configuration register A, 0x00(00)
 #		0x60(96)	Normal measurement configuration, Data output rate = 0.75 Hz
-bus.write_byte_data(0x50, 0x00, 0x60)
+bus.write_byte_data(0x1E, 0x00, 0x60)
 # HMC5883 address, 0x1E(30)
 # Select mode register, 0x02(02)
 #		0x00(00)	Continuous measurement mode
-bus.write_byte_data(0x50, 0x02, 0x00)
+bus.write_byte_data(0x1E, 0x02, 0x00)
 
 time.sleep(0.5)
 
 # HMC5883 address, 0x1E(30)
 # Read data back from 0x03(03), 6 bytes
 # X-Axis MSB, X-Axis LSB, Z-Axis MSB, Z-Axis LSB, Y-Axis MSB, Y-Axis LSB
-data = bus.read_i2c_block_data(0x50, 0x03, 6)
+data = bus.read_i2c_block_data(0x1E, 0x03, 6)
 
 # Convert the data
 xMag = data[0] * 256 + data[1]
