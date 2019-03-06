@@ -40,8 +40,8 @@ if __name__ == "__main__":
     write_byte(2, 0b00000000) # Continuous sampling
 
     scale = 0.92
-    x_offset = 167
-    y_offset = -32
+    x_offset = 71
+    y_offset = -23
 
     x_out = (read_word_2c(3) - x_offset) * scale
     y_out = (read_word_2c(7) - y_offset) * scale

@@ -1,53 +1,53 @@
-# Distributed with a free-will license.
-# Use it any way you want, profit or free, provided it fits in the licenses of its associated works.
-# HMC5883
-# This code is designed to work with the HMC5883_I2CS I2C Mini Module available from ControlEverything.com.
-# https://www.controleverything.com/content/Compass?sku=HMC5883_I2CS#tabs-0-product_tabset-2
+#!/usr/bin/python
 
+#import RPi.GPIO as GPIO
 import smbus
 import time
 import math
-# Get I2C bus
+import csv
+
+#rev = GPIO.RPI_REVISION
+#if rev == 2 or rev == 3:
+#    bus = smbus.SMBus(1)
+#else:
+#    bus = smbus.SMBus(0)
+
 bus = smbus.SMBus(1)
+address = 0x1e
 
-# HMC5883 address, 0x1E(30)
-# Select configuration register A, 0x00(00)
-#		0x60(96)	Normal measurement configuration, Data output rate = 0.75 Hz
-bus.write_byte_data(0x1E, 0x00, 0x60)
-# HMC5883 address, 0x1E(30)
-# Select mode register, 0x02(02)
-#		0x00(00)	Continuous measurement mode
-bus.write_byte_data(0x1E, 0x02, 0x00)
+def read_byte(adr):
+    return bus.read_byte_data(address, adr)
 
-time.sleep(0.5)
+def read_word(adr):
+    high = bus.read_byte_data(address, adr)
+    low = bus.read_byte_data(address, adr+1)
+    val = (high << 8) + low
+    return val
 
-# HMC5883 address, 0x1E(30)
-# Read data back from 0x03(03), 6 bytes
-# X-Axis MSB, X-Axis LSB, Z-Axis MSB, Z-Axis LSB, Y-Axis MSB, Y-Axis LSB
-data = bus.read_i2c_block_data(0x1E, 0x03, 6)
+def read_word_2c(adr):
+    val = read_word(adr)
+    if (val >= 0x8000):
+        return -((65535 - val) + 1)
+    else:
+        return val
 
-# Convert the data
-xMag = data[0] * 256 + data[1]
-if xMag > 32767 :
+def write_byte(adr, value):
+    bus.write_byte_data(address, adr, value)
+    
+if __name__ == "__main__":
+    write_byte(0, 0b01110000) # Set to 8 samples @ 15Hz
+    write_byte(1, 0b00100000) # 1.3 gain LSb / Gauss 1090 (default)
+    write_byte(2, 0b00000000) # Continuous sampling
 
-	xMag -= 65536
+    scale = 0.92
+    
+    x_out = read_word_2c(3) * scale
+    y_out = read_word_2c(7) * scale
+    z_out = read_word_2c(5) * scale
+    
+    bearing  = math.atan2(y_out, x_out) 
+    if (bearing < 0):
+        bearing += 2 * math.pi
+    
+    print math.degrees(bearing)
 
-zMag = data[2] * 256 + data[3]
-if zMag > 32767 :
-	zMag -= 65536
-
-yMag = data[4] * 256 + data[5]
-if yMag > 32767 :
-	yMag -= 65536
-
-# Output data to screen
-#print "Magnetic field in X-Axis : %d" %xMag
-#print "Magnetic field in Y-Axis : %d" %yMag
-#print "Magnetic field in Z-Axis : %d" %zMag
-
-heading=math.atan2(yMag,xMag)*180/math.pi
-
-
-if heading < 0:
-	heading=360+heading
-print heading
