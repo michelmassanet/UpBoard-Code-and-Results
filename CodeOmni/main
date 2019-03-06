@@ -27,7 +27,8 @@ filename3=errors_main
 
 
 error_situation_connection=0
-time_out_error_connection=60000000000 #nano seconds
+#time_out_error_connection=60000000000 #nano seconds
+time_out_error_connection=6000000000000 #nano seconds
 time_error_now_connection=0
 time_error_pass_connection=0
 time_error_start_connection=0
