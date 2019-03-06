@@ -247,7 +247,6 @@ if [ "$operatorInfo" == "TelenoDK" ]; then #If the SIM is from Telenor
 echo "0" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM
 
 #log purposes
-date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo -e "SIM 0\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo -e "SIM from Telenor found (connected to Telenor network). Saved value 0 in SIM file" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
@@ -258,7 +257,6 @@ elif [ "$operatorInfo" == "TDC" ];then
 echo "1" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM
 
 #log purposes
-date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo -e "SIM 1\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo "SIM from TDC found (connected to TDC network). Saved value 1 in SIM file" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
@@ -274,7 +272,6 @@ echo "Other operator found"
 echo "$operatorInfo"
 
 #log purposes
-date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo -e "SIM 2\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo "Other operator found: " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 echo "$operatorInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
