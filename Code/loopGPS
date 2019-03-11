@@ -62,11 +62,11 @@ longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 #We initialize the file currentCoordinates
 echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$a
 sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$a
-echo -e "$latitude\n$longitude" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$a
+echo -e "$coordinatesInfo" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$a
 
 echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
 sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
-echo -e "$latitude\n$longitude" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
+echo -e "$coordinatesInfo" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
 
 echo -e "$latitude\n$longitude\n"
 

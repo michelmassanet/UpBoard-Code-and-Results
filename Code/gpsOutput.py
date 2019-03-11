@@ -31,8 +31,7 @@ class GpsReader(threading.Thread):
 					print longitude
 					print speed
 					print altitude
-					print track #I think this is the track
-					#print heading
+					print track 
 					return
 
 gps = GpsReader() # create the thread

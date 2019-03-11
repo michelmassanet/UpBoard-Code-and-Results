@@ -41,6 +41,11 @@ time_error_pass_connection=0
 time_error_start_connection=0
 
 
+
+
+first_time_pointing=0 #To now when it is the first time we switch to a dirctional antenna
+
+
 #This values will be changed during the start of the system or in Initialize
 PCI=460
 lat=40
@@ -51,11 +56,12 @@ antenna=0
 speed=0
 orientation_past=70
 orientation_current=90
+orientation_compass=0
 SIM=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM)
 reason=NoReason
 timepass=80000
 start=$(date +%s%N)
-distance_to_BS=0
+distance_covered=2 #meters
 accelerometer=0
 acc_x=0
 acc_y=0
@@ -281,7 +287,8 @@ if [[ $d == *"b"* ]]; then
 fi
 
 newlat=$(echo "$newcoordinates" | sed -n 1p)  
-newlon=$(echo "$newcoordinates" | sed -n 2p)  
+newlon=$(echo "$newcoordinates" | sed -n 2p) 
+orientation_current=$(echo "$newcoordinates" | sed -n 5p) 
 
 
 
@@ -388,7 +395,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 	acc_y=$(echo "$accelerometer" | sed -n 2p)
 	acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	#orientation_current=90 #debug purposes
 
@@ -400,7 +407,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 	echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" 
 
 	reason=NewPCI_and_NewCoordinates
-	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)
+	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
 
 
 ################################# Check if output was not an error message###################################
@@ -456,7 +463,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 
 		antenna=$(echo "$output" | sed -n 1p)
 		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
-		distance_to_BS=$(echo "$output" | sed -n 6p) 
+		distance_covered=$(echo "$output" | sed -n 6p) 
 		valid=$(echo "$output" | sed -n 7p) 
 		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script
 
@@ -465,9 +472,16 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
 		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
 
+
+		orientation_past=$orientation_current #We update the values
+
+
 		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
-
-
+		
+		if [ "$first_time_pointing" == "0" ]; then
+			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
+			first_time_pointing=1
+		fi
 
 		#log purposes general
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
@@ -475,12 +489,11 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo -e "The distance covere is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
 		PCI=$newPCI #We update the value
 
 	fi
-
 
 
 
@@ -506,7 +519,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 	acc_y=$(echo "$accelerometer" | sed -n 2p)
 	acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	#orientation_current=90 #debug purposes
 
@@ -518,7 +531,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 	echo -e "Changed PCI from $PCI to $newPCI\n"
 
 	reason=NewPCI
-	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)
+	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
 
 
 ################################# Check if output was not an error message###################################
@@ -572,15 +585,22 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 		#echo -e Inputs lat $lat lon $lon lat_past $lat_past lon_past $lon_past newPCI $newPCI SIM $SIM speed $speed orien $orientation 1 reason $reason folder $folder
 		#echo -e output "$output"
 
-		orientation_past=$orientation_current #We update the values
+		
 
 		antenna=$(echo "$output" | sed -n 1p)
 		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
-		distance_to_BS=$(echo "$output" | sed -n 6p) 
+		distance_covered=$(echo "$output" | sed -n 6p) 
 		valid=$(echo "$output" | sed -n 7p) 
+
+
+		orientation_past=$orientation_current #We update the values
 
 		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
 
+		if [ "$first_time_pointing" == "0" ]; then
+			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
+			first_time_pointing=1
+		fi
 	
 
 		#log purposes general
@@ -589,7 +609,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo -e "The distance covered is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
 		PCI=$newPCI #We update the value
 
@@ -617,10 +637,10 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 	acc_y=$(echo "$accelerometer" | sed -n 2p)
 	acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	orientation_current=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	reason=NewCoordinates
-	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z)
+	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
 
 
 ############################################ Check if output was not an error message########################################################
@@ -671,15 +691,18 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 
 		lat_past=$lat #We update the values
 		lon_past=$lon #We update the values
-		orientation_past=$orientation_current #We update the values
+	
 
 		antenna=$(echo "$output" | sed -n 1p)
 		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
 		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
 		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
 		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script
-		distance_to_BS=$(echo "$output" | sed -n 6p) #Distance to BS (log purposes)
+		distance_covered=$(echo "$output" | sed -n 6p) #Distance to BS (log purposes)
 		valid=$(echo "$output" | sed -n 7p) 
+		
+
+		orientation_past=$orientation_current #We update the values
 
 		#log purposes terminal
 		echo "Changed coordinates from $lat_past, $lon_past to $lat, $lon"
@@ -691,10 +714,16 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 		#We change the GPIOs to the new antenna
 		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
 
+
+		if [ "$first_time_pointing" == "0" ]; then
+			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
+			first_time_pointing=1
+		fi
+
 		#log terminal purposes
 		#echo "The new orientation is $orientation degrees"
 		#echo "The antenna selected is $antenna"
-		#echo -e "The distance to the BS is $distance_to_BS\n"
+		#echo -e "The distance to the BS is $distance_covered\n"
 
 		#log purposes general
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
@@ -702,7 +731,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The new orientation is $orientation_current degrees" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "The distance to the BS is $distance_to_BS\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo -e "The distance covered is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
 	fi
 

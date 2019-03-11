@@ -21,7 +21,7 @@ import datetime
 	#SIM          # 0--> Telenor, 1--> TDC
 	#speed_past   #Needed in case we loose coordinates
 	#orientation_past #Orientation past 
-	#orientation_current #Orientation new input from the compass
+	#orientation_current #Orientation new input from the GPS
 	#time_pass       #time between calling the function again
 	#SIM	      #0 if Telenor or 1 if TDC, 2 for other operator
 	#reason       #0 --> "NewCoordinates", #1 --> "NewPCI"
@@ -29,6 +29,8 @@ import datetime
 	#acc_x      #accelerometer data in x (to be saved)
 	#acc_y      #accelerometer data in y (to be saved)
 	#acc_z      #accelerometer data in z (to be saved)
+	#orientation_compass #Orientation from compass
+	#distance_covered_past  #The distance calculated before
 
 #OUTPUTS
 	#antenna_index
@@ -44,28 +46,28 @@ import datetime
 	#2 - "No past coordinates"
 	#3 - "No current coordinates compute the newer ones"
 	#4 - "No current coordinates stay the same because speed is not decent"
-	#5 - "Normal situation but moved less_than threshold distance"
-	#6 - "Normal situation but turned too much"
+	#5 - "Normal situation but moved less_than threshold distance" #NOT OUTPUT
+	#6 - "Normal situation, we turned too much but probably because we came from static situation
+	#6.5 - "Normal situation, we turned too much.
 	#7 - "Normal situation"
 
 
 #VALID STATES (orientation)
 	#8 - "No past orientation, no current orientation"
 	#9 - "No current orientaion, use the past one"
-	#9 - "No past orientation, rely on the current orientation"
-	#11 - "
+	#10 - "No past orientation, rely on the current orientation"
 
 #Defined variables
 
 
 
 
-treshold_dist=0.3 #m
+treshold_dist=0.5 #m
 treshold_angle=60 #degress
 treshold_time=3/1000000000 #3 seconds
 speed_thold=0.2 #m/s
 
-if len(sys.argv)==16: #Because we always have one + the ones we input
+if len(sys.argv)==18: #Because we always have one + the ones we input
 
 	lat_current = sys.argv[1]
 	lon_current = sys.argv[2]
@@ -82,7 +84,8 @@ if len(sys.argv)==16: #Because we always have one + the ones we input
 	acc_x = float(sys.argv[13])
 	acc_y = float(sys.argv[14])
 	acc_z = float(sys.argv[15])
-
+	orientation_compass = float(sys.argv[16])
+	distance_covered_past=float(sys.argv[17])
 
 
 else:
@@ -179,22 +182,24 @@ orientation_check=num_there(orientation_current)
 
 if (not orientationp_check) and (not orientation_check): #We dont have neither past and current orientation
  	#Error, exit
-	
-	#valid=8
+	#This should never happen
+
+	valid=8
 	print "NO current and past ORIENTATION available"
 	exit()
 
 elif not orientation_check: #We dont have the current orientation ---> use the past one
 
-	#valid=9
+	valid=9
 	drone_orientation=float(orientation_past)
 
 elif not orientationp_check: #We dont have the past orientation --> We can only assume that the current orientation is decent
-	#valid=10
+
+	valid=10
 	drone_orientation=float(orientation_current)
 
 
-elif orientation_check and orientationp_check: #If we have both correct
+elif orientation_check and orientationp_check: #If we have both correct (we see if the difference it is too much)
 	
 	orientation_current=float(orientation_current)
 	orientation_past=float(orientation_past)
@@ -203,9 +208,13 @@ elif orientation_check and orientationp_check: #If we have both correct
 
 	if difference>180:
 		difference=360-difference
-	if difference>treshold_angle and time_pass<treshold_time:
-		drone_orientation=orientation_past #There is too much change on the new orientation --> rely on the past one
+	if distance_covered_past<treshold_dist and difference>treshold_angle: #There is a big chang but we probably come from a static situation --> rely on new orientation
+		drone_orientation=orientation_current
 		valid=6
+	elif difference>treshold_angle: #Too much change and non static situation before --> we keep the past one
+		drone_orientation=orientation_past
+		valid=6.5
+		
 	else: #We think the orientation_current is a realiable value
 		valid=7 
 		drone_orientation=orientation_current
@@ -290,9 +299,9 @@ elif lat_check and lon_check and latp_check and lonp_check: #Normal situation wh
 
 	# If covered distance is really small (we suspect that we didn't move)
 	if distance_covered<treshold_dist:
-		
+
+		drone_orientation=orientation_past
 		speed=speed_past
-		#drone_orientation=orientation_past 
 		valid=5
 	else: # If covered distance is NOT small (decent)
 		
@@ -375,7 +384,7 @@ print lat_current
 print lon_current
 print drone_orientation
 print speed
-print distance_to_BS
+print distance_covered
 print valid
 
 #print distance_covered
@@ -418,6 +427,8 @@ print >>speed_distance_file, "Accelerometer y"
 print >>speed_distance_file, acc_y
 print >>speed_distance_file, "Accelerometer z"
 print >>speed_distance_file, acc_z
+print >>speed_distance_file, "Compass orientation"
+print >>speed_distance_file, orientation_compass
 print >>speed_distance_file, "\r"
 speed_distance_file.close()
 

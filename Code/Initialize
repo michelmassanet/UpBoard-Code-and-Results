@@ -65,8 +65,8 @@ if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive ]; the
 	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
 
 	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-	echo "There was an IDGoogleDrive file and has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#echo "There was an IDGoogleDrive file and has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 fi
 
@@ -76,8 +76,8 @@ if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM ]; then
 	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM
 
 	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-	echo "Previous SIM file has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#echo "Previous SIM file has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 fi
 
@@ -87,8 +87,8 @@ if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/namefolder ]; then
 	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/namefolder
 
 	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-	echo "Previous namefolder file has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#echo "Previous namefolder file has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 fi
 
@@ -107,7 +107,9 @@ echo "Set up of GPIOs done " >> /home/upboard/Desktop/UpBoard-Code-and-Results/R
 
 ################# WE START THE OMNI ANTENNA = 6 ###############################
 
-sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6
+
+sudo echo "0" > /sys/class/gpio/gpio27/value #Enable the switch input from the main switch
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #To the second switch (omni antenna)
 
 
 
