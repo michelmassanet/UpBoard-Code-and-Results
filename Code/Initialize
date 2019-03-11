@@ -239,7 +239,7 @@ echo "SIM_file_new_has_been_created" >> /home/upboard/Desktop/UpBoard-Code-and-R
 
 
 #Checks which Operator we are working with and saves it in a file to be readed by the python script
-operatorInfo=$(echo $(sudo qmicli -d /dev/cdc-wdm0 -p --device-open-mbim --nas-get-home-network | grep Description) | awk -F"'" '{print $2}')
+operatorInfo=$(echo $(sudo qmicli -d /dev/cdc-wdm1 -p --device-open-mbim --nas-get-home-network | grep Description) | awk -F"'" '{print $2}')
 
 
 if [ "$operatorInfo" == "TelenoDK" ]; then #If the SIM is from Telenor

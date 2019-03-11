@@ -1,0 +1,7235 @@
+
+2019-03-08T17:58:39,064520644+01:00
+Previous SIM file has been deleted
+2019-03-08T17:58:39,084444076+01:00
+Set up of GPIOs done 
+2019-03-08T17:58:40,239089269+01:00
+Coordinates and connection are available. Ready to start
+2019-03-08T17:58:40,247763477+01:00
+SIM_file_new_has_been_created
+SIM 0
+
+SIM from Telenor found (connected to Telenor network). Saved value 0 in SIM file
+2019-03-08T17:58:40,524873400+01:00
+The collection of SNR info has started
+2019-03-08T17:58:40,529655589+01:00
+The collection of Cell Info has started
+2019-03-08T17:58:40,530241957+01:00
+The collection of Statistics has started
+2019-03-08T17:58:40,534127976+01:00
+The collection of GPS coordinates has started
+2019-03-08T17:58:40,543355104+01:00
+The collection of bit rate has started with the two methods
+2019-03-08T17:58:45,864352009+01:00
+Readed PCI 461
+Readed lat 57.013963833
+Readed lon 9.987204167
+
+2019-03-08T17:58:46,060506608+01:00
+Changed PCI from 460 to 461, changed Lat from 40 to 57.013963833 and Lon from 1 to 9.987204167
+
+2019-03-08T17:58:46,329166771+01:00
+Calculated parameters. Reason:new PCI and newcoordinates
+The state was 7
+The new orientation is 351.838809326
+The antenna selected is 2
+The distance to the BS is 204.017865474
+
+2019-03-08T17:58:46,643911697+01:00
+Readed PCI 461
+Readed lat 57.013965
+Readed lon 9.987203833
+
+2019-03-08T17:58:46,979714561+01:00
+Changed coordinates from 57.013963833, 9.987204167 to 57.013965, 9.987203833
+
+2019-03-08T17:58:47,015143854+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 204.130574806
+
+2019-03-08T17:58:47,418429740+01:00
+Readed PCI 461
+Readed lat 57.013965667
+Readed lon 9.987203167
+
+2019-03-08T17:58:47,737507748+01:00
+Changed coordinates from 57.013965, 9.987203833 to 57.013965667, 9.987203167
+
+2019-03-08T17:58:47,767329876+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.606220774 degrees
+The antenna selected is 2
+The distance to the BS is 204.213512487
+
+2019-03-08T17:58:48,055250019+01:00
+Readed PCI 461
+Readed lat 57.013965667
+Readed lon 9.987203167
+
+2019-03-08T17:58:48,061055894+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:48,353753384+01:00
+Readed PCI 461
+Readed lat 57.013966833
+Readed lon 9.987202333
+
+2019-03-08T17:58:48,647685293+01:00
+Changed coordinates from 57.013965667, 9.987203167 to 57.013966833, 9.987202333
+
+2019-03-08T17:58:48,691269985+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 204.345637614
+
+2019-03-08T17:58:48,934817201+01:00
+Readed PCI 461
+Readed lat 57.013966833
+Readed lon 9.987202333
+
+2019-03-08T17:58:48,938490312+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:49,294133529+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987201
+
+2019-03-08T17:58:49,609823019+01:00
+Changed coordinates from 57.013966833, 9.987202333 to 57.0139675, 9.987201
+
+2019-03-08T17:58:49,640642561+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.454559183
+
+2019-03-08T17:58:49,891407027+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987201
+
+2019-03-08T17:58:49,897485857+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:50,181099466+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987201
+
+2019-03-08T17:58:50,189999971+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:50,449522034+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987199833
+
+2019-03-08T17:58:50,736719613+01:00
+Changed coordinates from 57.0139675, 9.987201 to 57.0139675, 9.987199833
+
+2019-03-08T17:58:50,771626247+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.500023968
+
+2019-03-08T17:58:51,018758493+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987199833
+
+2019-03-08T17:58:51,022668636+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:51,373340445+01:00
+Readed PCI 461
+Readed lat 57.013968333
+Readed lon 9.987199667
+
+2019-03-08T17:58:51,705833860+01:00
+Changed coordinates from 57.0139675, 9.987199833 to 57.013968333, 9.987199667
+
+2019-03-08T17:58:51,729879225+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.803108062 degrees
+The antenna selected is 2
+The distance to the BS is 204.577666799
+
+2019-03-08T17:58:51,997940588+01:00
+Readed PCI 461
+Readed lat 57.013968333
+Readed lon 9.987199667
+
+2019-03-08T17:58:52,001415552+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:52,324920362+01:00
+Readed PCI 461
+Readed lat 57.0139695
+Readed lon 9.9871995
+
+2019-03-08T17:58:52,619185635+01:00
+Changed coordinates from 57.013968333, 9.987199667 to 57.0139695, 9.9871995
+
+2019-03-08T17:58:52,643200891+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 204.683910697
+
+2019-03-08T17:58:52,884685697+01:00
+Readed PCI 461
+Readed lat 57.0139695
+Readed lon 9.9871995
+
+2019-03-08T17:58:52,887567580+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:53,198260822+01:00
+Readed PCI 461
+Readed lat 57.0139705
+Readed lon 9.987199
+
+2019-03-08T17:58:53,521267902+01:00
+Changed coordinates from 57.0139695, 9.9871995 to 57.0139705, 9.987199
+
+2019-03-08T17:58:53,578405530+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 204.788864602
+
+2019-03-08T17:58:53,840706488+01:00
+Readed PCI 461
+Readed lat 57.0139705
+Readed lon 9.987199
+
+2019-03-08T17:58:53,845891736+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:54,089313229+01:00
+Readed PCI 461
+Readed lat 57.0139705
+Readed lon 9.987199
+
+2019-03-08T17:58:54,098551809+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:54,456261525+01:00
+Readed PCI 461
+Readed lat 57.013970667
+Readed lon 9.987198333
+
+2019-03-08T17:58:54,757161800+01:00
+Changed coordinates from 57.0139705, 9.987199 to 57.013970667, 9.987198333
+
+2019-03-08T17:58:54,784973458+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.829106445
+
+2019-03-08T17:58:55,058110746+01:00
+Readed PCI 461
+Readed lat 57.013970667
+Readed lon 9.987198333
+
+2019-03-08T17:58:55,060951258+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:55,429224187+01:00
+Readed PCI 461
+Readed lat 57.013971
+Readed lon 9.987197833
+
+2019-03-08T17:58:55,715482369+01:00
+Changed coordinates from 57.013970667, 9.987198333 to 57.013971, 9.987197833
+
+2019-03-08T17:58:55,739132079+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.877039397
+
+2019-03-08T17:58:56,019215275+01:00
+Readed PCI 461
+Readed lat 57.013971
+Readed lon 9.987197833
+
+2019-03-08T17:58:56,022207988+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:56,349387713+01:00
+Readed PCI 461
+Readed lat 57.013971667
+Readed lon 9.987197167
+
+2019-03-08T17:58:56,695227799+01:00
+Changed coordinates from 57.013971, 9.987197833 to 57.013971667, 9.987197167
+
+2019-03-08T17:58:56,721828937+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.959989104
+
+2019-03-08T17:58:57,007468872+01:00
+Readed PCI 461
+Readed lat 57.013971667
+Readed lon 9.987197167
+
+2019-03-08T17:58:57,010479846+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:57,350086532+01:00
+Readed PCI 461
+Readed lat 57.013973
+Readed lon 9.9871965
+
+2019-03-08T17:58:57,676121538+01:00
+Changed coordinates from 57.013971667, 9.987197167 to 57.013973, 9.9871965
+
+2019-03-08T17:58:57,704262862+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.606220774 degrees
+The antenna selected is 2
+The distance to the BS is 205.099928923
+
+2019-03-08T17:58:58,003435661+01:00
+Readed PCI 461
+Readed lat 57.013973
+Readed lon 9.9871965
+
+2019-03-08T17:58:58,006230188+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:58,353320707+01:00
+Readed PCI 461
+Readed lat 57.013974833
+Readed lon 9.987196667
+
+2019-03-08T17:58:58,707618272+01:00
+Changed coordinates from 57.013973, 9.9871965 to 57.013974833, 9.987196667
+
+2019-03-08T17:58:58,728556462+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 205.25023308
+
+2019-03-08T17:58:58,957753386+01:00
+Readed PCI 461
+Readed lat 57.013974833
+Readed lon 9.987196667
+
+2019-03-08T17:58:58,961868039+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:58:59,331996372+01:00
+Readed PCI 461
+Readed lat 57.0139755
+Readed lon 9.987196667
+
+2019-03-08T17:58:59,620918891+01:00
+Changed coordinates from 57.013974833, 9.987196667 to 57.0139755, 9.987196667
+
+2019-03-08T17:58:59,642874768+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.307311561
+
+2019-03-08T17:58:59,950247201+01:00
+Readed PCI 461
+Readed lat 57.0139755
+Readed lon 9.987196667
+
+2019-03-08T17:58:59,953236677+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:00,293540256+01:00
+Readed PCI 461
+Readed lat 57.013976167
+Readed lon 9.987196833
+
+2019-03-08T17:59:00,628485727+01:00
+Changed coordinates from 57.0139755, 9.987196667 to 57.013976167, 9.987196833
+
+2019-03-08T17:59:00,655820800+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.357950801
+
+2019-03-08T17:59:00,928946048+01:00
+Readed PCI 461
+Readed lat 57.013976167
+Readed lon 9.987196833
+
+2019-03-08T17:59:00,933262562+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:01,269541413+01:00
+Readed PCI 461
+Readed lat 57.0139765
+Readed lon 9.987197
+
+2019-03-08T17:59:01,595210112+01:00
+Changed coordinates from 57.013976167, 9.987196833 to 57.0139765, 9.987197
+
+2019-03-08T17:59:01,628243895+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 205.379969851
+
+2019-03-08T17:59:01,932457566+01:00
+Readed PCI 461
+Readed lat 57.0139765
+Readed lon 9.987197
+
+2019-03-08T17:59:01,935464865+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:02,260035127+01:00
+Readed PCI 461
+Readed lat 57.013977333
+Readed lon 9.9871975
+
+2019-03-08T17:59:02,614174459+01:00
+Changed coordinates from 57.0139765, 9.987197 to 57.013977333, 9.9871975
+
+2019-03-08T17:59:02,641325459+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.431877936
+
+2019-03-08T17:59:02,957997239+01:00
+Readed PCI 461
+Readed lat 57.013977333
+Readed lon 9.9871975
+
+2019-03-08T17:59:02,960950568+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:03,283358736+01:00
+Readed PCI 461
+Readed lat 57.013978167
+Readed lon 9.9871985
+
+2019-03-08T17:59:03,604677762+01:00
+Changed coordinates from 57.013977333, 9.9871975 to 57.013978167, 9.9871985
+
+2019-03-08T17:59:03,637242332+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 205.464500662
+
+2019-03-08T17:59:03,930557795+01:00
+Readed PCI 461
+Readed lat 57.013978167
+Readed lon 9.9871985
+
+2019-03-08T17:59:03,935269892+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:04,290503829+01:00
+Readed PCI 461
+Readed lat 57.013979
+Readed lon 9.9871985
+
+2019-03-08T17:59:04,616588517+01:00
+Changed coordinates from 57.013978167, 9.9871985 to 57.013979, 9.9871985
+
+2019-03-08T17:59:04,660252593+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 205.535879545
+
+2019-03-08T17:59:04,941977257+01:00
+Readed PCI 461
+Readed lat 57.013979
+Readed lon 9.9871985
+
+2019-03-08T17:59:04,945644344+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:05,335805684+01:00
+Readed PCI 461
+Readed lat 57.013978667
+Readed lon 9.987198167
+
+2019-03-08T17:59:05,687794786+01:00
+Changed coordinates from 57.013979, 9.9871985 to 57.013978667, 9.987198167
+
+2019-03-08T17:59:05,730852709+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 205.520263344
+
+2019-03-08T17:59:05,977560766+01:00
+Readed PCI 461
+Readed lat 57.013978667
+Readed lon 9.987198167
+
+2019-03-08T17:59:05,980856293+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:06,314019351+01:00
+Readed PCI 461
+Readed lat 57.013979667
+Readed lon 9.9871985
+
+2019-03-08T17:59:06,654894805+01:00
+Changed coordinates from 57.013978667, 9.987198167 to 57.013979667, 9.9871985
+
+2019-03-08T17:59:06,682934329+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 205.593046372
+
+2019-03-08T17:59:06,968447058+01:00
+Readed PCI 461
+Readed lat 57.013979667
+Readed lon 9.9871985
+
+2019-03-08T17:59:06,975783970+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:07,286354939+01:00
+Readed PCI 461
+Readed lat 57.013980833
+Readed lon 9.9871985
+
+2019-03-08T17:59:07,605968731+01:00
+Changed coordinates from 57.013979667, 9.9871985 to 57.013980833, 9.9871985
+
+2019-03-08T17:59:07,637379740+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 205.693007451
+
+2019-03-08T17:59:07,919441983+01:00
+Readed PCI 461
+Readed lat 57.013980833
+Readed lon 9.9871985
+
+2019-03-08T17:59:07,922306618+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:08,315529939+01:00
+Readed PCI 461
+Readed lat 57.013981833
+Readed lon 9.9871985
+
+2019-03-08T17:59:08,635710045+01:00
+Changed coordinates from 57.013980833, 9.9871985 to 57.013981833, 9.9871985
+
+2019-03-08T17:59:08,676025100+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.77876395
+
+2019-03-08T17:59:08,951511703+01:00
+Readed PCI 461
+Readed lat 57.013981833
+Readed lon 9.9871985
+
+2019-03-08T17:59:08,957290596+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:09,337852511+01:00
+Readed PCI 461
+Readed lat 57.0139825
+Readed lon 9.987198833
+
+2019-03-08T17:59:09,682648779+01:00
+Changed coordinates from 57.013981833, 9.9871985 to 57.0139825, 9.987198833
+
+2019-03-08T17:59:09,710272824+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.82307871
+
+2019-03-08T17:59:10,008868552+01:00
+Readed PCI 461
+Readed lat 57.0139825
+Readed lon 9.987198833
+
+2019-03-08T17:59:10,013161443+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:10,310118012+01:00
+Readed PCI 461
+Readed lat 57.013982667
+Readed lon 9.987199
+
+2019-03-08T17:59:10,646222801+01:00
+Changed coordinates from 57.0139825, 9.987198833 to 57.013982667, 9.987199
+
+2019-03-08T17:59:10,681158261+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.606220774 degrees
+The antenna selected is 2
+The distance to the BS is 205.830938362
+
+2019-03-08T17:59:10,974157889+01:00
+Readed PCI 461
+Readed lat 57.013982667
+Readed lon 9.987199
+
+2019-03-08T17:59:10,977263044+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:11,339177482+01:00
+Readed PCI 461
+Readed lat 57.013983667
+Readed lon 9.987199
+
+2019-03-08T17:59:11,636232850+01:00
+Changed coordinates from 57.013982667, 9.987199 to 57.013983667, 9.987199
+
+2019-03-08T17:59:11,673621127+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 205.916747869
+
+2019-03-08T17:59:11,953948534+01:00
+Readed PCI 461
+Readed lat 57.013983667
+Readed lon 9.987199
+
+2019-03-08T17:59:11,956656969+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:12,265172571+01:00
+Readed PCI 461
+Readed lat 57.0139845
+Readed lon 9.987199667
+
+2019-03-08T17:59:12,572390159+01:00
+Changed coordinates from 57.013983667, 9.987199 to 57.0139845, 9.987199667
+
+2019-03-08T17:59:12,601797171+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 205.962436477
+
+2019-03-08T17:59:12,890565577+01:00
+Readed PCI 461
+Readed lat 57.0139845
+Readed lon 9.987199667
+
+2019-03-08T17:59:12,898498359+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:13,236792451+01:00
+Readed PCI 461
+Readed lat 57.0139855
+Readed lon 9.9871995
+
+2019-03-08T17:59:13,556888706+01:00
+Changed coordinates from 57.0139845, 9.987199667 to 57.0139855, 9.9871995
+
+2019-03-08T17:59:13,582842765+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 206.054760423
+
+2019-03-08T17:59:13,849239613+01:00
+Readed PCI 461
+Readed lat 57.0139855
+Readed lon 9.9871995
+
+2019-03-08T17:59:13,853772786+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:14,085835803+01:00
+Readed PCI 461
+Readed lat 57.0139855
+Readed lon 9.9871995
+
+2019-03-08T17:59:14,093897788+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:14,447759212+01:00
+Readed PCI 461
+Readed lat 57.013986333
+Readed lon 9.9871995
+
+2019-03-08T17:59:14,769254256+01:00
+Changed coordinates from 57.0139855, 9.9871995 to 57.013986333, 9.9871995
+
+2019-03-08T17:59:14,797568077+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 206.126302403
+
+2019-03-08T17:59:15,075598960+01:00
+Readed PCI 461
+Readed lat 57.013986333
+Readed lon 9.9871995
+
+2019-03-08T17:59:15,079028529+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:15,432578633+01:00
+Readed PCI 461
+Readed lat 57.013987167
+Readed lon 9.987199167
+
+2019-03-08T17:59:15,722054790+01:00
+Changed coordinates from 57.013986333, 9.9871995 to 57.013987167, 9.987199167
+
+2019-03-08T17:59:15,747651388+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 206.210818241
+
+2019-03-08T17:59:16,024717624+01:00
+Readed PCI 461
+Readed lat 57.013987167
+Readed lon 9.987199167
+
+2019-03-08T17:59:16,027866813+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:16,364603967+01:00
+Readed PCI 461
+Readed lat 57.013987833
+Readed lon 9.987199333
+
+2019-03-08T17:59:16,682330993+01:00
+Changed coordinates from 57.013987167, 9.987199167 to 57.013987833, 9.987199333
+
+2019-03-08T17:59:16,715177726+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 206.26162503
+
+2019-03-08T17:59:16,982821432+01:00
+Readed PCI 461
+Readed lat 57.013987833
+Readed lon 9.987199333
+
+2019-03-08T17:59:16,986772262+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:17,352184605+01:00
+Readed PCI 461
+Readed lat 57.013988833
+Readed lon 9.987199333
+
+2019-03-08T17:59:17,682202193+01:00
+Changed coordinates from 57.013987833, 9.987199333 to 57.013988833, 9.987199333
+
+2019-03-08T17:59:17,714191440+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 206.347565903
+
+2019-03-08T17:59:18,013832723+01:00
+Readed PCI 461
+Readed lat 57.013988833
+Readed lon 9.987199333
+
+2019-03-08T17:59:18,018062745+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:18,303415838+01:00
+Readed PCI 461
+Readed lat 57.013989667
+Readed lon 9.987199167
+
+2019-03-08T17:59:18,641485293+01:00
+Changed coordinates from 57.013988833, 9.987199333 to 57.013989667, 9.987199167
+
+2019-03-08T17:59:18,674858238+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 206.42566883
+
+2019-03-08T17:59:18,942297707+01:00
+Readed PCI 461
+Readed lat 57.013989667
+Readed lon 9.987199167
+
+2019-03-08T17:59:18,945446559+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:19,318808895+01:00
+Readed PCI 461
+Readed lat 57.013991167
+Readed lon 9.987199167
+
+2019-03-08T17:59:19,653122049+01:00
+Changed coordinates from 57.013989667, 9.987199167 to 57.013991167, 9.987199167
+
+2019-03-08T17:59:19,676603896+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 206.554652028
+
+2019-03-08T17:59:19,904428254+01:00
+Readed PCI 461
+Readed lat 57.013991167
+Readed lon 9.987199167
+
+2019-03-08T17:59:19,910317301+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:20,287165209+01:00
+Readed PCI 461
+Readed lat 57.013992167
+Readed lon 9.987199167
+
+2019-03-08T17:59:20,599079954+01:00
+Changed coordinates from 57.013991167, 9.987199167 to 57.013992167, 9.987199167
+
+2019-03-08T17:59:20,623855779+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 206.640671114
+
+2019-03-08T17:59:20,924424309+01:00
+Readed PCI 461
+Readed lat 57.013992167
+Readed lon 9.987199167
+
+2019-03-08T17:59:20,927610209+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:21,219434933+01:00
+Readed PCI 461
+Readed lat 57.013993333
+Readed lon 9.987199167
+
+2019-03-08T17:59:21,575987389+01:00
+Changed coordinates from 57.013992167, 9.987199167 to 57.013993333, 9.987199167
+
+2019-03-08T17:59:21,610061182+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 206.740999921
+
+2019-03-08T17:59:21,893322810+01:00
+Readed PCI 461
+Readed lat 57.013993333
+Readed lon 9.987199167
+
+2019-03-08T17:59:21,896171347+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:22,191532725+01:00
+Readed PCI 461
+Readed lat 57.013994833
+Readed lon 9.987199167
+
+2019-03-08T17:59:22,538878412+01:00
+Changed coordinates from 57.013993333, 9.987199167 to 57.013994833, 9.987199167
+
+2019-03-08T17:59:22,561559369+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 206.870116154
+
+2019-03-08T17:59:22,822313881+01:00
+Readed PCI 461
+Readed lat 57.013994833
+Readed lon 9.987199167
+
+2019-03-08T17:59:22,827703504+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:23,149242920+01:00
+Readed PCI 461
+Readed lat 57.013994833
+Readed lon 9.987199167
+
+2019-03-08T17:59:23,153842914+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:23,437788713+01:00
+Readed PCI 461
+Readed lat 57.013996
+Readed lon 9.987198667
+
+2019-03-08T17:59:23,785884200+01:00
+Changed coordinates from 57.013994833, 9.987199167 to 57.013996, 9.987198667
+
+2019-03-08T17:59:23,817885250+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 206.989863255
+
+2019-03-08T17:59:24,198584407+01:00
+Readed PCI 461
+Readed lat 57.013996
+Readed lon 9.987198667
+
+2019-03-08T17:59:24,202220736+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:24,492884439+01:00
+Readed PCI 461
+Readed lat 57.013997
+Readed lon 9.9871985
+
+2019-03-08T17:59:24,837892275+01:00
+Changed coordinates from 57.013996, 9.987198667 to 57.013997, 9.9871985
+
+2019-03-08T17:59:24,869720025+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 207.08242079
+
+2019-03-08T17:59:25,316481550+01:00
+Readed PCI 461
+Readed lat 57.013998
+Readed lon 9.987198333
+
+2019-03-08T17:59:25,631637081+01:00
+Changed coordinates from 57.013997, 9.9871985 to 57.013998, 9.987198333
+
+2019-03-08T17:59:25,660234711+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 207.174997328
+
+2019-03-08T17:59:25,951694396+01:00
+Readed PCI 461
+Readed lat 57.013998
+Readed lon 9.987198333
+
+2019-03-08T17:59:25,956080832+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:26,284667916+01:00
+Readed PCI 461
+Readed lat 57.013999333
+Readed lon 9.987198
+
+2019-03-08T17:59:26,612271349+01:00
+Changed coordinates from 57.013998, 9.987198333 to 57.013999333, 9.987198
+
+2019-03-08T17:59:26,634153392+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 207.302678034
+
+2019-03-08T17:59:26,894923634+01:00
+Readed PCI 461
+Readed lat 57.013999333
+Readed lon 9.987198
+
+2019-03-08T17:59:26,898394763+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:27,223689722+01:00
+Readed PCI 461
+Readed lat 57.013999833
+Readed lon 9.987197667
+
+2019-03-08T17:59:27,566415583+01:00
+Changed coordinates from 57.013999333, 9.987198 to 57.013999833, 9.987197667
+
+2019-03-08T17:59:27,626347440+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 207.358582269
+
+2019-03-08T17:59:27,883074226+01:00
+Readed PCI 461
+Readed lat 57.013999833
+Readed lon 9.987197667
+
+2019-03-08T17:59:27,885852906+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:28,271325223+01:00
+Readed PCI 461
+Readed lat 57.014000667
+Readed lon 9.9871975
+
+2019-03-08T17:59:28,580930021+01:00
+Changed coordinates from 57.013999833, 9.987197667 to 57.014000667, 9.9871975
+
+2019-03-08T17:59:28,607292369+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.43689635
+
+2019-03-08T17:59:28,920378395+01:00
+Readed PCI 461
+Readed lat 57.014000667
+Readed lon 9.9871975
+
+2019-03-08T17:59:28,923716584+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:29,210461039+01:00
+Readed PCI 461
+Readed lat 57.014001333
+Readed lon 9.9871975
+
+2019-03-08T17:59:29,565573577+01:00
+Changed coordinates from 57.014000667, 9.9871975 to 57.014001333, 9.9871975
+
+2019-03-08T17:59:29,587588599+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 207.494316933
+
+2019-03-08T17:59:29,852860481+01:00
+Readed PCI 461
+Readed lat 57.014001333
+Readed lon 9.9871975
+
+2019-03-08T17:59:29,859308076+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:30,173213499+01:00
+Readed PCI 461
+Readed lat 57.014001333
+Readed lon 9.9871975
+
+2019-03-08T17:59:30,176111183+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:30,438646599+01:00
+Readed PCI 461
+Readed lat 57.014002167
+Readed lon 9.987196667
+
+2019-03-08T17:59:30,772950030+01:00
+Changed coordinates from 57.014001333, 9.9871975 to 57.014002167, 9.987196667
+
+2019-03-08T17:59:30,803012390+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.598253455
+
+2019-03-08T17:59:31,095045334+01:00
+Readed PCI 461
+Readed lat 57.014002167
+Readed lon 9.987196667
+
+2019-03-08T17:59:31,099439657+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:31,470919374+01:00
+Readed PCI 461
+Readed lat 57.014002833
+Readed lon 9.987196167
+
+2019-03-08T17:59:31,816474998+01:00
+Changed coordinates from 57.014002167, 9.987196667 to 57.014002833, 9.987196167
+
+2019-03-08T17:59:31,847781116+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 207.674904903
+
+2019-03-08T17:59:32,170738401+01:00
+Readed PCI 461
+Readed lat 57.014002833
+Readed lon 9.987196167
+
+2019-03-08T17:59:32,182368997+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:32,466261918+01:00
+Readed PCI 461
+Readed lat 57.014003667
+Readed lon 9.987196167
+
+2019-03-08T17:59:32,799353576+01:00
+Changed coordinates from 57.014002833, 9.987196167 to 57.014003667, 9.987196167
+
+2019-03-08T17:59:32,836054868+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 207.746837083
+
+2019-03-08T17:59:33,197475319+01:00
+Readed PCI 461
+Readed lat 57.014003667
+Readed lon 9.987196167
+
+2019-03-08T17:59:33,200856579+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:33,449759298+01:00
+Readed PCI 461
+Readed lat 57.014003667
+Readed lon 9.987196167
+
+2019-03-08T17:59:33,452630159+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:33,716215084+01:00
+Readed PCI 461
+Readed lat 57.014003667
+Readed lon 9.987196167
+
+2019-03-08T17:59:33,719371000+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:33,949352927+01:00
+Readed PCI 461
+Readed lat 57.014003667
+Readed lon 9.987196167
+
+2019-03-08T17:59:33,960088502+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:34,333878778+01:00
+Readed PCI 461
+Readed lat 57.014004
+Readed lon 9.987196
+
+2019-03-08T17:59:34,651519846+01:00
+Changed coordinates from 57.014003667, 9.987196167 to 57.014004, 9.987196
+
+2019-03-08T17:59:34,691737477+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.781978415
+
+2019-03-08T17:59:34,982651710+01:00
+Readed PCI 461
+Readed lat 57.014004
+Readed lon 9.987196
+
+2019-03-08T17:59:34,985517097+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:35,372027657+01:00
+Readed PCI 461
+Readed lat 57.014004167
+Readed lon 9.987195667
+
+2019-03-08T17:59:35,693496633+01:00
+Changed coordinates from 57.014004, 9.987196 to 57.014004167, 9.987195667
+
+2019-03-08T17:59:35,726351563+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.809177703
+
+2019-03-08T17:59:36,037127710+01:00
+Readed PCI 461
+Readed lat 57.014004167
+Readed lon 9.987195667
+
+2019-03-08T17:59:36,039970898+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:36,419151698+01:00
+Readed PCI 461
+Readed lat 57.014004333
+Readed lon 9.987195167
+
+2019-03-08T17:59:36,747638869+01:00
+Changed coordinates from 57.014004167, 9.987195667 to 57.014004333, 9.987195167
+
+2019-03-08T17:59:36,775695657+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 207.842706965
+
+2019-03-08T17:59:37,073083743+01:00
+Readed PCI 461
+Readed lat 57.014004333
+Readed lon 9.987195167
+
+2019-03-08T17:59:37,078398473+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:37,414030618+01:00
+Readed PCI 461
+Readed lat 57.014004833
+Readed lon 9.987194833
+
+2019-03-08T17:59:37,755968081+01:00
+Changed coordinates from 57.014004333, 9.987195167 to 57.014004833, 9.987194833
+
+2019-03-08T17:59:37,782139297+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.403190549 degrees
+The antenna selected is 2
+The distance to the BS is 207.898670269
+
+2019-03-08T17:59:38,059109807+01:00
+Readed PCI 461
+Readed lat 57.014004833
+Readed lon 9.987194833
+
+2019-03-08T17:59:38,061948408+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:38,404022767+01:00
+Readed PCI 461
+Readed lat 57.014005
+Readed lon 9.987195
+
+2019-03-08T17:59:38,737832578+01:00
+Changed coordinates from 57.014004833, 9.987194833 to 57.014005, 9.987195
+
+2019-03-08T17:59:38,774436080+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 207.906662062
+
+2019-03-08T17:59:39,046931340+01:00
+Readed PCI 461
+Readed lat 57.014005
+Readed lon 9.987195
+
+2019-03-08T17:59:39,050836212+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:39,406857589+01:00
+Readed PCI 461
+Readed lat 57.014004167
+Readed lon 9.987195167
+
+2019-03-08T17:59:39,730802563+01:00
+Changed coordinates from 57.014005, 9.987195 to 57.014004167, 9.987195167
+
+2019-03-08T17:59:39,764090076+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.828388213
+
+2019-03-08T17:59:40,080638076+01:00
+Readed PCI 461
+Readed lat 57.014004167
+Readed lon 9.987195167
+
+2019-03-08T17:59:40,085508714+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:40,386651076+01:00
+Readed PCI 461
+Readed lat 57.0140035
+Readed lon 9.9871945
+
+2019-03-08T17:59:40,708758493+01:00
+Changed coordinates from 57.014004167, 9.987195167 to 57.0140035, 9.9871945
+
+2019-03-08T17:59:40,732720836+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 207.796499127
+
+2019-03-08T17:59:41,041856367+01:00
+Readed PCI 461
+Readed lat 57.0140035
+Readed lon 9.9871945
+
+2019-03-08T17:59:41,044524606+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:41,365137001+01:00
+Readed PCI 461
+Readed lat 57.014002833
+Readed lon 9.987194
+
+2019-03-08T17:59:41,682990676+01:00
+Changed coordinates from 57.0140035, 9.9871945 to 57.014002833, 9.987194
+
+2019-03-08T17:59:41,706710400+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 207.758217071
+
+2019-03-08T17:59:41,958669898+01:00
+Readed PCI 461
+Readed lat 57.014002833
+Readed lon 9.987194
+
+2019-03-08T17:59:41,962237658+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:42,317487470+01:00
+Readed PCI 461
+Readed lat 57.0140015
+Readed lon 9.987194167
+
+2019-03-08T17:59:42,611611900+01:00
+Changed coordinates from 57.014002833, 9.987194 to 57.0140015, 9.987194167
+
+2019-03-08T17:59:42,638200274+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.636901187
+
+2019-03-08T17:59:42,925964853+01:00
+Readed PCI 461
+Readed lat 57.0140015
+Readed lon 9.987194167
+
+2019-03-08T17:59:42,928534324+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:43,271772434+01:00
+Readed PCI 461
+Readed lat 57.014001
+Readed lon 9.987194167
+
+2019-03-08T17:59:43,624616443+01:00
+Changed coordinates from 57.0140015, 9.987194167 to 57.014001, 9.987194167
+
+2019-03-08T17:59:43,657085606+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 207.593816271
+
+2019-03-08T17:59:43,980658578+01:00
+Readed PCI 461
+Readed lat 57.014001
+Readed lon 9.987194167
+
+2019-03-08T17:59:43,985707616+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:44,338904042+01:00
+Readed PCI 461
+Readed lat 57.014001
+Readed lon 9.987194167
+
+2019-03-08T17:59:44,342683586+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:44,613713528+01:00
+Readed PCI 461
+Readed lat 57.014001
+Readed lon 9.987194167
+
+2019-03-08T17:59:44,617203957+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:44,833814241+01:00
+Readed PCI 461
+Readed lat 57.014001
+Readed lon 9.987194167
+
+2019-03-08T17:59:44,837234737+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:45,134534405+01:00
+Readed PCI 461
+Readed lat 57.014001
+Readed lon 9.987194167
+
+2019-03-08T17:59:45,141619491+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:45,430437404+01:00
+Readed PCI 461
+Readed lat 57.014000167
+Readed lon 9.987194
+
+2019-03-08T17:59:45,772598055+01:00
+Changed coordinates from 57.014001, 9.987194167 to 57.014000167, 9.987194
+
+2019-03-08T17:59:45,807359186+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.52847946
+
+2019-03-08T17:59:46,087672006+01:00
+Readed PCI 461
+Readed lat 57.014000167
+Readed lon 9.987194
+
+2019-03-08T17:59:46,090554617+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:46,443988536+01:00
+Readed PCI 461
+Readed lat 57.013999333
+Readed lon 9.9871945
+
+2019-03-08T17:59:46,753787883+01:00
+Changed coordinates from 57.014000167, 9.987194 to 57.013999333, 9.9871945
+
+2019-03-08T17:59:46,784848901+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.198942879361 degrees
+The antenna selected is 2
+The distance to the BS is 207.437390737
+
+2019-03-08T17:59:47,078082104+01:00
+Readed PCI 461
+Readed lat 57.013999333
+Readed lon 9.9871945
+
+2019-03-08T17:59:47,084963506+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:47,440959652+01:00
+Readed PCI 461
+Readed lat 57.013999667
+Readed lon 9.987194833
+
+2019-03-08T17:59:47,727217738+01:00
+Changed coordinates from 57.013999333, 9.9871945 to 57.013999667, 9.987194833
+
+2019-03-08T17:59:47,751124226+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 207.453338426
+
+2019-03-08T17:59:48,037613183+01:00
+Readed PCI 461
+Readed lat 57.013999667
+Readed lon 9.987194833
+
+2019-03-08T17:59:48,040347043+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:48,374724149+01:00
+Readed PCI 461
+Readed lat 57.013999833
+Readed lon 9.9871945
+
+2019-03-08T17:59:48,686715129+01:00
+Changed coordinates from 57.013999667, 9.987194833 to 57.013999833, 9.9871945
+
+2019-03-08T17:59:48,716628309+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.480458318
+
+2019-03-08T17:59:49,033094420+01:00
+Readed PCI 461
+Readed lat 57.013999833
+Readed lon 9.9871945
+
+2019-03-08T17:59:49,035912374+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:49,374395355+01:00
+Readed PCI 461
+Readed lat 57.0139995
+Readed lon 9.987194
+
+2019-03-08T17:59:49,715692315+01:00
+Changed coordinates from 57.013999833, 9.9871945 to 57.0139995, 9.987194
+
+2019-03-08T17:59:49,742661151+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 207.471028627
+
+2019-03-08T17:59:49,996382910+01:00
+Readed PCI 461
+Readed lat 57.0139995
+Readed lon 9.987194
+
+2019-03-08T17:59:49,999765222+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:50,357218000+01:00
+Readed PCI 461
+Readed lat 57.013998
+Readed lon 9.987193333
+
+2019-03-08T17:59:50,669124746+01:00
+Changed coordinates from 57.0139995, 9.987194 to 57.013998, 9.987193333
+
+2019-03-08T17:59:50,712142342+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 207.367572864
+
+2019-03-08T17:59:50,993942308+01:00
+Readed PCI 461
+Readed lat 57.013998
+Readed lon 9.987193333
+
+2019-03-08T17:59:50,997569264+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:51,367598303+01:00
+Readed PCI 461
+Readed lat 57.0139965
+Readed lon 9.987193167
+
+2019-03-08T17:59:51,681138169+01:00
+Changed coordinates from 57.013998, 9.987193333 to 57.0139965, 9.987193167
+
+2019-03-08T17:59:51,708927807+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 207.244884359
+
+2019-03-08T17:59:52,034799985+01:00
+Readed PCI 461
+Readed lat 57.0139965
+Readed lon 9.987193167
+
+2019-03-08T17:59:52,037877881+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:52,367868782+01:00
+Readed PCI 461
+Readed lat 57.013995
+Readed lon 9.9871935
+
+2019-03-08T17:59:52,675318367+01:00
+Changed coordinates from 57.0139965, 9.987193167 to 57.013995, 9.9871935
+
+2019-03-08T17:59:52,712436014+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 207.103001661
+
+2019-03-08T17:59:52,964885078+01:00
+Readed PCI 461
+Readed lat 57.013995
+Readed lon 9.9871935
+
+2019-03-08T17:59:52,967971011+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:53,318806095+01:00
+Readed PCI 461
+Readed lat 57.013993833
+Readed lon 9.987194167
+
+2019-03-08T17:59:53,660143871+01:00
+Changed coordinates from 57.013995, 9.9871935 to 57.013993833, 9.987194167
+
+2019-03-08T17:59:53,708865158+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 206.976897593
+
+2019-03-08T17:59:53,986793649+01:00
+Readed PCI 461
+Readed lat 57.013993833
+Readed lon 9.987194167
+
+2019-03-08T17:59:53,989623952+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:54,350891217+01:00
+Readed PCI 461
+Readed lat 57.0139925
+Readed lon 9.987195167
+
+2019-03-08T17:59:54,666049927+01:00
+Changed coordinates from 57.013993833, 9.987194167 to 57.0139925, 9.987195167
+
+2019-03-08T17:59:54,695913900+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 206.823677093
+
+2019-03-08T17:59:55,005981599+01:00
+Readed PCI 461
+Readed lat 57.0139925
+Readed lon 9.987195167
+
+2019-03-08T17:59:55,008949592+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:55,304162434+01:00
+Readed PCI 461
+Readed lat 57.013990333
+Readed lon 9.987194833
+
+2019-03-08T17:59:55,657993544+01:00
+Changed coordinates from 57.0139925, 9.987195167 to 57.013990333, 9.987194833
+
+2019-03-08T17:59:55,687199304+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.800363945 degrees
+The antenna selected is 2
+The distance to the BS is 206.650334203
+
+2019-03-08T17:59:55,946167432+01:00
+Readed PCI 461
+Readed lat 57.013990333
+Readed lon 9.987194833
+
+2019-03-08T17:59:55,948923241+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:56,298611574+01:00
+Readed PCI 461
+Readed lat 57.013988167
+Readed lon 9.987194833
+
+2019-03-08T17:59:56,640545208+01:00
+Changed coordinates from 57.013990333, 9.987194833 to 57.013988167, 9.987194833
+
+2019-03-08T17:59:56,662860616+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 206.464294784
+
+2019-03-08T17:59:56,922072293+01:00
+Readed PCI 461
+Readed lat 57.013988167
+Readed lon 9.987194833
+
+2019-03-08T17:59:56,925185350+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:57,298581543+01:00
+Readed PCI 461
+Readed lat 57.013987333
+Readed lon 9.9871955
+
+2019-03-08T17:59:57,628032506+01:00
+Changed coordinates from 57.013988167, 9.987194833 to 57.013987333, 9.9871955
+
+2019-03-08T17:59:57,658483963+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 206.366883825
+
+2019-03-08T17:59:57,980414371+01:00
+Readed PCI 461
+Readed lat 57.013987333
+Readed lon 9.9871955
+
+2019-03-08T17:59:57,987308597+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:58,271214789+01:00
+Readed PCI 461
+Readed lat 57.013984667
+Readed lon 9.987196667
+
+2019-03-08T17:59:58,653094222+01:00
+Changed coordinates from 57.013987333, 9.9871955 to 57.013984667, 9.987196667
+
+2019-03-08T17:59:58,676298765+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 206.092887592
+
+2019-03-08T17:59:58,959887306+01:00
+Readed PCI 461
+Readed lat 57.013984667
+Readed lon 9.987196667
+
+2019-03-08T17:59:58,963631603+01:00
+No change coordinates neither PCI
+
+2019-03-08T17:59:59,308809347+01:00
+Readed PCI 461
+Readed lat 57.0139835
+Readed lon 9.9871975
+
+2019-03-08T17:59:59,649569719+01:00
+Changed coordinates from 57.013984667, 9.987196667 to 57.0139835, 9.9871975
+
+2019-03-08T17:59:59,681221487+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.960499568
+
+2019-03-08T17:59:59,958307475+01:00
+Readed PCI 461
+Readed lat 57.0139835
+Readed lon 9.9871975
+
+2019-03-08T17:59:59,963969468+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:00,324560713+01:00
+Readed PCI 461
+Readed lat 57.013983
+Readed lon 9.987198
+
+2019-03-08T18:00:00,648647773+01:00
+Changed coordinates from 57.0139835, 9.9871975 to 57.013983, 9.987198
+
+2019-03-08T18:00:00,678866361+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.898238011
+
+2019-03-08T18:00:00,965557666+01:00
+Readed PCI 461
+Readed lat 57.013983
+Readed lon 9.987198
+
+2019-03-08T18:00:00,970555308+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:01,299556459+01:00
+Readed PCI 461
+Readed lat 57.013981333
+Readed lon 9.9871985
+
+2019-03-08T18:00:01,645329544+01:00
+Changed coordinates from 57.013983, 9.987198 to 57.013981333, 9.9871985
+
+2019-03-08T18:00:01,679932906+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 205.735882634
+
+2019-03-08T18:00:01,950601377+01:00
+Readed PCI 461
+Readed lat 57.013981333
+Readed lon 9.9871985
+
+2019-03-08T18:00:01,953529410+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:02,302776954+01:00
+Readed PCI 461
+Readed lat 57.013981
+Readed lon 9.987198667
+
+2019-03-08T18:00:02,631604672+01:00
+Changed coordinates from 57.013981333, 9.9871985 to 57.013981, 9.987198667
+
+2019-03-08T18:00:02,670492456+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 205.700854293
+
+2019-03-08T18:00:02,956678644+01:00
+Readed PCI 461
+Readed lat 57.013981
+Readed lon 9.987198667
+
+2019-03-08T18:00:02,959567267+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:03,297298168+01:00
+Readed PCI 461
+Readed lat 57.013981
+Readed lon 9.987198
+
+2019-03-08T18:00:03,608370468+01:00
+Changed coordinates from 57.013981, 9.987198667 to 57.013981, 9.987198
+
+2019-03-08T18:00:03,642719275+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 205.72670846
+
+2019-03-08T18:00:03,977173131+01:00
+Readed PCI 461
+Readed lat 57.013981
+Readed lon 9.987198
+
+2019-03-08T18:00:03,980584591+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:04,306534631+01:00
+Readed PCI 461
+Readed lat 57.01398
+Readed lon 9.9871975
+
+2019-03-08T18:00:04,648576092+01:00
+Changed coordinates from 57.013981, 9.987198 to 57.01398, 9.9871975
+
+2019-03-08T18:00:04,674636876+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 205.660372606
+
+2019-03-08T18:00:04,950417054+01:00
+Readed PCI 461
+Readed lat 57.01398
+Readed lon 9.9871975
+
+2019-03-08T18:00:04,953382709+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:05,296200442+01:00
+Readed PCI 461
+Readed lat 57.013979333
+Readed lon 9.987196833
+
+2019-03-08T18:00:05,652570973+01:00
+Changed coordinates from 57.01398, 9.9871975 to 57.013979333, 9.987196833
+
+2019-03-08T18:00:05,687816965+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 205.629091518
+
+2019-03-08T18:00:05,972690498+01:00
+Readed PCI 461
+Readed lat 57.013979333
+Readed lon 9.987196833
+
+2019-03-08T18:00:05,975976230+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:06,354787104+01:00
+Readed PCI 461
+Readed lat 57.013975
+Readed lon 9.9871955
+
+2019-03-08T18:00:06,670323085+01:00
+Changed coordinates from 57.013979333, 9.987196833 to 57.013975, 9.9871955
+
+2019-03-08T18:00:06,695041469+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 205.309899372
+
+2019-03-08T18:00:06,970592383+01:00
+Readed PCI 461
+Readed lat 57.013975
+Readed lon 9.9871955
+
+2019-03-08T18:00:06,974462272+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:07,313913287+01:00
+Readed PCI 461
+Readed lat 57.013973333
+Readed lon 9.9871945
+
+2019-03-08T18:00:07,588399421+01:00
+Changed coordinates from 57.013975, 9.9871955 to 57.013973333, 9.9871945
+
+2019-03-08T18:00:07,609473450+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.20624016
+
+2019-03-08T18:00:07,870669179+01:00
+Readed PCI 461
+Readed lat 57.013973333
+Readed lon 9.9871945
+
+2019-03-08T18:00:07,873978010+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:08,101477070+01:00
+Readed PCI 461
+Readed lat 57.013973333
+Readed lon 9.9871945
+
+2019-03-08T18:00:08,104967950+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:08,412822157+01:00
+Readed PCI 461
+Readed lat 57.0139735
+Readed lon 9.9871945
+
+2019-03-08T18:00:08,695763944+01:00
+Changed coordinates from 57.013973333, 9.9871945 to 57.0139735, 9.9871945
+
+2019-03-08T18:00:08,733694751+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.220518066
+
+2019-03-08T18:00:09,045377163+01:00
+Readed PCI 461
+Readed lat 57.0139735
+Readed lon 9.9871945
+
+2019-03-08T18:00:09,048218915+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:09,434620380+01:00
+Readed PCI 461
+Readed lat 57.013973667
+Readed lon 9.987195667
+
+2019-03-08T18:00:09,745810057+01:00
+Changed coordinates from 57.0139735, 9.9871945 to 57.013973667, 9.987195667
+
+2019-03-08T18:00:09,775233343+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 205.189382754
+
+2019-03-08T18:00:10,114158721+01:00
+Readed PCI 461
+Readed lat 57.013973667
+Readed lon 9.987195667
+
+2019-03-08T18:00:10,126569566+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:10,416457896+01:00
+Readed PCI 461
+Readed lat 57.013973333
+Readed lon 9.987196167
+
+2019-03-08T18:00:10,774899308+01:00
+Changed coordinates from 57.013973667, 9.987195667 to 57.013973333, 9.987196167
+
+2019-03-08T18:00:10,804581064+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 205.141364093
+
+2019-03-08T18:00:11,184746884+01:00
+Readed PCI 461
+Readed lat 57.013973333
+Readed lon 9.987196167
+
+2019-03-08T18:00:11,199536978+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:11,429304368+01:00
+Readed PCI 461
+Readed lat 57.013972667
+Readed lon 9.9871965
+
+2019-03-08T18:00:11,752191338+01:00
+Changed coordinates from 57.013973333, 9.987196167 to 57.013972667, 9.9871965
+
+2019-03-08T18:00:11,778225701+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 205.071452619
+
+2019-03-08T18:00:12,030788794+01:00
+Readed PCI 461
+Readed lat 57.013972667
+Readed lon 9.9871965
+
+2019-03-08T18:00:12,042027726+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:12,403184408+01:00
+Readed PCI 461
+Readed lat 57.013971667
+Readed lon 9.987196333
+
+2019-03-08T18:00:12,730727125+01:00
+Changed coordinates from 57.013972667, 9.9871965 to 57.013971667, 9.987196333
+
+2019-03-08T18:00:12,762431894+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 204.992456613
+
+2019-03-08T18:00:13,026614694+01:00
+Readed PCI 461
+Readed lat 57.013971667
+Readed lon 9.987196333
+
+2019-03-08T18:00:13,033658811+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:13,380029315+01:00
+Readed PCI 461
+Readed lat 57.0139705
+Readed lon 9.9871965
+
+2019-03-08T18:00:13,701733355+01:00
+Changed coordinates from 57.013971667, 9.987196333 to 57.0139705, 9.9871965
+
+2019-03-08T18:00:13,724776765+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 204.886210122
+
+2019-03-08T18:00:14,020666450+01:00
+Readed PCI 461
+Readed lat 57.0139705
+Readed lon 9.9871965
+
+2019-03-08T18:00:14,023477854+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:14,362016029+01:00
+Readed PCI 461
+Readed lat 57.0139695
+Readed lon 9.987196833
+
+2019-03-08T18:00:14,699090824+01:00
+Changed coordinates from 57.0139705, 9.9871965 to 57.0139695, 9.987196833
+
+2019-03-08T18:00:14,731212913+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 204.787790456
+
+2019-03-08T18:00:15,018784929+01:00
+Readed PCI 461
+Readed lat 57.0139695
+Readed lon 9.987196833
+
+2019-03-08T18:00:15,022475268+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:15,341395021+01:00
+Readed PCI 461
+Readed lat 57.013969167
+Readed lon 9.987197833
+
+2019-03-08T18:00:15,667611823+01:00
+Changed coordinates from 57.0139695, 9.987196833 to 57.013969167, 9.987197833
+
+2019-03-08T18:00:15,689998719+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.720377025
+
+2019-03-08T18:00:16,009379875+01:00
+Readed PCI 461
+Readed lat 57.013969167
+Readed lon 9.987197833
+
+2019-03-08T18:00:16,012325495+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:16,303696524+01:00
+Readed PCI 461
+Readed lat 57.013968167
+Readed lon 9.987198167
+
+2019-03-08T18:00:16,611226734+01:00
+Changed coordinates from 57.013969167, 9.987197833 to 57.013968167, 9.987198167
+
+2019-03-08T18:00:16,634032350+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 204.621927415
+
+2019-03-08T18:00:16,892328059+01:00
+Readed PCI 461
+Readed lat 57.013968167
+Readed lon 9.987198167
+
+2019-03-08T18:00:16,895665825+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:17,286107790+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987199
+
+2019-03-08T18:00:17,590838461+01:00
+Changed coordinates from 57.013968167, 9.987198167 to 57.0139675, 9.987199
+
+2019-03-08T18:00:17,616887574+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.532485401
+
+2019-03-08T18:00:17,895627427+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987199
+
+2019-03-08T18:00:17,898813267+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:18,183644434+01:00
+Readed PCI 461
+Readed lat 57.0139675
+Readed lon 9.987199
+
+2019-03-08T18:00:18,186970038+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:18,498748967+01:00
+Readed PCI 461
+Readed lat 57.013966333
+Readed lon 9.987199
+
+2019-03-08T18:00:18,829824592+01:00
+Changed coordinates from 57.0139675, 9.987199 to 57.013966333, 9.987199
+
+2019-03-08T18:00:18,890172433+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 204.432814522
+
+2019-03-08T18:00:19,302830341+01:00
+Readed PCI 461
+Readed lat 57.013965333
+Readed lon 9.9871985
+
+2019-03-08T18:00:19,627651648+01:00
+Changed coordinates from 57.013966333, 9.987199 to 57.013965333, 9.9871985
+
+2019-03-08T18:00:19,651780700+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 204.366939659
+
+2019-03-08T18:00:19,910346067+01:00
+Readed PCI 461
+Readed lat 57.013965333
+Readed lon 9.9871985
+
+2019-03-08T18:00:19,913289194+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:20,250832480+01:00
+Readed PCI 461
+Readed lat 57.013963667
+Readed lon 9.987198
+
+2019-03-08T18:00:20,550771911+01:00
+Changed coordinates from 57.013965333, 9.9871985 to 57.013963667, 9.987198
+
+2019-03-08T18:00:20,581344607+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 204.244286647
+
+2019-03-08T18:00:20,841116091+01:00
+Readed PCI 461
+Readed lat 57.013963667
+Readed lon 9.987198
+
+2019-03-08T18:00:20,843836418+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:21,135225748+01:00
+Readed PCI 461
+Readed lat 57.013963667
+Readed lon 9.987198
+
+2019-03-08T18:00:21,142138507+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:21,480695049+01:00
+Readed PCI 461
+Readed lat 57.013962667
+Readed lon 9.987198167
+
+2019-03-08T18:00:21,797698355+01:00
+Changed coordinates from 57.013963667, 9.987198 to 57.013962667, 9.987198167
+
+2019-03-08T18:00:21,817722438+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 204.152465648
+
+2019-03-08T18:00:22,051257993+01:00
+Readed PCI 461
+Readed lat 57.013962667
+Readed lon 9.987198167
+
+2019-03-08T18:00:22,054412692+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:22,404068535+01:00
+Readed PCI 461
+Readed lat 57.013961167
+Readed lon 9.987198167
+
+2019-03-08T18:00:22,697246254+01:00
+Changed coordinates from 57.013962667, 9.987198167 to 57.013961167, 9.987198167
+
+2019-03-08T18:00:22,723989041+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 204.024562249
+
+2019-03-08T18:00:23,003925692+01:00
+Readed PCI 461
+Readed lat 57.013961167
+Readed lon 9.987198167
+
+2019-03-08T18:00:23,006881229+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:23,343571947+01:00
+Readed PCI 461
+Readed lat 57.013960333
+Readed lon 9.987198333
+
+2019-03-08T18:00:23,673749519+01:00
+Changed coordinates from 57.013961167, 9.987198167 to 57.013960333, 9.987198333
+
+2019-03-08T18:00:23,699163318+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 203.946982078
+
+2019-03-08T18:00:23,970842265+01:00
+Readed PCI 461
+Readed lat 57.013960333
+Readed lon 9.987198333
+
+2019-03-08T18:00:23,977365048+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:24,324551544+01:00
+Readed PCI 461
+Readed lat 57.0139595
+Readed lon 9.9871985
+
+2019-03-08T18:00:24,664927541+01:00
+Changed coordinates from 57.013960333, 9.987198333 to 57.0139595, 9.9871985
+
+2019-03-08T18:00:24,687774208+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 203.869461296
+
+2019-03-08T18:00:24,940871553+01:00
+Readed PCI 461
+Readed lat 57.0139595
+Readed lon 9.9871985
+
+2019-03-08T18:00:24,944160600+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:25,276481409+01:00
+Readed PCI 461
+Readed lat 57.013958667
+Readed lon 9.987198333
+
+2019-03-08T18:00:25,598992764+01:00
+Changed coordinates from 57.0139595, 9.9871985 to 57.013958667, 9.987198333
+
+2019-03-08T18:00:25,636547928+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 203.805020891
+
+2019-03-08T18:00:25,920693798+01:00
+Readed PCI 461
+Readed lat 57.013958667
+Readed lon 9.987198333
+
+2019-03-08T18:00:25,923416497+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:26,299043146+01:00
+Readed PCI 461
+Readed lat 57.013957167
+Readed lon 9.9871985
+
+2019-03-08T18:00:26,638802237+01:00
+Changed coordinates from 57.013958667, 9.987198333 to 57.013957167, 9.9871985
+
+2019-03-08T18:00:26,684173389+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 203.670726807
+
+2019-03-08T18:00:26,943466571+01:00
+Readed PCI 461
+Readed lat 57.013957167
+Readed lon 9.9871985
+
+2019-03-08T18:00:26,946824179+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:27,340620511+01:00
+Readed PCI 461
+Readed lat 57.0139565
+Readed lon 9.987198833
+
+2019-03-08T18:00:27,636839034+01:00
+Changed coordinates from 57.013957167, 9.9871985 to 57.0139565, 9.987198833
+
+2019-03-08T18:00:27,662153322+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 203.600895063
+
+2019-03-08T18:00:27,936835010+01:00
+Readed PCI 461
+Readed lat 57.0139565
+Readed lon 9.987198833
+
+2019-03-08T18:00:27,940105392+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:28,288255280+01:00
+Readed PCI 461
+Readed lat 57.013956167
+Readed lon 9.9871985
+
+2019-03-08T18:00:28,649476980+01:00
+Changed coordinates from 57.0139565, 9.987198833 to 57.013956167, 9.9871985
+
+2019-03-08T18:00:28,683696536+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 203.58558483
+
+2019-03-08T18:00:28,980863635+01:00
+Readed PCI 461
+Readed lat 57.013956167
+Readed lon 9.9871985
+
+2019-03-08T18:00:28,984250590+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:29,304629714+01:00
+Readed PCI 461
+Readed lat 57.0139555
+Readed lon 9.987198167
+
+2019-03-08T18:00:29,631743842+01:00
+Changed coordinates from 57.013956167, 9.9871985 to 57.0139555, 9.987198167
+
+2019-03-08T18:00:29,665932229+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 203.541855065
+
+2019-03-08T18:00:29,947703949+01:00
+Readed PCI 461
+Readed lat 57.0139555
+Readed lon 9.987198167
+
+2019-03-08T18:00:29,950403745+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:30,334593125+01:00
+Readed PCI 461
+Readed lat 57.0139555
+Readed lon 9.987198167
+
+2019-03-08T18:00:30,337555845+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:30,579220557+01:00
+Readed PCI 461
+Readed lat 57.0139555
+Readed lon 9.987198167
+
+2019-03-08T18:00:30,582509350+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:30,882163871+01:00
+Readed PCI 461
+Readed lat 57.0139555
+Readed lon 9.987198167
+
+2019-03-08T18:00:30,884734480+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:31,224042259+01:00
+Readed PCI 461
+Readed lat 57.0139555
+Readed lon 9.987198167
+
+2019-03-08T18:00:31,237177888+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:31,531006802+01:00
+Readed PCI 461
+Readed lat 57.0139545
+Readed lon 9.987198
+
+2019-03-08T18:00:31,942873581+01:00
+Changed coordinates from 57.0139555, 9.987198167 to 57.0139545, 9.987198
+
+2019-03-08T18:00:31,974705592+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 203.463306462
+
+2019-03-08T18:00:32,333737231+01:00
+Readed PCI 461
+Readed lat 57.013953167
+Readed lon 9.987197667
+
+2019-03-08T18:00:32,688471454+01:00
+Changed coordinates from 57.0139545, 9.987198 to 57.013953167, 9.987197667
+
+2019-03-08T18:00:32,715583951+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 203.362979228
+
+2019-03-08T18:00:32,962559868+01:00
+Readed PCI 461
+Readed lat 57.013953167
+Readed lon 9.987197667
+
+2019-03-08T18:00:32,965913034+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:33,336461902+01:00
+Readed PCI 461
+Readed lat 57.013952333
+Readed lon 9.987197167
+
+2019-03-08T18:00:33,636662814+01:00
+Changed coordinates from 57.013953167, 9.987197667 to 57.013952333, 9.987197167
+
+2019-03-08T18:00:33,668633597+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 203.311684269
+
+2019-03-08T18:00:33,967682430+01:00
+Readed PCI 461
+Readed lat 57.013952333
+Readed lon 9.987197167
+
+2019-03-08T18:00:33,970534023+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:34,350294817+01:00
+Readed PCI 461
+Readed lat 57.013951333
+Readed lon 9.9871965
+
+2019-03-08T18:00:34,670795419+01:00
+Changed coordinates from 57.013952333, 9.987197167 to 57.013951333, 9.9871965
+
+2019-03-08T18:00:34,703899449+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 203.252873921
+
+2019-03-08T18:00:35,022425086+01:00
+Readed PCI 461
+Readed lat 57.013951333
+Readed lon 9.9871965
+
+2019-03-08T18:00:35,026006448+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:35,288398198+01:00
+Readed PCI 461
+Readed lat 57.013950167
+Readed lon 9.987196333
+
+2019-03-08T18:00:35,602675860+01:00
+Changed coordinates from 57.013951333, 9.9871965 to 57.013950167, 9.987196333
+
+2019-03-08T18:00:35,626812948+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 203.160372395
+
+2019-03-08T18:00:35,901069900+01:00
+Readed PCI 461
+Readed lat 57.013950167
+Readed lon 9.987196333
+
+2019-03-08T18:00:35,903777530+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:36,219208986+01:00
+Readed PCI 461
+Readed lat 57.013950167
+Readed lon 9.987196333
+
+2019-03-08T18:00:36,237158527+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:36,490591360+01:00
+Readed PCI 461
+Readed lat 57.0139495
+Readed lon 9.987196167
+
+2019-03-08T18:00:36,829748666+01:00
+Changed coordinates from 57.013950167, 9.987196333 to 57.0139495, 9.987196167
+
+2019-03-08T18:00:36,875407125+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 203.110245604
+
+2019-03-08T18:00:37,217484561+01:00
+Readed PCI 461
+Readed lat 57.0139485
+Readed lon 9.987196333
+
+2019-03-08T18:00:37,602208853+01:00
+Changed coordinates from 57.0139495, 9.987196167 to 57.0139485, 9.987196333
+
+2019-03-08T18:00:37,642094372+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 203.018810819
+
+2019-03-08T18:00:37,900587697+01:00
+Readed PCI 461
+Readed lat 57.0139485
+Readed lon 9.987196333
+
+2019-03-08T18:00:37,904203532+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:38,269633438+01:00
+Readed PCI 461
+Readed lat 57.0139475
+Readed lon 9.987196333
+
+2019-03-08T18:00:38,578794693+01:00
+Changed coordinates from 57.0139485, 9.987196333 to 57.0139475, 9.987196333
+
+2019-03-08T18:00:38,610739327+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 202.933924959
+
+2019-03-08T18:00:38,896359118+01:00
+Readed PCI 461
+Readed lat 57.0139475
+Readed lon 9.987196333
+
+2019-03-08T18:00:38,899324144+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:39,204977294+01:00
+Readed PCI 461
+Readed lat 57.0139475
+Readed lon 9.987196333
+
+2019-03-08T18:00:39,215603745+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:39,492333332+01:00
+Readed PCI 461
+Readed lat 57.013946667
+Readed lon 9.9871965
+
+2019-03-08T18:00:39,831740722+01:00
+Changed coordinates from 57.0139475, 9.987196333 to 57.013946667, 9.9871965
+
+2019-03-08T18:00:39,852527315+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 202.856664461
+
+2019-03-08T18:00:40,172095854+01:00
+Readed PCI 461
+Readed lat 57.013946667
+Readed lon 9.9871965
+
+2019-03-08T18:00:40,175230953+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:40,491037715+01:00
+Readed PCI 461
+Readed lat 57.0139455
+Readed lon 9.987196667
+
+2019-03-08T18:00:40,770720328+01:00
+Changed coordinates from 57.013946667, 9.9871965 to 57.0139455, 9.987196667
+
+2019-03-08T18:00:40,792207262+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 202.751083729
+
+2019-03-08T18:00:41,112605898+01:00
+Readed PCI 461
+Readed lat 57.0139455
+Readed lon 9.987196667
+
+2019-03-08T18:00:41,115928633+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:41,421535262+01:00
+Readed PCI 461
+Readed lat 57.013944667
+Readed lon 9.987197333
+
+2019-03-08T18:00:41,743467764+01:00
+Changed coordinates from 57.0139455, 9.987196667 to 57.013944667, 9.987197333
+
+2019-03-08T18:00:41,769199143+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.800363945 degrees
+The antenna selected is 2
+The distance to the BS is 202.654211868
+
+2019-03-08T18:00:42,025042470+01:00
+Readed PCI 461
+Readed lat 57.013944667
+Readed lon 9.987197333
+
+2019-03-08T18:00:42,028190830+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:42,370426883+01:00
+Readed PCI 461
+Readed lat 57.013944
+Readed lon 9.987198167
+
+2019-03-08T18:00:42,686742039+01:00
+Changed coordinates from 57.013944667, 9.987197333 to 57.013944, 9.987198167
+
+2019-03-08T18:00:42,707781766+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 202.564808567
+
+2019-03-08T18:00:42,998147876+01:00
+Readed PCI 461
+Readed lat 57.013944
+Readed lon 9.987198167
+
+2019-03-08T18:00:43,001335360+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:43,339845585+01:00
+Readed PCI 461
+Readed lat 57.0139435
+Readed lon 9.987198833
+
+2019-03-08T18:00:43,644725662+01:00
+Changed coordinates from 57.013944, 9.987198167 to 57.0139435, 9.987198833
+
+2019-03-08T18:00:43,676059430+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 202.496183146
+
+2019-03-08T18:00:43,967129619+01:00
+Readed PCI 461
+Readed lat 57.0139435
+Readed lon 9.987198833
+
+2019-03-08T18:00:43,970063755+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:44,283515245+01:00
+Readed PCI 461
+Readed lat 57.013942833
+Readed lon 9.9871995
+
+2019-03-08T18:00:44,593638170+01:00
+Changed coordinates from 57.0139435, 9.987198833 to 57.013942833, 9.9871995
+
+2019-03-08T18:00:44,627451995+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 202.413355629
+
+2019-03-08T18:00:44,896916446+01:00
+Readed PCI 461
+Readed lat 57.013942833
+Readed lon 9.9871995
+
+2019-03-08T18:00:44,900575862+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:45,230905739+01:00
+Readed PCI 461
+Readed lat 57.013941167
+Readed lon 9.9871995
+
+2019-03-08T18:00:45,588573248+01:00
+Changed coordinates from 57.013942833, 9.9871995 to 57.013941167, 9.9871995
+
+2019-03-08T18:00:45,613641074+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 202.272105554
+
+2019-03-08T18:00:45,870878169+01:00
+Readed PCI 461
+Readed lat 57.013941167
+Readed lon 9.9871995
+
+2019-03-08T18:00:45,875417613+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:46,169660273+01:00
+Readed PCI 461
+Readed lat 57.013941167
+Readed lon 9.9871995
+
+2019-03-08T18:00:46,178054392+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:46,496101318+01:00
+Readed PCI 461
+Readed lat 57.013940833
+Readed lon 9.9871995
+
+2019-03-08T18:00:46,786826747+01:00
+Changed coordinates from 57.013941167, 9.9871995 to 57.013940833, 9.9871995
+
+2019-03-08T18:00:46,828449369+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 202.24379632
+
+2019-03-08T18:00:47,198505578+01:00
+Readed PCI 461
+Readed lat 57.01394
+Readed lon 9.987199167
+
+2019-03-08T18:00:47,594101895+01:00
+Changed coordinates from 57.013940833, 9.9871995 to 57.01394, 9.987199167
+
+2019-03-08T18:00:47,624000149+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 202.186332555
+
+2019-03-08T18:00:47,896061887+01:00
+Readed PCI 461
+Readed lat 57.01394
+Readed lon 9.987199167
+
+2019-03-08T18:00:47,900796253+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:48,192587468+01:00
+Readed PCI 461
+Readed lat 57.013939667
+Readed lon 9.9871995
+
+2019-03-08T18:00:48,541876355+01:00
+Changed coordinates from 57.01394, 9.987199167 to 57.013939667, 9.9871995
+
+2019-03-08T18:00:48,578103739+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 202.144990848
+
+2019-03-08T18:00:48,842468559+01:00
+Readed PCI 461
+Readed lat 57.013939667
+Readed lon 9.9871995
+
+2019-03-08T18:00:48,845279106+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:49,078415325+01:00
+Readed PCI 461
+Readed lat 57.013939667
+Readed lon 9.9871995
+
+2019-03-08T18:00:49,092784902+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:49,445097609+01:00
+Readed PCI 461
+Readed lat 57.013938333
+Readed lon 9.987199833
+
+2019-03-08T18:00:49,799698679+01:00
+Changed coordinates from 57.013939667, 9.9871995 to 57.013938333, 9.987199833
+
+2019-03-08T18:00:49,823454722+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 202.018857075
+
+2019-03-08T18:00:50,190530987+01:00
+Readed PCI 461
+Readed lat 57.013938333
+Readed lon 9.987199833
+
+2019-03-08T18:00:50,193536468+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:50,495255806+01:00
+Readed PCI 461
+Readed lat 57.0139365
+Readed lon 9.9872005
+
+2019-03-08T18:00:50,806355359+01:00
+Changed coordinates from 57.013938333, 9.987199833 to 57.0139365, 9.9872005
+
+2019-03-08T18:00:50,829322318+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 358.607668383 degrees
+The antenna selected is 2
+The distance to the BS is 201.83732837
+
+2019-03-08T18:00:51,172965330+01:00
+Readed PCI 461
+Readed lat 57.0139365
+Readed lon 9.9872005
+
+2019-03-08T18:00:51,178080013+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:51,447636858+01:00
+Readed PCI 461
+Readed lat 57.013936
+Readed lon 9.9872005
+
+2019-03-08T18:00:51,780040779+01:00
+Changed coordinates from 57.0139365, 9.9872005 to 57.013936, 9.9872005
+
+2019-03-08T18:00:51,811971174+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 201.795002445
+
+2019-03-08T18:00:52,100141586+01:00
+Readed PCI 461
+Readed lat 57.013936
+Readed lon 9.9872005
+
+2019-03-08T18:00:52,103280689+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:52,432189554+01:00
+Readed PCI 461
+Readed lat 57.013935167
+Readed lon 9.987201167
+
+2019-03-08T18:00:52,772734715+01:00
+Changed coordinates from 57.013936, 9.9872005 to 57.013935167, 9.987201167
+
+2019-03-08T18:00:52,796929738+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 201.698165162
+
+2019-03-08T18:00:53,071547407+01:00
+Readed PCI 461
+Readed lat 57.013935167
+Readed lon 9.987201167
+
+2019-03-08T18:00:53,077804774+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:53,444318325+01:00
+Readed PCI 461
+Readed lat 57.013934
+Readed lon 9.987201833
+
+2019-03-08T18:00:53,813392385+01:00
+Changed coordinates from 57.013935167, 9.987201167 to 57.013934, 9.987201833
+
+2019-03-08T18:00:53,849486145+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 201.573108652
+
+2019-03-08T18:00:54,280228459+01:00
+Readed PCI 461
+Readed lat 57.013932833
+Readed lon 9.9872025
+
+2019-03-08T18:00:54,617444616+01:00
+Changed coordinates from 57.013934, 9.987201833 to 57.013932833, 9.9872025
+
+2019-03-08T18:00:54,640823237+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 201.448026963
+
+2019-03-08T18:00:54,907865004+01:00
+Readed PCI 461
+Readed lat 57.013932833
+Readed lon 9.9872025
+
+2019-03-08T18:00:54,914499578+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:55,230350355+01:00
+Readed PCI 461
+Readed lat 57.013932833
+Readed lon 9.987203167
+
+2019-03-08T18:00:55,602560824+01:00
+Changed coordinates from 57.013932833, 9.9872025 to 57.013932833, 9.987203167
+
+2019-03-08T18:00:55,629411889+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 201.421678553
+
+2019-03-08T18:00:55,928150133+01:00
+Readed PCI 461
+Readed lat 57.013932833
+Readed lon 9.987203167
+
+2019-03-08T18:00:55,936841320+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:56,246304827+01:00
+Readed PCI 461
+Readed lat 57.0139305
+Readed lon 9.987204333
+
+2019-03-08T18:00:56,582695603+01:00
+Changed coordinates from 57.013932833, 9.987203167 to 57.0139305, 9.987204333
+
+2019-03-08T18:00:56,609247440+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 201.1782665
+
+2019-03-08T18:00:56,867749471+01:00
+Readed PCI 461
+Readed lat 57.0139305
+Readed lon 9.987204333
+
+2019-03-08T18:00:56,870974846+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:57,182823599+01:00
+Readed PCI 461
+Readed lat 57.0139305
+Readed lon 9.987204333
+
+2019-03-08T18:00:57,185835875+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:57,430025361+01:00
+Readed PCI 461
+Readed lat 57.013930667
+Readed lon 9.987205333
+
+2019-03-08T18:00:57,760569613+01:00
+Changed coordinates from 57.0139305, 9.987204333 to 57.013930667, 9.987205333
+
+2019-03-08T18:00:57,791128534+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 201.152871682
+
+2019-03-08T18:00:58,047424392+01:00
+Readed PCI 461
+Readed lat 57.013930667
+Readed lon 9.987205333
+
+2019-03-08T18:00:58,050787451+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:58,414103872+01:00
+Readed PCI 461
+Readed lat 57.0139305
+Readed lon 9.987206
+
+2019-03-08T18:00:58,709749381+01:00
+Changed coordinates from 57.013930667, 9.987205333 to 57.0139305, 9.987206
+
+2019-03-08T18:00:58,739858726+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.606220774 degrees
+The antenna selected is 2
+The distance to the BS is 201.112391796
+
+2019-03-08T18:00:59,030597202+01:00
+Readed PCI 461
+Readed lat 57.0139305
+Readed lon 9.987206
+
+2019-03-08T18:00:59,034009210+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:00:59,399942462+01:00
+Readed PCI 461
+Readed lat 57.013929167
+Readed lon 9.987207
+
+2019-03-08T18:00:59,700101929+01:00
+Changed coordinates from 57.0139305, 9.987206 to 57.013929167, 9.987207
+
+2019-03-08T18:00:59,735913385+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.960126846
+
+2019-03-08T18:01:00,018759238+01:00
+Readed PCI 461
+Readed lat 57.013929167
+Readed lon 9.987207
+
+2019-03-08T18:01:00,022116321+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:00,356914266+01:00
+Readed PCI 461
+Readed lat 57.013927167
+Readed lon 9.987208167
+
+2019-03-08T18:01:00,691636861+01:00
+Changed coordinates from 57.013929167, 9.987207 to 57.013927167, 9.987208167
+
+2019-03-08T18:01:00,719273750+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 200.744877306
+
+2019-03-08T18:01:00,991800479+01:00
+Readed PCI 461
+Readed lat 57.013927167
+Readed lon 9.987208167
+
+2019-03-08T18:01:00,994631356+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:01,358044531+01:00
+Readed PCI 461
+Readed lat 57.013926
+Readed lon 9.987208833
+
+2019-03-08T18:01:01,668911376+01:00
+Changed coordinates from 57.013927167, 9.987208167 to 57.013926, 9.987208833
+
+2019-03-08T18:01:01,701702818+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 200.619889406
+
+2019-03-08T18:01:01,997177548+01:00
+Readed PCI 461
+Readed lat 57.013926
+Readed lon 9.987208833
+
+2019-03-08T18:01:02,002566866+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:02,348930149+01:00
+Readed PCI 461
+Readed lat 57.013924167
+Readed lon 9.987209667
+
+2019-03-08T18:01:02,690411146+01:00
+Changed coordinates from 57.013926, 9.987208833 to 57.013924167, 9.987209667
+
+2019-03-08T18:01:02,723347192+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 200.43199375
+
+2019-03-08T18:01:03,026035964+01:00
+Readed PCI 461
+Readed lat 57.013924167
+Readed lon 9.987209667
+
+2019-03-08T18:01:03,029472031+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:03,349221070+01:00
+Readed PCI 461
+Readed lat 57.013923167
+Readed lon 9.987210667
+
+2019-03-08T18:01:03,718867138+01:00
+Changed coordinates from 57.013924167, 9.987209667 to 57.013923167, 9.987210667
+
+2019-03-08T18:01:03,751726904+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 200.307931936
+
+2019-03-08T18:01:04,112615553+01:00
+Readed PCI 461
+Readed lat 57.013923167
+Readed lon 9.987210667
+
+2019-03-08T18:01:04,118965069+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:04,438729768+01:00
+Readed PCI 461
+Readed lat 57.013921667
+Readed lon 9.987211167
+
+2019-03-08T18:01:04,769102926+01:00
+Changed coordinates from 57.013923167, 9.987210667 to 57.013921667, 9.987211167
+
+2019-03-08T18:01:04,799846951+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 356.809113188 degrees
+The antenna selected is 2
+The distance to the BS is 200.161441004
+
+2019-03-08T18:01:05,058061803+01:00
+Readed PCI 461
+Readed lat 57.013921667
+Readed lon 9.987211167
+
+2019-03-08T18:01:05,060718116+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:05,445371182+01:00
+Readed PCI 461
+Readed lat 57.013920667
+Readed lon 9.987211333
+
+2019-03-08T18:01:05,781844927+01:00
+Changed coordinates from 57.013921667, 9.987211167 to 57.013920667, 9.987211333
+
+2019-03-08T18:01:05,813199988+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.070429677
+
+2019-03-08T18:01:06,082288223+01:00
+Readed PCI 461
+Readed lat 57.013920667
+Readed lon 9.987211333
+
+2019-03-08T18:01:06,088064631+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:06,416012514+01:00
+Readed PCI 461
+Readed lat 57.013919833
+Readed lon 9.987211833
+
+2019-03-08T18:01:06,729371800+01:00
+Changed coordinates from 57.013920667, 9.987211333 to 57.013919833, 9.987211833
+
+2019-03-08T18:01:06,760434408+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.980215332
+
+2019-03-08T18:01:07,078183306+01:00
+Readed PCI 461
+Readed lat 57.013919833
+Readed lon 9.987211833
+
+2019-03-08T18:01:07,080975304+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:07,406976925+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987212667
+
+2019-03-08T18:01:07,752706732+01:00
+Changed coordinates from 57.013919833, 9.987211833 to 57.013920167, 9.987212667
+
+2019-03-08T18:01:07,776776020+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 199.975371892
+
+2019-03-08T18:01:08,020699950+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987212667
+
+2019-03-08T18:01:08,024723706+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:08,360417699+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.9872135
+
+2019-03-08T18:01:08,699804140+01:00
+Changed coordinates from 57.013920167, 9.987212667 to 57.013920167, 9.9872135
+
+2019-03-08T18:01:08,725605799+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 199.942380694
+
+2019-03-08T18:01:08,994734176+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.9872135
+
+2019-03-08T18:01:08,997582385+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:09,380591958+01:00
+Readed PCI 461
+Readed lat 57.0139205
+Readed lon 9.987214333
+
+2019-03-08T18:01:09,685497254+01:00
+Changed coordinates from 57.013920167, 9.9872135 to 57.0139205, 9.987214333
+
+2019-03-08T18:01:09,720228241+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 199.937524036
+
+2019-03-08T18:01:10,019824686+01:00
+Readed PCI 461
+Readed lat 57.0139205
+Readed lon 9.987214333
+
+2019-03-08T18:01:10,022575921+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:10,329230094+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987215167
+
+2019-03-08T18:01:10,636031265+01:00
+Changed coordinates from 57.0139205, 9.987214333 to 57.013920167, 9.987215167
+
+2019-03-08T18:01:10,665581508+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.876380817
+
+2019-03-08T18:01:10,918652226+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987215167
+
+2019-03-08T18:01:10,921818567+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:11,274213495+01:00
+Readed PCI 461
+Readed lat 57.013921167
+Readed lon 9.987215667
+
+2019-03-08T18:01:11,649981648+01:00
+Changed coordinates from 57.013920167, 9.987215167 to 57.013921167, 9.987215667
+
+2019-03-08T18:01:11,675895264+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 199.941087651
+
+2019-03-08T18:01:11,948863688+01:00
+Readed PCI 461
+Readed lat 57.013921167
+Readed lon 9.987215667
+
+2019-03-08T18:01:11,951646497+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:12,318909327+01:00
+Readed PCI 461
+Readed lat 57.013922
+Readed lon 9.987216333
+
+2019-03-08T18:01:12,653876043+01:00
+Changed coordinates from 57.013921167, 9.987215667 to 57.013922, 9.987216333
+
+2019-03-08T18:01:12,683294952+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 199.985157736
+
+2019-03-08T18:01:12,970629082+01:00
+Readed PCI 461
+Readed lat 57.013922
+Readed lon 9.987216333
+
+2019-03-08T18:01:12,975520983+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:13,298706107+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987216833
+
+2019-03-08T18:01:13,645829536+01:00
+Changed coordinates from 57.013922, 9.987216333 to 57.013920167, 9.987216833
+
+2019-03-08T18:01:13,680954552+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 199.810450033
+
+2019-03-08T18:01:13,952609065+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987216833
+
+2019-03-08T18:01:13,955760830+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:14,326142531+01:00
+Readed PCI 461
+Readed lat 57.013918167
+Readed lon 9.987217333
+
+2019-03-08T18:01:14,654195074+01:00
+Changed coordinates from 57.013920167, 9.987216833 to 57.013918167, 9.987217333
+
+2019-03-08T18:01:14,678557137+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 199.62169773
+
+2019-03-08T18:01:14,926317001+01:00
+Readed PCI 461
+Readed lat 57.013918167
+Readed lon 9.987217333
+
+2019-03-08T18:01:14,929362030+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:15,222249284+01:00
+Readed PCI 461
+Readed lat 57.013917333
+Readed lon 9.987217833
+
+2019-03-08T18:01:15,523900386+01:00
+Changed coordinates from 57.013918167, 9.987217333 to 57.013917333, 9.987217833
+
+2019-03-08T18:01:15,552013136+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.531465567
+
+2019-03-08T18:01:15,860546145+01:00
+Readed PCI 461
+Readed lat 57.013917333
+Readed lon 9.987217833
+
+2019-03-08T18:01:15,863118155+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:16,160311422+01:00
+Readed PCI 461
+Readed lat 57.013917333
+Readed lon 9.987217833
+
+2019-03-08T18:01:16,183941324+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:16,500398961+01:00
+Readed PCI 461
+Readed lat 57.013916667
+Readed lon 9.987218833
+
+2019-03-08T18:01:16,802028344+01:00
+Changed coordinates from 57.013917333, 9.987217833 to 57.013916667, 9.987218833
+
+2019-03-08T18:01:16,835162909+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.435622641
+
+2019-03-08T18:01:17,110854693+01:00
+Readed PCI 461
+Readed lat 57.013916667
+Readed lon 9.987218833
+
+2019-03-08T18:01:17,114047205+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:17,430149124+01:00
+Readed PCI 461
+Readed lat 57.013916667
+Readed lon 9.987219
+
+2019-03-08T18:01:17,757689660+01:00
+Changed coordinates from 57.013916667, 9.987218833 to 57.013916667, 9.987219
+
+2019-03-08T18:01:17,792539692+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.429009122
+
+2019-03-08T18:01:18,184381394+01:00
+Readed PCI 461
+Readed lat 57.013916667
+Readed lon 9.987219
+
+2019-03-08T18:01:18,187594742+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:18,486194509+01:00
+Readed PCI 461
+Readed lat 57.013917167
+Readed lon 9.987219167
+
+2019-03-08T18:01:18,798892160+01:00
+Changed coordinates from 57.013916667, 9.987219 to 57.013917167, 9.987219167
+
+2019-03-08T18:01:18,834976177+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.464624312
+
+2019-03-08T18:01:19,201737981+01:00
+Readed PCI 461
+Readed lat 57.013917167
+Readed lon 9.987219167
+
+2019-03-08T18:01:19,206492454+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:19,468560935+01:00
+Readed PCI 461
+Readed lat 57.013917167
+Readed lon 9.987219333
+
+2019-03-08T18:01:19,809245333+01:00
+Changed coordinates from 57.013917167, 9.987219167 to 57.013917167, 9.987219333
+
+2019-03-08T18:01:19,842427178+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.458052376
+
+2019-03-08T18:01:20,204370666+01:00
+Readed PCI 461
+Readed lat 57.013917167
+Readed lon 9.987219333
+
+2019-03-08T18:01:20,207358766+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:20,456642660+01:00
+Readed PCI 461
+Readed lat 57.013917167
+Readed lon 9.987219833
+
+2019-03-08T18:01:20,802117826+01:00
+Changed coordinates from 57.013917167, 9.987219333 to 57.013917167, 9.987219833
+
+2019-03-08T18:01:20,833421371+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.438259162
+
+2019-03-08T18:01:21,165750037+01:00
+Readed PCI 461
+Readed lat 57.013917167
+Readed lon 9.987219833
+
+2019-03-08T18:01:21,169458925+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:21,475847580+01:00
+Readed PCI 461
+Readed lat 57.013918
+Readed lon 9.987220333
+
+2019-03-08T18:01:21,805485346+01:00
+Changed coordinates from 57.013917167, 9.987219833 to 57.013918, 9.987220333
+
+2019-03-08T18:01:21,833836947+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 199.488852084
+
+2019-03-08T18:01:22,224006760+01:00
+Readed PCI 461
+Readed lat 57.013917833
+Readed lon 9.987220333
+
+2019-03-08T18:01:22,549413673+01:00
+Changed coordinates from 57.013918, 9.987220333 to 57.013917833, 9.987220333
+
+2019-03-08T18:01:22,585737322+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.474740125
+
+2019-03-08T18:01:22,901681795+01:00
+Readed PCI 461
+Readed lat 57.013917833
+Readed lon 9.987220333
+
+2019-03-08T18:01:22,905325971+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:23,205175554+01:00
+Readed PCI 461
+Readed lat 57.013917833
+Readed lon 9.987220333
+
+2019-03-08T18:01:23,219213802+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:23,526380978+01:00
+Readed PCI 461
+Readed lat 57.013916833
+Readed lon 9.987220833
+
+2019-03-08T18:01:23,834224431+01:00
+Changed coordinates from 57.013917833, 9.987220333 to 57.013916833, 9.987220833
+
+2019-03-08T18:01:23,871204311+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 199.370462077
+
+2019-03-08T18:01:24,234235378+01:00
+Readed PCI 461
+Readed lat 57.013915667
+Readed lon 9.987221
+
+2019-03-08T18:01:24,599878275+01:00
+Changed coordinates from 57.013916833, 9.987220833 to 57.013915667, 9.987221
+
+2019-03-08T18:01:24,619988777+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 199.26536062
+
+2019-03-08T18:01:24,886422313+01:00
+Readed PCI 461
+Readed lat 57.013915667
+Readed lon 9.987221
+
+2019-03-08T18:01:24,889919577+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:25,236755094+01:00
+Readed PCI 461
+Readed lat 57.013915667
+Readed lon 9.9872215
+
+2019-03-08T18:01:25,587492683+01:00
+Changed coordinates from 57.013915667, 9.987221 to 57.013915667, 9.9872215
+
+2019-03-08T18:01:25,626625812+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.245563701
+
+2019-03-08T18:01:25,892271374+01:00
+Readed PCI 461
+Readed lat 57.013915667
+Readed lon 9.9872215
+
+2019-03-08T18:01:25,894912066+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:26,289767232+01:00
+Readed PCI 461
+Readed lat 57.013916333
+Readed lon 9.987221833
+
+2019-03-08T18:01:26,599485693+01:00
+Changed coordinates from 57.013915667, 9.9872215 to 57.013916333, 9.987221833
+
+2019-03-08T18:01:26,622538961+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 199.288642326
+
+2019-03-08T18:01:26,897152278+01:00
+Readed PCI 461
+Readed lat 57.013916333
+Readed lon 9.987221833
+
+2019-03-08T18:01:26,900807414+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:27,300083966+01:00
+Readed PCI 461
+Readed lat 57.013916333
+Readed lon 9.987222
+
+2019-03-08T18:01:27,620579102+01:00
+Changed coordinates from 57.013916333, 9.987221833 to 57.013916333, 9.987222
+
+2019-03-08T18:01:27,656026020+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.282033208
+
+2019-03-08T18:01:27,960475805+01:00
+Readed PCI 461
+Readed lat 57.013916333
+Readed lon 9.987222
+
+2019-03-08T18:01:27,963830070+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:28,214555425+01:00
+Readed PCI 461
+Readed lat 57.013916833
+Readed lon 9.987222167
+
+2019-03-08T18:01:28,521434611+01:00
+Changed coordinates from 57.013916333, 9.987222 to 57.013916833, 9.987222167
+
+2019-03-08T18:01:28,553636956+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.317673551
+
+2019-03-08T18:01:28,803365970+01:00
+Readed PCI 461
+Readed lat 57.013916833
+Readed lon 9.987222167
+
+2019-03-08T18:01:28,806946806+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:29,162202967+01:00
+Readed PCI 461
+Readed lat 57.013916833
+Readed lon 9.987222167
+
+2019-03-08T18:01:29,166427815+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:29,485560534+01:00
+Readed PCI 461
+Readed lat 57.0139165
+Readed lon 9.987222333
+
+2019-03-08T18:01:29,822359332+01:00
+Changed coordinates from 57.013916833, 9.987222167 to 57.0139165, 9.987222333
+
+2019-03-08T18:01:29,848334297+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.282966386
+
+2019-03-08T18:01:30,261058779+01:00
+Readed PCI 461
+Readed lat 57.013917333
+Readed lon 9.987222667
+
+2019-03-08T18:01:30,612219552+01:00
+Changed coordinates from 57.0139165, 9.987222333 to 57.013917333, 9.987222667
+
+2019-03-08T18:01:30,654370902+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 199.340152586
+
+2019-03-08T18:01:30,929682231+01:00
+Readed PCI 461
+Readed lat 57.013917333
+Readed lon 9.987222667
+
+2019-03-08T18:01:30,932373744+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:31,278484685+01:00
+Readed PCI 461
+Readed lat 57.013917833
+Readed lon 9.987222833
+
+2019-03-08T18:01:31,618347204+01:00
+Changed coordinates from 57.013917333, 9.987222667 to 57.013917833, 9.987222833
+
+2019-03-08T18:01:31,642290984+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.37585524
+
+2019-03-08T18:01:31,942484689+01:00
+Readed PCI 461
+Readed lat 57.013917833
+Readed lon 9.987222833
+
+2019-03-08T18:01:31,945301974+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:32,290201236+01:00
+Readed PCI 461
+Readed lat 57.013919167
+Readed lon 9.987222833
+
+2019-03-08T18:01:32,657270508+01:00
+Changed coordinates from 57.013917833, 9.987222833 to 57.013919167, 9.987222833
+
+2019-03-08T18:01:32,692849767+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 199.488658318
+
+2019-03-08T18:01:32,995333187+01:00
+Readed PCI 461
+Readed lat 57.013919167
+Readed lon 9.987222833
+
+2019-03-08T18:01:33,002287744+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:33,348054517+01:00
+Readed PCI 461
+Readed lat 57.01392
+Readed lon 9.987223
+
+2019-03-08T18:01:33,691688617+01:00
+Changed coordinates from 57.013919167, 9.987222833 to 57.01392, 9.987223
+
+2019-03-08T18:01:33,716689706+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.552523498
+
+2019-03-08T18:01:33,998174844+01:00
+Readed PCI 461
+Readed lat 57.01392
+Readed lon 9.987223
+
+2019-03-08T18:01:34,001348534+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:34,383719196+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987223333
+
+2019-03-08T18:01:34,733827011+01:00
+Changed coordinates from 57.01392, 9.987223 to 57.013920167, 9.987223333
+
+2019-03-08T18:01:34,756135872+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.553499628
+
+2019-03-08T18:01:35,006171323+01:00
+Readed PCI 461
+Readed lat 57.013920167
+Readed lon 9.987223333
+
+2019-03-08T18:01:35,009342674+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:35,358911525+01:00
+Readed PCI 461
+Readed lat 57.013921833
+Readed lon 9.987223167
+
+2019-03-08T18:01:35,700397993+01:00
+Changed coordinates from 57.013920167, 9.987223333 to 57.013921833, 9.987223167
+
+2019-03-08T18:01:35,733502580+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 199.701051942
+
+2019-03-08T18:01:36,027696169+01:00
+Readed PCI 461
+Readed lat 57.013921833
+Readed lon 9.987223167
+
+2019-03-08T18:01:36,030434141+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:36,394359987+01:00
+Readed PCI 461
+Readed lat 57.013922667
+Readed lon 9.987222833
+
+2019-03-08T18:01:36,698529646+01:00
+Changed coordinates from 57.013921833, 9.987223167 to 57.013922667, 9.987222833
+
+2019-03-08T18:01:36,723324013+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 199.784840748
+
+2019-03-08T18:01:37,013644990+01:00
+Readed PCI 461
+Readed lat 57.013922667
+Readed lon 9.987222833
+
+2019-03-08T18:01:37,016543296+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:37,343126386+01:00
+Readed PCI 461
+Readed lat 57.013923333
+Readed lon 9.987222833
+
+2019-03-08T18:01:37,669508179+01:00
+Changed coordinates from 57.013922667, 9.987222833 to 57.013923333, 9.987222833
+
+2019-03-08T18:01:37,697259260+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 199.841236408
+
+2019-03-08T18:01:38,006937269+01:00
+Readed PCI 461
+Readed lat 57.013923333
+Readed lon 9.987222833
+
+2019-03-08T18:01:38,010253416+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:38,338002875+01:00
+Readed PCI 461
+Readed lat 57.0139245
+Readed lon 9.987222833
+
+2019-03-08T18:01:38,681117218+01:00
+Changed coordinates from 57.013923333, 9.987222833 to 57.0139245, 9.987222833
+
+2019-03-08T18:01:38,722129368+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 199.940083812
+
+2019-03-08T18:01:38,972060406+01:00
+Readed PCI 461
+Readed lat 57.0139245
+Readed lon 9.987222833
+
+2019-03-08T18:01:38,977597684+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:39,346013428+01:00
+Readed PCI 461
+Readed lat 57.0139255
+Readed lon 9.987222333
+
+2019-03-08T18:01:39,690425859+01:00
+Changed coordinates from 57.0139245, 9.987222833 to 57.0139255, 9.987222333
+
+2019-03-08T18:01:39,719891771+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.04452177
+
+2019-03-08T18:01:40,003412581+01:00
+Readed PCI 461
+Readed lat 57.0139255
+Readed lon 9.987222333
+
+2019-03-08T18:01:40,006953398+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:40,351516229+01:00
+Readed PCI 461
+Readed lat 57.013926333
+Readed lon 9.987221833
+
+2019-03-08T18:01:40,675816655+01:00
+Changed coordinates from 57.0139255, 9.987222333 to 57.013926333, 9.987221833
+
+2019-03-08T18:01:40,706945253+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.134818429
+
+2019-03-08T18:01:40,987161018+01:00
+Readed PCI 461
+Readed lat 57.013926333
+Readed lon 9.987221833
+
+2019-03-08T18:01:40,991348708+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:41,319858183+01:00
+Readed PCI 461
+Readed lat 57.013928
+Readed lon 9.9872205
+
+2019-03-08T18:01:41,633296736+01:00
+Changed coordinates from 57.013926333, 9.987221833 to 57.013928, 9.9872205
+
+2019-03-08T18:01:41,665969572+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.328635222
+
+2019-03-08T18:01:41,927755925+01:00
+Readed PCI 461
+Readed lat 57.013928
+Readed lon 9.9872205
+
+2019-03-08T18:01:41,931818680+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:42,249578291+01:00
+Readed PCI 461
+Readed lat 57.013930167
+Readed lon 9.987219667
+
+2019-03-08T18:01:42,566339409+01:00
+Changed coordinates from 57.013928, 9.9872205 to 57.013930167, 9.987219667
+
+2019-03-08T18:01:42,601435927+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.545182434
+
+2019-03-08T18:01:42,864871251+01:00
+Readed PCI 461
+Readed lat 57.013930167
+Readed lon 9.987219667
+
+2019-03-08T18:01:42,868135272+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:43,222897586+01:00
+Readed PCI 461
+Readed lat 57.013930167
+Readed lon 9.987219667
+
+2019-03-08T18:01:43,233484668+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:43,497529621+01:00
+Readed PCI 461
+Readed lat 57.013931833
+Readed lon 9.987219167
+
+2019-03-08T18:01:43,828169773+01:00
+Changed coordinates from 57.013930167, 9.987219667 to 57.013931833, 9.987219167
+
+2019-03-08T18:01:43,861182940+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.706187222
+
+2019-03-08T18:01:44,226834717+01:00
+Readed PCI 461
+Readed lat 57.013931833
+Readed lon 9.987219167
+
+2019-03-08T18:01:44,230462879+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:44,495599677+01:00
+Readed PCI 461
+Readed lat 57.013933667
+Readed lon 9.9872185
+
+2019-03-08T18:01:44,830418410+01:00
+Changed coordinates from 57.013931833, 9.987219167 to 57.013933667, 9.9872185
+
+2019-03-08T18:01:44,857411535+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 200.888066156
+
+2019-03-08T18:01:45,185472990+01:00
+Readed PCI 461
+Readed lat 57.013933667
+Readed lon 9.9872185
+
+2019-03-08T18:01:45,190609969+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:45,495840529+01:00
+Readed PCI 461
+Readed lat 57.013935167
+Readed lon 9.987218167
+
+2019-03-08T18:01:45,788374956+01:00
+Changed coordinates from 57.013933667, 9.9872185 to 57.013935167, 9.987218167
+
+2019-03-08T18:01:45,818022807+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 201.028507205
+
+2019-03-08T18:01:46,179356221+01:00
+Readed PCI 461
+Readed lat 57.0139375
+Readed lon 9.987217833
+
+2019-03-08T18:01:46,581096596+01:00
+Changed coordinates from 57.013935167, 9.987218167 to 57.0139375, 9.987217833
+
+2019-03-08T18:01:46,611896956+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 201.239802418
+
+2019-03-08T18:01:46,891791425+01:00
+Readed PCI 461
+Readed lat 57.0139375
+Readed lon 9.987217833
+
+2019-03-08T18:01:46,894577403+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:47,284888486+01:00
+Readed PCI 461
+Readed lat 57.0139395
+Readed lon 9.987217333
+
+2019-03-08T18:01:47,643489177+01:00
+Changed coordinates from 57.0139375, 9.987217833 to 57.0139395, 9.987217333
+
+2019-03-08T18:01:47,682162176+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 201.42941435
+
+2019-03-08T18:01:48,010233980+01:00
+Readed PCI 461
+Readed lat 57.0139395
+Readed lon 9.987217333
+
+2019-03-08T18:01:48,013121280+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:48,382735136+01:00
+Readed PCI 461
+Readed lat 57.013941333
+Readed lon 9.987216833
+
+2019-03-08T18:01:48,746039639+01:00
+Changed coordinates from 57.0139395, 9.987217333 to 57.013941333, 9.987216833
+
+2019-03-08T18:01:48,791838241+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 201.60489432
+
+2019-03-08T18:01:49,069579026+01:00
+Readed PCI 461
+Readed lat 57.013941333
+Readed lon 9.987216833
+
+2019-03-08T18:01:49,072616010+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:49,471837136+01:00
+Readed PCI 461
+Readed lat 57.013942667
+Readed lon 9.987215833
+
+2019-03-08T18:01:49,795974490+01:00
+Changed coordinates from 57.013941333, 9.987216833 to 57.013942667, 9.987215833
+
+2019-03-08T18:01:49,825113833+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 201.75757467
+
+2019-03-08T18:01:50,191319431+01:00
+Readed PCI 461
+Readed lat 57.013942667
+Readed lon 9.987215833
+
+2019-03-08T18:01:50,195482440+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:50,467189274+01:00
+Readed PCI 461
+Readed lat 57.013944333
+Readed lon 9.987215167
+
+2019-03-08T18:01:50,789335393+01:00
+Changed coordinates from 57.013942667, 9.987215833 to 57.013944333, 9.987215167
+
+2019-03-08T18:01:50,815751903+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.403190549 degrees
+The antenna selected is 2
+The distance to the BS is 201.925430721
+
+2019-03-08T18:01:51,074181816+01:00
+Readed PCI 461
+Readed lat 57.013944333
+Readed lon 9.987215167
+
+2019-03-08T18:01:51,077625727+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:51,410567204+01:00
+Readed PCI 461
+Readed lat 57.013945667
+Readed lon 9.987214667
+
+2019-03-08T18:01:51,752725516+01:00
+Changed coordinates from 57.013944333, 9.987215167 to 57.013945667, 9.987214667
+
+2019-03-08T18:01:51,778469948+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 202.058561186
+
+2019-03-08T18:01:52,047937154+01:00
+Readed PCI 461
+Readed lat 57.013945667
+Readed lon 9.987214667
+
+2019-03-08T18:01:52,051021836+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:52,368006711+01:00
+Readed PCI 461
+Readed lat 57.0139455
+Readed lon 9.987214
+
+2019-03-08T18:01:52,687813574+01:00
+Changed coordinates from 57.013945667, 9.987214667 to 57.0139455, 9.987214
+
+2019-03-08T18:01:52,718207950+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 202.070472235
+
+2019-03-08T18:01:52,980193584+01:00
+Readed PCI 461
+Readed lat 57.0139455
+Readed lon 9.987214
+
+2019-03-08T18:01:52,983165355+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:53,352141619+01:00
+Readed PCI 461
+Readed lat 57.013945667
+Readed lon 9.987213667
+
+2019-03-08T18:01:53,697298087+01:00
+Changed coordinates from 57.0139455, 9.987214 to 57.013945667, 9.987213667
+
+2019-03-08T18:01:53,726827001+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 202.097731294
+
+2019-03-08T18:01:54,024660500+01:00
+Readed PCI 461
+Readed lat 57.013945667
+Readed lon 9.987213667
+
+2019-03-08T18:01:54,027988550+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:54,384181874+01:00
+Readed PCI 461
+Readed lat 57.013946
+Readed lon 9.987213167
+
+2019-03-08T18:01:54,699398997+01:00
+Changed coordinates from 57.013945667, 9.987213667 to 57.013946, 9.987213167
+
+2019-03-08T18:01:54,724057316+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 202.145661235
+
+2019-03-08T18:01:55,027764607+01:00
+Readed PCI 461
+Readed lat 57.013946
+Readed lon 9.987213167
+
+2019-03-08T18:01:55,031553734+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:55,338085277+01:00
+Readed PCI 461
+Readed lat 57.0139475
+Readed lon 9.987212
+
+2019-03-08T18:01:55,668495953+01:00
+Changed coordinates from 57.013946, 9.987213167 to 57.0139475, 9.987212
+
+2019-03-08T18:01:55,698588270+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 202.319053898
+
+2019-03-08T18:01:55,978424406+01:00
+Readed PCI 461
+Readed lat 57.0139475
+Readed lon 9.987212
+
+2019-03-08T18:01:55,982111410+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:56,325886405+01:00
+Readed PCI 461
+Readed lat 57.013947833
+Readed lon 9.987210833
+
+2019-03-08T18:01:56,674601096+01:00
+Changed coordinates from 57.0139475, 9.987212 to 57.013947833, 9.987210833
+
+2019-03-08T18:01:56,700699699+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 202.393108007
+
+2019-03-08T18:01:56,986903169+01:00
+Readed PCI 461
+Readed lat 57.013947833
+Readed lon 9.987210833
+
+2019-03-08T18:01:56,990116683+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:57,326595076+01:00
+Readed PCI 461
+Readed lat 57.013948667
+Readed lon 9.987209833
+
+2019-03-08T18:01:57,657329637+01:00
+Changed coordinates from 57.013947833, 9.987210833 to 57.013948667, 9.987209833
+
+2019-03-08T18:01:57,684201755+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 202.503268703
+
+2019-03-08T18:01:57,976251169+01:00
+Readed PCI 461
+Readed lat 57.013948667
+Readed lon 9.987209833
+
+2019-03-08T18:01:57,979620791+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:58,336412685+01:00
+Readed PCI 461
+Readed lat 57.013948667
+Readed lon 9.987209
+
+2019-03-08T18:01:58,682360751+01:00
+Changed coordinates from 57.013948667, 9.987209833 to 57.013948667, 9.987209
+
+2019-03-08T18:01:58,707031704+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 202.535898392
+
+2019-03-08T18:01:58,986450350+01:00
+Readed PCI 461
+Readed lat 57.013948667
+Readed lon 9.987209
+
+2019-03-08T18:01:59,002772259+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:01:59,340963889+01:00
+Readed PCI 461
+Readed lat 57.013950167
+Readed lon 9.987208
+
+2019-03-08T18:01:59,708065142+01:00
+Changed coordinates from 57.013948667, 9.987209 to 57.013950167, 9.987208
+
+2019-03-08T18:01:59,749947626+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 202.702750368
+
+2019-03-08T18:02:00,027195012+01:00
+Readed PCI 461
+Readed lat 57.013950167
+Readed lon 9.987208
+
+2019-03-08T18:02:00,030589870+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:00,438706550+01:00
+Readed PCI 461
+Readed lat 57.013951833
+Readed lon 9.987206667
+
+2019-03-08T18:02:00,784176690+01:00
+Changed coordinates from 57.013950167, 9.987208 to 57.013951833, 9.987206667
+
+2019-03-08T18:02:00,813481188+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 202.896792726
+
+2019-03-08T18:02:01,123648840+01:00
+Readed PCI 461
+Readed lat 57.013951833
+Readed lon 9.987206667
+
+2019-03-08T18:02:01,135139305+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:01,493361075+01:00
+Readed PCI 461
+Readed lat 57.013960833
+Readed lon 9.987206
+
+2019-03-08T18:02:01,792158227+01:00
+Changed coordinates from 57.013951833, 9.987206667 to 57.013960833, 9.987206
+
+2019-03-08T18:02:01,828069265+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 203.690213772
+
+2019-03-08T18:02:02,184872465+01:00
+Readed PCI 461
+Readed lat 57.013960833
+Readed lon 9.987206
+
+2019-03-08T18:02:02,189977068+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:02,469521606+01:00
+Readed PCI 461
+Readed lat 57.013969333
+Readed lon 9.987205167
+
+2019-03-08T18:02:02,810244786+01:00
+Changed coordinates from 57.013960833, 9.987206 to 57.013969333, 9.987205167
+
+2019-03-08T18:02:02,843598816+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 204.449141583
+
+2019-03-08T18:02:03,246492001+01:00
+Readed PCI 461
+Readed lat 57.0139775
+Readed lon 9.987204
+
+2019-03-08T18:02:03,580690870+01:00
+Changed coordinates from 57.013969333, 9.987205167 to 57.0139775, 9.987204
+
+2019-03-08T18:02:03,612323599+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 205.194027551
+
+2019-03-08T18:02:03,909602804+01:00
+Readed PCI 461
+Readed lat 57.0139775
+Readed lon 9.987204
+
+2019-03-08T18:02:03,912482860+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:04,172044094+01:00
+Readed PCI 461
+Readed lat 57.0139775
+Readed lon 9.987204
+
+2019-03-08T18:02:04,179457865+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:04,514705256+01:00
+Readed PCI 461
+Readed lat 57.013984833
+Readed lon 9.987203667
+
+2019-03-08T18:02:04,827221245+01:00
+Changed coordinates from 57.0139775, 9.987204 to 57.013984833, 9.987203667
+
+2019-03-08T18:02:04,855229032+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 205.836368887
+
+2019-03-08T18:02:05,232000871+01:00
+Readed PCI 461
+Readed lat 57.013991333
+Readed lon 9.987203167
+
+2019-03-08T18:02:05,585831882+01:00
+Changed coordinates from 57.013984833, 9.987203667 to 57.013991333, 9.987203167
+
+2019-03-08T18:02:05,608940520+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 206.414668841
+
+2019-03-08T18:02:05,872262757+01:00
+Readed PCI 461
+Readed lat 57.013991333
+Readed lon 9.987203167
+
+2019-03-08T18:02:05,878529654+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:06,228439588+01:00
+Readed PCI 461
+Readed lat 57.013997
+Readed lon 9.987202833
+
+2019-03-08T18:02:06,562556163+01:00
+Changed coordinates from 57.013991333, 9.987203167 to 57.013997, 9.987202833
+
+2019-03-08T18:02:06,594967320+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 206.915688757
+
+2019-03-08T18:02:06,875534343+01:00
+Readed PCI 461
+Readed lat 57.013997
+Readed lon 9.987202833
+
+2019-03-08T18:02:06,878246251+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:07,124776250+01:00
+Readed PCI 461
+Readed lat 57.013997
+Readed lon 9.987202833
+
+2019-03-08T18:02:07,130011109+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:07,486115265+01:00
+Readed PCI 461
+Readed lat 57.014001833
+Readed lon 9.987201833
+
+2019-03-08T18:02:07,814517753+01:00
+Changed coordinates from 57.013997, 9.987202833 to 57.014001833, 9.987201833
+
+2019-03-08T18:02:07,840010750+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 207.37098917
+
+2019-03-08T18:02:08,133605625+01:00
+Readed PCI 461
+Readed lat 57.014001833
+Readed lon 9.987201833
+
+2019-03-08T18:02:08,138356020+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:08,471084624+01:00
+Readed PCI 461
+Readed lat 57.014006
+Readed lon 9.987201167
+
+2019-03-08T18:02:08,789436710+01:00
+Changed coordinates from 57.014001833, 9.987201833 to 57.014006, 9.987201167
+
+2019-03-08T18:02:08,812764145+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 207.756359972
+
+2019-03-08T18:02:09,182189187+01:00
+Readed PCI 461
+Readed lat 57.014006
+Readed lon 9.987201167
+
+2019-03-08T18:02:09,189648101+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:09,457583995+01:00
+Readed PCI 461
+Readed lat 57.014008667
+Readed lon 9.987201667
+
+2019-03-08T18:02:09,761530728+01:00
+Changed coordinates from 57.014006, 9.987201167 to 57.014008667, 9.987201667
+
+2019-03-08T18:02:09,782722774+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 207.967716924
+
+2019-03-08T18:02:10,062720433+01:00
+Readed PCI 461
+Readed lat 57.014008667
+Readed lon 9.987201667
+
+2019-03-08T18:02:10,076149708+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:10,432716936+01:00
+Readed PCI 461
+Readed lat 57.014011167
+Readed lon 9.987202333
+
+2019-03-08T18:02:10,727284032+01:00
+Changed coordinates from 57.014008667, 9.987201667 to 57.014011167, 9.987202333
+
+2019-03-08T18:02:10,755896726+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.158488796
+
+2019-03-08T18:02:11,058953038+01:00
+Readed PCI 461
+Readed lat 57.014011167
+Readed lon 9.987202333
+
+2019-03-08T18:02:11,061969887+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:11,366903888+01:00
+Readed PCI 461
+Readed lat 57.014014
+Readed lon 9.987202833
+
+2019-03-08T18:02:11,687389884+01:00
+Changed coordinates from 57.014011167, 9.987202333 to 57.014014, 9.987202833
+
+2019-03-08T18:02:11,722249367+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.209763498 degrees
+The antenna selected is 2
+The distance to the BS is 208.38464534
+
+2019-03-08T18:02:11,997123639+01:00
+Readed PCI 461
+Readed lat 57.014014
+Readed lon 9.987202833
+
+2019-03-08T18:02:12,001976579+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:12,332960809+01:00
+Readed PCI 461
+Readed lat 57.0140165
+Readed lon 9.987203833
+
+2019-03-08T18:02:12,675613418+01:00
+Changed coordinates from 57.014014, 9.987202833 to 57.0140165, 9.987203833
+
+2019-03-08T18:02:12,709259288+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.403190549 degrees
+The antenna selected is 2
+The distance to the BS is 208.56310464
+
+2019-03-08T18:02:12,973579437+01:00
+Readed PCI 461
+Readed lat 57.0140165
+Readed lon 9.987203833
+
+2019-03-08T18:02:12,976552248+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:13,328241790+01:00
+Readed PCI 461
+Readed lat 57.0140195
+Readed lon 9.9872045
+
+2019-03-08T18:02:13,614664195+01:00
+Changed coordinates from 57.0140165, 9.987203833 to 57.0140195, 9.9872045
+
+2019-03-08T18:02:13,655334943+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.606220774 degrees
+The antenna selected is 2
+The distance to the BS is 208.797863096
+
+2019-03-08T18:02:13,956691979+01:00
+Readed PCI 461
+Readed lat 57.0140195
+Readed lon 9.9872045
+
+2019-03-08T18:02:13,963330922+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:14,291633051+01:00
+Readed PCI 461
+Readed lat 57.014022667
+Readed lon 9.987204833
+
+2019-03-08T18:02:14,660657039+01:00
+Changed coordinates from 57.0140195, 9.9872045 to 57.014022667, 9.987204833
+
+2019-03-08T18:02:14,684452664+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 209.060103629
+
+2019-03-08T18:02:14,952298566+01:00
+Readed PCI 461
+Readed lat 57.014022667
+Readed lon 9.987204833
+
+2019-03-08T18:02:14,955665817+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:15,293714670+01:00
+Readed PCI 461
+Readed lat 57.014025833
+Readed lon 9.987205
+
+2019-03-08T18:02:15,652016004+01:00
+Changed coordinates from 57.014022667, 9.987204833 to 57.014025833, 9.987205
+
+2019-03-08T18:02:15,674718742+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 209.328828551
+
+2019-03-08T18:02:15,944589013+01:00
+Readed PCI 461
+Readed lat 57.014025833
+Readed lon 9.987205
+
+2019-03-08T18:02:15,948296767+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:16,336596574+01:00
+Readed PCI 461
+Readed lat 57.014028333
+Readed lon 9.987204833
+
+2019-03-08T18:02:16,679860758+01:00
+Changed coordinates from 57.014025833, 9.987205 to 57.014028333, 9.987204833
+
+2019-03-08T18:02:16,705949429+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 209.552538308
+
+2019-03-08T18:02:16,990653560+01:00
+Readed PCI 461
+Readed lat 57.014028333
+Readed lon 9.987204833
+
+2019-03-08T18:02:16,997437796+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:17,316412064+01:00
+Readed PCI 461
+Readed lat 57.014030333
+Readed lon 9.987204667
+
+2019-03-08T18:02:17,603970965+01:00
+Changed coordinates from 57.014028333, 9.987204833 to 57.014030333, 9.987204667
+
+2019-03-08T18:02:17,640678167+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 209.732828937
+
+2019-03-08T18:02:17,921075693+01:00
+Readed PCI 461
+Readed lat 57.014030333
+Readed lon 9.987204667
+
+2019-03-08T18:02:17,924532778+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:18,237203887+01:00
+Readed PCI 461
+Readed lat 57.0140325
+Readed lon 9.987204333
+
+2019-03-08T18:02:18,555760879+01:00
+Changed coordinates from 57.014030333, 9.987204667 to 57.0140325, 9.987204333
+
+2019-03-08T18:02:18,587115142+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 209.934104533
+
+2019-03-08T18:02:18,843871835+01:00
+Readed PCI 461
+Readed lat 57.0140325
+Readed lon 9.987204333
+
+2019-03-08T18:02:18,848780494+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:19,181962199+01:00
+Readed PCI 461
+Readed lat 57.0140325
+Readed lon 9.987204333
+
+2019-03-08T18:02:19,187653286+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:19,487428740+01:00
+Readed PCI 461
+Readed lat 57.014033833
+Readed lon 9.987204
+
+2019-03-08T18:02:19,836452266+01:00
+Changed coordinates from 57.0140325, 9.987204333 to 57.014033833, 9.987204
+
+2019-03-08T18:02:19,859434770+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 210.062788026
+
+2019-03-08T18:02:20,159234988+01:00
+Readed PCI 461
+Readed lat 57.014033833
+Readed lon 9.987204
+
+2019-03-08T18:02:20,164792477+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:20,524097427+01:00
+Readed PCI 461
+Readed lat 57.014036
+Readed lon 9.987203667
+
+2019-03-08T18:02:20,837981348+01:00
+Changed coordinates from 57.014033833, 9.987204 to 57.014036, 9.987203667
+
+2019-03-08T18:02:20,880957217+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.409342785 degrees
+The antenna selected is 2
+The distance to the BS is 210.26416117
+
+2019-03-08T18:02:21,186920171+01:00
+Readed PCI 461
+Readed lat 57.014036
+Readed lon 9.987203667
+
+2019-03-08T18:02:21,198999148+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:21,532577783+01:00
+Readed PCI 461
+Readed lat 57.014037667
+Readed lon 9.987203333
+
+2019-03-08T18:02:21,869564439+01:00
+Changed coordinates from 57.014036, 9.987203667 to 57.014037667, 9.987203333
+
+2019-03-08T18:02:21,894787427+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 210.422071883
+
+2019-03-08T18:02:22,219354745+01:00
+Readed PCI 461
+Readed lat 57.014037667
+Readed lon 9.987203333
+
+2019-03-08T18:02:22,222563384+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:22,496006300+01:00
+Readed PCI 461
+Readed lat 57.014038333
+Readed lon 9.987203833
+
+2019-03-08T18:02:22,814193125+01:00
+Changed coordinates from 57.014037667, 9.987203333 to 57.014038333, 9.987203833
+
+2019-03-08T18:02:22,837884875+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 210.461233104
+
+2019-03-08T18:02:23,127928752+01:00
+Readed PCI 461
+Readed lat 57.014038333
+Readed lon 9.987203833
+
+2019-03-08T18:02:23,142591680+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:23,443777593+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.9872045
+
+2019-03-08T18:02:23,739500591+01:00
+Changed coordinates from 57.014038333, 9.987203833 to 57.014039667, 9.9872045
+
+2019-03-08T18:02:23,766393375+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 210.552374159
+
+2019-03-08T18:02:24,050004307+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.9872045
+
+2019-03-08T18:02:24,053211957+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:24,363429318+01:00
+Readed PCI 461
+Readed lat 57.014041167
+Readed lon 9.987204667
+
+2019-03-08T18:02:24,705106309+01:00
+Changed coordinates from 57.014039667, 9.9872045 to 57.014041167, 9.987204667
+
+2019-03-08T18:02:24,728543909+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 210.676943195
+
+2019-03-08T18:02:25,037611471+01:00
+Readed PCI 461
+Readed lat 57.014041167
+Readed lon 9.987204667
+
+2019-03-08T18:02:25,043579395+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:25,358198689+01:00
+Readed PCI 461
+Readed lat 57.014041833
+Readed lon 9.9872045
+
+2019-03-08T18:02:25,706200495+01:00
+Changed coordinates from 57.014041167, 9.987204667 to 57.014041833, 9.9872045
+
+2019-03-08T18:02:25,741560016+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 210.741368825
+
+2019-03-08T18:02:26,028279308+01:00
+Readed PCI 461
+Readed lat 57.014041833
+Readed lon 9.9872045
+
+2019-03-08T18:02:26,032505991+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:26,392109853+01:00
+Readed PCI 461
+Readed lat 57.0140435
+Readed lon 9.987204667
+
+2019-03-08T18:02:26,703313682+01:00
+Changed coordinates from 57.014041833, 9.9872045 to 57.0140435, 9.987204667
+
+2019-03-08T18:02:26,731414447+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 210.880599439
+
+2019-03-08T18:02:27,012819158+01:00
+Readed PCI 461
+Readed lat 57.0140435
+Readed lon 9.987204667
+
+2019-03-08T18:02:27,016733050+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:27,350640694+01:00
+Readed PCI 461
+Readed lat 57.014044167
+Readed lon 9.9872045
+
+2019-03-08T18:02:27,664250237+01:00
+Changed coordinates from 57.0140435, 9.987204667 to 57.014044167, 9.9872045
+
+2019-03-08T18:02:27,699608122+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 210.945141546
+
+2019-03-08T18:02:27,992877602+01:00
+Readed PCI 461
+Readed lat 57.014044167
+Readed lon 9.9872045
+
+2019-03-08T18:02:27,995731561+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:28,327144640+01:00
+Readed PCI 461
+Readed lat 57.014044333
+Readed lon 9.987204
+
+2019-03-08T18:02:28,646650011+01:00
+Changed coordinates from 57.014044167, 9.9872045 to 57.014044333, 9.987204
+
+2019-03-08T18:02:28,691456728+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 210.978485449
+
+2019-03-08T18:02:29,022486565+01:00
+Readed PCI 461
+Readed lat 57.014044333
+Readed lon 9.987204
+
+2019-03-08T18:02:29,029304874+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:29,394494373+01:00
+Readed PCI 461
+Readed lat 57.014046
+Readed lon 9.987204167
+
+2019-03-08T18:02:29,751391316+01:00
+Changed coordinates from 57.014044333, 9.987204 to 57.014046, 9.987204167
+
+2019-03-08T18:02:29,783908358+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 211.117803026
+
+2019-03-08T18:02:30,082645652+01:00
+Readed PCI 461
+Readed lat 57.014046
+Readed lon 9.987204167
+
+2019-03-08T18:02:30,098711851+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:30,442901574+01:00
+Readed PCI 461
+Readed lat 57.014046667
+Readed lon 9.987204167
+
+2019-03-08T18:02:30,813362123+01:00
+Changed coordinates from 57.014046, 9.987204167 to 57.014046667, 9.987204167
+
+2019-03-08T18:02:30,843150599+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 211.176083108
+
+2019-03-08T18:02:31,223906852+01:00
+Readed PCI 461
+Readed lat 57.014046667
+Readed lon 9.987204167
+
+2019-03-08T18:02:31,236818288+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:31,503184145+01:00
+Readed PCI 461
+Readed lat 57.014047
+Readed lon 9.987204333
+
+2019-03-08T18:02:31,852862640+01:00
+Changed coordinates from 57.014046667, 9.987204167 to 57.014047, 9.987204333
+
+2019-03-08T18:02:31,880573545+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 211.198933125
+
+2019-03-08T18:02:32,276696603+01:00
+Readed PCI 461
+Readed lat 57.0140475
+Readed lon 9.9872045
+
+2019-03-08T18:02:32,602361716+01:00
+Changed coordinates from 57.014047, 9.987204333 to 57.0140475, 9.9872045
+
+2019-03-08T18:02:32,638833506+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 211.236346831
+
+2019-03-08T18:02:32,943870354+01:00
+Readed PCI 461
+Readed lat 57.0140475
+Readed lon 9.9872045
+
+2019-03-08T18:02:32,946765635+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:33,257986160+01:00
+Readed PCI 461
+Readed lat 57.014048167
+Readed lon 9.987204667
+
+2019-03-08T18:02:33,599858177+01:00
+Changed coordinates from 57.0140475, 9.9872045 to 57.014048167, 9.987204667
+
+2019-03-08T18:02:33,623177662+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.405255485 degrees
+The antenna selected is 2
+The distance to the BS is 211.288368827
+
+2019-03-08T18:02:33,898175311+01:00
+Readed PCI 461
+Readed lat 57.014048167
+Readed lon 9.987204667
+
+2019-03-08T18:02:33,900880584+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:34,279409005+01:00
+Readed PCI 461
+Readed lat 57.0140485
+Readed lon 9.987204833
+
+2019-03-08T18:02:34,585722867+01:00
+Changed coordinates from 57.014048167, 9.987204667 to 57.0140485, 9.987204833
+
+2019-03-08T18:02:34,613905623+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 211.311237468
+
+2019-03-08T18:02:34,908379824+01:00
+Readed PCI 461
+Readed lat 57.0140485
+Readed lon 9.987204833
+
+2019-03-08T18:02:34,911739328+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:35,218638332+01:00
+Readed PCI 461
+Readed lat 57.0140495
+Readed lon 9.987204667
+
+2019-03-08T18:02:35,580044940+01:00
+Changed coordinates from 57.0140485, 9.987204833 to 57.0140495, 9.987204667
+
+2019-03-08T18:02:35,609787746+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.800363945 degrees
+The antenna selected is 2
+The distance to the BS is 211.404927097
+
+2019-03-08T18:02:35,895161431+01:00
+Readed PCI 461
+Readed lat 57.0140495
+Readed lon 9.987204667
+
+2019-03-08T18:02:35,901245793+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:36,251766956+01:00
+Readed PCI 461
+Readed lat 57.01405
+Readed lon 9.987204333
+
+2019-03-08T18:02:36,597175239+01:00
+Changed coordinates from 57.0140495, 9.987204667 to 57.01405, 9.987204333
+
+2019-03-08T18:02:36,631280464+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 211.461216671
+
+2019-03-08T18:02:36,880678825+01:00
+Readed PCI 461
+Readed lat 57.01405
+Readed lon 9.987204333
+
+2019-03-08T18:02:36,885415125+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:37,237306988+01:00
+Readed PCI 461
+Readed lat 57.01405
+Readed lon 9.987204333
+
+2019-03-08T18:02:37,243249953+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:37,499085041+01:00
+Readed PCI 461
+Readed lat 57.014050833
+Readed lon 9.987204667
+
+2019-03-08T18:02:37,852222139+01:00
+Changed coordinates from 57.01405, 9.987204333 to 57.014050833, 9.987204667
+
+2019-03-08T18:02:37,876811224+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 211.521525313
+
+2019-03-08T18:02:38,271122463+01:00
+Readed PCI 461
+Readed lat 57.014051667
+Readed lon 9.987205333
+
+2019-03-08T18:02:38,619009965+01:00
+Changed coordinates from 57.014050833, 9.987204667 to 57.014051667, 9.987205333
+
+2019-03-08T18:02:38,646255694+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 211.569474094
+
+2019-03-08T18:02:38,923460260+01:00
+Readed PCI 461
+Readed lat 57.014051667
+Readed lon 9.987205333
+
+2019-03-08T18:02:38,930446743+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:39,247623946+01:00
+Readed PCI 461
+Readed lat 57.014051667
+Readed lon 9.987205333
+
+2019-03-08T18:02:39,252485440+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:39,540806229+01:00
+Readed PCI 461
+Readed lat 57.014052667
+Readed lon 9.9872055
+
+2019-03-08T18:02:39,877608933+01:00
+Changed coordinates from 57.014051667, 9.987205333 to 57.014052667, 9.9872055
+
+2019-03-08T18:02:39,915229641+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 211.650728928
+
+2019-03-08T18:02:40,234456329+01:00
+Readed PCI 461
+Readed lat 57.014054167
+Readed lon 9.987206
+
+2019-03-08T18:02:40,580279058+01:00
+Changed coordinates from 57.014052667, 9.9872055 to 57.014054167, 9.987206
+
+2019-03-08T18:02:40,623454910+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 211.763301643
+
+2019-03-08T18:02:40,884597685+01:00
+Readed PCI 461
+Readed lat 57.014054167
+Readed lon 9.987206
+
+2019-03-08T18:02:40,887951899+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:41,240391413+01:00
+Readed PCI 461
+Readed lat 57.014054167
+Readed lon 9.987206
+
+2019-03-08T18:02:41,253654895+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:41,486706279+01:00
+Readed PCI 461
+Readed lat 57.014055
+Readed lon 9.987206667
+
+2019-03-08T18:02:41,816973608+01:00
+Changed coordinates from 57.014054167, 9.987206 to 57.014055, 9.987206667
+
+2019-03-08T18:02:41,862805725+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 211.811248848
+
+2019-03-08T18:02:42,196856204+01:00
+Readed PCI 461
+Readed lat 57.014055
+Readed lon 9.987206667
+
+2019-03-08T18:02:42,200132969+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:42,518664052+01:00
+Readed PCI 461
+Readed lat 57.014055833
+Readed lon 9.987207167
+
+2019-03-08T18:02:42,837752293+01:00
+Changed coordinates from 57.014055, 9.987206667 to 57.014055833, 9.987207167
+
+2019-03-08T18:02:42,870770636+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 211.865492986
+
+2019-03-08T18:02:43,231607692+01:00
+Readed PCI 461
+Readed lat 57.014055833
+Readed lon 9.987207167
+
+2019-03-08T18:02:43,234469644+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:43,491147670+01:00
+Readed PCI 461
+Readed lat 57.014057
+Readed lon 9.987207667
+
+2019-03-08T18:02:43,808726039+01:00
+Changed coordinates from 57.014055833, 9.987207167 to 57.014057, 9.987207667
+
+2019-03-08T18:02:43,839726462+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 211.949048692
+
+2019-03-08T18:02:44,099211479+01:00
+Readed PCI 461
+Readed lat 57.014057
+Readed lon 9.987207667
+
+2019-03-08T18:02:44,111252630+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:44,461808502+01:00
+Readed PCI 461
+Readed lat 57.014058167
+Readed lon 9.987208167
+
+2019-03-08T18:02:44,791643009+01:00
+Changed coordinates from 57.014057, 9.987207667 to 57.014058167, 9.987208167
+
+2019-03-08T18:02:44,827380698+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.032655476
+
+2019-03-08T18:02:45,109329691+01:00
+Readed PCI 461
+Readed lat 57.014058167
+Readed lon 9.987208167
+
+2019-03-08T18:02:45,115025607+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:45,484382077+01:00
+Readed PCI 461
+Readed lat 57.014058833
+Readed lon 9.987208667
+
+2019-03-08T18:02:45,776950001+01:00
+Changed coordinates from 57.014058167, 9.987208167 to 57.014058833, 9.987208667
+
+2019-03-08T18:02:45,799358800+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 212.072359731
+
+2019-03-08T18:02:46,168423332+01:00
+Readed PCI 461
+Readed lat 57.014058833
+Readed lon 9.987208667
+
+2019-03-08T18:02:46,174809888+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:46,501151462+01:00
+Readed PCI 461
+Readed lat 57.014060333
+Readed lon 9.987209333
+
+2019-03-08T18:02:46,817169061+01:00
+Changed coordinates from 57.014058833, 9.987208667 to 57.014060333, 9.987209333
+
+2019-03-08T18:02:46,844739750+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 212.179070077
+
+2019-03-08T18:02:47,160677405+01:00
+Readed PCI 461
+Readed lat 57.014060333
+Readed lon 9.987209333
+
+2019-03-08T18:02:47,170087057+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:47,444587039+01:00
+Readed PCI 461
+Readed lat 57.014061167
+Readed lon 9.98721
+
+2019-03-08T18:02:47,719458160+01:00
+Changed coordinates from 57.014060333, 9.987209333 to 57.014061167, 9.98721
+
+2019-03-08T18:02:47,743846543+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.227349944
+
+2019-03-08T18:02:48,027780261+01:00
+Readed PCI 461
+Readed lat 57.014061167
+Readed lon 9.98721
+
+2019-03-08T18:02:48,030912915+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:48,406877109+01:00
+Readed PCI 461
+Readed lat 57.014062167
+Readed lon 9.987210667
+
+2019-03-08T18:02:48,731014374+01:00
+Changed coordinates from 57.014061167, 9.98721 to 57.014062167, 9.987210667
+
+2019-03-08T18:02:48,757755944+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 212.290246808
+
+2019-03-08T18:02:49,059685807+01:00
+Readed PCI 461
+Readed lat 57.014062167
+Readed lon 9.987210667
+
+2019-03-08T18:02:49,062977231+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:49,401466087+01:00
+Readed PCI 461
+Readed lat 57.0140625
+Readed lon 9.987211167
+
+2019-03-08T18:02:49,739117983+01:00
+Changed coordinates from 57.014062167, 9.987210667 to 57.0140625, 9.987211167
+
+2019-03-08T18:02:49,772689589+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 212.300826319
+
+2019-03-08T18:02:50,029385904+01:00
+Readed PCI 461
+Readed lat 57.0140625
+Readed lon 9.987211167
+
+2019-03-08T18:02:50,035523628+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:50,378658434+01:00
+Readed PCI 461
+Readed lat 57.014063
+Readed lon 9.987211833
+
+2019-03-08T18:02:50,698550507+01:00
+Changed coordinates from 57.0140625, 9.987211167 to 57.014063, 9.987211833
+
+2019-03-08T18:02:50,733087329+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 212.319893758
+
+2019-03-08T18:02:51,004079372+01:00
+Readed PCI 461
+Readed lat 57.014063
+Readed lon 9.987211833
+
+2019-03-08T18:02:51,010700917+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:51,361207137+01:00
+Readed PCI 461
+Readed lat 57.014063667
+Readed lon 9.987212667
+
+2019-03-08T18:02:51,669094902+01:00
+Changed coordinates from 57.014063, 9.987211833 to 57.014063667, 9.987212667
+
+2019-03-08T18:02:51,715708846+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 212.34739263
+
+2019-03-08T18:02:52,006958376+01:00
+Readed PCI 461
+Readed lat 57.014063667
+Readed lon 9.987212667
+
+2019-03-08T18:02:52,010025168+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:52,334723907+01:00
+Readed PCI 461
+Readed lat 57.014064
+Readed lon 9.9872135
+
+2019-03-08T18:02:52,696952566+01:00
+Changed coordinates from 57.014063667, 9.987212667 to 57.014064, 9.9872135
+
+2019-03-08T18:02:52,730328715+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 212.34559847
+
+2019-03-08T18:02:53,035283889+01:00
+Readed PCI 461
+Readed lat 57.014064
+Readed lon 9.9872135
+
+2019-03-08T18:02:53,039206467+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:53,359913037+01:00
+Readed PCI 461
+Readed lat 57.014064333
+Readed lon 9.987214333
+
+2019-03-08T18:02:53,681962041+01:00
+Changed coordinates from 57.014064, 9.9872135 to 57.014064333, 9.987214333
+
+2019-03-08T18:02:53,711523280+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.343822833
+
+2019-03-08T18:02:53,992854406+01:00
+Readed PCI 461
+Readed lat 57.014064333
+Readed lon 9.987214333
+
+2019-03-08T18:02:54,000507742+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:54,348830818+01:00
+Readed PCI 461
+Readed lat 57.014064833
+Readed lon 9.987215333
+
+2019-03-08T18:02:54,692285883+01:00
+Changed coordinates from 57.014064333, 9.987214333 to 57.014064833, 9.987215333
+
+2019-03-08T18:02:54,725288698+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.350532842
+
+2019-03-08T18:02:54,975423503+01:00
+Readed PCI 461
+Readed lat 57.014064833
+Readed lon 9.987215333
+
+2019-03-08T18:02:54,979121025+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:55,399770905+01:00
+Readed PCI 461
+Readed lat 57.0140655
+Readed lon 9.987216167
+
+2019-03-08T18:02:55,721334127+01:00
+Changed coordinates from 57.014064833, 9.987215333 to 57.0140655, 9.987216167
+
+2019-03-08T18:02:55,751626073+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 212.378149866
+
+2019-03-08T18:02:56,066157222+01:00
+Readed PCI 461
+Readed lat 57.0140655
+Readed lon 9.987216167
+
+2019-03-08T18:02:56,068860762+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:56,372404112+01:00
+Readed PCI 461
+Readed lat 57.014065833
+Readed lon 9.987216833
+
+2019-03-08T18:02:56,708857947+01:00
+Changed coordinates from 57.0140655, 9.987216167 to 57.014065833, 9.987216833
+
+2019-03-08T18:02:56,734533248+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.382658395
+
+2019-03-08T18:02:57,038255301+01:00
+Readed PCI 461
+Readed lat 57.014065833
+Readed lon 9.987216833
+
+2019-03-08T18:02:57,041993820+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:57,390223412+01:00
+Readed PCI 461
+Readed lat 57.014065833
+Readed lon 9.987217667
+
+2019-03-08T18:02:57,755152774+01:00
+Changed coordinates from 57.014065833, 9.987216833 to 57.014065833, 9.987217667
+
+2019-03-08T18:02:57,791001211+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.351618037
+
+2019-03-08T18:02:58,066529004+01:00
+Readed PCI 461
+Readed lat 57.014065833
+Readed lon 9.987217667
+
+2019-03-08T18:02:58,071311789+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:58,396859010+01:00
+Readed PCI 461
+Readed lat 57.0140665
+Readed lon 9.987218833
+
+2019-03-08T18:02:58,733806092+01:00
+Changed coordinates from 57.014065833, 9.987217667 to 57.0140665, 9.987218833
+
+2019-03-08T18:02:58,758821757+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.366959628
+
+2019-03-08T18:02:59,044593004+01:00
+Readed PCI 461
+Readed lat 57.0140665
+Readed lon 9.987218833
+
+2019-03-08T18:02:59,048055480+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:02:59,441546984+01:00
+Readed PCI 461
+Readed lat 57.014067167
+Readed lon 9.987219833
+
+2019-03-08T18:02:59,756883502+01:00
+Changed coordinates from 57.0140665, 9.987218833 to 57.014067167, 9.987219833
+
+2019-03-08T18:02:59,789753063+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 212.388519787
+
+2019-03-08T18:03:00,136591344+01:00
+Readed PCI 461
+Readed lat 57.014067167
+Readed lon 9.987219833
+
+2019-03-08T18:03:00,146253271+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:00,434448434+01:00
+Readed PCI 461
+Readed lat 57.014067333
+Readed lon 9.9872205
+
+2019-03-08T18:03:00,777394387+01:00
+Changed coordinates from 57.014067167, 9.987219833 to 57.014067333, 9.9872205
+
+2019-03-08T18:03:00,812388649+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.378353439
+
+2019-03-08T18:03:01,092582121+01:00
+Readed PCI 461
+Readed lat 57.014067333
+Readed lon 9.9872205
+
+2019-03-08T18:03:01,095525201+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:01,449490730+01:00
+Readed PCI 461
+Readed lat 57.014067667
+Readed lon 9.9872215
+
+2019-03-08T18:03:01,776441368+01:00
+Changed coordinates from 57.014067333, 9.9872205 to 57.014067667, 9.9872215
+
+2019-03-08T18:03:01,802708833+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.370629103
+
+2019-03-08T18:03:02,043108371+01:00
+Readed PCI 461
+Readed lat 57.014067667
+Readed lon 9.9872215
+
+2019-03-08T18:03:02,047888779+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:02,440771928+01:00
+Readed PCI 461
+Readed lat 57.014067667
+Readed lon 9.987222
+
+2019-03-08T18:03:02,761413691+01:00
+Changed coordinates from 57.014067667, 9.9872215 to 57.014067667, 9.987222
+
+2019-03-08T18:03:02,793671783+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.352058371
+
+2019-03-08T18:03:03,104689896+01:00
+Readed PCI 461
+Readed lat 57.014067667
+Readed lon 9.987222
+
+2019-03-08T18:03:03,107494880+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:03,419366551+01:00
+Readed PCI 461
+Readed lat 57.014068167
+Readed lon 9.987222833
+
+2019-03-08T18:03:03,764366569+01:00
+Changed coordinates from 57.014067667, 9.987222 to 57.014068167, 9.987222833
+
+2019-03-08T18:03:03,795333087+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.365197938
+
+2019-03-08T18:03:04,054935451+01:00
+Readed PCI 461
+Readed lat 57.014068167
+Readed lon 9.987222833
+
+2019-03-08T18:03:04,058058349+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:04,439869260+01:00
+Readed PCI 461
+Readed lat 57.0140685
+Readed lon 9.987223667
+
+2019-03-08T18:03:04,788542278+01:00
+Changed coordinates from 57.014068167, 9.987222833 to 57.0140685, 9.987223667
+
+2019-03-08T18:03:04,822414372+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 212.363601502
+
+2019-03-08T18:03:05,111042811+01:00
+Readed PCI 461
+Readed lat 57.0140685
+Readed lon 9.987223667
+
+2019-03-08T18:03:05,118249213+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:05,456301710+01:00
+Readed PCI 461
+Readed lat 57.014068833
+Readed lon 9.987224667
+
+2019-03-08T18:03:05,783869400+01:00
+Changed coordinates from 57.0140685, 9.987223667 to 57.014068833, 9.987224667
+
+2019-03-08T18:03:05,820673332+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 212.355866242
+
+2019-03-08T18:03:06,085315087+01:00
+Readed PCI 461
+Readed lat 57.014068833
+Readed lon 9.987224667
+
+2019-03-08T18:03:06,090885104+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:06,425724614+01:00
+Readed PCI 461
+Readed lat 57.014069167
+Readed lon 9.9872255
+
+2019-03-08T18:03:06,746248845+01:00
+Changed coordinates from 57.014068833, 9.987224667 to 57.014069167, 9.9872255
+
+2019-03-08T18:03:06,769507480+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 212.354434563
+
+2019-03-08T18:03:07,074205748+01:00
+Readed PCI 461
+Readed lat 57.014069167
+Readed lon 9.9872255
+
+2019-03-08T18:03:07,077619398+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:07,416163582+01:00
+Readed PCI 461
+Readed lat 57.014069
+Readed lon 9.9872265
+
+2019-03-08T18:03:07,772850905+01:00
+Changed coordinates from 57.014069167, 9.9872255 to 57.014069, 9.9872265
+
+2019-03-08T18:03:07,800400507+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 212.302628671
+
+2019-03-08T18:03:08,079068222+01:00
+Readed PCI 461
+Readed lat 57.014069
+Readed lon 9.9872265
+
+2019-03-08T18:03:08,094890710+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:08,424820187+01:00
+Readed PCI 461
+Readed lat 57.014068833
+Readed lon 9.987227167
+
+2019-03-08T18:03:08,771426150+01:00
+Changed coordinates from 57.014069, 9.9872265 to 57.014068833, 9.987227167
+
+2019-03-08T18:03:08,802674252+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.263171011
+
+2019-03-08T18:03:09,089409525+01:00
+Readed PCI 461
+Readed lat 57.014068833
+Readed lon 9.987227167
+
+2019-03-08T18:03:09,102922126+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:09,397886526+01:00
+Readed PCI 461
+Readed lat 57.014069
+Readed lon 9.987228
+
+2019-03-08T18:03:09,738263202+01:00
+Changed coordinates from 57.014068833, 9.987227167 to 57.014069, 9.987228
+
+2019-03-08T18:03:09,761617338+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 212.247037208
+
+2019-03-08T18:03:09,996735203+01:00
+Readed PCI 461
+Readed lat 57.014069
+Readed lon 9.987228
+
+2019-03-08T18:03:09,999834588+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:10,336697779+01:00
+Readed PCI 461
+Readed lat 57.014069
+Readed lon 9.987228833
+
+2019-03-08T18:03:10,684022307+01:00
+Changed coordinates from 57.014069, 9.987228 to 57.014069, 9.987228833
+
+2019-03-08T18:03:10,715699736+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 212.216176026
+
+2019-03-08T18:03:10,974311364+01:00
+Readed PCI 461
+Readed lat 57.014069
+Readed lon 9.987228833
+
+2019-03-08T18:03:10,977291127+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:11,345094092+01:00
+Readed PCI 461
+Readed lat 57.014069167
+Readed lon 9.987229667
+
+2019-03-08T18:03:11,664866713+01:00
+Changed coordinates from 57.014069, 9.987228833 to 57.014069167, 9.987229667
+
+2019-03-08T18:03:11,692500362+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.803108062 degrees
+The antenna selected is 2
+The distance to the BS is 212.200027386
+
+2019-03-08T18:03:12,013953613+01:00
+Readed PCI 461
+Readed lat 57.014069167
+Readed lon 9.987229667
+
+2019-03-08T18:03:12,016512464+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:12,318005899+01:00
+Readed PCI 461
+Readed lat 57.0140695
+Readed lon 9.9872305
+
+2019-03-08T18:03:12,634840443+01:00
+Changed coordinates from 57.014069167, 9.987229667 to 57.0140695, 9.9872305
+
+2019-03-08T18:03:12,662153161+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 212.198585316
+
+2019-03-08T18:03:12,920673229+01:00
+Readed PCI 461
+Readed lat 57.0140695
+Readed lon 9.9872305
+
+2019-03-08T18:03:12,925541015+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:13,282290470+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.987231167
+
+2019-03-08T18:03:13,631596329+01:00
+Changed coordinates from 57.0140695, 9.9872305 to 57.014069833, 9.987231167
+
+2019-03-08T18:03:13,656236810+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 212.203304524
+
+2019-03-08T18:03:13,892503710+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.987231167
+
+2019-03-08T18:03:13,895211068+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:14,189615383+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.987231167
+
+2019-03-08T18:03:14,193376293+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:14,480022970+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.987232167
+
+2019-03-08T18:03:14,780124116+01:00
+Changed coordinates from 57.014069833, 9.987231167 to 57.014069833, 9.987232167
+
+2019-03-08T18:03:14,806364877+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 212.166304652
+
+2019-03-08T18:03:15,105248140+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.987232167
+
+2019-03-08T18:03:15,112813033+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:15,415700485+01:00
+Readed PCI 461
+Readed lat 57.014069667
+Readed lon 9.987232833
+
+2019-03-08T18:03:15,739302759+01:00
+Changed coordinates from 57.014069833, 9.987232167 to 57.014069667, 9.987232833
+
+2019-03-08T18:03:15,773635591+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.127004592
+
+2019-03-08T18:03:16,034362061+01:00
+Readed PCI 461
+Readed lat 57.014069667
+Readed lon 9.987232833
+
+2019-03-08T18:03:16,037343297+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:16,394618045+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.9872335
+
+2019-03-08T18:03:16,724929164+01:00
+Changed coordinates from 57.014069667, 9.987232833 to 57.014069833, 9.9872335
+
+2019-03-08T18:03:16,749424415+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 212.117000842
+
+2019-03-08T18:03:17,026371264+01:00
+Readed PCI 461
+Readed lat 57.014069833
+Readed lon 9.9872335
+
+2019-03-08T18:03:17,030983581+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:17,405725489+01:00
+Readed PCI 461
+Readed lat 57.01407
+Readed lon 9.987234167
+
+2019-03-08T18:03:17,720781452+01:00
+Changed coordinates from 57.014069833, 9.9872335 to 57.01407, 9.987234167
+
+2019-03-08T18:03:17,752480304+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 212.107094337
+
+2019-03-08T18:03:18,091381429+01:00
+Readed PCI 461
+Readed lat 57.01407
+Readed lon 9.987234167
+
+2019-03-08T18:03:18,096912126+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:18,404628979+01:00
+Readed PCI 461
+Readed lat 57.014070333
+Readed lon 9.987234667
+
+2019-03-08T18:03:18,740495503+01:00
+Changed coordinates from 57.01407, 9.987234167 to 57.014070333, 9.987234667
+
+2019-03-08T18:03:18,768921276+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.118039927
+
+2019-03-08T18:03:19,063451937+01:00
+Readed PCI 461
+Readed lat 57.014070333
+Readed lon 9.987234667
+
+2019-03-08T18:03:19,066206630+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:19,363997901+01:00
+Readed PCI 461
+Readed lat 57.014070667
+Readed lon 9.987235167
+
+2019-03-08T18:03:19,687951221+01:00
+Changed coordinates from 57.014070333, 9.987234667 to 57.014070667, 9.987235167
+
+2019-03-08T18:03:19,715660178+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 212.129084178
+
+2019-03-08T18:03:20,005602644+01:00
+Readed PCI 461
+Readed lat 57.014070667
+Readed lon 9.987235167
+
+2019-03-08T18:03:20,008309251+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:20,364706635+01:00
+Readed PCI 461
+Readed lat 57.014071167
+Readed lon 9.987235667
+
+2019-03-08T18:03:20,687445583+01:00
+Changed coordinates from 57.014070667, 9.987235167 to 57.014071167, 9.987235667
+
+2019-03-08T18:03:20,722605704+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 212.15481498
+
+2019-03-08T18:03:21,010698850+01:00
+Readed PCI 461
+Readed lat 57.014071167
+Readed lon 9.987235667
+
+2019-03-08T18:03:21,014070845+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:21,393987146+01:00
+Readed PCI 461
+Readed lat 57.0140715
+Readed lon 9.987236333
+
+2019-03-08T18:03:21,733772789+01:00
+Changed coordinates from 57.014071167, 9.987235667 to 57.0140715, 9.987236333
+
+2019-03-08T18:03:21,767889305+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 212.159664487
+
+2019-03-08T18:03:22,057573618+01:00
+Readed PCI 461
+Readed lat 57.0140715
+Readed lon 9.987236333
+
+2019-03-08T18:03:22,060696784+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:22,448750457+01:00
+Readed PCI 461
+Readed lat 57.014067
+Readed lon 9.9872425
+
+2019-03-08T18:03:22,763145970+01:00
+Changed coordinates from 57.0140715, 9.987236333 to 57.014067, 9.9872425
+
+2019-03-08T18:03:22,783940495+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.407306181 degrees
+The antenna selected is 2
+The distance to the BS is 211.534023078
+
+2019-03-08T18:03:23,036037512+01:00
+Readed PCI 461
+Readed lat 57.014067
+Readed lon 9.9872425
+
+2019-03-08T18:03:23,038916586+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:23,380061503+01:00
+Readed PCI 461
+Readed lat 57.0140635
+Readed lon 9.987246333
+
+2019-03-08T18:03:23,717907047+01:00
+Changed coordinates from 57.014067, 9.9872425 to 57.0140635, 9.987246333
+
+2019-03-08T18:03:23,745643753+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 211.082998576
+
+2019-03-08T18:03:23,999253065+01:00
+Readed PCI 461
+Readed lat 57.0140635
+Readed lon 9.987246333
+
+2019-03-08T18:03:24,008741383+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:24,345260709+01:00
+Readed PCI 461
+Readed lat 57.0140605
+Readed lon 9.987248667
+
+2019-03-08T18:03:24,686341688+01:00
+Changed coordinates from 57.0140635, 9.987246333 to 57.0140605, 9.987248667
+
+2019-03-08T18:03:24,713529672+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 210.731573616
+
+2019-03-08T18:03:24,960506100+01:00
+Readed PCI 461
+Readed lat 57.0140605
+Readed lon 9.987248667
+
+2019-03-08T18:03:24,969436800+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:25,342604627+01:00
+Readed PCI 461
+Readed lat 57.014058
+Readed lon 9.987251
+
+2019-03-08T18:03:25,681920729+01:00
+Changed coordinates from 57.0140605, 9.987248667 to 57.014058, 9.987251
+
+2019-03-08T18:03:25,713386422+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 7
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 210.42440397
+
+2019-03-08T18:03:26,018955359+01:00
+Readed PCI 461
+Readed lat 57.014058
+Readed lon 9.987251
+
+2019-03-08T18:03:26,021818596+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:26,338888268+01:00
+Readed PCI 461
+Readed lat 57.0140555
+Readed lon 9.987252833
+
+2019-03-08T18:03:26,675153538+01:00
+Changed coordinates from 57.014058, 9.987251 to 57.0140555, 9.987252833
+
+2019-03-08T18:03:26,699485179+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 210.135742823
+
+2019-03-08T18:03:26,964151551+01:00
+Readed PCI 461
+Readed lat 57.0140555
+Readed lon 9.987252833
+
+2019-03-08T18:03:26,967169870+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:27,314616097+01:00
+Readed PCI 461
+Readed lat 57.014054167
+Readed lon 9.987254167
+
+2019-03-08T18:03:27,681857069+01:00
+Changed coordinates from 57.0140555, 9.987252833 to 57.014054167, 9.987254167
+
+2019-03-08T18:03:27,708302820+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.604862957 degrees
+The antenna selected is 2
+The distance to the BS is 209.968646771
+
+2019-03-08T18:03:28,020362807+01:00
+Readed PCI 461
+Readed lat 57.014054167
+Readed lon 9.987254167
+
+2019-03-08T18:03:28,023164945+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:28,431503915+01:00
+Readed PCI 461
+Readed lat 57.014052667
+Readed lon 9.987255167
+
+2019-03-08T18:03:28,765345881+01:00
+Changed coordinates from 57.014054167, 9.987254167 to 57.014052667, 9.987255167
+
+2019-03-08T18:03:28,807363426+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 209.799164455
+
+2019-03-08T18:03:29,126261260+01:00
+Readed PCI 461
+Readed lat 57.014052667
+Readed lon 9.987255167
+
+2019-03-08T18:03:29,137638179+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:29,486757376+01:00
+Readed PCI 461
+Readed lat 57.0140515
+Readed lon 9.9872565
+
+2019-03-08T18:03:29,793865806+01:00
+Changed coordinates from 57.014052667, 9.987255167 to 57.0140515, 9.9872565
+
+2019-03-08T18:03:29,813619465+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 209.646774053
+
+2019-03-08T18:03:30,156555939+01:00
+Readed PCI 461
+Readed lat 57.0140515
+Readed lon 9.9872565
+
+2019-03-08T18:03:30,160772001+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:30,458915592+01:00
+Readed PCI 461
+Readed lat 57.014051667
+Readed lon 9.987256
+
+2019-03-08T18:03:30,817416414+01:00
+Changed coordinates from 57.0140515, 9.9872565 to 57.014051667, 9.987256
+
+2019-03-08T18:03:30,838730327+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 209.680027095
+
+2019-03-08T18:03:31,186580171+01:00
+Readed PCI 461
+Readed lat 57.014051667
+Readed lon 9.987256
+
+2019-03-08T18:03:31,190650287+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:31,463118266+01:00
+Readed PCI 461
+Readed lat 57.0140505
+Readed lon 9.987257333
+
+2019-03-08T18:03:31,793358797+01:00
+Changed coordinates from 57.014051667, 9.987256 to 57.0140505, 9.987257333
+
+2019-03-08T18:03:31,817601966+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 209.52763867
+
+2019-03-08T18:03:32,175094201+01:00
+Readed PCI 461
+Readed lat 57.0140505
+Readed lon 9.987257333
+
+2019-03-08T18:03:32,187455744+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:32,442009799+01:00
+Readed PCI 461
+Readed lat 57.014049667
+Readed lon 9.987258833
+
+2019-03-08T18:03:32,798831187+01:00
+Changed coordinates from 57.0140505, 9.987257333 to 57.014049667, 9.987258833
+
+2019-03-08T18:03:32,824645408+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 209.398561179
+
+2019-03-08T18:03:33,183827979+01:00
+Readed PCI 461
+Readed lat 57.014049667
+Readed lon 9.987258833
+
+2019-03-08T18:03:33,190432016+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:33,462149622+01:00
+Readed PCI 461
+Readed lat 57.014048167
+Readed lon 9.987261167
+
+2019-03-08T18:03:33,783260609+01:00
+Changed coordinates from 57.014049667, 9.987258833 to 57.014048167, 9.987261167
+
+2019-03-08T18:03:33,809522149+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 209.179716953
+
+2019-03-08T18:03:34,089063226+01:00
+Readed PCI 461
+Readed lat 57.014048167
+Readed lon 9.987261167
+
+2019-03-08T18:03:34,092551662+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:34,459336610+01:00
+Readed PCI 461
+Readed lat 57.014046167
+Readed lon 9.987263833
+
+2019-03-08T18:03:34,785777068+01:00
+Changed coordinates from 57.014048167, 9.987261167 to 57.014046167, 9.987263833
+
+2019-03-08T18:03:34,818354488+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 208.904432024
+
+2019-03-08T18:03:35,083146832+01:00
+Readed PCI 461
+Readed lat 57.014046167
+Readed lon 9.987263833
+
+2019-03-08T18:03:35,091634486+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:35,453213032+01:00
+Readed PCI 461
+Readed lat 57.014044333
+Readed lon 9.987265333
+
+2019-03-08T18:03:35,776119082+01:00
+Changed coordinates from 57.014046167, 9.987263833 to 57.014044333, 9.987265333
+
+2019-03-08T18:03:35,798398085+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.686969026
+
+2019-03-08T18:03:36,108885112+01:00
+Readed PCI 461
+Readed lat 57.014044333
+Readed lon 9.987265333
+
+2019-03-08T18:03:36,111646324+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:36,434808079+01:00
+Readed PCI 461
+Readed lat 57.014044667
+Readed lon 9.987266833
+
+2019-03-08T18:03:36,763684413+01:00
+Changed coordinates from 57.014044333, 9.987265333 to 57.014044667, 9.987266833
+
+2019-03-08T18:03:36,793595686+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 208.660941657
+
+2019-03-08T18:03:37,152726664+01:00
+Readed PCI 461
+Readed lat 57.014044667
+Readed lon 9.987266833
+
+2019-03-08T18:03:37,158531052+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:37,444468293+01:00
+Readed PCI 461
+Readed lat 57.014042667
+Readed lon 9.987267
+
+2019-03-08T18:03:37,806036647+01:00
+Changed coordinates from 57.014044667, 9.987266833 to 57.014042667, 9.987267
+
+2019-03-08T18:03:37,839701917+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.803108062 degrees
+The antenna selected is 2
+The distance to the BS is 208.478164327
+
+2019-03-08T18:03:38,113205763+01:00
+Readed PCI 461
+Readed lat 57.014042667
+Readed lon 9.987267
+
+2019-03-08T18:03:38,116081783+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:38,433340220+01:00
+Readed PCI 461
+Readed lat 57.014041333
+Readed lon 9.987267
+
+2019-03-08T18:03:38,729928577+01:00
+Changed coordinates from 57.014042667, 9.987267 to 57.014041333, 9.987267
+
+2019-03-08T18:03:38,754574286+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.360422587
+
+2019-03-08T18:03:39,038016159+01:00
+Readed PCI 461
+Readed lat 57.014041333
+Readed lon 9.987267
+
+2019-03-08T18:03:39,041849094+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:39,348797150+01:00
+Readed PCI 461
+Readed lat 57.014041
+Readed lon 9.987268
+
+2019-03-08T18:03:39,692882991+01:00
+Changed coordinates from 57.014041333, 9.987267 to 57.014041, 9.987268
+
+2019-03-08T18:03:39,721616073+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 208.293984583
+
+2019-03-08T18:03:39,995928741+01:00
+Readed PCI 461
+Readed lat 57.014041
+Readed lon 9.987268
+
+2019-03-08T18:03:40,003467551+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:40,359811128+01:00
+Readed PCI 461
+Readed lat 57.014041167
+Readed lon 9.9872685
+
+2019-03-08T18:03:40,679814882+01:00
+Changed coordinates from 57.014041, 9.987268 to 57.014041167, 9.9872685
+
+2019-03-08T18:03:40,718144944+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.290202663
+
+2019-03-08T18:03:40,990442569+01:00
+Readed PCI 461
+Readed lat 57.014041167
+Readed lon 9.9872685
+
+2019-03-08T18:03:40,994331488+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:41,360704457+01:00
+Readed PCI 461
+Readed lat 57.014041
+Readed lon 9.987268167
+
+2019-03-08T18:03:41,649545316+01:00
+Changed coordinates from 57.014041167, 9.9872685 to 57.014041, 9.987268167
+
+2019-03-08T18:03:41,676137783+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.600732738 degrees
+The antenna selected is 2
+The distance to the BS is 208.287797843
+
+2019-03-08T18:03:41,953237713+01:00
+Readed PCI 461
+Readed lat 57.014041
+Readed lon 9.987268167
+
+2019-03-08T18:03:41,956262651+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:42,313284406+01:00
+Readed PCI 461
+Readed lat 57.014040667
+Readed lon 9.987267333
+
+2019-03-08T18:03:42,658157631+01:00
+Changed coordinates from 57.014041, 9.987268167 to 57.014040667, 9.987267333
+
+2019-03-08T18:03:42,683755744+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 208.289313149
+
+2019-03-08T18:03:42,948171227+01:00
+Readed PCI 461
+Readed lat 57.014040667
+Readed lon 9.987267333
+
+2019-03-08T18:03:42,955974650+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:43,311947993+01:00
+Readed PCI 461
+Readed lat 57.014040333
+Readed lon 9.987266833
+
+2019-03-08T18:03:43,611327522+01:00
+Changed coordinates from 57.014040667, 9.987267333 to 57.014040333, 9.987266833
+
+2019-03-08T18:03:43,635322067+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 208.278376906
+
+2019-03-08T18:03:43,923986057+01:00
+Readed PCI 461
+Readed lat 57.014040333
+Readed lon 9.987266833
+
+2019-03-08T18:03:43,935181791+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:44,266315874+01:00
+Readed PCI 461
+Readed lat 57.014040167
+Readed lon 9.9872665
+
+2019-03-08T18:03:44,626203152+01:00
+Changed coordinates from 57.014040333, 9.987266833 to 57.014040167, 9.9872665
+
+2019-03-08T18:03:44,658534471+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.803108062 degrees
+The antenna selected is 2
+The distance to the BS is 208.276078293
+
+2019-03-08T18:03:44,956600892+01:00
+Readed PCI 461
+Readed lat 57.014040167
+Readed lon 9.9872665
+
+2019-03-08T18:03:44,962403376+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:45,304477211+01:00
+Readed PCI 461
+Readed lat 57.0140405
+Readed lon 9.987265833
+
+2019-03-08T18:03:45,626613425+01:00
+Changed coordinates from 57.014040167, 9.9872665 to 57.0140405, 9.987265833
+
+2019-03-08T18:03:45,648013287+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801745499 degrees
+The antenna selected is 2
+The distance to the BS is 208.330184068
+
+2019-03-08T18:03:45,902660388+01:00
+Readed PCI 461
+Readed lat 57.0140405
+Readed lon 9.987265833
+
+2019-03-08T18:03:45,905396360+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:46,258795815+01:00
+Readed PCI 461
+Readed lat 57.0140405
+Readed lon 9.987265
+
+2019-03-08T18:03:46,593217121+01:00
+Changed coordinates from 57.0140405, 9.987265833 to 57.0140405, 9.987265
+
+2019-03-08T18:03:46,639426088+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.361074923
+
+2019-03-08T18:03:46,921792622+01:00
+Readed PCI 461
+Readed lat 57.0140405
+Readed lon 9.987265
+
+2019-03-08T18:03:46,929260542+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:47,321664040+01:00
+Readed PCI 461
+Readed lat 57.014040167
+Readed lon 9.987265167
+
+2019-03-08T18:03:47,627409651+01:00
+Changed coordinates from 57.0140405, 9.987265 to 57.014040167, 9.987265167
+
+2019-03-08T18:03:47,652279278+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.602119038 degrees
+The antenna selected is 2
+The distance to the BS is 208.325511869
+
+2019-03-08T18:03:47,952401564+01:00
+Readed PCI 461
+Readed lat 57.014040167
+Readed lon 9.987265167
+
+2019-03-08T18:03:47,957797323+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:48,270062962+01:00
+Readed PCI 461
+Readed lat 57.014039833
+Readed lon 9.987265
+
+2019-03-08T18:03:48,624498079+01:00
+Changed coordinates from 57.014040167, 9.987265167 to 57.014039833, 9.987265
+
+2019-03-08T18:03:48,652007879+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.302252087
+
+2019-03-08T18:03:48,958237340+01:00
+Readed PCI 461
+Readed lat 57.014039833
+Readed lon 9.987265
+
+2019-03-08T18:03:48,961454056+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:49,288415643+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.987264667
+
+2019-03-08T18:03:49,622434283+01:00
+Changed coordinates from 57.014039833, 9.987265 to 57.014039667, 9.987264667
+
+2019-03-08T18:03:49,645621244+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.80242913 degrees
+The antenna selected is 2
+The distance to the BS is 208.299969495
+
+2019-03-08T18:03:49,910941770+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.987264667
+
+2019-03-08T18:03:49,913881959+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:50,246426067+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.987264167
+
+2019-03-08T18:03:50,569563885+01:00
+Changed coordinates from 57.014039667, 9.987264667 to 57.014039667, 9.987264167
+
+2019-03-08T18:03:50,598967869+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.318523518
+
+2019-03-08T18:03:50,875317637+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.987264167
+
+2019-03-08T18:03:50,878852865+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:51,148293418+01:00
+Readed PCI 461
+Readed lat 57.014039667
+Readed lon 9.987264167
+
+2019-03-08T18:03:51,154178069+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:51,497239520+01:00
+Readed PCI 461
+Readed lat 57.014039833
+Readed lon 9.987263
+
+2019-03-08T18:03:51,822756100+01:00
+Changed coordinates from 57.014039667, 9.987264167 to 57.014039833, 9.987263
+
+2019-03-08T18:03:51,856223390+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.376472224
+
+2019-03-08T18:03:52,204504547+01:00
+Readed PCI 461
+Readed lat 57.014039833
+Readed lon 9.987263
+
+2019-03-08T18:03:52,214387857+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:52,478462660+01:00
+Readed PCI 461
+Readed lat 57.0140395
+Readed lon 9.987262667
+
+2019-03-08T18:03:52,838278637+01:00
+Changed coordinates from 57.014039833, 9.987263 to 57.0140395, 9.987262667
+
+2019-03-08T18:03:52,866803861+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.603495745 degrees
+The antenna selected is 2
+The distance to the BS is 208.359482766
+
+2019-03-08T18:03:53,247416981+01:00
+Readed PCI 461
+Readed lat 57.014039333
+Readed lon 9.987262333
+
+2019-03-08T18:03:53,600840664+01:00
+Changed coordinates from 57.0140395, 9.987262667 to 57.014039333, 9.987262333
+
+2019-03-08T18:03:53,632117343+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 359.801057121 degrees
+The antenna selected is 2
+The distance to the BS is 208.357166859
+
+2019-03-08T18:03:53,917197116+01:00
+Readed PCI 461
+Readed lat 57.014039333
+Readed lon 9.987262333
+
+2019-03-08T18:03:53,920032069+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:54,282129905+01:00
+Readed PCI 461
+Readed lat 57.014038667
+Readed lon 9.987262667
+
+2019-03-08T18:03:54,588278940+01:00
+Changed coordinates from 57.014039333, 9.987262333 to 57.014038667, 9.987262667
+
+2019-03-08T18:03:54,612352104+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 0.0 degrees
+The antenna selected is 2
+The distance to the BS is 208.286070936
+
+2019-03-08T18:03:54,874362481+01:00
+Readed PCI 461
+Readed lat 57.014038667
+Readed lon 9.987262667
+
+2019-03-08T18:03:54,877972693+01:00
+No change coordinates neither PCI
+
+2019-03-08T18:03:55,199274627+01:00
+Readed PCI 461
+Readed lat 57.014038667
+Readed lon 9.987262667
+
+2019-03-08T18:03:55,203565787+01:00
+No change coordinates neither PCI
+

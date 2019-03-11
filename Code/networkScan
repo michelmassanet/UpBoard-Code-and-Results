@@ -17,7 +17,7 @@ sudo /home/upboard/Desktop/switch $i
 
 sleep 1 #It may be necessary (test delay switch on the lab)
 
-RSRP_sentence=$(sudo qmicli -d /dev/cdc-wdm0 -p --device-open-mbim --nas-get-signal-strength | sed -n '15p')
+RSRP_sentence=$(sudo qmicli -d /dev/cdc-wdm1 -p --device-open-mbim --nas-get-signal-strength | sed -n '15p')
 RSRP_sentence_2=$(echo "$RSRP_sentence" | awk -F"dBm'" '{print $1}')
 RSRP_now=$(echo "$RSRP_sentence_2" | awk -F": '" '{print $2}')
 
