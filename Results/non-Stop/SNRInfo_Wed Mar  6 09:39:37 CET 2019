@@ -75601,3 +75601,57 @@ RSRP:
  
  
 2019-03-06T10:08:27,520477880+01:00
+[/dev/cdc-wdm0] Successfully got signal strength
+Current:
+	Network 'lte': '-68 dBm'
+RSSI:
+	Network 'lte': '-68 dBm'
+ECIO:
+	Network 'lte': '-2.5 dBm'
+IO: '-106 dBm'
+SINR: (8) '9.0 dB'
+RSRQ:
+	Network 'lte': '-13 dB'
+SNR:
+	Network 'lte': '15.0 dB'
+RSRP:
+	Network 'lte': '-101 dBm'
+ 
+ 
+2019-03-06T10:44:59,013700231+01:00
+[/dev/cdc-wdm0] Successfully got signal strength
+Current:
+	Network 'lte': '-67 dBm'
+RSSI:
+	Network 'lte': '-67 dBm'
+ECIO:
+	Network 'lte': '-2.5 dBm'
+IO: '-106 dBm'
+SINR: (8) '9.0 dB'
+RSRQ:
+	Network 'lte': '-13 dB'
+SNR:
+	Network 'lte': '14.0 dB'
+RSRP:
+	Network 'lte': '-100 dBm'
+ 
+ 
+2019-03-06T10:45:00,083396488+01:00
+[/dev/cdc-wdm0] Successfully got signal strength
+Current:
+	Network 'lte': '-67 dBm'
+RSSI:
+	Network 'lte': '-67 dBm'
+ECIO:
+	Network 'lte': '-2.5 dBm'
+IO: '-106 dBm'
+SINR: (8) '9.0 dB'
+RSRQ:
+	Network 'lte': '-13 dB'
+SNR:
+	Network 'lte': '14.0 dB'
+RSRP:
+	Network 'lte': '-100 dBm'
+ 
+ 
+2019-03-06T10:45:01,045134119+01:00

@@ -152,12 +152,12 @@ if [ "$time_error_pass" -gt "$time_out_error" ];then #timeout SECONDS from the e
 
 fi
 
-coordinatesInfo=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gpsOutput.py)
-latitude=$(echo "$coordinatesInfo" | sed -n '1p')
-longitude=$(echo "$coordinatesInfo" | sed -n '2p')
+#coordinatesInfo=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gpsOutput.py)
+#latitude=$(echo "$coordinatesInfo" | sed -n '1p')
+#longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
-#latitude=23 #debug purposes
-#longitude=55 #debug purposes
+latitude=23 #debug purposes
+longitude=55 #debug purposes
 modem_number_line=$(sudo mmcli -L | sed -n '2p')
 
 #log terminal purposes
@@ -310,4 +310,4 @@ fi
 #bitrateread
 #main
 
-sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/bitrateread $folder &  sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopPCI $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopGPS $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopStatistics $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopDeleteDrive $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopSNR $folder 
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/bitrateread $folder &  sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopPCI $folder   & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopStatistics $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopDeleteDrive $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopSNR $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopGPS $folder
