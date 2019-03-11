@@ -60,7 +60,7 @@ while true; do
 
 		#Acquiring the network info and extracting the PCI and saving it into the file of interest
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
-		infoNetwork=$(sudo qmicli -d /dev/cdc-wdm0 -p --device-open-mbim --nas-get-cell-location-info)
+		infoNetwork=$(sudo qmicli -d /dev/cdc-wdm1 -p --device-open-mbim --nas-get-cell-location-info)
 		echo "$infoNetwork" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$nameFile"
 
 		PCIline=$(echo "$infoNetwork" | sed -n '8p') #We get the line where the PCI is
