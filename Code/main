@@ -53,13 +53,13 @@ lon=1
 lat_past=44
 lon_past=3
 antenna=0
-speed=0
+speed=0 #km/h
 orientation_past=70
 orientation_current=90
 orientation_compass=0
 SIM=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/SIM)
 reason=NoReason
-timepass=80000
+timepass=80000 #nanoseconds
 start=$(date +%s%N)
 distance_covered=2 #meters
 accelerometer=0
@@ -465,7 +465,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
 		distance_covered=$(echo "$output" | sed -n 6p) 
 		valid=$(echo "$output" | sed -n 7p) 
-		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script
+		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script (km/h)
 
 		lat_past=$lat #We update the values
 		lon_past=$lon #We update the values
@@ -697,7 +697,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
 		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
 		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
-		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script
+		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script (km/h)
 		distance_covered=$(echo "$output" | sed -n 6p) #Distance to BS (log purposes)
 		valid=$(echo "$output" | sed -n 7p) 
 		

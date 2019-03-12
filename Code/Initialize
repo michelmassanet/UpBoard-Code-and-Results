@@ -123,7 +123,8 @@ sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #To the second
 
 
 ready=true
-time_out_error=30000000000 #nanoseconds
+#time_out_error=30000000000 #nanoseconds
+time_out_error=3000000000000 #nanoseconds
 error_situation=0
 time_error_start=$(date +%s%N)
 state_modem=fail

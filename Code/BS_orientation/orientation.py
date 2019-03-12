@@ -19,26 +19,26 @@ import datetime
 	#lon_past     #Past Longitude of the drone
 	#PCI          #PCI that the drone is connected to
 	#SIM          # 0--> Telenor, 1--> TDC
-	#speed_past   #Needed in case we loose coordinates
+	#speed_past   #Needed in case we loose coordinates (km/h)
 	#orientation_past #Orientation past 
 	#orientation_current #Orientation new input from the GPS
 	#time_pass       #time between calling the function again
 	#SIM	      #0 if Telenor or 1 if TDC, 2 for other operator
 	#reason       #0 --> "NewCoordinates", #1 --> "NewPCI"
-	#folder      #name of the folder to save the file speed there
+	#folder      #name of the folder to save the file  there
 	#acc_x      #accelerometer data in x (to be saved)
 	#acc_y      #accelerometer data in y (to be saved)
 	#acc_z      #accelerometer data in z (to be saved)
 	#orientation_compass #Orientation from compass
-	#distance_covered_past  #The distance calculated before
+	#distance_covered_past  #The distance calculated before (meters)
 
 #OUTPUTS
 	#antenna_index
 	#lat_current
 	#lon_current
 	#orientation (to FILE and normal output)
-	#speed (to FILE and normal output)
-	#distance (to FILE)
+	#speed (to FILE and normal output) hm/h
+	#distance (to FILE) in meters
 	#reason (to FILE) #This is to have a reference to know after
 	
 #VALID STATES (coordinates)
@@ -62,10 +62,10 @@ import datetime
 
 
 
-treshold_dist=0.5 #m
+treshold_dist=0.5 #meters
 treshold_angle=60 #degress
-treshold_time=3/1000000000 #3 seconds
-speed_thold=0.2 #m/s
+treshold_time=3/1000000000 #seconds
+speed_thold=3 #km/h
 
 if len(sys.argv)==18: #Because we always have one + the ones we input
 
@@ -75,7 +75,7 @@ if len(sys.argv)==18: #Because we always have one + the ones we input
 	lon_past = sys.argv[4]
 	PCI = sys.argv[5]
 	SIM = sys.argv[6]
-	speed_past = float(sys.argv[7])
+	speed_past = float(sys.argv[7]) #In km/h
 	orientation_past = sys.argv[8]
 	orientation_current = sys.argv[9]
 	time_pass = float(sys.argv[10]) #In nano seconds!
@@ -85,7 +85,7 @@ if len(sys.argv)==18: #Because we always have one + the ones we input
 	acc_y = float(sys.argv[14])
 	acc_z = float(sys.argv[15])
 	orientation_compass = float(sys.argv[16])
-	distance_covered_past=float(sys.argv[17])
+	distance_covered_past=float(sys.argv[17]) #In meters
 
 
 else:
@@ -265,7 +265,7 @@ elif (not lat_check or not lon_check) and speed_past>speed_thold: #we only don't
 	
 	speed=speed_past
 	#drone_orientation=orientation_past #degrees and it is the past one but will maintain
-	distance_covered=time_pass*speed_past/1000000000
+	distance_covered=(time_pass/1000000000)*(speed_past/3.6) #distance in meters
 
 	j = Geodesic.WGS84.Direct(lat_past,lon_past,drone_orientation,distance_covered)
 
@@ -305,7 +305,7 @@ elif lat_check and lon_check and latp_check and lonp_check: #Normal situation wh
 		valid=5
 	else: # If covered distance is NOT small (decent)
 		
-		speed=distance_covered/(time_pass/1000000000) #In m/s
+		speed=(distance_covered/(time_pass/1000000000))*3.6 #In km/h
 		
 		#valid 6 and 7 already considered
 	
@@ -373,8 +373,6 @@ antenna_index=int(math.floor(angle_to_point/60)); #Posible indexes= 0,1,2,3,4,5
 #print "Speed=", speed, " m/s"
 #print "Antenna index is", antenna_index
 
-#Changing units of speed
-speed=speed*3.6 #In Km/h
 
 
 #Printing the real outputs
