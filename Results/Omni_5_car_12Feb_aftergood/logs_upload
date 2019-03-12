@@ -1,0 +1,59 @@
+2019-03-12T10:38:10,190465172+01:00
+Connection activated or reactivated again (after error or disconnection)
+2019-03-12T10:38:10,219049067+01:00
+Uploading again (or at the start) 
+
+2019-03-12T10:53:52,279662833+01:00
+Finish Uploading. The IDStatement is  Uploading /home/upboard/Desktop/r2_l_TDC1.mat Uploaded 1_9ICxLx7SzJEQIb1NOF4hO79gXoxPqqE at 2.6 MB/s, total 2.5 GB .
+
+2019-03-12T10:53:52,282379145+01:00
+Successfully uploaded file with ID Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Uploaded 1_9ICxLx7SzJEQIb1NOF4hO79gXoxPqqE at 2.6 MB/s, total 2.5 GB
+2019-03-12T10:53:53,324116773+01:00
+The list of files in drive after uploading is
+2019-03-12T10:53:53,326583115+01:00
+Id                                  Name            Type   Size      Created
+1_9ICxLx7SzJEQIb1NOF4hO79gXoxPqqE   r2_l_TDC1.mat   bin    2.5 GB    2019-03-12 10:53:51
+1d5-ElOk8CY_9tn_1zNy7sOivIajPgD3N   r2_l_TDC1.mat   bin    49.0 MB   2019-02-25 13:15:35
+2019-03-12T10:53:54,216969562+01:00
+the readed ID to delete is:  
+1_9ICxLx7SzJEQIb1NOF4hO79gXoxPqqE
+Deleting...
+
+2019-03-12T10:53:54,219231032+01:00
+2019-03-12T10:53:54,220783026+01:00
+Uploading again (or at the start) 
+
+Deleted 'r2_l_TDC1.mat'
+2019-03-12T10:53:55,529714088+01:00
+The list of files after deleting is: 
+
+Id                                  Name            Type   Size      Created
+1d5-ElOk8CY_9tn_1zNy7sOivIajPgD3N   r2_l_TDC1.mat   bin    49.0 MB   2019-02-25 13:15:35
+2019-03-12T11:07:29,395524143+01:00
+Finish Uploading. The IDStatement is  Uploading /home/upboard/Desktop/r2_l_TDC1.mat Uploaded 1g6wcjg2s4mR6OmezALrU8K7fMavF8m5G at 3.0 MB/s, total 2.5 GB .
+
+2019-03-12T11:07:29,398150907+01:00
+Successfully uploaded file with ID Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Uploaded 1g6wcjg2s4mR6OmezALrU8K7fMavF8m5G at 3.0 MB/s, total 2.5 GB
+2019-03-12T11:07:30,297727608+01:00
+The list of files in drive after uploading is
+2019-03-12T11:07:30,304360059+01:00
+Id                                  Name            Type   Size      Created
+1g6wcjg2s4mR6OmezALrU8K7fMavF8m5G   r2_l_TDC1.mat   bin    2.5 GB    2019-03-12 11:07:28
+1d5-ElOk8CY_9tn_1zNy7sOivIajPgD3N   r2_l_TDC1.mat   bin    49.0 MB   2019-02-25 13:15:35
+2019-03-12T11:07:31,252857669+01:00
+Uploading again (or at the start) 
+
+2019-03-12T11:07:31,255801527+01:00
+the readed ID to delete is:  
+1g6wcjg2s4mR6OmezALrU8K7fMavF8m5G
+Deleting...
+
+2019-03-12T11:07:31,258441149+01:00
+Deleted 'r2_l_TDC1.mat'
+2019-03-12T11:07:32,708249374+01:00
+The list of files after deleting is: 
+
+Id                                  Name            Type   Size      Created
+1d5-ElOk8CY_9tn_1zNy7sOivIajPgD3N   r2_l_TDC1.mat   bin    49.0 MB   2019-02-25 13:15:35
