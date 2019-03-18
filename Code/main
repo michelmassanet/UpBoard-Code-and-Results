@@ -102,7 +102,13 @@ if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO
 
 		sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
 		sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
-		
+
+		first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+		sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+
+
 		#log upload purposes
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 		echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
@@ -158,6 +164,9 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
 			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
 			
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
 
 			state=2
 			error_situation_connection=1
@@ -211,7 +220,11 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
 			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
 			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
-			
+
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
 			#log upload purposes
 			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 			echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
@@ -290,7 +303,7 @@ newlat=$(echo "$newcoordinates" | sed -n 1p)
 newlon=$(echo "$newcoordinates" | sed -n 2p) 
 orientation_current=$(echo "$newcoordinates" | sed -n 5p) 
 
-
+newPCi=1110 #debug purposes
 
 
 #log purposes general
@@ -387,16 +400,16 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
+	echo $timepass #debug purposes
 	start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
 
 
-	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	acc_x=$(echo "$accelerometer" | sed -n 1p)
-	acc_y=$(echo "$accelerometer" | sed -n 2p)
-	acc_z=$(echo "$accelerometer" | sed -n 3p)
+	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	#acc_x=$(echo "$accelerometer" | sed -n 1p)
+	#acc_y=$(echo "$accelerometer" | sed -n 2p)
+	#acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
-
+	#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 	#orientation_current=90 #debug purposes
 
 	#log purposes general
@@ -405,6 +418,11 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 
 	#log terminal purposes
 	echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" 
+
+
+	if [ "$first_time_pointing" == "0" ]; then
+		orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
+	fi
 
 	reason=NewPCI_and_NewCoordinates
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
@@ -419,6 +437,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 		echo  "Error message from PCI and Coordinates change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 		echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
+
 		if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
 
 			#log purposes
@@ -431,6 +450,11 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 			time_error_start_python=$(date +%s%N)
 			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
 			error_situation_python=1
+
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
 		fi
 
 
@@ -453,9 +477,6 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 			echo "Error from python was solved when changing because new PCI and coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 		fi
-
-
-
 
 
 
@@ -511,15 +532,17 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
+echo $timepass #debug purposes
 	start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
 
+	echo $timepass #debug purposes
 
-	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	acc_x=$(echo "$accelerometer" | sed -n 1p)
-	acc_y=$(echo "$accelerometer" | sed -n 2p)
-	acc_z=$(echo "$accelerometer" | sed -n 3p)
+	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	#acc_x=$(echo "$accelerometer" | sed -n 1p)
+	#acc_y=$(echo "$accelerometer" | sed -n 2p)
+	#acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
 
 	#orientation_current=90 #debug purposes
 
@@ -529,6 +552,10 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 
 	#log terminal purposes
 	echo -e "Changed PCI from $PCI to $newPCI\n"
+
+	if [ "$first_time_pointing" == "0" ]; then
+		orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
+	fi
 
 	reason=NewPCI
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
@@ -555,6 +582,13 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 			time_error_start_python=$(date +%s%N)
 			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
 			error_situation_python=1
+
+
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+
 		fi
 
 
@@ -577,14 +611,6 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 			echo "Error from python was solved when changing because new PCI. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
 
 		fi
-
-
-
-
-		#log purposes terminal
-		#echo -e Inputs lat $lat lon $lon lat_past $lat_past lon_past $lon_past newPCI $newPCI SIM $SIM speed $speed orien $orientation 1 reason $reason folder $folder
-		#echo -e output "$output"
-
 		
 
 		antenna=$(echo "$output" | sed -n 1p)
@@ -629,15 +655,20 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 
 	now=$(date +%s%N)
 	timepass=$(echo "$now - $start" | bc -l)
-
+	
+	echo $timepass #debug purposes
 	start=$(date +%s%N)
 
-	accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	acc_x=$(echo "$accelerometer" | sed -n 1p)
-	acc_y=$(echo "$accelerometer" | sed -n 2p)
-	acc_z=$(echo "$accelerometer" | sed -n 3p)
+	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+	#acc_x=$(echo "$accelerometer" | sed -n 1p)
+	#acc_y=$(echo "$accelerometer" | sed -n 2p)
+	#acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-	orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+	#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+
+	if [ "$first_time_pointing" == "0" ]; then
+		orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
+	fi
 
 	reason=NewCoordinates
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
@@ -665,6 +696,12 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 			time_error_start_python=$(date +%s%N)
 			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
 			error_situation_python=1
+
+
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
 		fi
 
 

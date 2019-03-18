@@ -63,7 +63,7 @@ import datetime
 
 
 treshold_dist=0.5 #meters
-treshold_angle=60 #degress
+treshold_angle=110 #degress
 treshold_time=3/1000000000 #seconds
 speed_thold=3 #km/h
 
@@ -152,7 +152,7 @@ else:
 
 if PCI_found=="no":
 	#for future log purposes
-	print("NOT FOUND THE PCI DATA BASE")
+	print "NOT FOUND THE PCI DATA BASE", PCI
 	exit()
 
 
