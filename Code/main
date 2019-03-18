@@ -44,7 +44,10 @@ time_error_start_connection=0
 
 
 first_time_pointing=0 #To now when it is the first time we switch to a dirctional antenna
-
+start_demo=0
+speed_start_OK=0
+start_bitrate=0
+threshold_speed=0.3
 
 #This values will be changed during the start of the system or in Initialize
 PCI=460
@@ -93,6 +96,8 @@ while true; do
 #####################################################################################################################################################
 #####################################################################################################################################################
 
+: << 'END'
+
 wwan=$(netstat -i | grep -o  '\bww\w*')
 modem_number_line=$(sudo mmcli -L | sed -n '2p')
 
@@ -106,7 +111,7 @@ if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO
 		first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
 		sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
 		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
-
+		
 
 
 		#log upload purposes
@@ -195,6 +200,8 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
 
 			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Uploading $folder &
+
+
 			state=3
 
 			error_situation_connection=0
@@ -245,6 +252,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
 fi
 
+END
 
 ###################################################### PCI AND COORDINATES PART ##########################################################################
 
@@ -301,9 +309,10 @@ fi
 
 newlat=$(echo "$newcoordinates" | sed -n 1p)  
 newlon=$(echo "$newcoordinates" | sed -n 2p) 
+newspeed=$(echo "$newcoordinates" | sed -n 3p) 
 orientation_current=$(echo "$newcoordinates" | sed -n 5p) 
 
-newPCi=1110 #debug purposes
+#newPCI=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/temporalPCI) #debug purposes
 
 
 #log purposes general
@@ -350,6 +359,8 @@ if [ "$error_situation_python" == "1" ]; then #then check how much time has pass
 fi
 
 
+: << 'END'
+
 if [ "$error_situation_connection" == "1" ]; then #then check how much time has passed
 
 
@@ -385,6 +396,7 @@ if [ "$error_situation_connection" == "1" ]; then #then check how much time has 
 
 fi
 
+END
 
 ################################################################
 ################################################################
@@ -395,398 +407,425 @@ fi
 ################################################################
 ################################################################
 
-
-if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]); then
-
-	now=$(date +%s%N)
-	timepass=$(echo "$now - $start" | bc -l)
-	echo $timepass #debug purposes
-	start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
-
-
-	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	#acc_x=$(echo "$accelerometer" | sed -n 1p)
-	#acc_y=$(echo "$accelerometer" | sed -n 2p)
-	#acc_z=$(echo "$accelerometer" | sed -n 3p)
-
-	#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
-	#orientation_current=90 #debug purposes
-
-	#log purposes general
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-	echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-
-	#log terminal purposes
-	echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" 
-
-
-	if [ "$first_time_pointing" == "0" ]; then
-		orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
-	fi
-
-	reason=NewPCI_and_NewCoordinates
-	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
-
-
-################################# Check if output was not an error message###################################
-
-	temp=$(echo "$output" | sed -n 1p)
-	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
-
-		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo  "Error message from PCI and Coordinates change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-
-		if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
-
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "time counter started (reason = error from python with PCI and coordinates change reason). LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-			#log terminal purposes
-			echo -e "Error started!!! Reason: python message error"
-
-			time_error_start_python=$(date +%s%N)
-			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
-			error_situation_python=1
-
-			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
-
-		fi
-
-
-	else
-		
-		if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
-
-			error_situation_python=0
-			time_error_now_python=0
-			time_error_start_python=0
-			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
-
-
-			#log terminal purposes
-			echo -e "Error FINISHED. Reason: Python error"
-
-			
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "Error from python was solved when changing because new PCI and coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-		fi
-
-
-
-		orientation_past=$orientation_current #We update the values
-
-		antenna=$(echo "$output" | sed -n 1p)
-		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
-		distance_covered=$(echo "$output" | sed -n 6p) 
-		valid=$(echo "$output" | sed -n 7p) 
-		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script (km/h)
-
-		lat_past=$lat #We update the values
-		lon_past=$lon #We update the values
-		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
-		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
-
-
-		orientation_past=$orientation_current #We update the values
-
-
-		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
-		
-		if [ "$first_time_pointing" == "0" ]; then
-			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
-			first_time_pointing=1
-		fi
-
-		#log purposes general
-		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "Calculated parameters. Reason:new PCI and newcoordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "The distance covere is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-
-		PCI=$newPCI #We update the value
-
-	fi
-
-
-
-
-
-
-
-
-
+if [ "1" -eq $(echo "$newspeed > $threshold_speed" | bc) ]  && [ "$start_demo" == "0" ];then
+	echo $newspeed
+	echo $threshold_speed
+	start_bitrate=1
+	start_demo=1
+fi
 
  
 
-
-elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
-
-	now=$(date +%s%N)
-	timepass=$(echo "$now - $start" | bc -l)
-echo $timepass #debug purposes
-	start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
-
-	echo $timepass #debug purposes
-
-	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	#acc_x=$(echo "$accelerometer" | sed -n 1p)
-	#acc_y=$(echo "$accelerometer" | sed -n 2p)
-	#acc_z=$(echo "$accelerometer" | sed -n 3p)
-
-	#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
-
-	#orientation_current=90 #debug purposes
-
-	#log purposes general
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-	echo -e "Changed PCI from $PCI to $newPCI\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-
-	#log terminal purposes
-	echo -e "Changed PCI from $PCI to $newPCI\n"
-
-	if [ "$first_time_pointing" == "0" ]; then
-		orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
-	fi
-
-	reason=NewPCI
-	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
+if [ "$start_demo" == "1" ]; then
 
 
-################################# Check if output was not an error message###################################
+	if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]); then
 
-	temp=$(echo "$output" | sed -n 1p)
-	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
-
-		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo  "Error message from PCI change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-		if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
-
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "time counter started (reason = error from python with PCI change reason). LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-			#log terminal purposes
-			echo -e "Error started!!! Reason: python message error"
-
-			time_error_start_python=$(date +%s%N)
-			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
-			error_situation_python=1
+		now=$(date +%s%N)
+		timepass=$(echo "$now - $start" | bc -l)
+		echo $timepass #debug purposes
+		start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
 
 
-			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+		#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+		#acc_x=$(echo "$accelerometer" | sed -n 1p)
+		#acc_y=$(echo "$accelerometer" | sed -n 2p)
+		#acc_z=$(echo "$accelerometer" | sed -n 3p)
 
-
-		fi
-
-
-	else
-		
-		if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
-
-			error_situation_python=0
-			time_error_now_python=0
-			time_error_start_python=0
-			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
-
-
-			#log terminal purposes
-			echo -e "Error FINISHED. Reason: Python error"
-
-			
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "Error from python was solved when changing because new PCI. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-		fi
-		
-
-		antenna=$(echo "$output" | sed -n 1p)
-		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
-		distance_covered=$(echo "$output" | sed -n 6p) 
-		valid=$(echo "$output" | sed -n 7p) 
-
-
-		orientation_past=$orientation_current #We update the values
-
-		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
-
-		if [ "$first_time_pointing" == "0" ]; then
-			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
-			first_time_pointing=1
-		fi
-	
+		#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+		#orientation_current=90 #debug purposes
 
 		#log purposes general
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "Calculated parameters. Reason:new PCI" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "The distance covered is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-
-		PCI=$newPCI #We update the value
-
-	fi
-
-
-################################################################
-################################################################
-################################################################
-################################################################
-# Check if GPS changed and needs to be updated
-################################################################
-################################################################
-################################################################
-
-elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COORDINATES
-
-	now=$(date +%s%N)
-	timepass=$(echo "$now - $start" | bc -l)
-	
-	echo $timepass #debug purposes
-	start=$(date +%s%N)
-
-	#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
-	#acc_x=$(echo "$accelerometer" | sed -n 1p)
-	#acc_y=$(echo "$accelerometer" | sed -n 2p)
-	#acc_z=$(echo "$accelerometer" | sed -n 3p)
-
-	#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
-
-	if [ "$first_time_pointing" == "0" ]; then
-		orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
-	fi
-
-	reason=NewCoordinates
-	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
-
-
-############################################ Check if output was not an error message########################################################
-	temp=$(echo "$output" | sed -n 1p)
-	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
-
-		#log purposes
-		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo  "Error message from GPS change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-
-		if [ "$error_situation_python" == "0" ];then #If it is the first time we get this error
-	
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "time counter started (reason = error from python when changing because new coordinates. LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-			#log terminal purposes
-			echo -e "Error started!!! Reason: Python error"
-
-			time_error_start_python=$(date +%s%N)
-			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
-			error_situation_python=1
-
-
-			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
-
-		fi
-
-
-
-
-	else
-		if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
-
-			error_situation_python=0
-			time_error_now_python=0
-			time_error_start_python=0
-			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
-
-			#log terminal purposes
-			echo -e "Error FINISHED. Reason: Python error"
-
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo "Error from python was solved when changing because new coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		fi
-
-		
-
-
-		lat_past=$lat #We update the values
-		lon_past=$lon #We update the values
-	
-
-		antenna=$(echo "$output" | sed -n 1p)
-		lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
-		lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
-		orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
-		speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script (km/h)
-		distance_covered=$(echo "$output" | sed -n 6p) #Distance to BS (log purposes)
-		valid=$(echo "$output" | sed -n 7p) 
-		
-
-		orientation_past=$orientation_current #We update the values
-
-		#log purposes terminal
-		echo "Changed coordinates from $lat_past, $lon_past to $lat, $lon"
-
-		#log purposes general
-		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "Changed coordinates from $lat_past, $lon_past to $lat, $lon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-
-		#We change the GPIOs to the new antenna
-		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
-
-
-		if [ "$first_time_pointing" == "0" ]; then
-			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
-			first_time_pointing=1
-		fi
+		echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
 		#log terminal purposes
-		#echo "The new orientation is $orientation degrees"
-		#echo "The antenna selected is $antenna"
-		#echo -e "The distance to the BS is $distance_covered\n"
+		echo -e "Changed PCI from $PCI to $newPCI, changed Lat from $lat to $newlat and Lon from $lon to $newlon\n" 
+
+
+		if [ "$first_time_pointing" == "0" ]; then
+			orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
+		fi
+
+		reason=NewPCI_and_NewCoordinates
+		output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
+
+
+	################################# Check if output was not an error message###################################
+
+		temp=$(echo "$output" | sed -n 1p)
+		if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
+
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo  "Error message from PCI and Coordinates change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+
+			if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
+
+				#log purposes
+				date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+				echo "time counter started (reason = error from python with PCI and coordinates change reason). LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+				#log terminal purposes
+				echo -e "Error started!!! Reason: python message error"
+
+				time_error_start_python=$(date +%s%N)
+				sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+				error_situation_python=1
+
+				first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+				sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+				sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+			fi
+
+
+		else
+		
+			if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
+
+				error_situation_python=0
+				time_error_now_python=0
+				time_error_start_python=0
+				sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+
+				#log terminal purposes
+				echo -e "Error FINISHED. Reason: Python error"
+
+			
+				#log purposes
+				date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+				echo "Error from python was solved when changing because new PCI and coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+			fi
+
+
+
+			orientation_past=$orientation_current #We update the values
+
+			antenna=$(echo "$output" | sed -n 1p)
+			orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
+			distance_covered=$(echo "$output" | sed -n 6p) 
+			valid=$(echo "$output" | sed -n 7p) 
+			speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script (km/h)
+
+			lat_past=$lat #We update the values
+			lon_past=$lon #We update the values
+			lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
+			lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
+
+
+			orientation_past=$orientation_current #We update the values
+
+
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+		
+			if [ "$first_time_pointing" == "0" ]; then
+				sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
+				first_time_pointing=1
+
+				if [ "$start_bitrate" == "1" ];then
+					sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/bitrateread $folder &
+					start_bitrate=0
+				fi
+			fi
+
+			#log purposes general
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "Calculated parameters. Reason:new PCI and newcoordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo -e "The distance covere is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+			PCI=$newPCI #We update the value
+
+		fi
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+	elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
+
+		now=$(date +%s%N)
+		timepass=$(echo "$now - $start" | bc -l)
+	echo $timepass #debug purposes
+		start=$(date +%s%N) #This is to calculate the time between the last time we calculated something and now
+
+		echo $timepass #debug purposes
+
+		#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+		#acc_x=$(echo "$accelerometer" | sed -n 1p)
+		#acc_y=$(echo "$accelerometer" | sed -n 2p)
+		#acc_z=$(echo "$accelerometer" | sed -n 3p)
+
+		#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+
+		#orientation_current=90 #debug purposes
 
 		#log purposes general
 		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "Calculated parameters. Reason:new Coordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The new orientation is $orientation_current degrees" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-		echo -e "The distance covered is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo -e "Changed PCI from $PCI to $newPCI\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+		#log terminal purposes
+		echo -e "Changed PCI from $PCI to $newPCI\n"
+
+		if [ "$first_time_pointing" == "0" ]; then
+			orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
+		fi
+
+		reason=NewPCI
+		output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
+
+
+	################################# Check if output was not an error message###################################
+
+		temp=$(echo "$output" | sed -n 1p)
+		if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
+
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo  "Error message from PCI change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+			if [ "$error_situation_python" == "0" ];then    #If it is the first time we get this error
+
+				#log purposes
+				date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+				echo "time counter started (reason = error from python with PCI change reason). LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+				#log terminal purposes
+				echo -e "Error started!!! Reason: python message error"
+
+				time_error_start_python=$(date +%s%N)
+				sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+				error_situation_python=1
+
+
+				first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+				sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+				sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+
+			fi
+
+
+		else
+		
+			if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
+
+				error_situation_python=0
+				time_error_now_python=0
+				time_error_start_python=0
+				sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+
+				#log terminal purposes
+				echo -e "Error FINISHED. Reason: Python error"
+
+			
+				#log purposes
+				date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+				echo "Error from python was solved when changing because new PCI. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+			fi
+		
+
+			antenna=$(echo "$output" | sed -n 1p)
+			orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
+			distance_covered=$(echo "$output" | sed -n 6p) 
+			valid=$(echo "$output" | sed -n 7p) 
+
+
+			orientation_past=$orientation_current #We update the values
+
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+
+			if [ "$first_time_pointing" == "0" ]; then
+				sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
+				first_time_pointing=1
+
+				if [ "$start_bitrate" == "1" ];then
+					sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/bitrateread $folder &
+					start_bitrate=0
+				fi
+			fi
+	
+
+			#log purposes general
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "Calculated parameters. Reason:new PCI" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The new orientation is $orientation_current" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo -e "The distance covered is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+			PCI=$newPCI #We update the value
+
+		fi
+
+
+	################################################################
+	################################################################
+	################################################################
+	################################################################
+	# Check if GPS changed and needs to be updated
+	################################################################
+	################################################################
+	################################################################
+
+	elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COORDINATES
+
+		now=$(date +%s%N)
+		timepass=$(echo "$now - $start" | bc -l)
+	
+		echo $timepass #debug purposes
+		start=$(date +%s%N)
+
+		#accelerometer=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/MPU6050.py) #We obtain the accelerometer from the GY-88
+		#acc_x=$(echo "$accelerometer" | sed -n 1p)
+		#acc_y=$(echo "$accelerometer" | sed -n 2p)
+		#acc_z=$(echo "$accelerometer" | sed -n 3p)
+
+		#orientation_compass=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/HMC5883.py) #We obtain the orientation from the compass
+
+		if [ "$first_time_pointing" == "0" ]; then
+			orientation_past=$orientation_current #To avoid keeping the default values (so avoiding too much turning in python code)
+		fi
+
+		reason=NewCoordinates
+		output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $orientation_past $orientation_current $timepass $reason $folder $acc_x $acc_y $acc_z $orientation_compass $distance_covered)
+
+
+	############################################ Check if output was not an error message########################################################
+		temp=$(echo "$output" | sed -n 1p)
+		if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo  "Error message from GPS change:" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo -e "Error $temp\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+
+			if [ "$error_situation_python" == "0" ];then #If it is the first time we get this error
+	
+				#log purposes
+				date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+				echo "time counter started (reason = error from python when changing because new coordinates. LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+				#log terminal purposes
+				echo -e "Error started!!! Reason: Python error"
+
+				time_error_start_python=$(date +%s%N)
+				sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+				error_situation_python=1
+
+
+				first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+				sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+				sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+			fi
+
+
+
+
+		else
+			if [ "$error_situation_python" == "1" ];then #If there was an error now has been solved
+
+				error_situation_python=0
+				time_error_now_python=0
+				time_error_start_python=0
+				sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+				#log terminal purposes
+				echo -e "Error FINISHED. Reason: Python error"
+
+				#log purposes
+				date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+				echo "Error from python was solved when changing because new coordinates. LED light OFF" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			fi
+
+		
+
+
+			lat_past=$lat #We update the values
+			lon_past=$lon #We update the values
+	
+
+			antenna=$(echo "$output" | sed -n 1p)
+			lat=$(echo "$output" | sed -n 2p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lat
+			lon=$(echo "$output" | sed -n 3p) #We update the values. It should be $newlat but if nan, better we output from the python script the calculated lon
+			orientation_current=$(echo "$output" | sed -n 4p) #The python script will see if keeping the current or past
+			speed=$(echo "$output" | sed -n 5p) #The new speed calculated by the python script (km/h)
+			distance_covered=$(echo "$output" | sed -n 6p) #Distance to BS (log purposes)
+			valid=$(echo "$output" | sed -n 7p) 
+		
+
+			orientation_past=$orientation_current #We update the values
+
+			#log purposes terminal
+			echo "Changed coordinates from $lat_past, $lon_past to $lat, $lon"
+
+			#log purposes general
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo -e "Changed coordinates from $lat_past, $lon_past to $lat, $lon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+			#We change the GPIOs to the new antenna
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+
+
+			if [ "$first_time_pointing" == "0" ]; then
+				sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
+				first_time_pointing=1
+
+				if [ "$start_bitrate" == "1" ];then
+					sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/bitrateread $folder &
+					start_bitrate=0
+				fi
+
+			fi
+
+			#log terminal purposes
+			#echo "The new orientation is $orientation degrees"
+			#echo "The antenna selected is $antenna"
+			#echo -e "The distance to the BS is $distance_covered\n"
+
+			#log purposes general
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "Calculated parameters. Reason:new Coordinates" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The state was $valid" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The new orientation is $orientation_current degrees" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo "The antenna selected is $antenna" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+			echo -e "The distance covered is $distance_covered\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+		fi
+
+
+	else #Both PCI and coordinates have the same values
+
+		#log purposes terminal
+		#echo "No change coordinates neither PCI\n"
+
+		#log purposes general
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+		echo -e "No change coordinates neither PCI\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
+
+
+
 
 	fi
-
-
-else #Both PCI and coordinates have the same values
-
-	#log purposes terminal
-	#echo "No change coordinates neither PCI\n"
-
-	#log purposes general
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-	echo -e "No change coordinates neither PCI\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
-
-
-
-
 fi
-
 
 ################################################################
 ################################################################
