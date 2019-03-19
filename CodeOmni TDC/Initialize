@@ -1,0 +1,283 @@
+#!/bin/bash
+
+
+#sudo -i #To avoid permission issues with the GPIOs
+
+latitude=0
+longitude=0
+wwan=0
+
+######################################################################################################################################################
+############################################# INITIALIZATION OF FOLDER AND FILES ##########################################################################
+######################################################################################################################################################
+
+folder=$1
+
+if [ -d /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder" ]; then #If the directory exists
+
+	echo "Directory already exists, introduce other name"
+	exit 0
+
+elif [ "$folder" != "" ]; then  #If the directory name is not empty
+
+	sudo mkdir /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"
+	sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"
+
+
+else #Case for directory name strange or directory name empty
+
+	echo "Introduce name of folder"
+	exit 0
+
+fi
+
+
+
+
+
+
+
+#Initialize the file where the general logs will be saved
+
+filename1=logs_general
+echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+
+
+#To initialize the error file and timeout for reboot
+filename3=errors_main
+echo "" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+
+
+
+############################################################################################################################################
+#################Here comes the start code to be sure all it is okay before we start everything (removing old files)#########################
+#############################################################################################################################################
+
+
+
+#Delete SIM file if it exists
+if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/SIM ]; then
+
+	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/SIM
+
+	#log purposes
+	#date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	#echo "Previous SIM file has been deleted" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+fi
+
+
+
+
+#######################################################################################################
+##########################Initialize the GPIOs that will be used######################################
+########################################################################################################
+
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/setUpGPIOs
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "Set up of GPIOs done " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+
+
+#################################################################################################################################################################################
+#################################################################################################################################################################################
+##################################################   Waits until there are coordinates and there is internet connection  #######################################################
+#################################################################################################################################################################################
+#################################################################################################################################################################################
+
+
+
+ready=true
+time_out_error=30000000000 #nanoseconds
+error_situation=0
+time_error_start=$(date +%s%N)
+state_modem=fail
+
+
+
+
+while $ready; do
+
+time_error_now=$(date +%s%N)
+time_error_pass=$(echo "$time_error_now - $time_error_start" | bc -l)
+
+
+
+if [ "$time_error_pass" -gt "$time_out_error" ];then #timeout SECONDS from the error --> We reboot and start everything again
+		
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+		echo "Time out exceeded for establishing either coordinates or internet/modem connection. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+		echo "The gathered coordinates are " $latitude $longitude "and the seen network" $wwan "and the state of the modem" $state_modem >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+		#log terminal purposes
+		
+		echo "Time out exceeded for establishing either coordinates or internet/modem connection. Executing rebootInitialize "
+		echo "The gathered coordinates are " $latitude $longitude "and the seen network" $wwan "and the state of the modem" $state_modem 
+
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder 
+		
+
+fi
+
+
+
+coordinatesInfo=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gpsOutput.py)
+latitude=$(echo "$coordinatesInfo" | sed -n '1p')
+longitude=$(echo "$coordinatesInfo" | sed -n '2p')
+wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
+#latitude=23 #debug purposes
+#longitude=55 #debug purposes
+modem_number_line=$(sudo mmcli -L | sed -n '2p')
+
+#log terminal purposes
+echo "The seen internet interface is" $wwan
+
+
+if [ "$modem_number_line" == "No modems were found" ]; then
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo "NO MODEMS WERE FOUND" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	
+	#log terminal purposes
+	echo -e "No MODEMS WERE FOUND"
+
+else
+
+
+	if [ "$wwan" != "" ] && [ "$latitude" != "nan" ] && [ "$longitude" != "nan" ]; then #the original for demo
+
+
+	
+		sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+		ready=false
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "Coordinates and connection are available. Ready to start" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+		#log terminal purposes
+		echo -e "Coordinates and connection are available. Ready to start"
+	
+	else
+
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "Waiting for modem in connected, wwan ready and coordinates available" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "The lat is" $latitude "and the lon is " $longitude >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo -e "Waiting for modem in connected, wwan ready and coordinates available"	>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+		#log terminal purposes
+		echo "The lat is" $latitude "and the lon is " $longitude
+		echo -e "Waiting for modem in connected, wwan ready and coordinates available"	
+	fi
+
+	
+
+fi
+done
+
+
+
+
+
+##############################################################################################################
+############################### Initialization of the SIM file  and value into it###############################
+##############################################################################################################
+
+
+echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/SIM
+
+
+#log purposes
+date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "SIM_file_new_has_been_created" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+
+#Checks which Operator we are working with and saves it in a file to be readed by the python script
+operatorInfo=$(echo $(sudo qmicli -d /dev/cdc-wdm1 -p --device-open-mbim --nas-get-home-network | grep Description) | awk -F"'" '{print $2}')
+
+
+if [ "$operatorInfo" == "TelenoDK" ]; then #If the SIM is from Telenor
+
+echo "0" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/SIM
+
+#log purposes
+echo -e "SIM 0\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo -e "SIM from Telenor found (connected to Telenor network). Saved value 0 in SIM file" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+
+elif [ "$operatorInfo" == "TDC" ];then 
+
+echo "1" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/SIM
+
+#log purposes
+echo -e "SIM 1\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "SIM from TDC found (connected to TDC network). Saved value 1 in SIM file" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+else
+
+echo "2" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/SIM
+
+
+
+#log terminal purposes
+echo "Other operator found !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo "$operatorInfo"
+
+#log purposes
+echo -e "SIM 2\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "Other operator found: " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+echo "$operatorInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+#log/error purposes
+echo "SIM OTHER OPERATOR FOUND" $operatorInfo "LED light on" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+error_situation=1
+
+sleep 5
+
+
+echo -e "SIM strange found. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder
+
+fi
+
+
+
+
+
+
+
+
+###############################################################################################################################################################
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+################################################## EXECUTION OF ALL THE OTHER SCRIPTS IN PARALLEL ##############################################################
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+###############################################################################################################################################################
+
+#  Executes in parallel:
+#loopStatistics
+#loopPCI
+#loopSNR
+#loopGPS
+#bitrateread
+#main
+
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/main $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopPCI $folder   & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopStatistics $folder  & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopSNR $folder & sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/loopGPS $folder

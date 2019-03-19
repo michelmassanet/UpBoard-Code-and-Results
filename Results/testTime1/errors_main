@@ -1,0 +1,53 @@
+
+2019-03-18T14:54:29,670713075+01:00
+Coordinates lost (nan). Error started 
+
+2019-03-18T14:54:29,681403594+01:00
+Time passed with only nan: 
+0 seconds (approximated) 
+
+2019-03-18T14:54:30,043942786+01:00
+Time passed with only nan: 
+0 seconds (approximated) 
+
+2019-03-18T14:54:30,474515058+01:00
+Time passed with only nan: 
+0 seconds (approximated) 
+
+2019-03-18T14:54:30,810519707+01:00
+Time passed with only nan: 
+1 seconds (approximated) 
+
+2019-03-18T14:54:31,212390527+01:00
+Time passed with only nan: 
+1 seconds (approximated) 
+
+2019-03-18T14:54:34,299017643+01:00
+Time passed with only nan: 
+4 seconds (approximated) 
+
+2019-03-18T14:54:35,956169944+01:00
+Coordinates recovered again. Error finished 
+
+2019-03-18T14:56:05,971230796+01:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-03-18T14:56:05,973848547+01:00
+time counter started (reason = error from python with PCI and coordinates change reason). LED light on
+2019-03-18T14:56:06,217007513+01:00
+Checking time since error (in python) appeared
+2019-03-18T14:56:06,230138534+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-18T14:56:06,337864794+01:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-03-18T14:56:06,467103195+01:00
+Checking time since error (in python) appeared
+2019-03-18T14:56:06,480172132+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-18T14:56:06,604101431+01:00
+Error from python was solved when changing because new coordinates. LED light OFF

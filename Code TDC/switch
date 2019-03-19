@@ -1,0 +1,82 @@
+#!/bin/bash
+
+#This file enables different GPIOs according to an input argument
+
+
+
+
+antenna=$1 #Input argument
+
+
+
+#antenna=$(cat selectedAntenna)
+#echo $antenna 
+
+if [ "$antenna" = "0" ]; then
+
+#000
+echo "0" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+
+elif [ "$antenna" = "1" ]; then
+
+#001
+echo "1" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "2" ]; then
+
+#010
+echo "0" > /sys/class/gpio/gpio23/value
+echo "1" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "3" ]; then
+
+#011
+echo "1" > /sys/class/gpio/gpio23/value
+echo "1" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "4" ]; then
+
+#100
+echo "0" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
+echo "1" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "5" ]; then
+
+#101
+echo "1" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
+echo "1" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "6" ]; then
+
+#110
+echo "0" > /sys/class/gpio/gpio23/value
+echo "1" > /sys/class/gpio/gpio24/value
+echo "1" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "7" ]; then
+
+#111
+echo "1" > /sys/class/gpio/gpio23/value
+echo "1" > /sys/class/gpio/gpio24/value
+echo "1" > /sys/class/gpio/gpio25/value
+
+
+else
+
+#000?
+echo "0" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+
+
+fi

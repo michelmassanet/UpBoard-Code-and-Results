@@ -1,0 +1,52 @@
+#!/bin/bash
+
+#This scripts aims to know which where is the strong signal (in terms of antenna)
+
+
+#Set up GPIOs need to be called before( here or in other scripts before)
+
+#sudo setUpPGPIOOOSs
+
+
+
+for i in 0 1 2 3 4 5
+do
+
+
+sudo /home/upboard/Desktop/switch $i
+
+sleep 1 #It may be necessary (test delay switch on the lab)
+
+RSRP_sentence=$(sudo qmicli -d /dev/cdc-wdm1 -p --device-open-mbim --nas-get-signal-strength | sed -n '15p')
+RSRP_sentence_2=$(echo "$RSRP_sentence" | awk -F"dBm'" '{print $1}')
+RSRP_now=$(echo "$RSRP_sentence_2" | awk -F": '" '{print $2}')
+
+echo $RSRP_now
+
+#This is to save the first value (i=0) as the reference one.
+if [ "$i" == "0" ]; then 
+
+	RSRP_better=$RSRP_now
+	index_better=0
+fi
+
+
+#We compare RSRP_now with RSRP_better and then we change if it batters
+if [ "$RSRP_now" -gt "$RSRP_better" ]; then
+
+	RSRP_better=$RSRP_now
+	index_better=$i
+
+fi
+
+done
+
+
+
+
+echo "the better RSRP is " $RSRP_better
+echo "Corresponding to index "$index_better
+
+
+
+

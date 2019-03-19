@@ -1,0 +1,55 @@
+#!/bin/bash
+
+#Thread that checks if there is internet connection and in consequence it acts. It starts the uploading at the beginning, stops it when there is no internet and reuploads when the connections is again available.
+
+
+##################################THIS ARE THE STATES IN RELATION WITH THE INTERNET CONNECTION #########################################3
+#State 0 --> suddenly No connection, 
+#State 1 --> suddenly connection, 
+#State 2 --> still no connection,
+#state 3 --> still connected
+
+folder=$1
+
+ 
+
+
+filename1=logs_upload
+
+
+
+
+while true; do
+
+
+
+if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive ]; then
+
+	
+	IDsentence=$(cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive | awk -F"Uploaded " '{print $2}')
+	ID=$(echo "$IDsentence" | awk -F" at" '{print $1}')
+	
+	sleep 1
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	echo "the readed ID to delete is:  $ID$state" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	echo -e "Deleting...\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1" 
+
+	#Deleting + log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master delete $ID >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1" #we delete the new file
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"	
+	echo -e "The list of files after deleting is: \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master list >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+	#log purposes on the terminal
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master list #to check is empty again
+
+	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive #we remove the file with the old ID
+fi
+
+
+done
