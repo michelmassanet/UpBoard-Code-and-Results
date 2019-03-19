@@ -47,7 +47,7 @@ first_time_pointing=0 #To now when it is the first time we switch to a dirctiona
 start_demo=0
 speed_start_OK=0
 start_bitrate=0
-threshold_speed=0.01
+threshold_speed=7
 
 #This values will be changed during the start of the system or in Initialize
 PCI=460
