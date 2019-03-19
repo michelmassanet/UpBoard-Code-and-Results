@@ -56,8 +56,6 @@ if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO
 
 	if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
 
-		sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
-		sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
 
 		first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
 		sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
@@ -86,12 +84,9 @@ if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO
 
 else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
-	modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
-	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
-	
-	#state_modem=fail #Debug purposes 
 
-	if [ "$state_modem" == "connected" ];then #IT IS CONNECTED TO THE NETWORK
+	
+wwan=wwp0whatever
 
 
 
@@ -113,13 +108,6 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
 		if [ "$state" == 0 ]; then
 
-			
-			#log terminal purposes
-			echo -e "Killing Uploading and gdrive"
-
-			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
-			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
-			
 			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
 			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
 			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
@@ -150,8 +138,6 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			echo "Connection activated or reactivated again (after error or disconnection)" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Uploading $folder &
-
 
 			state=3
 
@@ -167,39 +153,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
 		fi
 
-
-	else
 		
-
-		if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
-
-			#log terminal purposes
-			echo -e "Killing Uploading and gdrive"
-
-			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
-			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
-
-			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
-
-			#log upload purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-			echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-
-	
-			error_situation_connection=1
-			state=2
-			time_error_start_connection=$(date +%s%N)
-
-			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
-
-			#log error purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo -e "The state of the modem is different from connected (log message from MAIN). It is: " $state_modem ". \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-		fi
-	fi
 
 fi
 

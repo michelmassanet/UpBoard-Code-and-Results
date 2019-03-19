@@ -312,7 +312,7 @@ newlon=$(echo "$newcoordinates" | sed -n 2p)
 newspeed=$(echo "$newcoordinates" | sed -n 3p) 
 orientation_current=$(echo "$newcoordinates" | sed -n 5p) 
 
-newPCI=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/temporalPCI) #debug purposes
+#newPCI=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/temporalPCI) #debug purposes
 
 
 #log purposes general
@@ -527,7 +527,6 @@ if [ "$start_demo" == "1" ]; then
 				first_time_pointing=1
 
 				if [ "$start_bitrate" == "1" ];then
-					sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/bitrateread $folder &
 					start_bitrate=0
 				fi
 			fi
