@@ -10,7 +10,7 @@
 #state 3 --> still connected
 
 folder=$1
-sleep 5
+sleep 6
 state=2 #We start with this state
  
 
@@ -58,7 +58,7 @@ while true; do
 #####################################################################################################################################################
 #####################################################################################################################################################
 
-wwan=$(netstat -i | grep -o  '\bww\w*')
+
 modem_number_line=$(sudo mmcli -L | sed -n '2p')
 
 if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO MODEM CONNECTED TO THE UPBOARD
@@ -87,14 +87,9 @@ if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO
 
 else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 
-	modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
-	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
-	
-	#state_modem=fail #Debug purposes 
-
-	if [ "$state_modem" == "connected" ];then #IT IS CONNECTED TO THE NETWORK
 
 
+wwan=wwp0whatever
 
 		if [  "$wwan" == "" ];then  #If there is no internet connection (no Interface registered)
 
@@ -140,9 +135,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			#Upload again
 
 
-			#log purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-			echo "Connection activated or reactivated again (after error or disconnection)" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
 
 			state=3
 
@@ -159,32 +152,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 		fi
 
 
-	else
-		
-
-		if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
-
-			#log terminal purposes
-			echo -e "Killing Uploading and gdrive"
-
-			
-			#log upload purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-			echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-
 	
-			error_situation_connection=1
-			state=2
-			time_error_start_connection=$(date +%s%N)
-
-			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
-
-			#log error purposes
-			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-			echo -e "The state of the modem is different from connected (log message from MAIN). It is: " $state_modem ". \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-		fi
-	fi
 
 fi
 
