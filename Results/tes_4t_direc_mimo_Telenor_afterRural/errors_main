@@ -1,0 +1,49 @@
+
+2019-03-20T12:08:57,899394026+01:00
+Error message from GPS change:
+Error 
+
+2019-03-20T12:08:57,905021640+01:00
+time counter started (reason = error from python when changing because new coordinates. LED light on
+2019-03-20T12:08:58,103370085+01:00
+Checking time since error (in python) appeared
+2019-03-20T12:08:58,114358180+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T12:08:58,449554536+01:00
+Error from python was solved when changing because new coordinates. LED light OFF
+2019-03-20T12:13:44,911091216+01:00
+Error message from GPS change:
+Error 
+
+2019-03-20T12:13:44,918918725+01:00
+time counter started (reason = error from python when changing because new coordinates. LED light on
+2019-03-20T12:13:45,093774773+01:00
+Checking time since error (in python) appeared
+2019-03-20T12:13:45,111285887+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T12:13:45,479479264+01:00
+Error from python was solved when changing because new coordinates. LED light OFF
+2019-03-20T12:46:34,441749504+01:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-03-20T12:46:34,446284577+01:00
+time counter started (reason = error from python with PCI and coordinates change reason). LED light on
+2019-03-20T12:46:34,630303540+01:00
+Checking time since error (in python) appeared
+2019-03-20T12:46:34,644496704+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T12:46:34,985843826+01:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-03-20T12:46:35,101023066+01:00
+Checking time since error (in python) appeared
+2019-03-20T12:46:35,115556166+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T12:46:35,445738976+01:00
+Error from python was solved when changing because new PCI and coordinates. LED light OFF

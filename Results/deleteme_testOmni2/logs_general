@@ -1,13 +1,158 @@
 
+<<<<<<< HEAD
+2019-03-20T10:41:53,061133910+01:00
+Set up of GPIOs done 
+2019-03-20T10:41:53,396443701+01:00
+Coordinates and connection are available. Ready to start
+2019-03-20T10:41:53,399921308+01:00
+=======
 2019-03-20T10:37:35,408590425+01:00
 Set up of GPIOs done 
 2019-03-20T10:37:35,740363112+01:00
 Coordinates and connection are available. Ready to start
 2019-03-20T10:37:35,743712038+01:00
+>>>>>>> 19e69e43e438ab17bf85902b7aac076718f09061
 SIM_file_new_has_been_created
 SIM 0
 
 SIM from Telenor found (connected to Telenor network). Saved value 0 in SIM file
+<<<<<<< HEAD
+2019-03-20T10:41:53,693158596+01:00
+The collection of Statistics has started
+2019-03-20T10:41:53,694526136+01:00
+The collection of GPS coordinates has started
+2019-03-20T10:41:53,698587302+01:00
+The collection of Cell Info has started
+2019-03-20T10:41:53,700379443+01:00
+The collection of SNR info has started
+2019-03-20T10:41:59,874739354+01:00
+Readed PCI 461
+Readed lat 57.013692893
+Readed lon 9.987224887
+
+2019-03-20T10:41:59,926258791+01:00
+Changed PCI from 460 to 461, changed Lat from 40 to 57.013692893 and Lon from 1 to 9.987224887
+
+2019-03-20T10:42:00,621494000+01:00
+Calculated parameters. Reason:new PCI and newcoordinates
+The state was 7
+The new orientation is 157.9915
+The antenna selected is 5
+The distance covere is 2000309.03524
+
+2019-03-20T10:42:00,648051354+01:00
+The collection of bit rate has started with the two methods
+2019-03-20T10:42:00,853173096+01:00
+Readed PCI 461
+Readed lat 57.013692853
+Readed lon 9.987225727
+
+2019-03-20T10:42:01,247622570+01:00
+Changed coordinates from 57.013692893, 9.987224887 to 57.013692853, 9.987225727
+
+2019-03-20T10:42:01,279871841+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.0510467178004
+
+2019-03-20T10:42:01,467248920+01:00
+Readed PCI 461
+Readed lat 57.013692833
+Readed lon 9.987226333
+
+2019-03-20T10:42:01,833928089+01:00
+Changed coordinates from 57.013692853, 9.987225727 to 57.013692833, 9.987226333
+
+2019-03-20T10:42:01,862714064+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.036753843524
+
+2019-03-20T10:42:02,010704635+01:00
+Readed PCI 461
+Readed lat 57.013693391
+Readed lon 9.987226489
+
+2019-03-20T10:42:02,409802830+01:00
+Changed coordinates from 57.013692833, 9.987226333 to 57.013693391, 9.987226489
+
+2019-03-20T10:42:02,456746121+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.0627613567452
+
+2019-03-20T10:42:02,640240491+01:00
+Readed PCI 461
+Readed lat 57.013693921
+Readed lon 9.987226823
+
+2019-03-20T10:42:03,147227336+01:00
+Changed coordinates from 57.013693391, 9.987226489 to 57.013693921, 9.987226823
+
+2019-03-20T10:42:03,187556927+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.0623055245738
+
+2019-03-20T10:42:03,329808681+01:00
+Readed PCI 461
+Readed lat 57.013694424
+Readed lon 9.98722707
+
+2019-03-20T10:42:03,748937429+01:00
+Changed coordinates from 57.013693921, 9.987226823 to 57.013694424, 9.98722707
+
+2019-03-20T10:42:03,785382062+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.057895368855
+
+2019-03-20T10:42:03,927196962+01:00
+Readed PCI 461
+Readed lat 57.013695028
+Readed lon 9.987227432
+
+2019-03-20T10:42:04,353301577+01:00
+Changed coordinates from 57.013694424, 9.98722707 to 57.013695028, 9.987227432
+
+2019-03-20T10:42:04,417318695+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.0706467515852
+
+2019-03-20T10:42:04,559908135+01:00
+Readed PCI 461
+Readed lat 57.013696182
+Readed lon 9.987227632
+
+2019-03-20T10:42:04,956909898+01:00
+Changed coordinates from 57.013695028, 9.987227432 to 57.013696182, 9.987227632
+
+2019-03-20T10:42:05,016762299+01:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The new orientation is 157.9915 degrees
+The antenna selected is 5
+The distance covered is 0.128888842307
+
+2019-03-20T10:42:05,168773391+01:00
+Readed PCI 461
+Readed lat 57.013698103
+Readed lon 9.987227736
+
+=======
 2019-03-20T10:37:36,029127662+01:00
 The collection of bit rate has started with the two methods
 2019-03-20T10:37:36,030941038+01:00
@@ -18,3 +163,4 @@ The collection of SNR info has started
 2019-03-20T10:37:36,063130260+01:00
 The collection of GPS coordinates has started
 The collection of Statistics has started
+>>>>>>> 19e69e43e438ab17bf85902b7aac076718f09061

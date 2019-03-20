@@ -1,0 +1,796 @@
+
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:31,227129240+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-14.3' dB
+		RSRP: '-90.4' dBm
+		RSSI: '-55.8' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-16.4' dB
+		RSRP: '-91.7' dBm
+		RSSI: '-66.0' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-19.6' dB
+		RSRP: '-94.8' dBm
+		RSSI: '-66.4' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-18.7' dB
+		RSRP: '-95.9' dBm
+		RSSI: '-68.0' dBm
+	Cell [4]:
+		Physical Cell ID: '330'
+		RSRQ: '-20.0' dB
+		RSRP: '-98.7' dBm
+		RSSI: '-67.2' dBm
+	Cell [5]:
+		Physical Cell ID: '262'
+		RSRQ: '-20.0' dB
+		RSRP: '-98.9' dBm
+		RSSI: '-67.0' dBm
+	Cell [6]:
+		Physical Cell ID: '461'
+		RSRQ: '-18.5' dB
+		RSRP: '-95.2' dBm
+		RSSI: '-67.9' dBm
+	Cell [7]:
+		Physical Cell ID: '263'
+		RSRQ: '-20.0' dB
+		RSRP: '-99.3' dBm
+		RSSI: '-67.0' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:32,132207587+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-13.5' dB
+		RSRP: '-90.3' dBm
+		RSSI: '-56.4' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-16.7' dB
+		RSRP: '-92.9' dBm
+		RSSI: '-66.4' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-17.7' dB
+		RSRP: '-94.0' dBm
+		RSSI: '-66.3' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-16.6' dB
+		RSRP: '-95.4' dBm
+		RSSI: '-69.4' dBm
+	Cell [4]:
+		Physical Cell ID: '254'
+		RSRQ: '-17.7' dB
+		RSRP: '-96.4' dBm
+		RSSI: '-69.3' dBm
+	Cell [5]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-66.3' dBm
+	Cell [6]:
+		Physical Cell ID: '461'
+		RSRQ: '-18.3' dB
+		RSRP: '-95.4' dBm
+		RSSI: '-67.2' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:33,067406989+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-14.2' dB
+		RSRP: '-90.1' dBm
+		RSSI: '-55.7' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-15.9' dB
+		RSRP: '-90.4' dBm
+		RSSI: '-65.3' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-18.7' dB
+		RSRP: '-93.3' dBm
+		RSSI: '-65.3' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-17.6' dB
+		RSRP: '-95.3' dBm
+		RSSI: '-68.3' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-20.0' dB
+		RSRP: '-95.9' dBm
+		RSSI: '-66.3' dBm
+	Cell [5]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-96.9' dBm
+		RSSI: '-65.3' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:34,100177484+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-13.5' dB
+		RSRP: '-90.5' dBm
+		RSSI: '-55.5' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-15.5' dB
+		RSRP: '-91.5' dBm
+		RSSI: '-67.2' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-18.3' dB
+		RSRP: '-94.2' dBm
+		RSSI: '-66.9' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-17.7' dB
+		RSRP: '-95.7' dBm
+		RSSI: '-69.4' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-16.9' dB
+		RSRP: '-94.1' dBm
+		RSSI: '-68.0' dBm
+	Cell [5]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-97.0' dBm
+		RSSI: '-67.2' dBm
+	Cell [6]:
+		Physical Cell ID: '254'
+		RSRQ: '-18.3' dB
+		RSRP: '-96.2' dBm
+		RSSI: '-69.2' dBm
+	Cell [7]:
+		Physical Cell ID: '335'
+		RSRQ: '-20.0' dB
+		RSRP: '-100.2' dBm
+		RSSI: '-67.4' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:35,172472646+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-13.2' dB
+		RSRP: '-90.3' dBm
+		RSSI: '-57.1' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-16.7' dB
+		RSRP: '-93.1' dBm
+		RSSI: '-67.6' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-18.3' dB
+		RSRP: '-94.5' dBm
+		RSSI: '-68.0' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-16.7' dB
+		RSRP: '-95.2' dBm
+		RSSI: '-69.5' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-18.5' dB
+		RSRP: '-96.0' dBm
+		RSSI: '-68.6' dBm
+	Cell [5]:
+		Physical Cell ID: '335'
+		RSRQ: '-20.0' dB
+		RSRP: '-100.5' dBm
+		RSSI: '-69.3' dBm
+	Cell [6]:
+		Physical Cell ID: '254'
+		RSRQ: '-16.3' dB
+		RSRP: '-94.7' dBm
+		RSSI: '-69.4' dBm
+	Cell [7]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-97.7' dBm
+		RSSI: '-68.0' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:36,311195342+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-14.4' dB
+		RSRP: '-90.5' dBm
+		RSSI: '-55.9' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-16.5' dB
+		RSRP: '-92.8' dBm
+		RSSI: '-67.0' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-19.9' dB
+		RSRP: '-95.9' dBm
+		RSSI: '-66.7' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-16.1' dB
+		RSRP: '-94.2' dBm
+		RSSI: '-68.8' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-17.4' dB
+		RSRP: '-94.9' dBm
+		RSSI: '-67.9' dBm
+	Cell [5]:
+		Physical Cell ID: '335'
+		RSRQ: '-20.0' dB
+		RSRP: '-99.0' dBm
+		RSSI: '-67.2' dBm
+	Cell [6]:
+		Physical Cell ID: '254'
+		RSRQ: '-17.0' dB
+		RSRP: '-95.0' dBm
+		RSSI: '-68.6' dBm
+	Cell [7]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-96.9' dBm
+		RSSI: '-66.7' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:37,480310125+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-14.2' dB
+		RSRP: '-90.6' dBm
+		RSSI: '-55.4' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-17.0' dB
+		RSRP: '-93.4' dBm
+		RSSI: '-67.6' dBm
+	Cell [2]:
+		Physical Cell ID: '458'
+		RSRQ: '-20.0' dB
+		RSRP: '-95.9' dBm
+		RSSI: '-66.9' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-15.4' dB
+		RSRP: '-94.4' dBm
+		RSSI: '-70.7' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-17.4' dB
+		RSRP: '-94.6' dBm
+		RSSI: '-68.3' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-20.0' dB
+		RSRP: '-99.2' dBm
+		RSSI: '-68.5' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-18.7' dB
+		RSRP: '-94.7' dBm
+		RSSI: '-66.9' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:38,562401089+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-12.4' dB
+		RSRP: '-90.6' dBm
+		RSSI: '-55.3' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-14.3' dB
+		RSRP: '-92.2' dBm
+		RSSI: '-68.1' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-17.7' dB
+		RSRP: '-96.7' dBm
+		RSSI: '-70.4' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-14.2' dB
+		RSRP: '-94.6' dBm
+		RSSI: '-70.6' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-17.7' dB
+		RSRP: '-95.6' dBm
+		RSSI: '-69.8' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-19.8' dB
+		RSRP: '-100.0' dBm
+		RSSI: '-68.8' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-67.9' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-16.4' dB
+		RSRP: '-93.3' dBm
+		RSSI: '-67.9' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:39,688051932+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-12.8' dB
+		RSRP: '-90.4' dBm
+		RSSI: '-56.5' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-15.2' dB
+		RSRP: '-92.7' dBm
+		RSSI: '-67.7' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-17.5' dB
+		RSRP: '-96.3' dBm
+		RSSI: '-70.3' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-14.7' dB
+		RSRP: '-95.6' dBm
+		RSSI: '-70.5' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-19.6' dB
+		RSRP: '-97.4' dBm
+		RSSI: '-69.2' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-19.5' dB
+		RSRP: '-99.6' dBm
+		RSSI: '-67.6' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-18.6' dB
+		RSRP: '-94.5' dBm
+		RSSI: '-67.3' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-18.4' dB
+		RSRP: '-94.6' dBm
+		RSSI: '-67.3' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:40,842725515+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-12.0' dB
+		RSRP: '-90.1' dBm
+		RSSI: '-56.3' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-15.4' dB
+		RSRP: '-93.0' dBm
+		RSSI: '-67.2' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-18.4' dB
+		RSRP: '-95.8' dBm
+		RSSI: '-68.3' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-14.9' dB
+		RSRP: '-94.8' dBm
+		RSSI: '-68.5' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-17.4' dB
+		RSRP: '-95.4' dBm
+		RSSI: '-68.6' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-19.7' dB
+		RSRP: '-99.9' dBm
+		RSSI: '-68.0' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-19.0' dB
+		RSRP: '-96.6' dBm
+		RSSI: '-67.6' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-17.3' dB
+		RSRP: '-94.4' dBm
+		RSSI: '-68.3' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:42,064010244+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-12.0' dB
+		RSRP: '-89.9' dBm
+		RSSI: '-57.5' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-15.0' dB
+		RSRP: '-92.3' dBm
+		RSSI: '-66.7' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-16.7' dB
+		RSRP: '-96.0' dBm
+		RSSI: '-69.1' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-14.6' dB
+		RSRP: '-95.7' dBm
+		RSSI: '-69.2' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-18.7' dB
+		RSRP: '-98.3' dBm
+		RSSI: '-68.7' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-19.3' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-67.6' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-97.7' dBm
+		RSSI: '-66.1' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-16.1' dB
+		RSRP: '-92.2' dBm
+		RSSI: '-66.1' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:43,242078312+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-13.1' dB
+		RSRP: '-90.2' dBm
+		RSSI: '-54.4' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-16.4' dB
+		RSRP: '-92.3' dBm
+		RSSI: '-65.9' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-17.7' dB
+		RSRP: '-95.2' dBm
+		RSSI: '-68.5' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-15.6' dB
+		RSRP: '-95.0' dBm
+		RSSI: '-68.6' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-17.8' dB
+		RSRP: '-93.7' dBm
+		RSSI: '-66.6' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-20.0' dB
+		RSRP: '-97.5' dBm
+		RSSI: '-67.0' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-97.1' dBm
+		RSSI: '-65.9' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-17.7' dB
+		RSRP: '-92.8' dBm
+		RSSI: '-65.9' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:44,326682291+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-12.5' dB
+		RSRP: '-90.5' dBm
+		RSSI: '-57.2' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-14.3' dB
+		RSRP: '-93.1' dBm
+		RSSI: '-68.6' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-16.9' dB
+		RSRP: '-96.8' dBm
+		RSSI: '-71.1' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-14.0' dB
+		RSRP: '-95.5' dBm
+		RSSI: '-71.4' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-18.0' dB
+		RSRP: '-97.0' dBm
+		RSSI: '-69.8' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-19.9' dB
+		RSRP: '-100.3' dBm
+		RSSI: '-69.0' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-19.6' dB
+		RSRP: '-98.7' dBm
+		RSSI: '-68.3' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-17.5' dB
+		RSRP: '-95.0' dBm
+		RSSI: '-68.3' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:45,538238770+01:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '42088980'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '457'
+	Cell [0]:
+		Physical Cell ID: '457'
+		RSRQ: '-12.7' dB
+		RSRP: '-90.5' dBm
+		RSSI: '-56.7' dBm
+	Cell [1]:
+		Physical Cell ID: '260'
+		RSRQ: '-14.8' dB
+		RSRP: '-91.8' dBm
+		RSSI: '-68.2' dBm
+	Cell [2]:
+		Physical Cell ID: '254'
+		RSRQ: '-16.5' dB
+		RSRP: '-95.7' dBm
+		RSSI: '-70.9' dBm
+	Cell [3]:
+		Physical Cell ID: '378'
+		RSRQ: '-13.7' dB
+		RSRP: '-95.7' dBm
+		RSSI: '-71.1' dBm
+	Cell [4]:
+		Physical Cell ID: '461'
+		RSRQ: '-18.5' dB
+		RSRP: '-96.4' dBm
+		RSSI: '-68.8' dBm
+	Cell [5]:
+		Physical Cell ID: '330'
+		RSRQ: '-18.7' dB
+		RSRP: '-99.0' dBm
+		RSSI: '-69.3' dBm
+	Cell [6]:
+		Physical Cell ID: '456'
+		RSRQ: '-20.0' dB
+		RSRP: '-98.7' dBm
+		RSSI: '-67.5' dBm
+	Cell [7]:
+		Physical Cell ID: '458'
+		RSRQ: '-17.2' dB
+		RSRP: '-93.6' dBm
+		RSSI: '-67.5' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-03-20T11:26:46,691612908+01:00

@@ -1,0 +1,53 @@
+
+2019-03-20T14:17:42,444048973+01:00
+Error message from GPS change:
+Error 
+
+2019-03-20T14:17:42,454693552+01:00
+time counter started (reason = error from python when changing because new coordinates. LED light on
+2019-03-20T14:17:42,679960307+01:00
+Checking time since error (in python) appeared
+2019-03-20T14:17:42,706937437+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T14:17:43,081206795+01:00
+Error from python was solved when changing because new coordinates. LED light OFF
+2019-03-20T14:21:46,614558125+01:00
+Error message from GPS change:
+Error 
+
+2019-03-20T14:21:46,619340293+01:00
+time counter started (reason = error from python when changing because new coordinates. LED light on
+2019-03-20T14:21:46,833233006+01:00
+Checking time since error (in python) appeared
+2019-03-20T14:21:46,847174468+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T14:21:47,182642784+01:00
+Error from python was solved when changing because new coordinates. LED light OFF
+2019-03-20T14:35:23,170480168+01:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-03-20T14:35:23,173344550+01:00
+time counter started (reason = error from python with PCI and coordinates change reason). LED light on
+2019-03-20T14:35:23,461360671+01:00
+Checking time since error (in python) appeared
+2019-03-20T14:35:23,474979843+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T14:35:23,830251142+01:00
+Error from python was solved when changing because new PCI and coordinates. LED light OFF
+2019-03-20T14:35:25,165300441+01:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-03-20T14:35:25,177892325+01:00
+time counter started (reason = error from python with PCI and coordinates change reason). LED light on
+2019-03-20T14:35:25,490876709+01:00
+Checking time since error (in python) appeared
+2019-03-20T14:35:25,504696422+01:00
+This time is 0 seconds (approximated) 
+
+2019-03-20T14:35:25,863999516+01:00
+Error from python was solved when changing because new PCI and coordinates. LED light OFF
