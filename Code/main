@@ -47,7 +47,7 @@ first_time_pointing=0 #To now when it is the first time we switch to a dirctiona
 start_demo=0
 speed_start_OK=0
 start_bitrate=0
-threshold_speed=0.001
+threshold_speed=7
 
 #This values will be changed during the start of the system or in Initialize
 PCI=460
@@ -311,7 +311,7 @@ newlat=$(echo "$newcoordinates" | sed -n 1p)
 newlon=$(echo "$newcoordinates" | sed -n 2p) 
 newspeed=$(echo "$newcoordinates" | sed -n 3p) 
 orientation_current=$(echo "$newcoordinates" | sed -n 5p) 
-orientation_current=10
+
 #newPCI=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/temporalPCI) #debug purposes
 
 
