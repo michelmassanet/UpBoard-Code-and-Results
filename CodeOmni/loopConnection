@@ -1,0 +1,248 @@
+#!/bin/bash
+
+#Thread that checks if there is internet connection and in consequence it acts. It starts the uploading at the beginning, stops it when there is no internet and reuploads when the connections is again available.
+
+
+##################################THIS ARE THE STATES IN RELATION WITH THE INTERNET CONNECTION #########################################3
+#State 0 --> suddenly No connection, 
+#State 1 --> suddenly connection, 
+#State 2 --> still no connection,
+#state 3 --> still connected
+
+folder=$1
+
+sleep 5 #WE SLEEP 5 SECONDS TO WE CAN SAVE SOME STABLE PCI AND COORDINATES INFO.
+
+state=2 #We start with this state
+ 
+
+#filename of log_general purposes (this includes saving decisions of antenna and others)
+filename0=logs_general
+filename1=logs_upload
+filename3=errors_main
+
+#To initialize the error file and timeout for reboot
+#echo "" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+#sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+
+error_situation_connection=0
+#time_out_error_connection=60000000000 #nano seconds
+time_out_error_connection=6000000000000 #nano seconds
+time_error_now_connection=0
+time_error_pass_connection=0
+time_error_start_connection=0
+
+
+
+
+
+while true; do
+
+
+
+
+####################################################################################################################################################
+####################################################################################################################################################
+############################################### State machine to establish connection/start uploading and others ###################################
+#####################################################################################################################################################
+#####################################################################################################################################################
+
+
+wwan=$(netstat -i | grep -o  '\bww\w*')
+modem_number_line=$(sudo mmcli -L | sed -n '2p')
+
+if [ "$modem_number_line" == "No modems were found" ];then #DIRECTLY THERE IS NO MODEM CONNECTED TO THE UPBOARD
+
+	if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
+
+		sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
+		sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
+
+		first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+		sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+		
+
+
+		#log upload purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+		echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+		#log terminal purposes
+		echo "No modems were found connected to the upboard"
+
+		time_error_start_connection=$(date +%s%N)
+		error_situation_connection=1
+		state=2
+		
+		sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+		#log error purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+		echo "No modems were found connected to the upboard"  >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	fi 
+
+
+else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
+
+	modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
+	state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
+	
+	#state_modem=fail #Debug purposes 
+
+	if [ "$state_modem" == "connected" ];then #IT IS CONNECTED TO THE NETWORK
+
+
+
+		if [  "$wwan" == "" ];then  #If there is no internet connection (no Interface registered)
+
+			if [ "$state" == 3 ];then
+				state=0 #No connection
+			fi
+
+		else
+			if [ "$state" == "2" ]; then
+				state=1 #suddenly connection
+			fi
+		fi
+
+
+
+
+
+		if [ "$state" == 0 ]; then
+
+			
+			#log terminal purposes
+			echo -e "Killing Uploading and gdrive"
+
+			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
+			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
+			
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+			state=2
+			error_situation_connection=1
+			time_error_start_connection=$(date +%s%N)
+
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+			echo "LOST connection, the upload has been stopped" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+			#log purposes terminal
+			echo "NO INTERNET CONNECTION, stop uploading"
+
+
+
+		elif [ "$state" == 1 ]; then
+
+			#Upload again
+
+
+			#log purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+			echo "Connection activated or reactivated again (after error or disconnection)" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Uploading $folder &
+
+
+			state=3
+
+			error_situation_connection=0
+			time_error_start_connection=0
+			time_error_now=0
+
+			sudo echo "0" > /sys/class/gpio/gpio26/value #RED LED OFF
+
+
+			#log terminal purposes
+			echo "Connection reactivated"
+
+		fi
+
+
+	else
+		
+
+		if [ "$error_situation_connection" == 0 ]; then #The first time it happens:
+
+			#log terminal purposes
+			echo -e "Killing Uploading and gdrive"
+
+			sudo kill -9 $(ps -ef | grep Uploading | grep -v grep | awk '{print $2}')
+			sudo kill -9 $(ps -ef | grep gdrive-master | grep -v grep | awk '{print $2}')
+
+			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
+
+			#log upload purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+			echo "Stopped upload. Situation of disconnection" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
+
+	
+			error_situation_connection=1
+			state=2
+			time_error_start_connection=$(date +%s%N)
+
+			sudo echo "1" > /sys/class/gpio/gpio26/value #RED LED ON
+
+			#log error purposes
+			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+			echo -e "The state of the modem is different from connected (log message from MAIN). It is: " $state_modem ". \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+		fi
+	fi
+
+fi
+
+
+
+
+
+
+if [ "$error_situation_connection" == "1" ]; then #then check how much time has passed
+
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo "Checking time since error (in connection) appeared" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+	time_error_now_connection=$(date +%s%N)
+	time_error_pass_connection=$(echo "$time_error_now_connection - $time_error_start_connection" | bc -l)
+	
+
+	#log terminal purposes
+	echo -e "We are in error situation. Reason: Connection error\n"
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+	echo -e "This time is "$(( $time_error_pass_connection / 1000000000 )) "seconds (approximated) \n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+	if [ "$time_error_pass_connection" -gt "$time_out_error_connection" ];then #timeout SECONDS from the error --> We reboot and start everything again
+		
+		#log purposes
+		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+		echo "Time out for establishing connection exceeded. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
+
+
+		#log terminal purposes
+		echo "Time out exceeded. Reason: Connection error"
+
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/rebootInitialize $folder
+
+	fi
+
+
+fi
+
+done
+
+

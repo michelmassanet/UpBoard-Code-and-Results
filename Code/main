@@ -311,7 +311,7 @@ newlat=$(echo "$newcoordinates" | sed -n 1p)
 newlon=$(echo "$newcoordinates" | sed -n 2p) 
 newspeed=$(echo "$newcoordinates" | sed -n 3p) 
 orientation_current=$(echo "$newcoordinates" | sed -n 5p) 
-
+orientation_current=10
 #newPCI=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/temporalPCI) #debug purposes
 
 
