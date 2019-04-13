@@ -117,7 +117,7 @@ echo "Set up of GPIOs done " >> /home/upboard/Desktop/UpBoard-Code-and-Results/R
 
 
 ready=true
-time_out_error=30000000000 #nanoseconds
+time_out_error=3000000000000 #30000000000 #nanoseconds
 error_situation=0
 time_error_start=$(date +%s%N)
 state_modem=fail
@@ -156,8 +156,8 @@ coordinatesInfo=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Cod
 latitude=$(echo "$coordinatesInfo" | sed -n '1p')
 longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
-#latitude=23 #debug purposes
-#longitude=55 #debug purposes
+latitude=23 #debug purposes
+longitude=55 #debug purposes
 modem_number_line=$(sudo mmcli -L | sed -n '2p')
 
 #log terminal purposes

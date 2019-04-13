@@ -32,13 +32,26 @@ echo -e "Uploading again (or at the start) \n"
 
 
 #We execute the upload and safe the output in the variable
-IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master upload /home/upboard/Desktop/r2_l_TDC1.mat)
+#IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master upload /home/upboard/Desktop/r2_l_TDC1.mat)
+
+####################Remove me#############################
+IDstatement=3
+line_1_IDstatement=eeeee
 
 
-line_1_IDstatement=$(echo -e "$IDstatement" | sed -n '2p')
+sleep 100
+
+#line_1_IDstatement=$(echo -e "$IDstatement" | sed -n '2p')
 
 #log terminal purposes
-echo $line_1_IDstatement
+#echo $line_1_IDstatement
+
+#Controlling the number of uploads
+n_Upload=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/n_Upload) 
+addition=1
+n_Upload=$(( $n_Upload + $addition ))
+
+echo "$n_Upload" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/n_Upload
 
 
 
@@ -66,9 +79,9 @@ if [ "$line_1_IDstatement" != "Failed to upload file: googleapi: Error 403: Rate
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master list  >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 
-
-	echo "$IDstatement" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/IDGoogleDrive
-	sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/IDGoogleDrive
+	#Remove this commenting
+	#echo "$IDstatement" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/IDGoogleDrive
+	#sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/IDGoogleDrive
 
 
 else
