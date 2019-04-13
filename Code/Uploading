@@ -33,22 +33,18 @@ echo -e "Uploading again (or at the start) \n"
 
 
 #We execute the upload and safe the output in the variable
-#IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master upload /home/upboard/Desktop/r2_l_TDC1.mat)
+IDstatement=$(sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master upload /home/upboard/Desktop/r2_l_TDC1.mat)
 
 
-IDstatement=3
-line_1_IDstatement=2333332eeee
-
-#line_1_IDstatement=$(echo -e "$IDstatement" | sed -n '2p')
+line_1_IDstatement=$(echo -e "$IDstatement" | sed -n '2p')
 
 #log terminal purposes
 echo $line_1_IDstatement
 
-sleep 100
+
 
 n_Upload=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/n_Upload)
 addition=1
-
 n_Upload=$(( $n_Upload + $addition ))
 
 sudo echo "$n_Upload" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/n_Upload
@@ -80,8 +76,8 @@ if [ "$line_1_IDstatement" != "Failed to upload file: googleapi: Error 403: Rate
 	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master list  >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename"
 
 
-	#echo "$IDstatement" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
-	#sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
+	echo "$IDstatement" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
+	sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive
 else
 
 	#log terminal purposes
