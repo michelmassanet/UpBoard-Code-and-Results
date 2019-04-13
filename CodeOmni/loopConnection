@@ -150,7 +150,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			echo "Connection activated or reactivated again (after error or disconnection)" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 			
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Uploading $folder &
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/Uploading $folder &
 
 
 			state=3
@@ -236,7 +236,7 @@ if [ "$error_situation_connection" == "1" ]; then #then check how much time has 
 		#log terminal purposes
 		echo "Time out exceeded. Reason: Connection error"
 
-		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/rebootInitialize $folder
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder
 
 	fi
 

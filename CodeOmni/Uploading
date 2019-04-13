@@ -39,12 +39,12 @@ IDstatement=3
 line_1_IDstatement=eeeee
 
 
-sleep 100
+sleep 120
 
 #line_1_IDstatement=$(echo -e "$IDstatement" | sed -n '2p')
 
 #log terminal purposes
-#echo $line_1_IDstatement
+echo $line_1_IDstatement
 
 #Controlling the number of uploads
 n_Upload=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/n_Upload) 
@@ -53,7 +53,7 @@ n_Upload=$(( $n_Upload + $addition ))
 
 echo "$n_Upload" > /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/n_Upload
 
-
+echo "$n_Upload          locoooo" 
 
 if [ "$line_1_IDstatement" != "Failed to upload file: googleapi: Error 403: Rate Limit Exceeded, rateLimitExceeded" ];then
 
