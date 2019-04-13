@@ -47,7 +47,7 @@ first_time_pointing=0 #To now when it is the first time we switch to a dirctiona
 start_demo=0
 speed_start_OK=0
 start_bitrate=0
-threshold_speed=0.01 #7 normally
+threshold_speed=7 #7 normally
 
 #This values will be changed during the start of the system or in Initialize
 PCI=460
@@ -519,8 +519,8 @@ if [ "$start_demo" == "1" ]; then
 
 			orientation_past=$orientation_current #We update the values
 
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 0 #debug purposes
-			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 0 #debug purposes
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
 		
 			if [ "$first_time_pointing" == "0" ]; then
 				sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
@@ -649,8 +649,8 @@ if [ "$start_demo" == "1" ]; then
 
 			orientation_past=$orientation_current #We update the values
 
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 0 #debug purposes
-			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 0 #debug purposes
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
 
 			if [ "$first_time_pointing" == "0" ]; then
 				sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
@@ -783,8 +783,8 @@ if [ "$start_demo" == "1" ]; then
 			echo -e "Changed coordinates from $lat_past, $lon_past to $lat, $lon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
 			#We change the GPIOs to the new antenna
-			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 0 #debug purposes
-			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
+			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 0 #debug purposes
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch $antenna
 
 			if [ "$first_time_pointing" == "0" ]; then
 				sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port
