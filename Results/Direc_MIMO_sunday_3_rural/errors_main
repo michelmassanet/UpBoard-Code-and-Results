@@ -1,0 +1,27 @@
+
+2019-04-14T12:17:12,327052339+02:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-04-14T12:17:12,335352205+02:00
+time counter started (reason = error from python with PCI and coordinates change reason). LED light on
+2019-04-14T12:17:12,556965419+02:00
+Checking time since error (in python) appeared
+2019-04-14T12:17:12,571367654+02:00
+This time is 0 seconds (approximated) 
+
+2019-04-14T12:17:12,947670111+02:00
+Error from python was solved when changing because new PCI and coordinates. LED light OFF
+2019-04-14T12:25:23,259498152+02:00
+Error message from PCI and Coordinates change:
+Error Number of arguments no valid
+
+2019-04-14T12:25:23,264772821+02:00
+time counter started (reason = error from python with PCI and coordinates change reason). LED light on
+2019-04-14T12:25:23,543712658+02:00
+Checking time since error (in python) appeared
+2019-04-14T12:25:23,555948591+02:00
+This time is 0 seconds (approximated) 
+
+2019-04-14T12:25:23,924981425+02:00
+Error from python was solved when changing because new PCI and coordinates. LED light OFF
