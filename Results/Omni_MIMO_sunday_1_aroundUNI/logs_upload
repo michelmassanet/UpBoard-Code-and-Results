@@ -1,0 +1,30 @@
+2019-04-14T10:53:29,417153085+02:00
+Connection activated or reactivated again (after error or disconnection)
+2019-04-14T10:53:29,465888724+02:00
+Uploading again (or at the start) 
+
+2019-04-14T11:05:42,422715815+02:00
+Finish Uploading. The IDStatement is  Uploading /home/upboard/Desktop/r2_l_TDC1.mat Uploaded 16f6djIdwSvg_7xO4BYoh12e7_NXE_Xhj at 3.3 MB/s, total 2.5 GB .
+
+2019-04-14T11:05:42,431531230+02:00
+Successfully uploaded file with ID Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Uploaded 16f6djIdwSvg_7xO4BYoh12e7_NXE_Xhj at 3.3 MB/s, total 2.5 GB
+2019-04-14T11:05:43,474416299+02:00
+The list of files in drive after uploading is
+2019-04-14T11:05:43,481766543+02:00
+Id                                  Name            Type   Size     Created
+16f6djIdwSvg_7xO4BYoh12e7_NXE_Xhj   r2_l_TDC1.mat   bin    2.5 GB   2019-04-14 11:05:40
+2019-04-14T11:05:44,439750897+02:00
+the readed ID to delete is:  
+16f6djIdwSvg_7xO4BYoh12e7_NXE_Xhj
+Deleting...
+
+2019-04-14T11:05:44,440371580+02:00
+Uploading again (or at the start) 
+
+2019-04-14T11:05:44,443907093+02:00
+Deleted 'r2_l_TDC1.mat'
+2019-04-14T11:05:45,852089695+02:00
+The list of files after deleting is: 
+
+Id   Name   Type   Size   Created
