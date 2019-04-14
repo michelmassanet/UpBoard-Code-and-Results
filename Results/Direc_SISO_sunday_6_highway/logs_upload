@@ -1,0 +1,55 @@
+2019-04-14T13:59:02,602088265+02:00
+Connection activated or reactivated again (after error or disconnection)
+2019-04-14T13:59:02,658570409+02:00
+Uploading again (or at the start) 
+
+2019-04-14T14:16:11,134741904+02:00
+Finish Uploading. The IDStatement is Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Uploaded 116hVu8cyB52fPrtyzdraFqbLf-bNeBZ8 at 2.4 MB/s, total 2.5 GB .
+
+2019-04-14T14:16:11,147170844+02:00
+Successfully uploaded file with ID Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Uploaded 116hVu8cyB52fPrtyzdraFqbLf-bNeBZ8 at 2.4 MB/s, total 2.5 GB
+2019-04-14T14:16:12,183507537+02:00
+The list of files in drive after uploading is
+2019-04-14T14:16:12,185705069+02:00
+Id                                  Name            Type   Size     Created
+116hVu8cyB52fPrtyzdraFqbLf-bNeBZ8   r2_l_TDC1.mat   bin    2.5 GB   2019-04-14 14:16:09
+2019-04-14T14:16:13,174524963+02:00
+Uploading again (or at the start) 
+
+2019-04-14T14:16:14,172386147+02:00
+the readed ID to delete is:  
+116hVu8cyB52fPrtyzdraFqbLf-bNeBZ8
+Deleting...
+
+2019-04-14T14:16:14,178050757+02:00
+Deleted 'r2_l_TDC1.mat'
+2019-04-14T14:16:15,558091932+02:00
+The list of files after deleting is: 
+
+Id   Name   Type   Size   Created
+2019-04-14T14:26:39,776654676+02:00
+Finish Uploading. The IDStatement is Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Failed to upload file: Post https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2CwebContentLink&uploadType=resumable&upload_id=AEnB2UprYM60ijTUsmKSu3Bk9r-JT5PPggFVgaIxqNZt7Pfkal-cxbS2HXmKtBlvngvYIfTox9S-qlApolCqtYkuYvw8atQgeA: remote error: tls: bad record MAC .
+
+2019-04-14T14:26:39,791521667+02:00
+Successfully uploaded file with ID Uploading /home/upboard/Desktop/r2_l_TDC1.mat
+Failed to upload file: Post https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2CwebContentLink&uploadType=resumable&upload_id=AEnB2UprYM60ijTUsmKSu3Bk9r-JT5PPggFVgaIxqNZt7Pfkal-cxbS2HXmKtBlvngvYIfTox9S-qlApolCqtYkuYvw8atQgeA: remote error: tls: bad record MAC
+2019-04-14T14:26:40,853448781+02:00
+The list of files in drive after uploading is
+2019-04-14T14:26:40,857901919+02:00
+Id   Name   Type   Size   Created
+2019-04-14T14:26:41,859129707+02:00
+Uploading again (or at the start) 
+
+2019-04-14T14:26:42,847119916+02:00
+the readed ID to delete is:  
+Deleting...
+
+2019-04-14T14:26:42,850416597+02:00
+
+2019-04-14T14:26:42,898461109+02:00
+The list of files after deleting is: 
+
+Id   Name   Type   Size   Created
