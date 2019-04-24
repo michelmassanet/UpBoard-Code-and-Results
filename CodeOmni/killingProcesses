@@ -83,7 +83,7 @@ reason=$1
  sudo kill -9 $(ps -ef | grep reInitialize | grep -v grep | awk '{print $2}')
  sudo kill -9 $(ps -ef | grep Initialize | grep -v grep | awk '{print $2}')
  sudo kill -9 $(ps -ef | grep loopDeleteDrive | grep -v grep | awk '{print $2}')
-
+ sudo kill -9 $(ps -ef | grep loopConnection | grep -v grep | awk '{print $2}')
 
 
 #if [ "$reason" != "main" ]; then
