@@ -1,36 +1,19 @@
 #!/bin/bash
 
-#Thread that checks if there is internet connection and in consequence it acts. It starts the uploading at the beginning, stops it when there is no internet and reuploads when the connections is again available.
-
-
-##################################THIS ARE THE STATES IN RELATION WITH THE INTERNET CONNECTION #########################################3
-#State 0 --> suddenly No connection, 
-#State 1 --> suddenly connection, 
-#State 2 --> still no connection,
-#state 3 --> still connected
+#Thread that checks if a file was uploaded to google drive and delete it if such
 
 folder=$1
-
- 
-
-
 filename1=logs_upload
-
-
-
 
 while true; do
 
-
+# Remove the trash content
+sudo rm -rf /home/upboard/.local/share/Trash/files
 
 if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive ]; then
-
-	
 	IDsentence=$(cat /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive | awk -F"Uploaded " '{print $2}')
-	ID=$(echo "$IDsentence" | awk -F" at" '{print $1}')
-	
+	ID=$(echo "$IDsentence" | awk -F" at" '{print $1}')	
 	sleep 1
-
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 	echo "the readed ID to delete is:  $ID$state" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
@@ -47,9 +30,7 @@ if [ -f /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive ]; the
 
 	#log purposes on the terminal
 	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master list #to check is empty again
-
+	
 	sudo rm /home/upboard/Desktop/UpBoard-Code-and-Results/Code/IDGoogleDrive #we remove the file with the old ID
 fi
-
-
 done

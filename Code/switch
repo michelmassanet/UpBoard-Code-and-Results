@@ -2,15 +2,7 @@
 
 #This file enables different GPIOs according to an input argument
 
-
-
-
 antenna=$1 #Input argument
-
-
-
-#antenna=$(cat selectedAntenna)
-#echo $antenna 
 
 if [ "$antenna" = "0" ]; then
 
@@ -69,14 +61,10 @@ echo "1" > /sys/class/gpio/gpio23/value
 echo "1" > /sys/class/gpio/gpio24/value
 echo "1" > /sys/class/gpio/gpio25/value
 
-
 else
-
 #000?
 echo "0" > /sys/class/gpio/gpio23/value
 echo "0" > /sys/class/gpio/gpio24/value
 echo "0" > /sys/class/gpio/gpio25/value
-
-
 
 fi
