@@ -106,7 +106,7 @@ date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$f
 echo "Set up of GPIOs done " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 
 sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6
-sudo echo "0" > /sys/class/gpio/gpio27/value #connect to the omni antennas through both switches
+sudo echo "1" > /sys/class/gpio/gpio27/value #connect to the omni antennas through both switches
 
 #################################################################################################################################################################################
 #################################################################################################################################################################################
@@ -134,23 +134,6 @@ time_error_now=$(date +%s%N)
 time_error_pass=$(echo "$time_error_now - $time_error_start" | bc -l)
 
 
-
-if [ "$time_error_pass" -gt "$time_out_error" ];then #timeout SECONDS from the error --> We reboot and start everything again
-		
-		#log purposes
-		date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo "Time out exceeded for establishing either coordinates or internet/modem connection. Executing rebootInitialize " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-		echo "The gathered coordinates are " $latitude $longitude "and the seen network" $wwan "and the state of the modem" $state_modem >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename3"
-
-		#log terminal purposes
-		
-		echo "Time out exceeded for establishing either coordinates or internet/modem connection. Executing rebootInitialize "
-		echo "The gathered coordinates are " $latitude $longitude "and the seen network" $wwan "and the state of the modem" $state_modem 
-
-		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/rebootInitialize $folder 
-		
-
-fi
 
 coordinatesInfo=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gpsOutput.py)
 latitude=$(echo "$coordinatesInfo" | sed -n '1p')

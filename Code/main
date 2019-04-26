@@ -114,7 +114,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 			echo -e "Error started!!! Reason: python message error"
 			error_situation_python=1
 			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
 			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
 		fi
 	else
@@ -130,7 +130,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 		PCI=$newPCI #We update the value
 
 		if [ "$first_time_pointing" == "0" ]; then #First switch on the demo or first after error
-			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port again
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port again
 			first_time_pointing=1
 		fi
 
@@ -179,7 +179,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 			echo -e "Error started!!! Reason: python message error"
 			error_situation_python=1
 			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
 			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
 		fi
 	else	
@@ -190,7 +190,7 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 		PCI=$newPCI #We update the value
 		
 		if [ "$first_time_pointing" == "0" ]; then #First switch on the demo or first after error
-			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port again
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port again
 			first_time_pointing=1
 		fi
 
@@ -242,7 +242,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 			echo -e "Error started!!! Reason: Python error"
 			error_situation_python=1
 			first_time_pointing=0 #So we come back to the omnidirectional configuration without diversity
-			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
+			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni diversity and put it back to the switch in the main port to acquire signal again with omni
 			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #We select on the main port the omni antenna
 		fi
 	else
@@ -263,7 +263,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 		echo -e "Changed coordinates from $lat_past, $lon_past to $lat, $lon\n" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 
 		if [ "$first_time_pointing" == "0" ]; then #First switch on the demo or first after error
-			sudo echo "1" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port again
+			sudo echo "0" > /sys/class/gpio/gpio27/value #We forget about omni antenna on the switch and we start using it in Rx diversity port again
 			first_time_pointing=1
 		fi
 

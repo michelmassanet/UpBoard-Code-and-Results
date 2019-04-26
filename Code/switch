@@ -4,62 +4,62 @@
 
 antenna=$1 #Input argument
 
-if [ "$antenna" = "0" ]; then
+if [ "$antenna" = "0" ]; then #RF2 --> 001
+
+#001
+echo "1" > /sys/class/gpio/gpio23/value #LSB gpio23
+echo "0" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+
+elif [ "$antenna" = "1" ]; then #RF1 --> 000
 
 #000
 echo "0" > /sys/class/gpio/gpio23/value
 echo "0" > /sys/class/gpio/gpio24/value
 echo "0" > /sys/class/gpio/gpio25/value
 
+elif [ "$antenna" = "2" ]; then #RF8 --> 111
 
-elif [ "$antenna" = "1" ]; then
-
-#001
-echo "1" > /sys/class/gpio/gpio23/value
-echo "0" > /sys/class/gpio/gpio24/value
-echo "0" > /sys/class/gpio/gpio25/value
-
-elif [ "$antenna" = "2" ]; then
-
-#010
-echo "0" > /sys/class/gpio/gpio23/value
-echo "1" > /sys/class/gpio/gpio24/value
-echo "0" > /sys/class/gpio/gpio25/value
-
-elif [ "$antenna" = "3" ]; then
-
-#011
+#111
 echo "1" > /sys/class/gpio/gpio23/value
 echo "1" > /sys/class/gpio/gpio24/value
-echo "0" > /sys/class/gpio/gpio25/value
-
-elif [ "$antenna" = "4" ]; then
-
-#100
-echo "0" > /sys/class/gpio/gpio23/value
-echo "0" > /sys/class/gpio/gpio24/value
 echo "1" > /sys/class/gpio/gpio25/value
 
-elif [ "$antenna" = "5" ]; then
-
-#101
-echo "1" > /sys/class/gpio/gpio23/value
-echo "0" > /sys/class/gpio/gpio24/value
-echo "1" > /sys/class/gpio/gpio25/value
-
-elif [ "$antenna" = "6" ]; then
+elif [ "$antenna" = "3" ]; then # RF7 --> 110
 
 #110
 echo "0" > /sys/class/gpio/gpio23/value
 echo "1" > /sys/class/gpio/gpio24/value
 echo "1" > /sys/class/gpio/gpio25/value
 
-elif [ "$antenna" = "7" ]; then
+elif [ "$antenna" = "4" ]; then #RF6 -->101
 
-#111
+#101
+echo "1" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
+echo "1" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "5" ]; then #RF4 --> 011
+
+#011
 echo "1" > /sys/class/gpio/gpio23/value
 echo "1" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "6" ]; then #Omni port #RF5 --> 100
+
+#100
+echo "0" > /sys/class/gpio/gpio23/value
+echo "0" > /sys/class/gpio/gpio24/value
 echo "1" > /sys/class/gpio/gpio25/value
+
+elif [ "$antenna" = "7" ]; then #NOT POSSIBLE (NOTHING) #RF3 --> 010
+
+#010
+echo "0" > /sys/class/gpio/gpio23/value
+echo "1" > /sys/class/gpio/gpio24/value
+echo "0" > /sys/class/gpio/gpio25/value
 
 else
 #000?
