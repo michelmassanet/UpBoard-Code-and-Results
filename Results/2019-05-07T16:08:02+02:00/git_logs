@@ -222,3 +222,70 @@ Finishing GIT
 Starting GIT
 2019-05-07T16:08:41,972029739+02:00
 1 GIT
+2019-05-07T16:08:42,060069209+02:00
+2 GIT
+[master ed1b015] UpBoard update
+ 18 files changed, 3025 insertions(+), 15 deletions(-)
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates44b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates45a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates45b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates67b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates68a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates68b
+ rename Code/BS_orientation/PCI_temp/{currentPCI21b => currentPCI33b} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI21a => currentPCI34a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI20b => currentPCI34b} (100%)
+2019-05-07T16:08:42,204473902+02:00
+3 GIT
+fatal: could not read Username for 'https://github.com': No such device or address
+2019-05-07T16:08:43,919946743+02:00
+4 GIT
+2019-05-07T16:08:43,940529680+02:00
+Finishing GIT
+2019-05-07T16:08:48,966965374+02:00
+Starting GIT
+2019-05-07T16:08:49,123082869+02:00
+1 GIT
+fatal: unable to stat 'Code/BS_orientation/PCI_temp/currentPCI46a': No such file or directory
+2019-05-07T16:08:49,243424592+02:00
+2 GIT
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+	deleted:    Code/BS_orientation/GPS/currentCoordinates67b
+	deleted:    Code/BS_orientation/GPS/currentCoordinates68a
+	deleted:    Code/BS_orientation/GPS/currentCoordinates68b
+	deleted:    Code/BS_orientation/PCI_temp/currentPCI33b
+	deleted:    Code/BS_orientation/PCI_temp/currentPCI34a
+	deleted:    Code/BS_orientation/PCI_temp/currentPCI34b
+	modified:   Results/2019-05-07T16:08:02+02:00/CellInfo_Tue May  7 16:08:22 CEST 2019
+	modified:   Results/2019-05-07T16:08:02+02:00/GPScoordinates_Tue May  7 16:08:22 CEST 2019
+	modified:   Results/2019-05-07T16:08:02+02:00/SNRInfo_Tue May  7 16:08:22 CEST 2019
+	modified:   Results/2019-05-07T16:08:02+02:00/StatisticsInfo_Tue May  7 16:08:22 CEST 2019
+	modified:   Results/2019-05-07T16:08:02+02:00/bit_rate_1_Tue May  7 16:08:22 CEST 2019
+	modified:   Results/2019-05-07T16:08:02+02:00/bit_rate_2_Tue May  7 16:08:22 CEST 2019
+	modified:   Results/2019-05-07T16:08:02+02:00/errors_main
+	modified:   Results/2019-05-07T16:08:02+02:00/git_logs
+	modified:   Results/2019-05-07T16:08:02+02:00/logs_general
+
+Untracked files:
+	Code/BS_orientation/GPS/currentCoordinates86b
+	Code/BS_orientation/GPS/currentCoordinates87a
+	Code/BS_orientation/GPS/currentCoordinates87b
+	Code/BS_orientation/PCI_temp/currentPCI46b
+	Code/BS_orientation/PCI_temp/currentPCI47a
+	Code/BS_orientation/PCI_temp/currentPCI47b
+
+no changes added to commit
+2019-05-07T16:08:49,326564742+02:00
+3 GIT
+fatal: could not read Username for 'https://github.com': No such device or address
+2019-05-07T16:08:51,016136755+02:00
+4 GIT
+2019-05-07T16:08:51,022181793+02:00
+Finishing GIT
+2019-05-07T16:08:56,042934264+02:00
+Starting GIT
+2019-05-07T16:08:56,120386922+02:00
+1 GIT
