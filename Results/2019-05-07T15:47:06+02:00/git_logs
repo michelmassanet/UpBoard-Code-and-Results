@@ -101,3 +101,53 @@ Finishing GIT
 Starting GIT
 2019-05-07T15:47:28,076119792+02:00
 1 GIT
+2019-05-07T15:47:28,310686470+02:00
+2 GIT
+[master da4f0fa] UpBoard update
+ 46 files changed, 44614 insertions(+), 34 deletions(-)
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates62a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates62b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates63a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates63b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates66a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates66b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates67a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates67b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates68a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates68b
+ rename Code/BS_orientation/PCI_temp/{currentPCI37b => currentPCI32a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI37a => currentPCI32b} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI36b => currentPCI33a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI36a => currentPCI33b} (100%)
+ delete mode 100755 Code/BS_orientation/PCI_temp/currentPCI35b
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/CellInfo_Tue May  7 15:45:21 CEST 2019
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/GPScoordinates_Tue May  7 15:45:21 CEST 2019
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/SNRInfo_Tue May  7 15:45:21 CEST 2019
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/StatisticsInfo_Tue May  7 15:45:21 CEST 2019
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/bit_rate_1_Tue May  7 15:45:21 CEST 2019
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/bit_rate_2_Tue May  7 15:45:21 CEST 2019
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/errors_main
+ create mode 100644 Results/2019-05-07T15:45:01+02:00/git_logs
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/logs_general
+ create mode 100755 Results/2019-05-07T15:45:01+02:00/logs_upload
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/CellInfo_Tue May  7 15:47:08 CEST 2019
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/GPScoordinates_Tue May  7 15:47:08 CEST 2019
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/SNRInfo_Tue May  7 15:47:08 CEST 2019
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/StatisticsInfo_Tue May  7 15:47:08 CEST 2019
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/bit_rate_1_Tue May  7 15:47:08 CEST 2019
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/bit_rate_2_Tue May  7 15:47:08 CEST 2019
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/errors_main
+ create mode 100644 Results/2019-05-07T15:47:06+02:00/estimations_python.txt
+ create mode 100644 Results/2019-05-07T15:47:06+02:00/git_logs
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/logs_general
+ create mode 100755 Results/2019-05-07T15:47:06+02:00/logs_upload
+2019-05-07T15:47:28,567693687+02:00
+3 GIT
+2019-05-07T15:47:34,429442234+02:00
+4 GIT
+2019-05-07T15:47:34,441726110+02:00
+Finishing GIT
+2019-05-07T15:47:39,464678090+02:00
+Starting GIT
+2019-05-07T15:47:39,506631635+02:00
+1 GIT
