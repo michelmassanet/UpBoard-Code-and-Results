@@ -2411,3 +2411,536 @@ LTE Info Neighboring WCDMA
 ------------------------------------------------------------------------------
  
 2019-05-07T15:34:02,248520919+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.0' dB
+		RSRP: '-100.1' dBm
+		RSSI: '-59.9' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-105.5' dBm
+		RSSI: '-73.5' dBm
+	Cell [2]:
+		Physical Cell ID: '459'
+		RSRQ: '-20.0' dB
+		RSRP: '-105.7' dBm
+		RSSI: '-73.1' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:02,838363318+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.8' dB
+		RSRP: '-99.0' dBm
+		RSSI: '-62.8' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-109.6' dBm
+		RSSI: '-77.2' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:03,405465673+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-11.3' dB
+		RSRP: '-99.0' dBm
+		RSSI: '-61.0' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-105.9' dBm
+		RSSI: '-73.6' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:04,048734950+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.3' dB
+		RSRP: '-98.3' dBm
+		RSSI: '-60.7' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-104.8' dBm
+		RSSI: '-72.6' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:04,621399391+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.1' dB
+		RSRP: '-100.2' dBm
+		RSSI: '-62.2' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-107.6' dBm
+		RSSI: '-75.2' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:05,273363545+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.7' dB
+		RSRP: '-98.7' dBm
+		RSSI: '-70.9' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-112.2' dBm
+		RSSI: '-82.8' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:05,821518493+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-12.0' dB
+		RSRP: '-99.0' dBm
+		RSSI: '-66.8' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:06,400324837+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.4' dB
+		RSRP: '-97.6' dBm
+		RSSI: '-61.8' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:06,974518080+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.6' dB
+		RSRP: '-97.5' dBm
+		RSSI: '-59.4' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:07,519268383+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.0' dB
+		RSRP: '-100.2' dBm
+		RSSI: '-61.2' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:08,154823884+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.0' dB
+		RSRP: '-99.0' dBm
+		RSSI: '-66.1' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:08,754130295+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.3' dB
+		RSRP: '-98.8' dBm
+		RSSI: '-67.1' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:09,280970288+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-11.2' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-69.0' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:09,807050441+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.1' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-67.8' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:10,290175491+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.2' dB
+		RSRP: '-97.9' dBm
+		RSSI: '-66.4' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:10,855412920+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-11.0' dB
+		RSRP: '-98.4' dBm
+		RSSI: '-61.4' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:11,322652715+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.8' dB
+		RSRP: '-97.9' dBm
+		RSSI: '-60.3' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:11,869714168+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.6' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-65.6' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-18.5' dB
+		RSRP: '-106.3' dBm
+		RSSI: '-78.9' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:12,453513283+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-10.8' dB
+		RSRP: '-98.1' dBm
+		RSSI: '-63.2' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-108.9' dBm
+		RSSI: '-75.8' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:13,021066279+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.6' dB
+		RSRP: '-96.7' dBm
+		RSSI: '-60.9' dBm
+	Cell [1]:
+		Physical Cell ID: '380'
+		RSRQ: '-20.0' dB
+		RSRP: '-108.3' dBm
+		RSSI: '-78.5' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:13,693958855+02:00
+[/dev/cdc-wdm1] Successfully got cell location info
+Intrafrequency LTE Info
+	UE In Idle: 'no'
+	PLMN: '23820'
+	Tracking Area Code: '14011'
+	Global Cell ID: '41971230'
+	EUTRA Absolute RF Channel Number: '1850' (E-UTRA band 3: 1800+)
+	Serving Cell ID: '461'
+	Cell [0]:
+		Physical Cell ID: '461'
+		RSRQ: '-9.2' dB
+		RSRP: '-96.1' dBm
+		RSSI: '-60.0' dBm
+Interfrequency LTE Info
+	UE In Idle: 'no'
+LTE Info Neighboring GSM
+	UE In Idle: 'no'
+LTE Info Neighboring WCDMA
+	UE In Idle: 'no'
+ 
+------------------------------------------------------------------------------
+ 
+2019-05-07T15:34:14,344281785+02:00
