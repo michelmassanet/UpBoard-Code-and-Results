@@ -3997,3 +3997,21 @@ RSRP:
  
  
 2019-05-07T16:10:11,429604886+02:00
+[/dev/cdc-wdm1] Successfully got signal strength
+Current:
+	Network 'lte': '-71 dBm'
+RSSI:
+	Network 'lte': '-71 dBm'
+ECIO:
+	Network 'lte': '-2.5 dBm'
+IO: '-106 dBm'
+SINR: (8) '9.0 dB'
+RSRQ:
+	Network 'lte': '-12 dB'
+SNR:
+	Network 'lte': '5.6 dB'
+RSRP:
+	Network 'lte': '-101 dBm'
+ 
+ 
+2019-05-07T16:10:11,874605222+02:00
