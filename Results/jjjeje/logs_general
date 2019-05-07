@@ -1,0 +1,566 @@
+
+2019-05-07T14:26:17,448486763+02:00
+Set up of GPIOs done 
+The seen internet interface is wwp0s20u7u1i12
+2019-05-07T14:26:17,917145592+02:00
+Coordinates and connection are available. Ready to start
+2019-05-07T14:26:17,941650022+02:00
+SIM_file_new_has_been_created
+SIM 0
+
+SIM from Telenor found (connected to Telenor network). Saved value 0 in SIM file
+2019-05-07T14:26:18,239485601+02:00
+2019-05-07T14:26:18,239788006+02:00
+The collection of SNR info has started
+The collection of GPS coordinates has started
+2019-05-07T14:26:18,241142930+02:00
+The collection of Statistics has started
+2019-05-07T14:26:18,249237447+02:00
+The collection of bit rate has started with the two methods
+2019-05-07T14:26:18,255514195+02:00
+The collection of Cell Info has started
+2019-05-07T14:26:23,384613083+02:00
+Readed PCI 461
+Readed lat 57.014163833
+Readed lon 9.987229333
+
+2019-05-07T14:26:23,398485639+02:00
+Changed PCI from 460 to 461, changed Lat from 40 to 57.014163833 and Lon from 1 to 9.987229333
+
+2019-05-07T14:26:24,308800859+02:00
+Calculated parameters. Reason:new PCI and newcoordinates
+The state was 6
+The antenna selected is 2
+The distance covere is 2000357.41491
+
+2019-05-07T14:26:24,472944016+02:00
+Readed PCI 461
+Readed lat 57.014164667
+Readed lon 9.987230167
+
+2019-05-07T14:26:25,079184422+02:00
+Changed coordinates from 57.014163833, 9.987229333 to 57.014164667, 9.987230167
+
+2019-05-07T14:26:25,082792035+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.105589641982
+
+2019-05-07T14:26:25,220273949+02:00
+Readed PCI 461
+Readed lat 57.014163833
+Readed lon 9.987230667
+
+2019-05-07T14:26:25,861606496+02:00
+Changed coordinates from 57.014164667, 9.987230167 to 57.014163833, 9.987230667
+
+2019-05-07T14:26:25,876410956+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0975514018555
+
+2019-05-07T14:26:26,026698470+02:00
+Readed PCI 461
+Readed lat 57.014163333
+Readed lon 9.987231667
+
+2019-05-07T14:26:26,585292014+02:00
+Changed coordinates from 57.014163833, 9.987230667 to 57.014163333, 9.987231667
+
+2019-05-07T14:26:26,587941373+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0821944406301
+
+2019-05-07T14:26:26,684838825+02:00
+Readed PCI 461
+Readed lat 57.014163667
+Readed lon 9.9872315
+
+2019-05-07T14:26:27,246877955+02:00
+Changed coordinates from 57.014163333, 9.987231667 to 57.014163667, 9.9872315
+
+2019-05-07T14:26:27,249724930+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0384905300893
+
+2019-05-07T14:26:27,367098815+02:00
+Readed PCI 461
+Readed lat 57.0141635
+Readed lon 9.987231333
+
+2019-05-07T14:26:27,946590039+02:00
+Changed coordinates from 57.014163667, 9.9872315 to 57.0141635, 9.987231333
+
+2019-05-07T14:26:27,950449820+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0211432485469
+
+2019-05-07T14:26:28,068086110+02:00
+Readed PCI 461
+Readed lat 57.014163833
+Readed lon 9.987232333
+
+2019-05-07T14:26:28,730154171+02:00
+Changed coordinates from 57.0141635, 9.987231333 to 57.014163833, 9.987232333
+
+2019-05-07T14:26:28,740063270+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0709641872851
+
+2019-05-07T14:26:28,836750155+02:00
+Readed PCI 461
+Readed lat 57.014164
+Readed lon 9.987232833
+
+2019-05-07T14:26:29,416573110+02:00
+Changed coordinates from 57.014163833, 9.987232333 to 57.014164, 9.987232833
+
+2019-05-07T14:26:29,423826250+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0355111358004
+
+2019-05-07T14:26:29,590661479+02:00
+Readed PCI 461
+Readed lat 57.0141645
+Readed lon 9.9872325
+
+2019-05-07T14:26:30,139376663+02:00
+Changed coordinates from 57.014164, 9.987232833 to 57.0141645, 9.9872325
+
+2019-05-07T14:26:30,145945466+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0591393841146
+
+2019-05-07T14:26:30,237064815+02:00
+Readed PCI 461
+Readed lat 57.014164667
+Readed lon 9.9872325
+
+2019-05-07T14:26:30,902712327+02:00
+Changed coordinates from 57.0141645, 9.9872325 to 57.014164667, 9.9872325
+
+2019-05-07T14:26:30,909837365+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0185695430689
+
+2019-05-07T14:26:31,031730917+02:00
+Readed PCI 461
+Readed lat 57.014164167
+Readed lon 9.987233167
+
+2019-05-07T14:26:31,751741533+02:00
+Changed coordinates from 57.014164667, 9.9872325 to 57.014164167, 9.987233167
+
+2019-05-07T14:26:31,754197552+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0687133677891
+
+2019-05-07T14:26:31,886002753+02:00
+Readed PCI 461
+Readed lat 57.014164667
+Readed lon 9.987234333
+
+2019-05-07T14:26:32,458700456+02:00
+Changed coordinates from 57.014164167, 9.987233167 to 57.014164667, 9.987234333
+
+2019-05-07T14:26:32,465227833+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0898534653996
+
+2019-05-07T14:26:32,567185702+02:00
+Readed PCI 461
+Readed lat 57.014162167
+Readed lon 9.987235
+
+2019-05-07T14:26:33,223564732+02:00
+Changed coordinates from 57.014164667, 9.987234333 to 57.014162167, 9.987235
+
+2019-05-07T14:26:33,238013047+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.280904480219
+
+2019-05-07T14:26:33,350568613+02:00
+Readed PCI 461
+Readed lat 57.014157833
+Readed lon 9.987237167
+
+2019-05-07T14:26:34,030453404+02:00
+Changed coordinates from 57.014162167, 9.987235 to 57.014157833, 9.987237167
+
+2019-05-07T14:26:34,049117967+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.499454962974
+
+2019-05-07T14:26:34,153266662+02:00
+Readed PCI 461
+Readed lat 57.014158167
+Readed lon 9.9872375
+
+2019-05-07T14:26:34,702209415+02:00
+Changed coordinates from 57.014157833, 9.987237167 to 57.014158167, 9.9872375
+
+2019-05-07T14:26:34,704736697+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0422575873218
+
+2019-05-07T14:26:34,816650252+02:00
+Readed PCI 461
+Readed lat 57.014158667
+Readed lon 9.987237833
+
+2019-05-07T14:26:35,447560562+02:00
+Changed coordinates from 57.014158167, 9.9872375 to 57.014158667, 9.987237833
+
+2019-05-07T14:26:35,451050998+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0591393838625
+
+2019-05-07T14:26:35,612364341+02:00
+Readed PCI 461
+Readed lat 57.014158333
+Readed lon 9.9872385
+
+2019-05-07T14:26:36,202231622+02:00
+Changed coordinates from 57.014158667, 9.987237833 to 57.014158333, 9.9872385
+
+2019-05-07T14:26:36,205206399+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0548613175399
+
+2019-05-07T14:26:36,348475164+02:00
+Readed PCI 461
+Readed lat 57.014157
+Readed lon 9.987239
+
+2019-05-07T14:26:36,903297545+02:00
+Changed coordinates from 57.014158333, 9.9872385 to 57.014157, 9.987239
+
+2019-05-07T14:26:36,905669224+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.151281862823
+
+2019-05-07T14:26:37,023011099+02:00
+Readed PCI 461
+Readed lat 57.0141565
+Readed lon 9.987239
+
+2019-05-07T14:26:37,596216889+02:00
+Changed coordinates from 57.014157, 9.987239 to 57.0141565, 9.987239
+
+2019-05-07T14:26:37,599163015+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0555974370085
+
+2019-05-07T14:26:37,698983859+02:00
+Readed PCI 461
+Readed lat 57.014157333
+Readed lon 9.987238333
+
+2019-05-07T14:26:38,323654073+02:00
+Changed coordinates from 57.0141565, 9.987239 to 57.014157333, 9.987238333
+
+2019-05-07T14:26:38,332034244+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.101044071558
+
+2019-05-07T14:26:38,493704956+02:00
+Readed PCI 461
+Readed lat 57.014159833
+Readed lon 9.987238833
+
+2019-05-07T14:26:39,109421238+02:00
+Changed coordinates from 57.014157333, 9.987238333 to 57.014159833, 9.987238833
+
+2019-05-07T14:26:39,114539215+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.279630270675
+
+2019-05-07T14:26:39,209078505+02:00
+Readed PCI 461
+Readed lat 57.014160833
+Readed lon 9.987239333
+
+2019-05-07T14:26:39,877275191+02:00
+Changed coordinates from 57.014159833, 9.987238833 to 57.014160833, 9.987239333
+
+2019-05-07T14:26:39,883120518+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.115241108261
+
+2019-05-07T14:26:39,987912837+02:00
+Readed PCI 461
+Readed lat 57.014163167
+Readed lon 9.987240667
+
+2019-05-07T14:26:40,563477455+02:00
+Changed coordinates from 57.014160833, 9.987239333 to 57.014163167, 9.987240667
+
+2019-05-07T14:26:40,566391331+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.271803285204
+
+2019-05-07T14:26:40,693077032+02:00
+Readed PCI 461
+Readed lat 57.014164333
+Readed lon 9.987241833
+
+2019-05-07T14:26:41,269796095+02:00
+Changed coordinates from 57.014163167, 9.987240667 to 57.014164333, 9.987241833
+
+2019-05-07T14:26:41,276387098+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.147622927862
+
+2019-05-07T14:26:41,407188145+02:00
+Readed PCI 461
+Readed lat 57.014166833
+Readed lon 9.9872425
+
+2019-05-07T14:26:42,025952106+02:00
+Changed coordinates from 57.014164333, 9.987241833 to 57.014166833, 9.9872425
+
+2019-05-07T14:26:42,030050115+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.280904479881
+
+2019-05-07T14:26:42,162368727+02:00
+Readed PCI 461
+Readed lat 57.014169167
+Readed lon 9.987243167
+
+2019-05-07T14:26:42,772322596+02:00
+Changed coordinates from 57.014166833, 9.9872425 to 57.014169167, 9.987243167
+
+2019-05-07T14:26:42,775663966+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.262651230328
+
+2019-05-07T14:26:42,939794146+02:00
+Readed PCI 461
+Readed lat 57.014170667
+Readed lon 9.987244333
+
+2019-05-07T14:26:43,486013764+02:00
+Changed coordinates from 57.014169167, 9.987243167 to 57.014170667, 9.987244333
+
+2019-05-07T14:26:43,490407779+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.181113898468
+
+2019-05-07T14:26:43,607408848+02:00
+Readed PCI 461
+Readed lat 57.014171833
+Readed lon 9.987244167
+
+2019-05-07T14:26:44,205747139+02:00
+Changed coordinates from 57.014170667, 9.987244333 to 57.014171833, 9.987244167
+
+2019-05-07T14:26:44,208274346+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.130042096532
+
+2019-05-07T14:26:44,318715925+02:00
+Readed PCI 461
+Readed lat 57.014172167
+Readed lon 9.987245333
+
+2019-05-07T14:26:44,960475287+02:00
+Changed coordinates from 57.014171833, 9.987244167 to 57.014172167, 9.987245333
+
+2019-05-07T14:26:44,964456007+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0797613941411
+
+2019-05-07T14:26:45,055327594+02:00
+Readed PCI 461
+Readed lat 57.014174
+Readed lon 9.9872455
+
+2019-05-07T14:26:45,644022555+02:00
+Changed coordinates from 57.014172167, 9.987245333 to 57.014174, 9.9872455
+
+2019-05-07T14:26:45,646672238+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.204070783055
+
+2019-05-07T14:26:45,764699400+02:00
+Readed PCI 461
+Readed lat 57.014175167
+Readed lon 9.987245667
+
+2019-05-07T14:26:46,405079026+02:00
+Changed coordinates from 57.014174, 9.9872455 to 57.014175167, 9.987245667
+
+2019-05-07T14:26:46,410157552+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.13015764814
+
+2019-05-07T14:26:46,578936551+02:00
+Readed PCI 461
+Readed lat 57.014173
+Readed lon 9.987247
+
+2019-05-07T14:26:47,123555053+02:00
+Changed coordinates from 57.014175167, 9.987245667 to 57.014173, 9.987247
+
+2019-05-07T14:26:47,126544681+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.254112987719
+
+2019-05-07T14:26:47,289474365+02:00
+Readed PCI 461
+Readed lat 57.014172333
+Readed lon 9.987247667
+
+2019-05-07T14:26:47,882227458+02:00
+Changed coordinates from 57.014173, 9.987247 to 57.014172333, 9.987247667
+
+2019-05-07T14:26:47,884810691+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0844463870864
+
+2019-05-07T14:26:48,017248591+02:00
+Readed PCI 461
+Readed lat 57.014170167
+Readed lon 9.987248167
+
+2019-05-07T14:26:48,706577563+02:00
+Changed coordinates from 57.014172333, 9.987247667 to 57.014170167, 9.987248167
+
+2019-05-07T14:26:48,709300185+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.242742699092
+
+2019-05-07T14:26:48,818690187+02:00
+Readed PCI 
+Readed lat 57.014166833
+Readed lon 9.987248833
+
+2019-05-07T14:26:48,822679044+02:00
+Changed PCI from 461 to , changed Lat from 57.014170167 to 57.014166833 and Lon from 9.987248167 to 9.987248833
+
+2019-05-07T14:26:49,464311111+02:00
+Readed PCI 461
+Readed lat 57.014166
+Readed lon 9.987248667
+
+2019-05-07T14:26:50,006370760+02:00
+Changed coordinates from 57.014170167, 9.987248167 to 57.014166, 9.987248667
+
+2019-05-07T14:26:50,061921151+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.464336673901
+
+2019-05-07T14:26:50,215281592+02:00
+Readed PCI 461
+Readed lat 57.014165167
+Readed lon 9.987248167
+
+2019-05-07T14:26:50,806667723+02:00
+Changed coordinates from 57.014166, 9.987248667 to 57.014165167, 9.987248167
+
+2019-05-07T14:26:50,809664675+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0974456998791
+
+2019-05-07T14:26:50,913366978+02:00
+Readed PCI 461
+Readed lat 57.0141645
+Readed lon 9.987248667
+
+2019-05-07T14:26:51,591748135+02:00
+Changed coordinates from 57.014165167, 9.987248167 to 57.0141645, 9.987248667
+
+2019-05-07T14:26:51,596105960+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.0801058912713
+
+2019-05-07T14:26:51,772855658+02:00
+Readed PCI 461
+Readed lat 57.014161833
+Readed lon 9.987249667
+
+2019-05-07T14:26:52,417000019+02:00
+Changed coordinates from 57.0141645, 9.987248667 to 57.014161833, 9.987249667
+
+2019-05-07T14:26:52,419808631+02:00
+Calculated parameters. Reason:new Coordinates
+The state was 5
+The antenna selected is 2
+The distance covered is 0.302672670512
+
+2019-05-07T14:26:52,522815084+02:00
+Readed PCI 461
+Readed lat 57.014160167
+Readed lon 9.987249
+
