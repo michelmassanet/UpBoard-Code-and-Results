@@ -1,8 +1,10 @@
 #!/bin/bash
 
 folder=$1
-#cd /home/upboard/Desktop/UpBoard-Code-and-Results
+cd /home/upboard/Desktop/UpBoard-Code-and-Results
 
+sudo git config --global user.email "michelmassanet@hotmail.com"
+sudo git config --global user.name "michelmassanet"
 
 file_name=git_logs
 	#log purposes
@@ -10,20 +12,20 @@ file_name=git_logs
 	echo "1 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
 
-	sudo git add . >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	sudo git add . &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 	echo "2 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	sudo git commit -m "UpBoard update" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	sudo git commit -m "UpBoard update" &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 	echo "3 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	sudo git push origin master >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	sudo git push origin master &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"

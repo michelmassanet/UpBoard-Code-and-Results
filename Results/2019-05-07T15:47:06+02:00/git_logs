@@ -238,3 +238,25 @@ Finishing GIT
 Starting GIT
 2019-05-07T15:48:12,843765525+02:00
 1 GIT
+2019-05-07T15:48:12,949477455+02:00
+2 GIT
+[master 3a4ad1b] UpBoard update
+ 25 files changed, 4533 insertions(+), 30 deletions(-)
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates46a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates46b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates47a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates47b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates48a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates48b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates75b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates76a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates76b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates77a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates77b
+ rename Code/BS_orientation/PCI_temp/{currentPCI88a => currentPCI7b} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI87b => currentPCI8a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI87a => currentPCI8b} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI86b => currentPCI9a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI86a => currentPCI9b} (100%)
+2019-05-07T15:48:13,157538938+02:00
+3 GIT
