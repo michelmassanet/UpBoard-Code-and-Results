@@ -6610,3 +6610,3272 @@ wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09
           collisions:0 txqueuelen:1000 
           RX bytes:2022981 (2.0 MB)  TX bytes:89284809 (89.2 MB)
  
+ 
+2019-05-07T14:29:55,074764050+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:28904 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:64976 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2025737 (2.0 MB)  TX bytes:89624189 (89.6 MB)
+ 
+ 
+2019-05-07T14:29:55,179514108+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:28975 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65230 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2029429 (2.0 MB)  TX bytes:89980777 (89.9 MB)
+ 
+ 
+2019-05-07T14:29:55,275828550+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29006 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65346 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2031041 (2.0 MB)  TX bytes:90145497 (90.1 MB)
+ 
+ 
+2019-05-07T14:29:55,333872174+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29036 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65440 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2032601 (2.0 MB)  TX bytes:90278977 (90.2 MB)
+ 
+ 
+2019-05-07T14:29:55,378597350+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29081 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65546 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2035769 (2.0 MB)  TX bytes:90428137 (90.4 MB)
+ 
+ 
+2019-05-07T14:29:55,433556360+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29114 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65621 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2037485 (2.0 MB)  TX bytes:90534637 (90.5 MB)
+ 
+ 
+2019-05-07T14:29:55,467494029+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29131 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65682 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2038369 (2.0 MB)  TX bytes:90621257 (90.6 MB)
+ 
+ 
+2019-05-07T14:29:55,498004329+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29148 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65737 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2039253 (2.0 MB)  TX bytes:90699357 (90.6 MB)
+ 
+ 
+2019-05-07T14:29:55,526808787+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29161 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65784 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2039929 (2.0 MB)  TX bytes:90766097 (90.7 MB)
+ 
+ 
+2019-05-07T14:29:55,566473116+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29189 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:65843 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2041393 (2.0 MB)  TX bytes:90848509 (90.8 MB)
+ 
+ 
+2019-05-07T14:29:55,640751287+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29319 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66174 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2048195 (2.0 MB)  TX bytes:91318529 (91.3 MB)
+ 
+ 
+2019-05-07T14:29:55,754411357+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29380 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66312 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2051367 (2.0 MB)  TX bytes:91514489 (91.5 MB)
+ 
+ 
+2019-05-07T14:29:55,802175334+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29400 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66382 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2052407 (2.0 MB)  TX bytes:91613889 (91.6 MB)
+ 
+ 
+2019-05-07T14:29:55,838308466+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29429 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66476 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2053915 (2.0 MB)  TX bytes:91747369 (91.7 MB)
+ 
+ 
+2019-05-07T14:29:55,903112316+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29493 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66618 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2057243 (2.0 MB)  TX bytes:91947907 (91.9 MB)
+ 
+ 
+2019-05-07T14:29:55,945052557+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29499 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66640 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2057555 (2.0 MB)  TX bytes:91979147 (91.9 MB)
+ 
+ 
+2019-05-07T14:29:55,983560679+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29499 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66640 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2057555 (2.0 MB)  TX bytes:91979147 (91.9 MB)
+ 
+ 
+2019-05-07T14:29:56,011808915+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29557 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66785 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2060613 (2.0 MB)  TX bytes:92185047 (92.1 MB)
+ 
+ 
+2019-05-07T14:29:56,052020765+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29591 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66875 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2062381 (2.0 MB)  TX bytes:92312847 (92.3 MB)
+ 
+ 
+2019-05-07T14:29:56,106048722+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29628 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:66974 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2064305 (2.0 MB)  TX bytes:92453427 (92.4 MB)
+ 
+ 
+2019-05-07T14:29:56,136820163+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29646 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67051 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2065241 (2.0 MB)  TX bytes:92562767 (92.5 MB)
+ 
+ 
+2019-05-07T14:29:56,183696525+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29674 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67102 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2070251 (2.0 MB)  TX bytes:92631083 (92.6 MB)
+ 
+ 
+2019-05-07T14:29:56,212289393+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29717 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67205 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2072487 (2.0 MB)  TX bytes:92776050 (92.7 MB)
+ 
+ 
+2019-05-07T14:29:56,243071697+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67305 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2074307 (2.0 MB)  TX bytes:92918050 (92.9 MB)
+ 
+ 
+2019-05-07T14:29:56,311010100+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29803 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67463 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2076959 (2.0 MB)  TX bytes:93142410 (93.1 MB)
+ 
+ 
+2019-05-07T14:29:56,358760464+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29832 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67538 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2078467 (2.0 MB)  TX bytes:93248910 (93.2 MB)
+ 
+ 
+2019-05-07T14:29:56,403173147+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29891 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67697 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2081535 (2.0 MB)  TX bytes:93474690 (93.4 MB)
+ 
+ 
+2019-05-07T14:29:56,462705933+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29924 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67770 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2083251 (2.0 MB)  TX bytes:93577033 (93.5 MB)
+ 
+ 
+2019-05-07T14:29:56,492822551+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:29973 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:67896 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2085799 (2.0 MB)  TX bytes:93755953 (93.7 MB)
+ 
+ 
+2019-05-07T14:29:56,579952489+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30029 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68066 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2088753 (2.0 MB)  TX bytes:93997353 (93.9 MB)
+ 
+ 
+2019-05-07T14:29:56,618547986+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30063 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68158 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2090521 (2.0 MB)  TX bytes:94127993 (94.1 MB)
+ 
+ 
+2019-05-07T14:29:56,653904592+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30105 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68266 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2092756 (2.0 MB)  TX bytes:94280248 (94.2 MB)
+ 
+ 
+2019-05-07T14:29:56,691579887+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30122 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68309 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2093640 (2.0 MB)  TX bytes:94341308 (94.3 MB)
+ 
+ 
+2019-05-07T14:29:56,728186939+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30152 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68375 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2095200 (2.0 MB)  TX bytes:94435028 (94.4 MB)
+ 
+ 
+2019-05-07T14:29:56,763094925+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30195 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68466 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2097436 (2.0 MB)  TX bytes:94564248 (94.5 MB)
+ 
+ 
+2019-05-07T14:29:56,814816781+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30216 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68535 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2098528 (2.0 MB)  TX bytes:94662228 (94.6 MB)
+ 
+ 
+2019-05-07T14:29:56,876923811+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30263 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68589 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2101014 (2.1 MB)  TX bytes:94738662 (94.7 MB)
+ 
+ 
+2019-05-07T14:29:56,957435900+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30312 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68591 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2103843 (2.1 MB)  TX bytes:94739084 (94.7 MB)
+ 
+ 
+2019-05-07T14:29:56,999937250+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30343 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68591 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2105455 (2.1 MB)  TX bytes:94739084 (94.7 MB)
+ 
+ 
+2019-05-07T14:29:57,041508098+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30356 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68591 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2106131 (2.1 MB)  TX bytes:94739084 (94.7 MB)
+ 
+ 
+2019-05-07T14:29:57,071860333+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30357 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68591 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2106183 (2.1 MB)  TX bytes:94739084 (94.7 MB)
+ 
+ 
+2019-05-07T14:29:57,107887600+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30360 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68898 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2106545 (2.1 MB)  TX bytes:95152369 (95.1 MB)
+ 
+ 
+2019-05-07T14:29:57,181735189+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30396 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68943 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2109954 (2.1 MB)  TX bytes:95214901 (95.2 MB)
+ 
+ 
+2019-05-07T14:29:57,281052356+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30475 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69123 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2115514 (2.1 MB)  TX bytes:95470501 (95.4 MB)
+ 
+ 
+2019-05-07T14:29:57,368561513+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30514 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69250 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2117542 (2.1 MB)  TX bytes:95651401 (95.6 MB)
+ 
+ 
+2019-05-07T14:29:57,441610739+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30578 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69396 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2120870 (2.1 MB)  TX bytes:95858721 (95.8 MB)
+ 
+ 
+2019-05-07T14:29:57,496037802+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30611 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69479 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2122586 (2.1 MB)  TX bytes:95976581 (95.9 MB)
+ 
+ 
+2019-05-07T14:29:57,533583220+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30641 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69557 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2124146 (2.1 MB)  TX bytes:96087341 (96.0 MB)
+ 
+ 
+2019-05-07T14:29:57,602204209+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30687 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69683 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2126538 (2.1 MB)  TX bytes:96266626 (96.2 MB)
+ 
+ 
+2019-05-07T14:29:57,647723398+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30710 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69767 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2127734 (2.1 MB)  TX bytes:96385906 (96.3 MB)
+ 
+ 
+2019-05-07T14:29:57,682142213+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30726 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69820 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2128566 (2.1 MB)  TX bytes:96461166 (96.4 MB)
+ 
+ 
+2019-05-07T14:29:57,737758747+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30775 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69981 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2131114 (2.1 MB)  TX bytes:96689786 (96.6 MB)
+ 
+ 
+2019-05-07T14:29:57,784955014+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30804 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70041 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2132664 (2.1 MB)  TX bytes:96774986 (96.7 MB)
+ 
+ 
+2019-05-07T14:29:57,812974134+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30826 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70110 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2133808 (2.1 MB)  TX bytes:96872966 (96.8 MB)
+ 
+ 
+2019-05-07T14:29:57,844166133+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30854 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70177 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2135264 (2.1 MB)  TX bytes:96968106 (96.9 MB)
+ 
+ 
+2019-05-07T14:29:57,907005400+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30913 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70311 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2138344 (2.1 MB)  TX bytes:97158386 (97.1 MB)
+ 
+ 
+2019-05-07T14:29:57,962857187+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:30960 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70453 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2140788 (2.1 MB)  TX bytes:97360026 (97.3 MB)
+ 
+ 
+2019-05-07T14:29:58,032863350+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31033 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70642 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2145487 (2.1 MB)  TX bytes:97624302 (97.6 MB)
+ 
+ 
+2019-05-07T14:29:58,113272850+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31085 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70824 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2148191 (2.1 MB)  TX bytes:97882742 (97.8 MB)
+ 
+ 
+2019-05-07T14:29:58,196731438+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31133 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:70944 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2150729 (2.1 MB)  TX bytes:98053142 (98.0 MB)
+ 
+ 
+2019-05-07T14:29:58,237211930+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31180 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71066 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2153173 (2.1 MB)  TX bytes:98226382 (98.2 MB)
+ 
+ 
+2019-05-07T14:29:58,288855122+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31208 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71156 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2154629 (2.1 MB)  TX bytes:98354182 (98.3 MB)
+ 
+ 
+2019-05-07T14:29:58,320600192+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31238 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71235 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2156189 (2.1 MB)  TX bytes:98466362 (98.4 MB)
+ 
+ 
+2019-05-07T14:29:58,355051770+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31303 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71396 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2159569 (2.1 MB)  TX bytes:98694982 (98.6 MB)
+ 
+ 
+2019-05-07T14:29:58,433159019+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31345 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71514 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2161753 (2.1 MB)  TX bytes:98862542 (98.8 MB)
+ 
+ 
+2019-05-07T14:29:58,477430199+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31377 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71590 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2163417 (2.1 MB)  TX bytes:98970462 (98.9 MB)
+ 
+ 
+2019-05-07T14:29:58,519434079+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31434 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71751 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2166381 (2.1 MB)  TX bytes:99199082 (99.1 MB)
+ 
+ 
+2019-05-07T14:29:58,574728657+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31447 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71799 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2167057 (2.1 MB)  TX bytes:99267242 (99.2 MB)
+ 
+ 
+2019-05-07T14:29:58,607667548+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31488 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71901 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2169189 (2.1 MB)  TX bytes:99412082 (99.4 MB)
+ 
+ 
+2019-05-07T14:29:58,639833163+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31512 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71960 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2170437 (2.1 MB)  TX bytes:99495862 (99.4 MB)
+ 
+ 
+2019-05-07T14:29:58,715357355+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31595 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:72197 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2174795 (2.1 MB)  TX bytes:99832402 (99.8 MB)
+ 
+ 
+2019-05-07T14:29:58,783892293+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31634 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:72304 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2176823 (2.1 MB)  TX bytes:99984342 (99.9 MB)
+ 
+ 
+2019-05-07T14:29:58,853305458+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31682 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:72464 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2179319 (2.1 MB)  TX bytes:100211542 (100.2 MB)
+ 
+ 
+2019-05-07T14:29:58,920545624+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31759 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:72676 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2183323 (2.1 MB)  TX bytes:100512582 (100.5 MB)
+ 
+ 
+2019-05-07T14:29:58,992183514+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31818 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:72850 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2186391 (2.1 MB)  TX bytes:100759662 (100.7 MB)
+ 
+ 
+2019-05-07T14:29:59,032318075+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31851 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:72937 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2188149 (2.1 MB)  TX bytes:100883202 (100.8 MB)
+ 
+ 
+2019-05-07T14:29:59,069360459+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31882 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73028 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2189761 (2.1 MB)  TX bytes:101012422 (101.0 MB)
+ 
+ 
+2019-05-07T14:29:59,094958277+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31900 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73073 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2190697 (2.1 MB)  TX bytes:101076322 (101.0 MB)
+ 
+ 
+2019-05-07T14:29:59,142386223+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:31939 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73165 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2192725 (2.1 MB)  TX bytes:101206962 (101.2 MB)
+ 
+ 
+2019-05-07T14:29:59,190447354+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32016 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73366 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2196729 (2.1 MB)  TX bytes:101492382 (101.4 MB)
+ 
+ 
+2019-05-07T14:29:59,261951354+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32050 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73473 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2198497 (2.1 MB)  TX bytes:101644322 (101.6 MB)
+ 
+ 
+2019-05-07T14:29:59,304351504+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32080 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73557 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2200057 (2.2 MB)  TX bytes:101763602 (101.7 MB)
+ 
+ 
+2019-05-07T14:29:59,349639876+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32121 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73652 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2202189 (2.2 MB)  TX bytes:101898502 (101.8 MB)
+ 
+ 
+2019-05-07T14:29:59,408738506+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32157 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73748 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2204061 (2.2 MB)  TX bytes:102034822 (102.0 MB)
+ 
+ 
+2019-05-07T14:29:59,438591132+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32216 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:73886 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2207129 (2.2 MB)  TX bytes:102230782 (102.2 MB)
+ 
+ 
+2019-05-07T14:29:59,504684054+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32278 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74008 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2210395 (2.2 MB)  TX bytes:102404022 (102.4 MB)
+ 
+ 
+2019-05-07T14:29:59,599748812+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32317 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74103 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2212423 (2.2 MB)  TX bytes:102538922 (102.5 MB)
+ 
+ 
+2019-05-07T14:29:59,639502254+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32324 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74117 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2212787 (2.2 MB)  TX bytes:102558802 (102.5 MB)
+ 
+ 
+2019-05-07T14:29:59,704921352+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32330 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74129 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2213099 (2.2 MB)  TX bytes:102575842 (102.5 MB)
+ 
+ 
+2019-05-07T14:29:59,787871344+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32397 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74266 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2216583 (2.2 MB)  TX bytes:102770382 (102.7 MB)
+ 
+ 
+2019-05-07T14:29:59,850066863+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32435 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74342 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2218634 (2.2 MB)  TX bytes:102876946 (102.8 MB)
+ 
+ 
+2019-05-07T14:29:59,916068621+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32452 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74375 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2219604 (2.2 MB)  TX bytes:102922438 (102.9 MB)
+ 
+ 
+2019-05-07T14:29:59,946003886+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32468 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74404 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2220551 (2.2 MB)  TX bytes:102960913 (102.9 MB)
+ 
+ 
+2019-05-07T14:30:00,005691888+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32481 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74420 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2221227 (2.2 MB)  TX bytes:102983633 (102.9 MB)
+ 
+ 
+2019-05-07T14:30:00,047364750+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32487 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74420 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2221539 (2.2 MB)  TX bytes:102983633 (102.9 MB)
+ 
+ 
+2019-05-07T14:30:00,100919698+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32515 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74495 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2223079 (2.2 MB)  TX bytes:103088765 (103.0 MB)
+ 
+ 
+2019-05-07T14:30:00,168903690+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32515 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74497 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2223079 (2.2 MB)  TX bytes:103091605 (103.0 MB)
+ 
+ 
+2019-05-07T14:30:00,221085265+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32562 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74561 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2226087 (2.2 MB)  TX bytes:103182485 (103.1 MB)
+ 
+ 
+2019-05-07T14:30:00,287511755+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32587 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74589 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2227687 (2.2 MB)  TX bytes:103222245 (103.2 MB)
+ 
+ 
+2019-05-07T14:30:00,324048531+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32605 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74589 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2228839 (2.2 MB)  TX bytes:103222245 (103.2 MB)
+ 
+ 
+2019-05-07T14:30:00,392128949+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32621 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74589 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2229803 (2.2 MB)  TX bytes:103222245 (103.2 MB)
+ 
+ 
+2019-05-07T14:30:00,440266107+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32629 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74659 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2230219 (2.2 MB)  TX bytes:103321645 (103.3 MB)
+ 
+ 
+2019-05-07T14:30:00,486899002+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32629 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74660 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2230219 (2.2 MB)  TX bytes:103321728 (103.3 MB)
+ 
+ 
+2019-05-07T14:30:00,543106733+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32662 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74724 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2231935 (2.2 MB)  TX bytes:103412608 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,586129130+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32671 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74724 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2232403 (2.2 MB)  TX bytes:103412608 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,626596172+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32675 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74755 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2232611 (2.2 MB)  TX bytes:103456628 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,663222736+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32685 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74761 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2233162 (2.2 MB)  TX bytes:103465148 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,709055781+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32688 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74761 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2233318 (2.2 MB)  TX bytes:103465148 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,736156536+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32693 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74761 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2233578 (2.2 MB)  TX bytes:103465148 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,767926781+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32700 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74761 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2233942 (2.2 MB)  TX bytes:103465148 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,795181626+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32704 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74761 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2234150 (2.2 MB)  TX bytes:103465148 (103.4 MB)
+ 
+ 
+2019-05-07T14:30:00,830106662+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32711 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74794 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2234514 (2.2 MB)  TX bytes:103508935 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:00,907995182+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32721 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74794 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2235034 (2.2 MB)  TX bytes:103508935 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:00,957297522+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32721 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74794 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2235034 (2.2 MB)  TX bytes:103508935 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,028292501+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32744 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74795 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2236242 (2.2 MB)  TX bytes:103508975 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,108738827+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32757 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2236960 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,140879591+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32763 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2237272 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,177675259+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32769 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2237584 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,212032898+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32776 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2237948 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,240262722+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32779 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2238104 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,278892183+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32788 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2238572 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,347568673+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32806 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2239508 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,404913798+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32818 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240132 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,437227728+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,479685578+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,512534292+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,546634951+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,601296969+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,683861480+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,752164789+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32821 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240288 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,807561843+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32827 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74796 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2240600 (2.2 MB)  TX bytes:103509027 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,864198582+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32852 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74797 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2242200 (2.2 MB)  TX bytes:103510447 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,896412447+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32852 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74797 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2242200 (2.2 MB)  TX bytes:103510447 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:01,942779600+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32853 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74797 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2242252 (2.2 MB)  TX bytes:103510447 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:02,012665948+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32856 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:74801 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2242614 (2.2 MB)  TX bytes:103510701 (103.5 MB)
+ 
+ 
+2019-05-07T14:30:02,098163446+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32857 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75046 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2242666 (2.2 MB)  TX bytes:103842635 (103.8 MB)
+ 
+ 
+2019-05-07T14:30:02,136944972+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32857 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75046 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2242666 (2.2 MB)  TX bytes:103842635 (103.8 MB)
+ 
+ 
+2019-05-07T14:30:02,174228410+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32903 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75118 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2246322 (2.2 MB)  TX bytes:103944875 (103.9 MB)
+ 
+ 
+2019-05-07T14:30:02,208959981+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32903 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75123 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2246322 (2.2 MB)  TX bytes:103951975 (103.9 MB)
+ 
+ 
+2019-05-07T14:30:02,240872379+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32903 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75123 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2246322 (2.2 MB)  TX bytes:103951975 (103.9 MB)
+ 
+ 
+2019-05-07T14:30:02,275615137+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32989 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75310 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2251258 (2.2 MB)  TX bytes:104217515 (104.2 MB)
+ 
+ 
+2019-05-07T14:30:02,306675158+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:32999 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75334 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2251778 (2.2 MB)  TX bytes:104251595 (104.2 MB)
+ 
+ 
+2019-05-07T14:30:02,349197547+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33050 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75448 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2254430 (2.2 MB)  TX bytes:104413475 (104.4 MB)
+ 
+ 
+2019-05-07T14:30:02,376115261+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33098 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75570 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2256926 (2.2 MB)  TX bytes:104586715 (104.5 MB)
+ 
+ 
+2019-05-07T14:30:02,455173563+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33153 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75695 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2259786 (2.2 MB)  TX bytes:104764215 (104.7 MB)
+ 
+ 
+2019-05-07T14:30:02,523161592+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33179 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75752 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2261138 (2.2 MB)  TX bytes:104845155 (104.8 MB)
+ 
+ 
+2019-05-07T14:30:02,559139121+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33198 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75791 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2262126 (2.2 MB)  TX bytes:104900535 (104.9 MB)
+ 
+ 
+2019-05-07T14:30:02,604781049+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33219 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75837 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2263218 (2.2 MB)  TX bytes:104965855 (104.9 MB)
+ 
+ 
+2019-05-07T14:30:02,638329700+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33232 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75865 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2263894 (2.2 MB)  TX bytes:105005615 (105.0 MB)
+ 
+ 
+2019-05-07T14:30:02,670817920+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33270 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75947 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2265912 (2.2 MB)  TX bytes:105122055 (105.1 MB)
+ 
+ 
+2019-05-07T14:30:02,715357068+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33271 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75949 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2265964 (2.2 MB)  TX bytes:105124895 (105.1 MB)
+ 
+ 
+2019-05-07T14:30:02,755192761+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33271 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75949 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2265964 (2.2 MB)  TX bytes:105124895 (105.1 MB)
+ 
+ 
+2019-05-07T14:30:02,794384357+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33277 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75962 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2266276 (2.2 MB)  TX bytes:105143355 (105.1 MB)
+ 
+ 
+2019-05-07T14:30:02,852508407+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33328 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76069 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2268928 (2.2 MB)  TX bytes:105295295 (105.2 MB)
+ 
+ 
+2019-05-07T14:30:02,908223117+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33343 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76096 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2269708 (2.2 MB)  TX bytes:105333635 (105.3 MB)
+ 
+ 
+2019-05-07T14:30:02,972871927+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33349 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76096 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2270020 (2.2 MB)  TX bytes:105333635 (105.3 MB)
+ 
+ 
+2019-05-07T14:30:03,032753782+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33360 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76096 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2270592 (2.2 MB)  TX bytes:105333635 (105.3 MB)
+ 
+ 
+2019-05-07T14:30:03,060724964+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33363 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76142 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2270790 (2.2 MB)  TX bytes:105396231 (105.3 MB)
+ 
+ 
+2019-05-07T14:30:03,093322249+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33371 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76159 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2271206 (2.2 MB)  TX bytes:105420371 (105.4 MB)
+ 
+ 
+2019-05-07T14:30:03,130651438+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33381 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76180 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2271726 (2.2 MB)  TX bytes:105450191 (105.4 MB)
+ 
+ 
+2019-05-07T14:30:03,203479548+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33408 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76236 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2273142 (2.2 MB)  TX bytes:105529711 (105.5 MB)
+ 
+ 
+2019-05-07T14:30:03,281259179+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33432 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76255 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2274678 (2.2 MB)  TX bytes:105556691 (105.5 MB)
+ 
+ 
+2019-05-07T14:30:03,331248405+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33477 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76342 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2277558 (2.2 MB)  TX bytes:105680231 (105.6 MB)
+ 
+ 
+2019-05-07T14:30:03,402860345+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33487 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76357 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2278198 (2.2 MB)  TX bytes:105701531 (105.7 MB)
+ 
+ 
+2019-05-07T14:30:03,443482539+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33512 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76397 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2279798 (2.2 MB)  TX bytes:105758331 (105.7 MB)
+ 
+ 
+2019-05-07T14:30:03,473991513+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33523 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76416 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2280418 (2.2 MB)  TX bytes:105785311 (105.7 MB)
+ 
+ 
+2019-05-07T14:30:03,510967572+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33529 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76429 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2280730 (2.2 MB)  TX bytes:105803771 (105.8 MB)
+ 
+ 
+2019-05-07T14:30:03,548475239+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33543 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76458 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2281458 (2.2 MB)  TX bytes:105844951 (105.8 MB)
+ 
+ 
+2019-05-07T14:30:03,622150888+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33563 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76500 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2282498 (2.2 MB)  TX bytes:105904591 (105.9 MB)
+ 
+ 
+2019-05-07T14:30:03,667249832+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33581 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76523 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2283434 (2.2 MB)  TX bytes:105937251 (105.9 MB)
+ 
+ 
+2019-05-07T14:30:03,719567348+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33597 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76563 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2284266 (2.2 MB)  TX bytes:105994051 (105.9 MB)
+ 
+ 
+2019-05-07T14:30:03,781350985+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33616 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76612 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2285254 (2.2 MB)  TX bytes:106063631 (106.0 MB)
+ 
+ 
+2019-05-07T14:30:03,823418541+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33623 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76628 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2285618 (2.2 MB)  TX bytes:106086351 (106.0 MB)
+ 
+ 
+2019-05-07T14:30:03,862959117+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33647 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76678 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2286866 (2.2 MB)  TX bytes:106157351 (106.1 MB)
+ 
+ 
+2019-05-07T14:30:03,936858957+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33681 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76749 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2288634 (2.2 MB)  TX bytes:106258171 (106.2 MB)
+ 
+ 
+2019-05-07T14:30:04,016716048+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33700 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76787 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2289622 (2.2 MB)  TX bytes:106312131 (106.3 MB)
+ 
+ 
+2019-05-07T14:30:04,080734685+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33716 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76824 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2290454 (2.2 MB)  TX bytes:106364671 (106.3 MB)
+ 
+ 
+2019-05-07T14:30:04,180628786+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33725 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76830 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2290922 (2.2 MB)  TX bytes:106373191 (106.3 MB)
+ 
+ 
+2019-05-07T14:30:04,216837619+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33729 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76830 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2291130 (2.2 MB)  TX bytes:106373191 (106.3 MB)
+ 
+ 
+2019-05-07T14:30:04,244067001+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33732 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76830 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2291286 (2.2 MB)  TX bytes:106373191 (106.3 MB)
+ 
+ 
+2019-05-07T14:30:04,282761626+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33737 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76830 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2291546 (2.2 MB)  TX bytes:106373191 (106.3 MB)
+ 
+ 
+2019-05-07T14:30:04,321647803+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33742 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76878 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2291806 (2.2 MB)  TX bytes:106441351 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,380381689+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33750 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76895 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292222 (2.2 MB)  TX bytes:106465491 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,416025537+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,498626399+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,561211987+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,611204263+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,671773380+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,736905898+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,792449405+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33752 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76899 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292326 (2.2 MB)  TX bytes:106471171 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,828600912+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33756 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76908 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2292534 (2.2 MB)  TX bytes:106483951 (106.4 MB)
+ 
+ 
+2019-05-07T14:30:04,879873210+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33774 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76965 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2293686 (2.2 MB)  TX bytes:106564891 (106.5 MB)
+ 
+ 
+2019-05-07T14:30:04,926454130+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33794 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77033 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2294966 (2.2 MB)  TX bytes:106661451 (106.6 MB)
+ 
+ 
+2019-05-07T14:30:04,954477262+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33802 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77064 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2295478 (2.2 MB)  TX bytes:106705471 (106.7 MB)
+ 
+ 
+2019-05-07T14:30:04,988020200+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33817 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77132 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2296438 (2.2 MB)  TX bytes:106802031 (106.8 MB)
+ 
+ 
+2019-05-07T14:30:05,019882848+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33842 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77163 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2298038 (2.2 MB)  TX bytes:106846051 (106.8 MB)
+ 
+ 
+2019-05-07T14:30:05,047990882+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33852 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77163 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2298678 (2.2 MB)  TX bytes:106846051 (106.8 MB)
+ 
+ 
+2019-05-07T14:30:05,083296375+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33875 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77163 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2300150 (2.3 MB)  TX bytes:106846051 (106.8 MB)
+ 
+ 
+2019-05-07T14:30:05,113213027+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33887 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77163 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2300918 (2.3 MB)  TX bytes:106846051 (106.8 MB)
+ 
+ 
+2019-05-07T14:30:05,159322001+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33889 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77381 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2301064 (2.3 MB)  TX bytes:107141849 (107.1 MB)
+ 
+ 
+2019-05-07T14:30:05,203634969+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:33928 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77481 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2304120 (2.3 MB)  TX bytes:107283849 (107.2 MB)
+ 
+ 
+2019-05-07T14:30:05,258773420+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34008 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77697 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2308360 (2.3 MB)  TX bytes:107590569 (107.5 MB)
+ 
+ 
+2019-05-07T14:30:05,371533987+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34087 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77886 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2312510 (2.3 MB)  TX bytes:107858949 (107.8 MB)
+ 
+ 
+2019-05-07T14:30:05,432867942+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34111 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77958 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2313758 (2.3 MB)  TX bytes:107961189 (107.9 MB)
+ 
+ 
+2019-05-07T14:30:05,466038449+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34138 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78036 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2315162 (2.3 MB)  TX bytes:108071949 (108.0 MB)
+ 
+ 
+2019-05-07T14:30:05,500654942+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78113 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2317242 (2.3 MB)  TX bytes:108181289 (108.1 MB)
+ 
+ 
+2019-05-07T14:30:05,545547383+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34205 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78206 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2318646 (2.3 MB)  TX bytes:108313349 (108.3 MB)
+ 
+ 
+2019-05-07T14:30:05,574076450+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34235 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78278 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2320206 (2.3 MB)  TX bytes:108415589 (108.4 MB)
+ 
+ 
+2019-05-07T14:30:05,611893397+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34269 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78353 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2321974 (2.3 MB)  TX bytes:108522089 (108.5 MB)
+ 
+ 
+2019-05-07T14:30:05,650843951+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34312 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78467 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2324210 (2.3 MB)  TX bytes:108683969 (108.6 MB)
+ 
+ 
+2019-05-07T14:30:05,735887428+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34378 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78628 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2327642 (2.3 MB)  TX bytes:108912589 (108.9 MB)
+ 
+ 
+2019-05-07T14:30:05,771222371+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34413 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78708 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2329462 (2.3 MB)  TX bytes:109026189 (109.0 MB)
+ 
+ 
+2019-05-07T14:30:05,811455096+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34434 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78755 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2330554 (2.3 MB)  TX bytes:109092929 (109.0 MB)
+ 
+ 
+2019-05-07T14:30:05,844215634+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34484 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78866 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2333154 (2.3 MB)  TX bytes:109250549 (109.2 MB)
+ 
+ 
+2019-05-07T14:30:05,872449433+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34502 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78909 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2334090 (2.3 MB)  TX bytes:109311609 (109.3 MB)
+ 
+ 
+2019-05-07T14:30:05,916161279+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34521 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:78950 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2335078 (2.3 MB)  TX bytes:109369829 (109.3 MB)
+ 
+ 
+2019-05-07T14:30:05,963464785+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34586 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79094 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2338500 (2.3 MB)  TX bytes:109574309 (109.5 MB)
+ 
+ 
+2019-05-07T14:30:06,044478257+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34628 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79193 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2340684 (2.3 MB)  TX bytes:109714889 (109.7 MB)
+ 
+ 
+2019-05-07T14:30:06,143068200+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34700 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79354 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2344428 (2.3 MB)  TX bytes:109943509 (109.9 MB)
+ 
+ 
+2019-05-07T14:30:06,183622293+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34726 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79405 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2345780 (2.3 MB)  TX bytes:110015929 (110.0 MB)
+ 
+ 
+2019-05-07T14:30:06,219844501+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34753 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79476 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2347184 (2.3 MB)  TX bytes:110116749 (110.1 MB)
+ 
+ 
+2019-05-07T14:30:06,255024129+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34773 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79527 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2348224 (2.3 MB)  TX bytes:110189169 (110.1 MB)
+ 
+ 
+2019-05-07T14:30:06,292424769+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34803 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79591 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2349784 (2.3 MB)  TX bytes:110280049 (110.2 MB)
+ 
+ 
+2019-05-07T14:30:06,321961315+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79645 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2351188 (2.3 MB)  TX bytes:110356729 (110.3 MB)
+ 
+ 
+2019-05-07T14:30:06,349082920+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34854 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79700 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2352436 (2.3 MB)  TX bytes:110434829 (110.4 MB)
+ 
+ 
+2019-05-07T14:30:06,403431495+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34885 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79766 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2354048 (2.3 MB)  TX bytes:110528549 (110.5 MB)
+ 
+ 
+2019-05-07T14:30:06,466972799+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34885 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:79766 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2354048 (2.3 MB)  TX bytes:110528549 (110.5 MB)
+ 
+ 
+2019-05-07T14:30:06,541212357+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:34998 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80043 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2359966 (2.3 MB)  TX bytes:110921889 (110.9 MB)
+ 
+ 
+2019-05-07T14:30:06,598947364+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35028 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80112 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2361526 (2.3 MB)  TX bytes:111019869 (111.0 MB)
+ 
+ 
+2019-05-07T14:30:06,652354148+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35112 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80306 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2365894 (2.3 MB)  TX bytes:111295349 (111.2 MB)
+ 
+ 
+2019-05-07T14:30:06,706580083+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35130 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80363 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2366830 (2.3 MB)  TX bytes:111376289 (111.3 MB)
+ 
+ 
+2019-05-07T14:30:06,736018602+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35169 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80450 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2368858 (2.3 MB)  TX bytes:111499829 (111.4 MB)
+ 
+ 
+2019-05-07T14:30:06,767384766+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35198 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2370366 (2.3 MB)  TX bytes:111597809 (111.5 MB)
+ 
+ 
+2019-05-07T14:30:06,797038864+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35223 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80583 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2371666 (2.3 MB)  TX bytes:111688689 (111.6 MB)
+ 
+ 
+2019-05-07T14:30:06,856763916+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35301 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80756 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2375722 (2.3 MB)  TX bytes:111934349 (111.9 MB)
+ 
+ 
+2019-05-07T14:30:06,916487344+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35308 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80770 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2376086 (2.3 MB)  TX bytes:111954229 (111.9 MB)
+ 
+ 
+2019-05-07T14:30:06,952755827+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35365 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80929 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2379050 (2.3 MB)  TX bytes:112180009 (112.1 MB)
+ 
+ 
+2019-05-07T14:30:07,020220422+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35439 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80984 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2382940 (2.3 MB)  TX bytes:112256615 (112.2 MB)
+ 
+ 
+2019-05-07T14:30:07,107050017+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35495 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80984 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2385852 (2.3 MB)  TX bytes:112256615 (112.2 MB)
+ 
+ 
+2019-05-07T14:30:07,153011038+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35495 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:80984 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2385852 (2.3 MB)  TX bytes:112256615 (112.2 MB)
+ 
+ 
+2019-05-07T14:30:07,191226755+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35498 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81058 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2386213 (2.3 MB)  TX bytes:112351040 (112.3 MB)
+ 
+ 
+2019-05-07T14:30:07,261803164+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35499 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81239 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2386265 (2.3 MB)  TX bytes:112600059 (112.6 MB)
+ 
+ 
+2019-05-07T14:30:07,326997971+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35526 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81267 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2388425 (2.3 MB)  TX bytes:112639819 (112.6 MB)
+ 
+ 
+2019-05-07T14:30:07,397399328+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35589 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81439 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2392373 (2.3 MB)  TX bytes:112884059 (112.8 MB)
+ 
+ 
+2019-05-07T14:30:07,438083786+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35593 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81447 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2392581 (2.3 MB)  TX bytes:112895419 (112.8 MB)
+ 
+ 
+2019-05-07T14:30:07,465565710+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35639 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81551 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2394973 (2.3 MB)  TX bytes:113043099 (113.0 MB)
+ 
+ 
+2019-05-07T14:30:07,503966042+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35678 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81659 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2397001 (2.3 MB)  TX bytes:113196459 (113.1 MB)
+ 
+ 
+2019-05-07T14:30:07,571285609+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35737 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81831 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2400069 (2.4 MB)  TX bytes:113440699 (113.4 MB)
+ 
+ 
+2019-05-07T14:30:07,653454226+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35794 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:81966 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2403075 (2.4 MB)  TX bytes:113632399 (113.6 MB)
+ 
+ 
+2019-05-07T14:30:07,731580337+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35808 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82002 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2403803 (2.4 MB)  TX bytes:113683519 (113.6 MB)
+ 
+ 
+2019-05-07T14:30:07,784598214+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35867 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82142 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2406871 (2.4 MB)  TX bytes:113882319 (113.8 MB)
+ 
+ 
+2019-05-07T14:30:07,819485325+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35904 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82226 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2408795 (2.4 MB)  TX bytes:114001599 (114.0 MB)
+ 
+ 
+2019-05-07T14:30:07,852250187+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35939 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82304 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2410615 (2.4 MB)  TX bytes:114112359 (114.1 MB)
+ 
+ 
+2019-05-07T14:30:07,894512072+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:35967 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82364 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2412071 (2.4 MB)  TX bytes:114197559 (114.1 MB)
+ 
+ 
+2019-05-07T14:30:07,937401166+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36038 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82525 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2415763 (2.4 MB)  TX bytes:114426179 (114.4 MB)
+ 
+ 
+2019-05-07T14:30:08,004698946+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36098 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82690 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2418883 (2.4 MB)  TX bytes:114660479 (114.6 MB)
+ 
+ 
+2019-05-07T14:30:08,047270473+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36141 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82841 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2421119 (2.4 MB)  TX bytes:114874899 (114.8 MB)
+ 
+ 
+2019-05-07T14:30:08,114499789+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36175 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82933 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2422887 (2.4 MB)  TX bytes:115005539 (115.0 MB)
+ 
+ 
+2019-05-07T14:30:08,148434909+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36176 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82940 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2422939 (2.4 MB)  TX bytes:115015479 (115.0 MB)
+ 
+ 
+2019-05-07T14:30:08,186508648+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36176 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:82940 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2422939 (2.4 MB)  TX bytes:115015479 (115.0 MB)
+ 
+ 
+2019-05-07T14:30:08,239347284+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36300 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83212 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2429387 (2.4 MB)  TX bytes:115401719 (115.4 MB)
+ 
+ 
+2019-05-07T14:30:08,338489774+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36402 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83441 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2434733 (2.4 MB)  TX bytes:115726899 (115.7 MB)
+ 
+ 
+2019-05-07T14:30:08,431544873+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36467 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83614 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2438113 (2.4 MB)  TX bytes:115972559 (115.9 MB)
+ 
+ 
+2019-05-07T14:30:08,472935668+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36514 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83716 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2440557 (2.4 MB)  TX bytes:116117399 (116.1 MB)
+ 
+ 
+2019-05-07T14:30:08,513570737+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36548 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83806 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2442325 (2.4 MB)  TX bytes:116245199 (116.2 MB)
+ 
+ 
+2019-05-07T14:30:08,547932889+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36576 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83906 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2443823 (2.4 MB)  TX bytes:116387199 (116.3 MB)
+ 
+ 
+2019-05-07T14:30:08,595664965+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36620 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84007 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2446111 (2.4 MB)  TX bytes:116530619 (116.5 MB)
+ 
+ 
+2019-05-07T14:30:08,630746291+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36665 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84114 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2448451 (2.4 MB)  TX bytes:116682559 (116.6 MB)
+ 
+ 
+2019-05-07T14:30:08,695153922+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36728 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84271 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2451727 (2.4 MB)  TX bytes:116905499 (116.9 MB)
+ 
+ 
+2019-05-07T14:30:08,732582313+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36775 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84376 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2454171 (2.4 MB)  TX bytes:117054599 (117.0 MB)
+ 
+ 
+2019-05-07T14:30:08,770125343+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36824 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84491 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2456719 (2.4 MB)  TX bytes:117217899 (117.2 MB)
+ 
+ 
+2019-05-07T14:30:08,825944880+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36868 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84586 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2459007 (2.4 MB)  TX bytes:117352799 (117.3 MB)
+ 
+ 
+2019-05-07T14:30:08,916250283+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:36975 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84829 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2464571 (2.4 MB)  TX bytes:117697859 (117.6 MB)
+ 
+ 
+2019-05-07T14:30:08,985701949+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37035 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84978 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2467691 (2.4 MB)  TX bytes:117909439 (117.9 MB)
+ 
+ 
+2019-05-07T14:30:09,047756878+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37100 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85128 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2471071 (2.4 MB)  TX bytes:118122439 (118.1 MB)
+ 
+ 
+2019-05-07T14:30:09,092933361+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37127 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85186 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2472475 (2.4 MB)  TX bytes:118204799 (118.2 MB)
+ 
+ 
+2019-05-07T14:30:09,179004181+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37206 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85372 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2476625 (2.4 MB)  TX bytes:118468919 (118.4 MB)
+ 
+ 
+2019-05-07T14:30:09,222650339+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37206 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85372 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2476625 (2.4 MB)  TX bytes:118468919 (118.4 MB)
+ 
+ 
+2019-05-07T14:30:09,249186859+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37206 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85372 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2476625 (2.4 MB)  TX bytes:118468919 (118.4 MB)
+ 
+ 
+2019-05-07T14:30:09,278395324+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37300 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85606 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2481513 (2.4 MB)  TX bytes:118801199 (118.8 MB)
+ 
+ 
+2019-05-07T14:30:09,315141679+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37313 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85635 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2482189 (2.4 MB)  TX bytes:118842379 (118.8 MB)
+ 
+ 
+2019-05-07T14:30:09,347461108+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37315 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85641 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2482293 (2.4 MB)  TX bytes:118850899 (118.8 MB)
+ 
+ 
+2019-05-07T14:30:09,385490147+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37370 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85758 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2485153 (2.4 MB)  TX bytes:119017039 (119.0 MB)
+ 
+ 
+2019-05-07T14:30:09,446303392+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37415 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85869 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2487535 (2.4 MB)  TX bytes:119174659 (119.1 MB)
+ 
+ 
+2019-05-07T14:30:09,484947854+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37451 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85953 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2489407 (2.4 MB)  TX bytes:119293939 (119.2 MB)
+ 
+ 
+2019-05-07T14:30:09,534614425+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37506 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86082 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2492267 (2.4 MB)  TX bytes:119477119 (119.4 MB)
+ 
+ 
+2019-05-07T14:30:09,579813033+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37541 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86155 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2494087 (2.4 MB)  TX bytes:119580779 (119.5 MB)
+ 
+ 
+2019-05-07T14:30:09,614155285+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37573 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86230 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2495751 (2.4 MB)  TX bytes:119687279 (119.6 MB)
+ 
+ 
+2019-05-07T14:30:09,642241619+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37607 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86313 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2497519 (2.4 MB)  TX bytes:119805139 (119.8 MB)
+ 
+ 
+2019-05-07T14:30:09,671647300+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37633 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86387 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2498871 (2.4 MB)  TX bytes:119910219 (119.9 MB)
+ 
+ 
+2019-05-07T14:30:09,709743802+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37667 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86474 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2500639 (2.5 MB)  TX bytes:120033759 (120.0 MB)
+ 
+ 
+2019-05-07T14:30:09,749736023+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37706 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86560 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2502667 (2.5 MB)  TX bytes:120155879 (120.1 MB)
+ 
+ 
+2019-05-07T14:30:09,799478570+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37745 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86676 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2504695 (2.5 MB)  TX bytes:120320599 (120.3 MB)
+ 
+ 
+2019-05-07T14:30:09,832152481+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37796 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86791 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2507347 (2.5 MB)  TX bytes:120483899 (120.4 MB)
+ 
+ 
+2019-05-07T14:30:09,887916105+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37853 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86935 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2510311 (2.5 MB)  TX bytes:120688379 (120.6 MB)
+ 
+ 
+2019-05-07T14:30:09,943860206+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37913 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:87075 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2513431 (2.5 MB)  TX bytes:120887179 (120.8 MB)
+ 
+ 
+2019-05-07T14:30:09,997718860+02:00
+wwp0s20u7u1i12 Link encap:Ethernet  HWaddr e6:45:bc:e5:a4:09  
+          inet addr:100.89.208.245  Bcast:100.89.208.247  Mask:255.255.255.252
+          inet6 addr: fe80::2f2d:b171:b35:ada2/64 Scope:Link
+          UP BROADCAST RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:37981 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:87155 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2517009 (2.5 MB)  TX bytes:121000571 (121.0 MB)
+ 
+ 
+2019-05-07T14:30:10,079204803+02:00
