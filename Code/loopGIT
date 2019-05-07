@@ -7,14 +7,14 @@ while true; do
 
 
 
-	sleep 30
+	sleep 5
 
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 	echo "Starting GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/push_GIT_UpBoard
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/push_GIT_UpBoard $folder
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"

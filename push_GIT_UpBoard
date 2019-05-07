@@ -1,8 +1,30 @@
 #!/bin/bash
 
-
+folder=$1
 #cd /home/upboard/Desktop/UpBoard-Code-and-Results
 
+
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	echo "1 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 git add .
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	echo "2 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
 git commit -m "UpBoard update"
+
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	echo "3 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
 git push origin master
+
+	#log purposes
+	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	echo "4 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
+
