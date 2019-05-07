@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+while true; do
+
+
+
+	sleep 10
+
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/push_GIT_UpBoard
+
+
+
+done

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+autostart=ON
+
+
+if [ "$autostart" == "ON" ];then
+
+
+	sleep 1
+
+	# We first enable the switch and omni antenna to get coverage neutrally
+
+
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/setUpGPIOs
+
+	sudo echo "1" > /sys/class/gpio/gpio27/value 	#Enable the switch input from the main switch J3 RF1
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #To the second switch (omni antenna)
+
+	sleep 4
+	
+	name=$(date --iso-8601=seconds)
+
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Initialize $name
+
+
+fi

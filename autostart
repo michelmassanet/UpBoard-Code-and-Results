@@ -1,0 +1,117 @@
+#!/bin/bash
+
+autostart=OFF
+
+
+if [ "$autostart" == "ON" ];then
+
+
+	sleep 10
+
+	# We first enable the switch and omni antenna to get coverage neutrally
+
+
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/setUpGPIOs
+
+	sudo echo "1" > /sys/class/gpio/gpio27/value 	#Enable the switch input from the main switch J3 RF1
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/switch 6 #To the second switch (omni antenna)
+
+
+
+	################ SEE WE HAVE THE MODEM CONNECTED AND INTERNET CONNECTION BEFORE LAUNCHING THE SSH ###########################
+
+	while $ready; do
+
+	wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
+	modem_number_line=$(sudo mmcli -L | sed -n '2p')
+
+
+	if [ "$modem_number_line" == "No modems were found" ]; then
+		#log purposes
+		echo -e "No MODEMS WERE FOUND"
+	else
+		modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
+		state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
+	
+		if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the original for demo
+			ready=false
+			connection=on
+		fi
+	fi
+	done
+
+
+
+	#FOR TEST
+	#sudo mkdir /home/upboard/Desktop/UpBoard-Code-and-Results/iiAAedesss
+
+
+	#WE LAUNCH THE CONNECTION SSH
+
+	sudo sshpass -p uav1234 ssh -N -R 22000:localhost:22 uav@192.38.55.103 &
+
+
+
+
+
+
+	########################################### INFINITY LOOP ##########################################################
+
+
+	while true; do
+
+
+
+	# WE FIRST CHECK 
+	wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
+	modem_number_line=$(sudo mmcli -L | sed -n '2p')
+
+
+	if [ "$modem_number_line" == "No modems were found" ]; then
+		#log purposes
+		echo -e "No MODEMS WERE FOUND"
+	
+		if [ "$connection" == "on" ]; then          #If WE SUDDENLY LOSE THE CONNECTION --> KILL 		
+	
+			#SOMETHING HAPPENS
+			echo -e "Connection off"
+			connection=off
+			#We kill the process and we kill the SSH
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/killingProcesses
+			sudo kill -9 $(ps -ef | grep ssh | grep -v grep | awk '{print $2}')
+	
+		fi	
+	
+	else
+		modem_number=$(sudo mmcli -L | sed -n '3p' | awk -F"/Modem/" '{print $2}' | awk -F"[Sierra]" '{print $1}' | awk -F"[" '{print $1}')
+		state_modem=$(sudo mmcli -m $modem_number | sed -n '21p' | awk -F"'" '{print $2}' )
+	
+		if [ "$wwan" != "" ] && [ "$state_modem" == "connected" ]; then #the original for demo
+
+
+			if [ "$connection" == "off" ]; then 			#IF CONNECTION WAS OFF, THEN we launch again thee ssh
+
+				connection=on
+				sudo sshpass -p uav1234 ssh -N -R 22000:localhost:22 uav@192.38.55.103 &
+
+			fi
+		else
+
+			if [ "$connection" == "on" ]; then          #If WE SUDDENLY LOSE THE CONNECTION --> KILL 		
+		
+				#SOMETHING HAPPENS
+				echo -e "Connection off"
+				connection=off
+				#We kill the process and we kill the SSH
+				sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/killingProcesses
+				sudo kill -9 $(ps -ef | grep ssh | grep -v grep | awk '{print $2}')
+		
+			fi
+		fi
+
+	fi
+
+	done
+
+
+fi
