@@ -113,3 +113,112 @@ Finishing GIT
 Starting GIT
 2019-05-07T16:08:34,484290149+02:00
 1 GIT
+2019-05-07T16:08:34,711699412+02:00
+2 GIT
+[master 238d66a] UpBoard update
+ 94 files changed, 5581 insertions(+), 135711 deletions(-)
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates26b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates27a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates27b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates44b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates45a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates45b
+ rename Code/BS_orientation/PCI_temp/{currentPCI89b => currentPCI20b} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI89a => currentPCI21a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI88b => currentPCI21b} (100%)
+ delete mode 100755 Code/BS_orientation/PCI_temp/currentPCI87b
+ delete mode 100755 Code/BS_orientation/PCI_temp/currentPCI88a
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/CellInfo_Tue May  7 15:43:22 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/GPScoordinates_Tue May  7 15:43:22 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/SNRInfo_Tue May  7 15:43:22 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/StatisticsInfo_Tue May  7 15:43:22 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/bit_rate_1_Tue May  7 15:43:22 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/bit_rate_2_Tue May  7 15:43:22 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/errors_main
+ delete mode 100644 Results/2019-05-07T15:43:21+02:00/estimations_python.txt
+ delete mode 100644 Results/2019-05-07T15:43:21+02:00/git_logs
+ delete mode 100755 Results/2019-05-07T15:43:21+02:00/logs_general
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/CellInfo_Tue May  7 15:45:21 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/GPScoordinates_Tue May  7 15:45:21 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/SNRInfo_Tue May  7 15:45:21 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/StatisticsInfo_Tue May  7 15:45:21 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/bit_rate_1_Tue May  7 15:45:21 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/bit_rate_2_Tue May  7 15:45:21 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/errors_main
+ delete mode 100644 Results/2019-05-07T15:45:01+02:00/git_logs
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/logs_general
+ delete mode 100755 Results/2019-05-07T15:45:01+02:00/logs_upload
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/CellInfo_Tue May  7 15:47:08 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/GPScoordinates_Tue May  7 15:47:08 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/SNRInfo_Tue May  7 15:47:08 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/StatisticsInfo_Tue May  7 15:47:08 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/bit_rate_1_Tue May  7 15:47:08 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/bit_rate_2_Tue May  7 15:47:08 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/errors_main
+ delete mode 100644 Results/2019-05-07T15:47:06+02:00/estimations_python.txt
+ delete mode 100644 Results/2019-05-07T15:47:06+02:00/git_logs
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/logs_general
+ delete mode 100755 Results/2019-05-07T15:47:06+02:00/logs_upload
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/CellInfo_Tue May  7 15:50:02 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/GPScoordinates_Tue May  7 15:50:02 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/SNRInfo_Tue May  7 15:50:02 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/StatisticsInfo_Tue May  7 15:50:02 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/bit_rate_1_Tue May  7 15:50:02 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/bit_rate_2_Tue May  7 15:50:02 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/errors_main
+ delete mode 100644 Results/2019-05-07T15:49:42+02:00/git_logs
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/logs_general
+ delete mode 100755 Results/2019-05-07T15:49:42+02:00/logs_upload
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/CellInfo_Tue May  7 15:54:19 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/GPScoordinates_Tue May  7 15:54:19 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/SNRInfo_Tue May  7 15:54:19 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/StatisticsInfo_Tue May  7 15:54:19 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/bit_rate_1_Tue May  7 15:54:19 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/bit_rate_2_Tue May  7 15:54:19 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/errors_main
+ delete mode 100644 Results/2019-05-07T15:53:58+02:00/git_logs
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/logs_general
+ delete mode 100755 Results/2019-05-07T15:53:58+02:00/logs_upload
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/CellInfo_Tue May  7 15:58:16 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/GPScoordinates_Tue May  7 15:58:16 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/SNRInfo_Tue May  7 15:58:16 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/StatisticsInfo_Tue May  7 15:58:16 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/bit_rate_1_Tue May  7 15:58:16 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/bit_rate_2_Tue May  7 15:58:16 CEST 2019
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/errors_main
+ delete mode 100644 Results/2019-05-07T15:57:56+02:00/git_logs
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/logs_general
+ delete mode 100755 Results/2019-05-07T15:57:56+02:00/logs_upload
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/CellInfo_Tue May  7 16:08:22 CEST 2019
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/GPScoordinates_Tue May  7 16:08:22 CEST 2019
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/SNRInfo_Tue May  7 16:08:22 CEST 2019
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/StatisticsInfo_Tue May  7 16:08:22 CEST 2019
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/bit_rate_1_Tue May  7 16:08:22 CEST 2019
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/bit_rate_2_Tue May  7 16:08:22 CEST 2019
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/errors_main
+ create mode 100644 Results/2019-05-07T16:08:02+02:00/git_logs
+ create mode 100755 Results/2019-05-07T16:08:02+02:00/logs_general
+ rename Results/{2019-05-07T15:43:21+02:00 => 2019-05-07T16:08:02+02:00}/logs_upload (60%)
+ delete mode 100644 Results/git_logs
+ delete mode 100755 Results/hhheelete/CellInfo_Tue May  7 15:24:19 CEST 2019
+ delete mode 100755 Results/hhheelete/GPScoordinates_Tue May  7 15:24:19 CEST 2019
+ delete mode 100755 Results/hhheelete/SNRInfo_Tue May  7 15:24:19 CEST 2019
+ delete mode 100755 Results/hhheelete/StatisticsInfo_Tue May  7 15:24:19 CEST 2019
+ delete mode 100755 Results/hhheelete/bit_rate_1_Tue May  7 15:24:19 CEST 2019
+ delete mode 100755 Results/hhheelete/bit_rate_2_Tue May  7 15:24:19 CEST 2019
+ delete mode 100755 Results/hhheelete/errors_main
+ delete mode 100644 Results/hhheelete/estimations_python.txt
+ delete mode 100644 Results/hhheelete/git_logs
+ delete mode 100755 Results/hhheelete/logs_general
+ delete mode 100755 Results/hhheelete/logs_upload
+2019-05-07T16:08:35,200231306+02:00
+3 GIT
+fatal: could not read Username for 'https://github.com': No such device or address
+2019-05-07T16:08:36,889293264+02:00
+4 GIT
+2019-05-07T16:08:36,894870197+02:00
+Finishing GIT
+2019-05-07T16:08:41,910940781+02:00
+Starting GIT
+2019-05-07T16:08:41,972029739+02:00
+1 GIT
