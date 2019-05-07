@@ -289,3 +289,29 @@ Finishing GIT
 Starting GIT
 2019-05-07T16:08:56,120386922+02:00
 1 GIT
+2019-05-07T16:08:56,252979452+02:00
+2 GIT
+[master 1e1d943] UpBoard update
+ 20 files changed, 5164 insertions(+), 15 deletions(-)
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates3b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates4a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates4b
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates5a
+ create mode 100755 Code/BS_orientation/GPS/currentCoordinates5b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates67b
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates68a
+ delete mode 100755 Code/BS_orientation/GPS/currentCoordinates68b
+ rename Code/BS_orientation/PCI_temp/{currentPCI34b => currentPCI58b} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI34a => currentPCI59a} (100%)
+ rename Code/BS_orientation/PCI_temp/{currentPCI33b => currentPCI59b} (100%)
+2019-05-07T16:08:56,371303273+02:00
+3 GIT
+fatal: could not read Username for 'https://github.com': No such device or address
+2019-05-07T16:08:58,168247398+02:00
+4 GIT
+2019-05-07T16:08:58,210503678+02:00
+Finishing GIT
+2019-05-07T16:09:03,235814449+02:00
+Starting GIT
+2019-05-07T16:09:03,419167384+02:00
+1 GIT
