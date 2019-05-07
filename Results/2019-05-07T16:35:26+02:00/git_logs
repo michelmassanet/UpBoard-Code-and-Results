@@ -2,3 +2,47 @@
 Starting GIT
 2019-05-07T16:35:51,629163103+02:00
 1 GIT
+2019-05-07T16:35:51,925357382+02:00
+2 GIT
+[master e12f04b] UpBoard update
+ 30 files changed, 49840 insertions(+)
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/CellInfo_Tue May  7 16:30:26 CEST 2019
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/GPScoordinates_Tue May  7 16:30:26 CEST 2019
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/SNRInfo_Tue May  7 16:30:26 CEST 2019
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/StatisticsInfo_Tue May  7 16:30:26 CEST 2019
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/bit_rate_1_Tue May  7 16:30:26 CEST 2019
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/bit_rate_2_Tue May  7 16:30:26 CEST 2019
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/errors_main
+ create mode 100644 Results/2019-05-07T16:30:06+02:00/git_logs
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/logs_general
+ create mode 100755 Results/2019-05-07T16:30:06+02:00/logs_upload
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/CellInfo_Tue May  7 16:32:51 CEST 2019
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/GPScoordinates_Tue May  7 16:32:51 CEST 2019
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/SNRInfo_Tue May  7 16:32:51 CEST 2019
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/StatisticsInfo_Tue May  7 16:32:51 CEST 2019
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/bit_rate_1_Tue May  7 16:32:51 CEST 2019
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/bit_rate_2_Tue May  7 16:32:51 CEST 2019
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/errors_main
+ create mode 100644 Results/2019-05-07T16:32:31+02:00/git_logs
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/logs_general
+ create mode 100755 Results/2019-05-07T16:32:31+02:00/logs_upload
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/CellInfo_Tue May  7 16:35:46 CEST 2019
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/GPScoordinates_Tue May  7 16:35:46 CEST 2019
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/SNRInfo_Tue May  7 16:35:46 CEST 2019
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/StatisticsInfo_Tue May  7 16:35:46 CEST 2019
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/bit_rate_1_Tue May  7 16:35:46 CEST 2019
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/bit_rate_2_Tue May  7 16:35:46 CEST 2019
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/errors_main
+ create mode 100644 Results/2019-05-07T16:35:26+02:00/git_logs
+ create mode 100755 Results/2019-05-07T16:35:26+02:00/logs_general
+2019-05-07T16:35:52,132140212+02:00
+3 GIT
+fatal: could not read Username for 'https://github.com': No such device or address
+2019-05-07T16:35:53,361960963+02:00
+4 GIT
+2019-05-07T16:35:53,374143770+02:00
+Finishing GIT
+2019-05-07T16:35:58,404949560+02:00
+Starting GIT
+2019-05-07T16:35:58,481679576+02:00
+1 GIT
