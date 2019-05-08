@@ -97,7 +97,7 @@ if [ "$newPCI" != "$PCI" ] && ([ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" 
 	start=$(date +%s%N)
 	reason=NewPCI_and_NewCoordinates
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $newPCI $SIM $speed $timepass $reason $folder)
-
+	#sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $timepass $reason $folder &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/error_t
 ################################# Check if output was not an error message###################################
 
 	temp=$(echo "$output" | sed -n 1p)
@@ -164,6 +164,8 @@ elif [ "$newPCI" != "$PCI" ]; then  #THERE IS A NEW PCI!
 	reason=NewPCI
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $timepass $reason $folder)
 
+
+	#sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $timepass $reason $folder &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/error_t
 ################################# Check if output was not an error message###################################
 	temp=$(echo "$output" | sed -n 1p)
 	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then
@@ -226,7 +228,7 @@ elif [ "$newlat" != "$lat" ] || [ "$newlon" != "$lon" ]; then #THERE ARE NEW COO
 	start=$(date +%s%N)
 	reason=NewCoordinates
 	output=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $newlat $newlon $lat $lon $PCI $SIM $speed $timepass $reason $folder)
-	
+	#sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/orientation.py $lat $lon $lat_past $lon_past $newPCI $SIM $speed $timepass $reason $folder &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/error_t
 ############################################ Check if output was not an error message########################################################
 	temp=$(echo "$output" | sed -n 1p)
 	if ! [[ "$temp" =~ ^[0-9]+$ ]]; then

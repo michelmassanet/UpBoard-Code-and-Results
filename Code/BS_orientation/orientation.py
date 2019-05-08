@@ -1,3 +1,4 @@
+#from /home/upboard/.local/lib/python2.7/site-packages/geographiclib.geodesic import Geodesic
 from geographiclib.geodesic import Geodesic
 from LatLon.lat_lon import LatLon
 from LatLon.lat_lon import Latitude

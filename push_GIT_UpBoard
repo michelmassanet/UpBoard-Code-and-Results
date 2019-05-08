@@ -1,37 +1,51 @@
 #!/bin/bash
 
 folder=$1
-#cd /home/upboard/Desktop/UpBoard-Code-and-Results/Results
+#cd /home/upboard/Desktop/UpBoard-Code-and-Results
 
-sudo git config --global user.email "michelmassanet@hotmail.com"
-sudo git config --global user.name "michelmassanet"
+#sudo git config --global user.email "michelmassanet@hotmail.com"
+#sudo git config --global user.name "michelmassanet"
 
+#sudo git remote add origin https://michelmassanet:mmichel13@github.com/michelmassanet/UpBoard-Code-and-Results.git
 file_name=git_logs
 
 
 	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
-	echo "1 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+#	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+#	echo "1 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	#sudo git init . &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	#sudo git init Results &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	sudo git add . &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+#	sudo git add Results &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
+	#log purposes
+#	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+#	echo "2 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
+#	sudo git commit -m "UpBoard update" &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
+
+	#log purposes
+#	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+#	echo "3 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
+#	sudo git push origin master &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
+	#log purposes
+#	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+#	echo "4 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
-	echo "2 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+	echo "Uploading drive results" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	sudo git commit -m "UpBoard update" &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/gdrive-master upload --recursive /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"
 
 
-	#log purposes
-	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
-	echo "3 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
 
-	sudo git push origin master &>> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
+
 
 	#log purposes
 	date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
-	echo "4 GIT" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
-
-
+	echo "Finished upload results" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$file_name"
