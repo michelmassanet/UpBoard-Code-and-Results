@@ -1,6 +1,6 @@
 #!/bin/bash
 
-autostart=OFF
+autostart=ON
 
 
 if [ "$autostart" == "ON" ];then
