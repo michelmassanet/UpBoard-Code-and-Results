@@ -84,7 +84,10 @@ reason=$1
  sudo kill -9 $(ps -ef | grep Initialize | grep -v grep | awk '{print $2}')
  sudo kill -9 $(ps -ef | grep loopDeleteDrive | grep -v grep | awk '{print $2}')
  sudo kill -9 $(ps -ef | grep loopConnection | grep -v grep | awk '{print $2}')
-
+ sudo kill -9 $(ps -ef | grep autostart | grep -v grep | awk '{print $2}')
+ sudo kill -9 $(ps -ef | grep autostart_blind | grep -v grep | awk '{print $2}')
+ sudo kill -9 $(ps -ef | grep loopGIT | grep -v grep | awk '{print $2}')
+ 
 
 #if [ "$reason" != "main" ]; then
 

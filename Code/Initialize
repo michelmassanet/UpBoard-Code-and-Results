@@ -82,8 +82,10 @@ state_modem=fail
 
 while $ready; do
 coordinatesInfo=$(sudo python /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gpsOutput.py)
-latitude=$(echo "$coordinatesInfo" | sed -n '1p')
-longitude=$(echo "$coordinatesInfo" | sed -n '2p')
+#latitude=$(echo "$coordinatesInfo" | sed -n '1p')
+#longitude=$(echo "$coordinatesInfo" | sed -n '2p')
+latitude=3 #debug
+longitude=3 #debug
 wwan=$(netstat -i | grep -o  '\bww\w*') #We extract the name of the network interface that starts with "ww"
 modem_number_line=$(sudo mmcli -L | sed -n '2p')
 

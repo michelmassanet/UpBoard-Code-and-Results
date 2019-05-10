@@ -1,0 +1,17 @@
+#!/bin/bash
+
+folder=$1
+cd /home/upboard/Desktop/UpBoard-Code-and-Results
+
+
+
+	sudo git add . 
+
+
+	sudo git commit -m "UpBoard update" 
+
+
+	sudo git push origin master
+
+
+
