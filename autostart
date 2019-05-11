@@ -1,6 +1,6 @@
 #!/bin/bash
 
-autostart=OFF
+autostart=ON
 
 
 if [ "$autostart" == "ON" ];then
@@ -43,18 +43,18 @@ if [ "$autostart" == "ON" ];then
 
 
 	#FOR TEST
-	#sudo mkdir /home/upboard/Desktop/UpBoard-Code-and-Results/iiAAedesss
+	sudo mkdir /home/upboard/Desktop/UpBoard-Code-and-Results/iiAAedesss
 
 
 	#WE LAUNCH THE CONNECTION SSH
 
-	ssh -N -R 22000:localhost:22 uav@192.38.55.103 
+	ssh -vvv -N -R 22000:localhost:22 uav@192.38.55.103 &
 
 
 
 
 
-
+: <<'END'
 	########################################### INFINITY LOOP ##########################################################
 
 
@@ -113,5 +113,7 @@ if [ "$autostart" == "ON" ];then
 
 	done
 
+
+END
 
 fi
