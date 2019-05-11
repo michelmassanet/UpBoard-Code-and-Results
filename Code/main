@@ -67,6 +67,9 @@ newlat=$(echo "$newcoordinates" | sed -n 1p)
 newlon=$(echo "$newcoordinates" | sed -n 2p) 
 newspeed=$(echo "$newcoordinates" | sed -n 3p) 
 
+#echo $newlat
+#echo $newlon
+
 #log purposes general
 date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"
 echo "Readed PCI $newPCI" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename0"

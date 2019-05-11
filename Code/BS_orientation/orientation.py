@@ -149,16 +149,28 @@ if PCI_found=="no":
 def num_there(s):
 	return any(i.isdigit() for i in s)
 
-lat_check=lat_current.isdigit() 
-lon_check=lon_current.isdigit() 
-latp_check=lat_past.isdigit() 
-lonp_check=lon_past.isdigit() 
+#lat_check=lat_current.isdigit() 
+#lon_check=lon_current.isdigit() 
+#latp_check=lat_past.isdigit() 
+#lonp_check=lon_past.isdigit() 
+
+lat_check=not lat_current.isalpha()
+lon_check=not lon_current.isalpha()
+latp_check=not lat_past.isalpha()
+lonp_check=not lon_past.isalpha()
+
+#Past used
+#lat_check=num_there(lat_current)
+#lon_check=num_there(lon_current)
+#latp_check=num_there(lat_past)
+#lonp_check=num_there(lon_past)
 
 
-print lat_check
-print lon_check
-print latp_check
-print lonp_check
+#Debug
+#print lat_check
+#print lon_check
+#print latp_check
+#print lonp_check
 
 #Below here we dont need to decide the orientation. It is decided above.
 if (not lat_check or not lon_check) and (not latp_check or not lonp_check): #strange case only at the beginning. real problem.

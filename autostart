@@ -48,7 +48,7 @@ if [ "$autostart" == "ON" ];then
 
 	#WE LAUNCH THE CONNECTION SSH
 
-	sudo sshpass -p uav1234 ssh -N -R 22000:localhost:22 uav@192.38.55.103 &
+	ssh -N -R 22000:localhost:22 uav@192.38.55.103 
 
 
 

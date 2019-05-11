@@ -40,7 +40,7 @@ echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS
 sudo chmod 777 /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
 echo -e "$coordinatesInfo" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$b
 
-echo -e "$latitude\n$longitude\n"
+echo -e "$latitude $longitude\n"
 
 ###################### ESTABLISHING AN ERROR SITUATION OR DISABLING IT ############################################
 

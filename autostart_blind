@@ -1,6 +1,9 @@
 #!/bin/bash
 
-autostart=ON
+autostart=OFF
+
+
+#THIS FILE WAS DONE FOR THE AUTOSTART USING UPDATES AND CONFIGURATION FROM GOOGLE DRIVE. ANYWAY IT WAS NOT FINISHED SO CHECK IN CASE WANTS TO BE USED
 
 
 if [ "$autostart" == "ON" ];then
@@ -20,7 +23,32 @@ if [ "$autostart" == "ON" ];then
 	
 	name=$(date --iso-8601=seconds)
 
-	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Initialize $name
 
+#### We wait for internet connection and then we download the flag from google drive ####
+
+# The flag will be in the drive of michelmassanetginar@gmail.com, that is, the Code gdrive
+
+
+
+
+
+
+	ID=1h91XNgvSErNtugjSKKaauI7dbInqtAcQ
+
+
+
+	sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master/gdrive-master --config /home/upboard/Desktop/UpBoard-Code-and-Results/Code/gdrive-master download $ID --path /home/upboard/Desktop/UpBoard-Code-and-Results/ --force
+
+	configuration=$(sudo cat /home/upboard/Desktop/UpBoard-Code-and-Results/configuration.txt)
+
+
+	if [ "$configuration" == "0" ];then
+
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/Code/Initialize "$name"_direc
+	else
+
+		sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/Initialize "$name"_omni		
+
+	fi
 
 fi
