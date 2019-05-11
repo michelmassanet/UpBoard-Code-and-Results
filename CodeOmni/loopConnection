@@ -77,7 +77,7 @@ else #THERE IS SOME MODEM CONNECTED TO THE UPBOARD
 			#log purposes
 			date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
 			echo "Connection activated or reactivated again (after error or disconnection)" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$filename1"
-			#sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/Uploading $folder &
+			sudo /home/upboard/Desktop/UpBoard-Code-and-Results/CodeOmni/Uploading $folder &
 			state=3
 			error_situation_connection=0
 			#log terminal purposes
