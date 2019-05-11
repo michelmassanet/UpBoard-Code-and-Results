@@ -28,8 +28,10 @@ date --iso-8601=ns >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$f
 echo "$coordinatesInfo" >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$namefile"
 echo " " >> /home/upboard/Desktop/UpBoard-Code-and-Results/Results/"$folder"/"$namefile" #Blank space
 
-latitude=$(echo "$coordinatesInfo" | sed -n '1p')
-longitude=$(echo "$coordinatesInfo" | sed -n '2p')
+echo $coordinatesInfo
+
+#latitude=$(echo "$coordinatesInfo" | sed -n '1p')
+#longitude=$(echo "$coordinatesInfo" | sed -n '2p')
 
 #We initialize the file currentCoordinates
 echo "" > /home/upboard/Desktop/UpBoard-Code-and-Results/Code/BS_orientation/GPS/currentCoordinates$counter$a
